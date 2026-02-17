@@ -15,7 +15,7 @@ const config: Config = {
   baseUrl: '/',
 
   organizationName: 'clement-machtelinckx',
-  projectName: 'dino_test',
+  projectName: 'The-Crawl',
 
   onBrokenLinks: 'throw',
 
@@ -32,7 +32,7 @@ const config: Config = {
           path: 'rules',              // dossier
           routeBasePath: 'rules',     // URL
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/clement-machtelinckx/dino_test',
+          editUrl: 'https://github.com/clement-machtelinckx/The-Crawl',
         },
         blog: {
           path: 'sessions',           // dossier
@@ -42,7 +42,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/clement-machtelinckx/dino_test',
+          editUrl: 'https://github.com/clement-machtelinckx/The-Crawl',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -85,7 +85,7 @@ const config: Config = {
         { to: '/sessions', label: 'Sessions', position: 'left' },
         { type: 'search', position: 'right' },
         {
-          href: 'https://github.com/clement-machtelinckx/dino_test',
+          href: 'https://github.com/clement-machtelinckx/The-Crawl',
           label: 'GitHub',
           position: 'right',
         },
@@ -107,7 +107,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/clement-machtelinckx/dino_test',
+              href: 'https://github.com/clement-machtelinckx/The-Crawl',
             },
           ],
         },
