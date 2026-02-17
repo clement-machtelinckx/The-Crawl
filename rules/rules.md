@@ -83,14 +83,7 @@ Choix par défaut (le Juge tranche en 2 secondes) :
 - Si tu arrives en retard, la partie **ne s’arrête pas** : tu rejoins à la **prochaine scène naturelle** (transition, fin de combat, retour en ville).
 - Si tu arrives au pire moment et tu n’as pas le contexte → **tu suis** jusqu’à la scène suivante.
 
----
 
-## 9) Respect & ambiance
-
-- On peut vanner, mais pas de remarques qui sapent l’ambiance (“MJ de merde”, etc.).
-- Le but : que tout le monde passe une bonne session, Juge compris.
-
----
 
 ## Notes (à remplir au fil des sessions)
 - Date d’entrée en vigueur :
