@@ -1,5 +1,14 @@
-
 resume:
-  label: Résume
-  permalink: /session/tags/resume
+  label: Résumé
+  permalink: /sessions/tags/resume
   description: tag resume session
+
+dcc:
+  label: DCC
+  permalink: /sessions/tags/dcc
+  description: tag dcc session
+
+dnd:
+  label: DND
+  permalink: /sessions/tags/dnd
+  description: tag dnd session

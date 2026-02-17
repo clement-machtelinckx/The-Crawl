@@ -38,6 +38,8 @@ const config: Config = {
           path: 'sessions',           // dossier
           routeBasePath: 'sessions',  // URL
           showReadingTime: true,
+            postsPerPage: 20,
+            blogSidebarCount: 'ALL',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
