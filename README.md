@@ -1,4 +1,4 @@
-# Boilerplate
+# The-Crawl
 
 Docusaurus boilerplate :
 - `/rules` = règles & lore
@@ -7,8 +7,8 @@ Docusaurus boilerplate :
 ## Run
 
 ```bash
-git clone https://github.com/clement-machtelinckx/dino_test
-cd dino_test
+git clone https://github.com/clement-machtelinckx/the-crawl
+cd the-crawl
 npm install
 npm run start
 ```

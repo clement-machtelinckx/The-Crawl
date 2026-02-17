@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Boilerplate',
+  title: 'The-Crawl',
   tagline: 'Règles & Lore + Résumés de sessions',
   favicon: 'img/favicon.ico',
 
@@ -75,9 +75,9 @@ const config: Config = {
     },
 
     navbar: {
-      title: 'Boilerplate',
+      title: 'The-Crawl',
       logo: {
-        alt: 'Boilerplate',
+        alt: 'The-Crawl',
         src: 'img/logo.svg',
       },
       items: [
@@ -112,7 +112,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Boilerplate.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The-Crawl.`,
     },
 
     prism: {
