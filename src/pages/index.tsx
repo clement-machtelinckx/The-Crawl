@@ -17,11 +17,11 @@ export default function Home(): ReactNode {
       <main className="container">
         <h1>{siteConfig.title}</h1>
         <p>{siteConfig.tagline}</p>
-        <Link to="/sessions">Aller au résumer des sessions</Link>
+        <Link to="/sessions">Aller au résumé des sessions</Link>
         <br />
-        <Link to="/rules/Regles-Dcc/combat">Aller au règles</Link>
+        <Link to="/rules/Regles-Dcc/combat">Aller aux règles</Link>
         <br />
-        <Link to="/rules">somaire</Link>
+        <Link to="/rules">Sommaire</Link>
       </main>
     </Layout>
   );
