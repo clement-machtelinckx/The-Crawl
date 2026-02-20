@@ -14,10 +14,14 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout>
-      <main>
+      <main className="container">
         <h1>{siteConfig.title}</h1>
         <p>{siteConfig.tagline}</p>
         <Link to="/sessions">Aller au résumer des sessions</Link>
+        <br />
+        <Link to="/rules/Regles-Dcc/combat">Aller au règles</Link>
+        <br />
+        <Link to="/rules">somaire</Link>
       </main>
     </Layout>
   );
