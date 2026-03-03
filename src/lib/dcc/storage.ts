@@ -29,7 +29,11 @@ export function saveCharacters(characters: SavedCharacters): void {
     return;
   }
 
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(characters));
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(characters));
+  } catch {
+    // Swallow storage errors to avoid crashing the UI (e.g., quota exceeded, storage disabled).
+  }
 }
 
 export function saveCharacter(character: Level0Character): SavedCharacters {
