@@ -202,19 +202,14 @@ export default function DccLevel0CharacterGenerator(): JSX.Element {
                 </tr>
               </thead>
               <tbody>
-                {Object.keys(character.stats)
-                  .sort()
-                  .map((statKey) => {
-                    const stat = character.stats[statKey as keyof typeof character.stats];
-                    return (
-                      <tr key={stat.key}>
-                        <td>{stat.label}</td>
-                        <td>{stat.roll.results.join(', ')}</td>
-                        <td>{stat.value}</td>
-                        <td>{formatModifier(stat.modifier)}</td>
-                      </tr>
-                    );
-                  })}
+                {Object.values(character.stats).map((stat) => (
+                  <tr key={stat.key}>
+                    <td>{stat.label}</td>
+                    <td>{stat.roll.results.join(', ')}</td>
+                    <td>{stat.value}</td>
+                    <td>{formatModifier(stat.modifier)}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </DetailList>
