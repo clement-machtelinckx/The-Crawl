@@ -83,6 +83,7 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        { to: '/createur-personnage', label: 'Créateur de personnage', position: 'left' },
         { to: '/rules', label: 'Règles & Lore', position: 'left' },
         { to: '/sessions', label: 'Sessions', position: 'left' },
         { type: 'search', position: 'right' },
@@ -102,6 +103,7 @@ const config: Config = {
           items: [
             { label: 'Règles & Lore', to: '/rules' },
             { label: 'Sessions', to: '/sessions' },
+            { label: 'Créateur de personnage', to: '/createur-personnage' },
           ],
         },
         {
