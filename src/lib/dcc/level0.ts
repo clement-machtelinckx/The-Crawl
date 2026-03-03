@@ -49,7 +49,10 @@ export function generateLevel0Character(
   const { tables, name = '', alignment = '' } = input;
 
   const stats = generateStats();
+
   const hitPointsRoll = rollDice(1, 4);
+  const staminaModifier = stats.endurance.modifier;
+  const hitPointsValue = Math.max(1, hitPointsRoll.total + staminaModifier);
 
   const omenResult = rollOnTable(tables.omens, 30);
   const occupationResult = rollOnTable(tables.occupations, 100);
@@ -63,7 +66,8 @@ export function generateLevel0Character(
     stats,
     hitPoints: {
       roll: hitPointsRoll,
-      value: hitPointsRoll.total,
+      staminaModifier,
+      value: hitPointsValue,
     },
     omen: {
       ...omenResult.entry,

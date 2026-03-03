@@ -218,6 +218,11 @@ export default function DccLevel0CharacterGenerator(): JSX.Element {
             <p>
               <strong>Jet :</strong> {character.hitPoints.roll.results.join(', ')} (1d4)
               <br />
+              <strong>Mod. Endurance :</strong> {formatModifier(character.hitPoints.staminaModifier)}
+              <br />
+              <strong>Calcul :</strong> {character.hitPoints.roll.total} {character.hitPoints.staminaModifier >= 0 ? '+' : '-'}{' '}
+              {Math.abs(character.hitPoints.staminaModifier)}
+              <br />
               <strong>PV :</strong> {character.hitPoints.value}
             </p>
           </DetailList>

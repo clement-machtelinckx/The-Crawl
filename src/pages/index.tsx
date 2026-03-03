@@ -22,6 +22,8 @@ export default function Home(): ReactNode {
         <Link to="/rules/Regles-Dcc/combat">Aller aux règles</Link>
         <br />
         <Link to="/rules">Sommaire</Link>
+        <br />
+        <Link to="/createur-personnage">Créateur de personnage</Link>
       </main>
     </Layout>
   );

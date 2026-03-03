@@ -91,6 +91,7 @@ export type Level0Character = {
   stats: Record<AbilityKey, AbilityScore>;
   hitPoints: {
     roll: DiceRoll;
+    staminaModifier: number;
     value: number;
   };
   omen: RolledTableResult<BirthAugurEntry>;
