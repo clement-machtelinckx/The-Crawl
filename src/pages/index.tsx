@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-
+import DccDiceRoller from '../components/dcc/DccDiceRoller';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -24,6 +24,8 @@ export default function Home(): ReactNode {
         <Link to="/rules">Sommaire</Link>
         <br />
         <Link to="/createur-personnage">Créateur de personnage</Link>
+        <br />
+        <DccDiceRoller />
       </main>
     </Layout>
   );
