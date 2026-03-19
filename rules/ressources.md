@@ -6,3 +6,4 @@ title: Ressources
 - [Création de perso lvl 0](/resources/Character-Cheatsheet.pdf)
 - [DCC feuille des tables](/resources/DCC-Refsheet.pdf)
 - [DCC Annual eng](/resources/annual-dcc.pdf)
+- [DCC livre de regle d'initiation](/resources/DCC-initiation-rule-book.pdf)
