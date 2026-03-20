@@ -1,5 +1,6 @@
 # PELAGIA
 
+![Pelagia](/img/god/pelagia.png)
 *Goddess of the Singing Sea • The Coral Queen • The Maiden Voyager*
 
 ---

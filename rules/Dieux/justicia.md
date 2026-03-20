@@ -1,6 +1,6 @@
 # JUSTICIA
 
-![Justicia](/img/Justicia_image.png)
+![Justicia](/img/god/justicia.png)
 *of the Helmless Vigil • Righteousness & Mercy*
 
 ---

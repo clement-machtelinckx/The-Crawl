@@ -1,5 +1,6 @@
 # THE HIDDEN LORD
 
+![The Hidden Lord](/img/god/the_hidden_lord.png)
 *God of Secrets • The Cloaked One • Keeper of Forbidden Lore • He of Many Names*
 
 ---

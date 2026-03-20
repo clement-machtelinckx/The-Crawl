@@ -1,5 +1,6 @@
 # SHUL
 
+![Shul](/img/god/shul.png)
 *Watcher in the Sky • God of the moons, measurement, knowledge, literacy • “Lawgiver” (selon certains)*
 
 ---

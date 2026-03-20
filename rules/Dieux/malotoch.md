@@ -1,5 +1,6 @@
 # MALOTOCH
 
+![Malotoch](/img/god/malotoch.png)
 *Carrion Crow Goddess • Our Lady of Dissolution • Crow Mistress • The Mother*
 
 ---

@@ -1,5 +1,6 @@
 # DAENTHAR
 
+![Daenthar](/img/god/daenthar.png)
 *Lord of the Hallowed Forge • Mountainlord*
 
 ---

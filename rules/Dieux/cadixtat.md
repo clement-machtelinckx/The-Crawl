@@ -1,5 +1,6 @@
 # CADIXTAT
 
+![Cadixtat](/img/god/cadixtat.png)
 *The Chaos Titan, the Sundered Lord, the Severed Chaos*
 
 ---
