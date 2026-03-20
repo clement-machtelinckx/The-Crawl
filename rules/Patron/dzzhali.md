@@ -1,178 +1,178 @@
 # DZZHALI
 
-*The Strangled Bride • Patron de vengeance froide, rage singulière, malice et trahison*
+*La Mariée Étranglée • Patronne de la vengeance froide, de la rage singulière, de la malice et de la trahison*
 
-Beaucoup de sages disent que **Dzzhali** (la *Strangled Bride*) fut jadis mortelle : assassinée par son époux la nuit de noces, elle aurait envoyé son âme dans l’Abîme plutôt que d’accepter le repos, puis serait sortie de la Sea of Chaos pour se hisser au pouvoir dans les Courts of Chaos.
+Beaucoup de sages disent que **Dzzhali** (la *Mariée Étranglée*) fut jadis mortelle : assassinée par son époux lors de sa nuit de noces, elle aurait envoyé son âme dans l’Abîme plutôt que d’accepter le repos, puis serait sortie de la **Mer du Chaos** (*Sea of Chaos*) pour se hisser au pouvoir dans les **Cours du Chaos** (*Courts of Chaos*).
 
 D’autres voyants soutiennent qu’elle ne fut jamais mortelle : elle serait l’essence pure de la **rage froide** incarnée, une réponse primale à toutes les trahisons de l’histoire.
 
-Ce qui est certain : Dzzhali répand vengeance, malice et souffrance, semant méfiance et doute. On ne la “convainc” pas : elle choisit ceux dont le cœur a été réellement déchiré par la trahison et les lie à son service… avec des pouvoirs qui ne distinguent pas toujours ennemis, alliés ou innocents.
+Ce qui est certain : Dzzhali répand la vengeance, la malice et la souffrance, semant la méfiance et le doute. On ne la “convainc” pas : elle choisit ceux dont le cœur a été réellement déchiré par la trahison et les lie à son service… avec des pouvoirs qui ne distinguent pas toujours les ennemis, les alliés ou les innocents.
 
 ---
 
-## Invoke Patron — Dzzhali (résultats)
+## Invoquer un patron — Dzzhali (résultats)
 
-| Check | Résultat |
+| Test d'incantation | Résultat |
 |---:|---|
-| 12–13 | Le lanceur perce le cœur d’un adversaire et découvre ses faiblesses cachées. Il monte **deux steps** sur la dice chain pour **son prochain action die roll** contre cet adversaire. En échange, cet adversaire gagne **+1** à son prochain action die roll contre un allié du lanceur. |
-| 14–17 | Une lame de force invisible frappe un adversaire visible choisi par le lanceur, par derrière : **2d4 dégâts** et **Ref DC 12** ou subir un **critical hit** (1d12 sur Table II). S’il survit, il attribue l’attaque à l’allié le plus proche du lanceur et l’attaque sans relâche jusqu’à défaite (cible ou allié). **Will save chaque round** pour annuler la compulsion. |
-| 18–19 | Doute “ami/ennemi” : tous les ennemis et **un allié** (choisi par le juge, malice de Dzzhali) dans **30’** doivent faire un **Will DC 13** chaque fois qu’ils ciblent un allié du lanceur par une action hostile. Échec : ils changent de cible (incertitude). Un ennemi déjà engagé en mêlée **retient son attaque** plutôt que de rompre la mêlée pour changer de cible. |
-| 20–23 | Auto-doute : tous les ennemis dans **30’** descendent **deux steps** sur la dice chain pour tous action die rolls pendant **4d4 rounds** (**Will DC 18** pour ne descendre que d’un step). Un allié (choisi par le juge) prend **-1** à tous action die rolls sur la même durée (pas de save). |
-| 24–27 | Infatuation : tous les ennemis dans **60’** font **Will DC 16** ou subissent *charm person* comme si le lanceur avait obtenu **14–17** (DCC p.131). Même en cas de réussite, ils subissent *charm person* comme un **12–13**. Un allié (choisi par le juge) devient intensément jaloux : il contredit, s’oppose et prend des positions contraires pendant **1d4 heures** (pas de save). |
-| 28–29 | Ennui morbide : tous les ennemis dans **30’** tombent en torpeur. MV ÷2, et doivent faire **Will DC 20** pour agir contre le lanceur ou ses alliés. Ceux qui réussissent : descendent **d’un step** sur tous action die rolls et **-4 AC**. Tous les alliés dans la zone prennent **-2** aux action die rolls (**Will DC 15** pour seulement -1). |
-| 30–31 | Le lanceur annonce un but. Dzzhali lui prête une volonté implacable : pendant **1d7+2 rounds**, il est **immunisé** contre tout ce qui empêcherait directement sa progression vers ce but (effets de sorts, incapacité par blessures, mort, etc.). À la fin, tous les empêchements ainsi annulés/repoussés frappent simultanément **un allié** (choisi par le juge). |
-| 32+ | Dzzhali envoie une **Fiend Fatale** au service du lanceur pendant **1d7 heures** : type III demon sous forme de femme belle, cheveux corbeau, yeux rouge sombre.  \n**Fiend Fatale** : Init +4; Atk +8 slap (2d4) ou grapple; AC 20; HD 8d12; MV 30’; Act 2d20; SP heartsickness, charm person (+8 spell check), curse, demon traits; SV Fort +8, Ref +8, Will +12; AL C.  \nQuiconque est maintenu (pinned) par grapple **2 rounds consécutifs** : **Fort DC 18** ou **heartsickness** (Stamina -1/heure). Quand Stamina < 3 : effondrement, aucune action. Chaque heure de service de la Fiend Fatale : un allié du lanceur doit faire **Will DC 10** ou subir la **Curse of Profane Lust** (ci-dessous). |
+| 12–13 | Le lanceur perce le cœur d’un adversaire et découvre ses faiblesses cachées. Il monte de **deux crans** sur la chaîne de dés pour **son prochain jet de dé d’action** contre cet adversaire. En échange, cet adversaire gagne un bonus de **+1** à son prochain jet de dé d’action contre un allié du lanceur. |
+| 14–17 | Une lame de force invisible frappe par-derrière un adversaire visible choisi par le lanceur : elle inflige **2d4 dégâts** et la cible doit réussir un **jet de Réflexes DD 12** ou subir un **coup critique** (1d12 sur la Table II). S’il survit, il attribue l’attaque à l’allié le plus proche du lanceur et l’attaque sans relâche jusqu’à la défaite de l'un d'eux. La cible peut effectuer un **jet de Volonté chaque round** pour annuler cette compulsion. |
+| 18–19 | Doute “ami/ennemi” : tous les ennemis et **un allié** (choisi par le Juge, par pure malice de Dzzhali) dans un rayon de **9 m** (30’) doivent réussir un **jet de Volonté DD 13** chaque fois qu’ils ciblent un allié du lanceur par une action hostile. En cas d’échec, ils changent de cible (par incertitude). Un ennemi déjà engagé au corps à corps **retient son attaque** plutôt que de rompre le combat pour changer de cible. |
+| 20–23 | Auto-doute : tous les ennemis dans un rayon de **9 m** (30’) descendent de **deux crans** sur la chaîne de dés pour tous leurs jets de dé d’action pendant **4d4 rounds** (un **jet de Volonté DD 18** permet de ne descendre que d’un cran). Un allié (choisi par le Juge) subit un malus de **-1** à tous ses jets de dé d’action pendant la même durée (sans jet de sauvegarde). |
+| 24–27 | Infatuation : tous les ennemis dans un rayon de **18 m** (60’) doivent réussir un **jet de Volonté DD 16** ou subir un effet de *charme-personne* comme si le lanceur avait obtenu un résultat de **14–17** (voir livre de règles p. 131). Même en cas de réussite, ils subissent l'effet du résultat **12–13**. Un allié (choisi par le Juge) devient intensément jaloux : il contredit, s’oppose et prend des positions contraires à celles du lanceur pendant **1d4 heures** (sans jet de sauvegarde). |
+| 28–29 | Ennui morbide : tous les ennemis dans un rayon de **9 m** (30’) tombent dans une profonde torpeur. Leur vitesse de mouvement (MV) est divisée par 2, et ils doivent réussir un **jet de Volonté DD 20** pour agir contre le lanceur ou ses alliés. Ceux qui réussissent descendent tout de même d’**un cran** sur tous leurs jets de dé d’action et subissent un malus de **-4 à la CA**. Tous les alliés dans la zone subissent un malus de **-2** à leurs jets de dé d’action (un **jet de Volonté DD 15** réduit le malus à -1). |
+| 30–31 | Le lanceur annonce un objectif. Dzzhali lui prête une volonté implacable : pendant **1d7+2 rounds**, il est **immunisé** contre tout ce qui empêcherait directement sa progression vers ce but (effets de sorts, incapacité due aux blessures, mort, etc.). À la fin, tous les empêchements ainsi annulés ou repoussés frappent simultanément **un allié** (choisi par le Juge). |
+| 32+ | Dzzhali envoie une **Fiend Fatale** au service du lanceur pendant **1d7 heures** : un démon de type III sous la forme d’une femme magnifique aux cheveux de jais et aux yeux rouge sombre.  \n**Fiend Fatale** : Init +4 ; Att gifle +8 (2d4) ou agripper ; CA 20 ; DV 8d12 ; MV 9 m ; Act 2d20 ; SP langueur, charme-personne (+8 test d'incantation), malédiction, traits démoniaques ; SV Vig +8, Réf +8, Vol +12 ; AL C.  \nQuiconque est maintenu immobilisé (*pinned*) par une prise pendant **2 rounds consécutifs** : **jet de Vigueur DD 18** ou contracte la **langueur** (*heartsickness*, Endurance -1/heure). Quand l'Endurance tombe en dessous de 3, la victime s'effondre et ne peut plus agir. Chaque heure de service de la Fiend Fatale, un allié du lanceur doit réussir un **jet de Volonté DD 10** ou subir la **Malédiction de la Luxure Profane** (voir ci-dessous). |
 
 ---
 
-## Curse of Profane Lust
+## Malédiction de la Luxure Profane (*Curse of Profane Lust*)
 
-Cette malédiction (portée par succubes, vampires…) impose :
-- **-2 Luck**
-- **-2 Personality**
+Cette malédiction (souvent portée par les succubes, les vampires…) impose les malus suivants :
+- **-2 à la Chance**
+- **-2 à la Personnalité**
 
-Elle remplit la victime de haine de soi obsessionnelle : auto-blessures mineures compulsives (se griffer jusqu’au sang, s’arracher les cheveux, s’abraser, etc.).  
-Conséquence : la victime ne bénéficie pas de la **guérison naturelle** (repos nocturne).
+Elle remplit la victime d'une haine de soi obsessionnelle, la poussant à s'infliger des blessures mineures compulsives (se griffer jusqu'au sang, s’arracher les cheveux, etc.).  
+Conséquence : la victime ne bénéficie plus de la **guérison naturelle** par le repos.
 
-**Remède :** baigner un nouveau-né dans des **Waters of Forgiveness** (Plane of Law), puis accomplir des ablutions avec cette eau.
+**Remède :** Il faut baigner un nouveau-né dans les **Eaux du Pardon** (*Waters of Forgiveness*) sur le Plan de la Loi (*Plane of Law*), puis accomplir des ablutions avec cette eau.
 
 ---
 
-# Patron Taint — Dzzhali
+# Souillure du patron — Dzzhali
 
-Quand un patron taint est indiqué, lancez **1d6**. Quand le lanceur a acquis les 6 taints (à tous niveaux d’effet), on ne relance plus.
+Quand une souillure du patron est indiquée, lancez **1d6**. Une fois que le lanceur a acquis les 6 souillures (à tous les niveaux d’effet), on ne lance plus le dé.
 
 | d6 | Résultat |
 |---:|---|
-| 1 | Corruption de l’âme : roll Table 5-3 (Minor Corruption, DCC p.116). Invisible sur le corps, mais perceptible par certaines créatures. **2e fois** : Table 5-4 (Major, p.118). **3e fois** : Table 5-5 (Greater, p.119). |
-| 2 | Magie malevolente : à chaque sort de dégâts réussi, **1d3 dégâts** à un allié (choisi par le juge). **2e fois** : 1d4. **3e fois** : 1d5. |
-| 3 | Trésor biaisé : lors d’une estimation ou dépense de trésor, la part du lanceur vaut **+10%** (arrondi au-dessus) et celle d’un allié (juge) **-15%** (arrondi au-dessous). **2e fois** : +15% / -25%. **3e fois** : +10% pour le lanceur et **tous** les alliés à -20%. |
-| 4 | Antipathie : quand un sort bénéficie directement à un ou plusieurs alliés, un allié (juge) fait **Will DC 12** ou **perd le bénéfice**. **2e fois** : DC 14. **3e fois** : DC 16. |
-| 5 | Guérison détournée : quand le lanceur est soigné magiquement, **1 PV par HD soigné** est ajouté au total de PV d’un adversaire (juge) lors du prochain encounter impliquant le groupe. **2e fois** : si soin rend des PV, **1d3 PV** ajoutés à **tous** les adversaires du prochain encounter. **3e fois** : **1d3 PV par HD soigné** ajoutés à tous les adversaires du prochain encounter. |
-| 6 | Attraction/répulsion : le lanceur devient anormalement attirant pour un type de créature et repoussant pour son antipode (ex. attirant pour elfes mais repoussant pour nains). Attirance = fascination non magique (suivent, aident pour petites faveurs). Répulsion = évitent, discréditent, entravent si possible sans risque direct. **2e fois** : nouveau couple. **3e fois** : encore un nouveau couple. |
+| 1 | Corruption de l’âme : lancez le dé sur la Table 5-3 (Corruption mineure, livre de règles p. 116). Invisible physiquement, mais perceptible par certaines créatures. **2e fois** : Table 5-4 (Majeure, p. 118). **3e fois** : Table 5-5 (Supérieure, p. 119). |
+| 2 | Magie malveillante : à chaque sort de dégâts réussi, le lanceur inflige **1d3 dégâts** à un allié (choisi par le Juge). **2e fois** : 1d4. **3e fois** : 1d5. |
+| 3 | Trésor biaisé : lors de l’estimation ou de la dépense d’un trésor, la part du lanceur vaut **+10%** (arrondi au-dessus) et celle d’un allié (Juge) vaut **-15%** (arrondi au-dessous). **2e fois** : +15% / -25%. **3e fois** : +10% pour le lanceur et **tous** les alliés subissent -20%. |
+| 4 | Antipathie : quand un sort bénéficie directement à un ou plusieurs alliés, l'un d'eux (Juge) doit réussir un **jet de Volonté DD 12** ou il **perd le bénéfice** du sort. **2e fois** : DD 14. **3e fois** : DD 16. |
+| 5 | Guérison détournée : quand le lanceur est soigné par magie, **1 PV par dé de vie (DV) soigné** est ajouté au total de PV d’un adversaire (choisi par le Juge) lors de la prochaine rencontre impliquant le groupe. **2e fois** : si le soin rend des PV, **1d3 PV** sont ajoutés à **tous** les adversaires de la prochaine rencontre. **3e fois** : **1d3 PV par DV soigné** sont ajoutés à tous les adversaires de la prochaine rencontre. |
+| 6 | Attraction et répulsion : le lanceur devient anormalement attirant pour un type de créature et repoussant pour son opposé (ex : attirant pour les elfes mais repoussant pour les nains). L'attirance se manifeste par une fascination non magique (ils le suivent, l'aident pour de petites faveurs). La répulsion pousse les créatures à l'éviter, le discréditer ou l'entraver si possible sans risque direct. **2e fois** : un nouveau couple de races. **3e fois** : encore un nouveau couple. |
 
 ---
 
-# Patron Spells — Dzzhali
+# Sorts du patron — Dzzhali
 
-- **Niveau 1 : Detect Deception**
-- **Niveau 2 : Inflict Anguish**
-- **Niveau 3 : Excoriate Energy**
+- **Niveau 1 : Détecter la tromperie** (*Detect Deception*)
+- **Niveau 2 : Infliger l'angoisse** (*Inflict Anguish*)
+- **Niveau 3 : Excorier l'énergie** (*Excoriate Energy*)
 
 ---
 
-# Spellburn — Dzzhali
+# Brûlesort — Dzzhali
 
-Quand le lanceur utilise spellburn, lancez **1d4** :
+Quand le lanceur utilise un brûlesort, lancez **1d4** :
 
 | d4 | Résultat |
 |---:|---|
-| 1 | Dissoudre un lien : renier publiquement un lien formel (amitié, ordre, parenté, compagnonnage, etc.). Le lien est brisé jusqu’à renouvellement rituel acceptable par l’autre partie. |
-| 2 | Énergie par conflit : jurer une vendetta (blood-feud) contre un clan/tribu/race. Serment accompli quand il a tué, mutilé ou réduit en esclavage un membre du groupe visé. |
-| 3 | Comprendre la souffrance : renoncer à un confort humain 1 mois (musique fade, nourriture cendreuse, contact sans chaleur, etc.). **-1 permanent** aux Fort saves. |
-| 4 | Surmonter les revers : perdre **1 XP + 1 XP/niveau du sort**. Si cela ferait perdre un niveau, appliquer un autre effet de spellburn de Dzzhali. |
+| 1 | Dissoudre un lien : renier publiquement un lien formel (amitié, ordre, parenté, compagnonnage, etc.). Le lien est brisé jusqu’à un renouvellement rituel jugé acceptable par l’autre partie. |
+| 2 | Énergie par le conflit : jurer une vendetta (*blood-feud*) contre un clan, une tribu ou une race. Le serment est accompli lorsqu'il a tué, mutilé ou réduit en esclavage un membre du groupe visé. |
+| 3 | Comprendre la souffrance : renoncer à tout confort humain pendant 1 mois (musique fade, nourriture cendreuse, aucun contact chaleureux, etc.). Malus de **-1 permanent** aux jets de Vigueur. |
+| 4 | Surmonter les revers : perdre **1 PX + 1 PX par niveau du sort**. Si cela devait faire perdre un niveau, appliquez un autre effet de brûlesort de Dzzhali. |
 
 ---
 
-# Detect Deception (Spell)
+# Détecter la tromperie (*Detect Deception*)
 
-**Level :** 1 (Dzzhali)  
-**Range :** 15’ or more  
-**Duration :** Instantaneous  
-**Casting time :** 2 actions  
-**Save :** Varies  
+**Niveau :** 1 (Dzzhali)  
+**Portée :** 4,5 m (15’) ou plus  
+**Durée :** Instantanée  
+**Temps d'incantation :** 2 actions  
+**Jet de sauvegarde :** Variable  
 
-**General :** détecte l’existence de tromperies (mensonges, pièges, dissimulations, faux-semblants, propriétés cachées). Ne révèle pas “la vérité”, seulement le fait qu’une tromperie existe.  
-Le lanceur doit être conscient de la cible. Sur réussite, il peut choisir un effet ≤ à son spell check (plus faible mais utile).
+**Généralités :** Détecte l’existence de tromperies (mensonges, pièges, dissimulations, faux-semblants, propriétés cachées). Le sort ne révèle pas “la vérité”, seulement le fait qu’une tromperie existe.  
+Le lanceur doit être conscient de la cible. En cas de succès, il peut choisir un effet inférieur ou égal à son résultat de test d'incantation.
 
 **Manifestation (1d4) :**
-1) mouches bourdonnent dans un rayon de 5’ autour de la cible ;  
-2) son de cloches de mariage ;  
-3) souffle fétide (dernier souffle d’un mourant) ;  
-4) la cible pâlit au blanc cadavérique pendant l’incantation.
+1) Des mouches bourdonnent dans un rayon de 1,5 m autour de la cible ;  
+2) Un son de cloches de mariage retentit ;  
+3) Un souffle fétide (le dernier souffle d’un mourant) se fait sentir ;  
+4) La cible devient d'une pâleur cadavérique pendant l’incantation.
 
-> Objets/constructs/structures enchantés : le juge roule secrètement un Fort save avec un bonus selon la puissance de l’enchantement.
+> Objets, constructions ou structures enchantés : le Juge effectue secrètement un jet de Vigueur avec un bonus dépendant de la puissance de l’enchantement.
 
-| Spell check | Résultat |
+| Test d'incantation | Résultat |
 |---:|---|
-| 1 | Lost, failure, and patron taint. |
-| 2–11 | Lost. Failure. |
-| 12–13 | Cible : 1 “person” intelligent humanoïde ≤ 60’ partageant une langue. **Will save** ou détection instantanée de tromperies **non magiques** : mensonges, impersonations, déguisements physiques, objets cachés sur la personne. |
-| 14–17 | Cible : 1 “monster” mundane ≤ 30’ (animal/créature native non undead/construct/extra-planar/surnaturelle). **Will save** ou détection tromperies **non magiques** : communications trompeuses, camouflage, appendices cachés, attaques dissimulées (venin, etc.). |
-| 18–19 | Détecte les tromperies **non magiques** inhérentes à des objets/structures ≤ 15’ : caches, faux écrits/inscriptions, pièges/portes secrètes, objet maquillé. |
-| 20–23 | Comme 12–13 mais détecte aussi tromperies **magiques** : altérations d’apparence, effets de sort cachés, etc. |
-| 24–27 | Cible : être surnaturel/intrinsèquement mystique ≤ 30’. Dieux/demi-dieux/serviteurs primaux Law/Chaos sont immuns. **Will save** ou détecte tromperies magiques & non magiques : intentions hostiles masquées, illusions, dissimulation (Shadow dans l’ombre), armes/attaques autrement indétectables (à la discrétion du texte). |
-| 28–29 | Cible : objet/construct/structure enchanté ≤ 30’ (artéfacts “nommés”/lieux légendaires ou forts objets divins : immuns). **Fort save** (voir description) ou détecte : caches, fausses inscriptions, triggers, pièges/portes, objet déguisé. |
-| 30–31 | Choisir un effet plus faible. Si save : le jet descend **d’un step** sur la dice chain. Si l’échec de save : effets normaux + **1 question oui/non** sur la nature/intention derrière une des tromperies détectées. |
-| 32+ | Comme 30–31, mais jusqu’à **3 questions oui/non**, ou **1 question ouverte** sur la nature/intention derrière une tromperie détectée. |
+| 1 | Perdu, échec et souillure du patron. |
+| 2–11 | Perdu. Échec. |
+| 12–13 | Cible : 1 humanoïde intelligent à moins de 18 m (60’) partageant une langue commune. **Jet de Volonté** ou détection instantanée de tromperies **non magiques** : mensonges, usurpations d'identité, déguisements physiques, objets cachés. |
+| 14–17 | Cible : 1 créature ordinaire à moins de 9 m (30’) (animal ou créature native, non morte-vivante, non magique, non extra-planaire). **Jet de Volonté** ou détection de tromperies **non magiques** : communications trompeuses, camouflage, membres cachés, attaques dissimulées (venin, etc.). |
+| 18–19 | Détecte les tromperies **non magiques** inhérentes à des objets ou structures à moins de 4,5 m (15’) : caches, faux écrits ou inscriptions, pièges, portes secrètes, objet maquillé. |
+| 20–23 | Comme le résultat 12–13, mais détecte aussi les tromperies **magiques** : altérations d’apparence, effets de sorts cachés, etc. |
+| 24–27 | Cible : un être surnaturel ou intrinsèquement mystique à moins de 9 m (30’). Les dieux, demi-dieux et serviteurs primaux de la Loi ou du Chaos sont immunisés. **Jet de Volonté** ou détecte les tromperies magiques et non magiques : intentions hostiles masquées, illusions, dissimulation dans les ombres, armes ou attaques autrement indétectables. |
+| 28–29 | Cible : objet, construction ou structure enchantée à moins de 9 m (30’) (les artefacts nommés, lieux légendaires ou puissants objets divins sont immunisés). **Jet de Vigueur** (voir description) ou détecte : caches, fausses inscriptions, déclencheurs, pièges/portes, objet déguisé. |
+| 30–31 | Choisir un effet plus faible. Si le jet de sauvegarde réussit : le test d'incantation descend d’**un cran** sur la chaîne de dés. Si le jet de sauvegarde échoue : effets normaux + **1 question (oui/non)** sur la nature ou l'intention derrière l'une des tromperies détectées. |
+| 32+ | Comme le résultat 30–31, mais jusqu’à **3 questions (oui/non)**, ou **1 question ouverte** sur la nature ou l'intention derrière une tromperie détectée. |
 
 ---
 
-# Inflict Anguish (Spell)
+# Infliger l'angoisse (*Inflict Anguish*)
 
-**Level :** 2 (Dzzhali)  
-**Range :** 120’  
-**Duration :** One round or more  
-**Casting time :** 1 action  
-**Save :** Will vs. spell check  
+**Niveau :** 2 (Dzzhali)  
+**Portée :** 36 m (120’)  
+**Durée :** Un round ou plus  
+**Temps d'incantation :** 1 action  
+**Jet de sauvegarde :** Volonté contre test d'incantation  
 
-**General :** lien psychique : l’angoisse est canalisée dans la cible. Une fois lancé, l’effet peut être **maintenu** les rounds suivants. Le sort cesse dès que le lanceur fait autre chose que maintenir, ou si la cible réussit son save. À haut niveau de résultat, le lanceur peut agir tout en maintenant.
+**Généralités :** Un lien psychique est établi : l’angoisse est canalisée vers la cible. Une fois lancé, l’effet peut être **maintenu** les rounds suivants. Le sort cesse dès que le lanceur fait autre chose que maintenir l'effet, ou si la cible réussit son jet de sauvegarde. À haut niveau de réussite, le lanceur peut agir tout en maintenant le sort.
 
 **Manifestation (1d4) :**
-1) images spectrales de victimes/êtres blessés par la cible ;  
-2) le lanceur souffre visiblement (sueur, tremblements…) ;  
-3) des cordes de force bleu-blanc étranglent la gorge ;  
-4) un “viewport” s’ouvre dans la poitrine montrant le cœur se tordre.
+1) Des images spectrales des victimes ou des êtres blessés par la cible apparaissent ;  
+2) Le lanceur souffre visiblement (sueur, tremblements…) ;  
+3) Des cordes de force bleu-blanc semblent étrangler la gorge ;  
+4) Une “ouverture” apparaît dans la poitrine, montrant le cœur qui se tord.
 
-| Spell check | Résultat |
+| Test d'incantation | Résultat |
 |---:|---|
-| 1 | Lost, failure, and patron taint. |
-| 2–11 | Lost. Failure. |
-| 12–13 | Failure, but spell is not lost. |
-| 14–15 | 1 cible : **Will save** ou **1d4 dmg** + **-1** aux die rolls de ses actions au round suivant. Si échec initial : le lanceur peut ne rien faire d’autre et maintenir : 1d4 dmg + -1 chaque round. Save chaque round avec **+1 cumulatif** après chaque échec consécutif. |
-| 16–19 | Comme 14–15 mais **1d4+1 dmg**. |
-| 20–21 | 1 cible : Will save ou **1d6 dmg** et descend d’**un step** sur la dice chain pour ses actions au round suivant. Maintien possible (inaction du lanceur) : 1d6 + -1d step. Saves avec +1 cumulatif. |
-| 22–23 | Comme 20–21 mais **1d6+1 dmg**. Les saves : bonus cumulatif **après le 3e round** de saves consécutifs. |
-| 24–25 | Comme 14–15, mais en maintien : le sort continue automatiquement et le lanceur peut agir. Fin seulement si la cible réussit ou si le lanceur annule. |
-| 26–29 | Comme 16–19, maintien “libre” : 1d4+1, le lanceur peut agir. |
-| 30–31 | Comme 20–21, maintien “libre” : 1d6 et -1 step. |
-| 32–33 | Zone : cible principale + tous ennemis dans **15’**. Will save ou **1d6 dmg** + descendent d’un step au round suivant. Pour maintenir l’effet : le lanceur doit se consacrer (pas d’autres actions). Saves avec +1 cumulatif. |
-| 34+ | Comme 32–33 mais **1d6+1 dmg**. Bonus cumulatif aux saves **après 3 rounds** de saves consécutifs. |
+| 1 | Perdu, échec et souillure du patron. |
+| 2–11 | Perdu. Échec. |
+| 12–13 | Échec, mais le sort n'est pas perdu. |
+| 14–15 | 1 cible : **jet de Volonté** ou **1d4 dégâts** + malus de **-1** à ses jets de dés d'action au round suivant. En cas d’échec initial, le lanceur peut choisir de ne rien faire d’autre et de maintenir l'effet : 1d4 dégâts + malus de -1 chaque round. La cible peut retenter un jet de sauvegarde chaque round avec un bonus de **+1 cumulatif** après chaque échec consécutif. |
+| 16–19 | Comme le résultat 14–15, mais **1d4+1 dégâts**. |
+| 20–21 | 1 cible : jet de Volonté ou **1d6 dégâts** et descend d’**un cran** sur la chaîne de dés pour ses actions au round suivant. Maintien possible (inaction du lanceur) : 1d6 dégâts + malus d'un cran. Jets de sauvegarde avec +1 cumulatif. |
+| 22–23 | Comme le résultat 20–21, mais **1d6+1 dégâts**. Les jets de sauvegarde reçoivent le bonus cumulatif **après le 3e round** d'échecs consécutifs. |
+| 24–25 | Comme le résultat 14–15, mais pour le maintien : le sort continue automatiquement et le lanceur peut agir librement. Le sort ne prend fin que si la cible réussit son jet ou si le lanceur l'annule. |
+| 26–29 | Comme le résultat 16–19, avec maintien libre : 1d4+1 dégâts, le lanceur peut agir. |
+| 30–31 | Comme le résultat 20–21, avec maintien libre : 1d6 dégâts et malus d'un cran. |
+| 32–33 | Zone : cible principale + tous les ennemis dans un rayon de **4,5 m** (15’). **Jet de Volonté** ou **1d6 dégâts** + malus d’un cran au round suivant. Pour maintenir l’effet, le lanceur doit se consacrer entièrement au sort (pas d’autres actions). Jets de sauvegarde avec +1 cumulatif. |
+| 34+ | Comme le résultat 32–33, mais **1d6+1 dégâts**. Bonus cumulatif aux jets de sauvegarde **après 3 rounds** d'échecs consécutifs. |
 
 ---
 
-# Excoriate Energy (Spell)
+# Excorier l'énergie (*Excoriate Energy*)
 
-**Level :** 3 (Dzzhali)  
-**Range :** Touch or more  
-**Duration :** Instantaneous  
-**Casting time :** 1 action  
-**Save :** Fort vs. spell check  
+**Niveau :** 3 (Dzzhali)  
+**Portée :** Contact ou plus  
+**Durée :** Instantanée  
+**Temps d'incantation :** 1 action  
+**Jet de sauvegarde :** Vigueur contre test d'incantation  
 
-**General :** Dzzhali permet au lanceur d’obtenir du spellburn en drainant les attributs d’alliés.
-- Cibles : **alliés** seulement (pas d’adversaires, ni d’alliés sous compulsion magique).
-- L’allié ne subit que la perte temporaire de points d’attribut.
+**Généralités :** Dzzhali permet au lanceur d’obtenir un bonus de brûlesort en drainant les caractéristiques de ses alliés.
+- Cibles : **alliés** uniquement (pas d’adversaires, ni d’alliés sous contrainte magique).
+- L’allié ne subit que la perte temporaire de points de caractéristiques.
 - Le lanceur ne peut pas abaisser un score en dessous de **4**.
-- Les points drainés doivent être dépensés comme spellburn **avant la fin du round suivant**, sinon ils reviennent à l’allié.  
-- Le lanceur ne peut pas combiner ce drain avec son propre spellburn sur le sort suivant.  
-- Le lanceur subit les autres effets de spellburn (hors perte d’attribut) comme s’il avait brûlé ses propres attributs.
+- Les points drainés doivent être dépensés comme brûlesort **avant la fin du round suivant**, sinon ils reviennent à l’allié.  
+- Le lanceur ne peut pas combiner ce drain avec son propre brûlesort sur le sort suivant.  
+- Le lanceur subit les autres effets du brûlesort (hormis la perte de caractéristique) comme s’il avait brûlé ses propres caractéristiques.
 
 **Manifestation (1d4) :**
-1) asticots surgissent de la peau de la cible ;  
-2) image spectrale arrachée et aspirée dans le lanceur ;  
-3) peau exposée pourrit et se détache ;  
-4) le corps du lanceur gonfle de l’intérieur, prêt à éclater.
+1) Des asticots surgissent de la peau de la cible ;  
+2) Une image spectrale est arrachée et aspirée par le lanceur ;  
+3) La peau exposée pourrit et se détache par lambeaux ;  
+4) Le corps du lanceur gonfle de l’intérieur, comme prêt à éclater.
 
-| Spell check | Résultat |
+| Test d'incantation | Résultat |
 |---:|---|
-| 1 | Lost, failure, and patron taint. |
-| 2–11 | Lost. Failure. |
-| 12–15 | Failure, but spell is not lost. |
-| 16–17 | Cible : wizard/elf touché. Peut choisir de faire un **Fort save** ou le lanceur draine jusqu’à **2 points** répartis entre **Str/Agi/Sta** (scores éligibles au spellburn). |
-| 18–21 | Comme 16–17 mais le Fort save de la cible est **1 step down** sur la dice chain. |
-| 22–23 | Cible : wizard/elf touché. Fort save ou draine **1 point** de chaque : Str, Agi, Sta. |
-| 24–26 | Comme 22–23 mais Fort save **1 step down**. |
-| 27–31 | Cible : wizard/elf à **15’**. Fort save ou draine jusqu’à **2 points par attribut** (Str/Agi/Sta). |
-| 32–33 | Cible : wizard/elf/cleric à **15’**. Fort save **1 step down** ou draine 1 point de Str/Agi/Sta. |
-| 34–35 | Cible : wizard/elf/cleric à **30’**. Fort save **1 step down** ou draine jusqu’à **2 points par attribut** (Str/Agi/Sta). |
-| 36+ | Cible : wizard/elf/cleric à **30’**. Fort save ou draine jusqu’à **10 points** répartis comme voulu entre Str/Agi/Sta. |
+| 1 | Perdu, échec et souillure du patron. |
+| 2–11 | Perdu. Échec. |
+| 12–15 | Échec, mais le sort n'est pas perdu. |
+| 16–17 | Cible : un mage ou un elfe touché. Il peut choisir de faire un **jet de Vigueur** ou le lanceur draine jusqu’à **2 points** répartis entre la **Force, l'Agilité ou l'Endurance**. |
+| 18–21 | Comme le résultat 16–17, mais le jet de Vigueur de la cible subit un malus d'**un cran** sur la chaîne de dés. |
+| 22–23 | Cible : mage ou elfe touché. Jet de Vigueur ou draine **1 point** de chaque : For, Agi, End. |
+| 24–26 | Comme le résultat 22–23, mais le jet de Vigueur subit un malus d'**un cran**. |
+| 27–31 | Cible : mage ou elfe à moins de **4,5 m** (15’). Jet de Vigueur ou draine jusqu’à **2 points par caractéristique** (For/Agi/End). |
+| 32–33 | Cible : mage, elfe ou clerc à moins de **4,5 m** (15’). Le jet de Vigueur subit un malus d'**un cran** ou draine 1 point de For/Agi/End. |
+| 34–35 | Cible : mage, elfe ou clerc à moins de **9 m** (30’). Le jet de Vigueur subit un malus d'**un cran** ou draine jusqu’à **2 points par caractéristique** (For/Agi/End). |
+| 36+ | Cible : mage, elfe ou clerc à moins de **9 m** (30’). Jet de Vigueur ou draine jusqu’à **10 points** répartis à sa guise entre For, Agi et End. |

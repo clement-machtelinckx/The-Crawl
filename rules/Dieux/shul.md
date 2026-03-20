@@ -1,61 +1,61 @@
 # SHUL
 
 ![Shul](/img/god/shul.png)
-*Watcher in the Sky • God of the moons, measurement, knowledge, literacy • “Lawgiver” (selon certains)*
+*L'Observateur du Ciel • Dieu des lunes, de la mesure, de la connaissance et de l'écriture • « Le Législateur » (selon certains)*
 
 ---
 
 ## Aperçu
 
-Beaucoup de sociétés révèrent les lunes : elles illuminent la nuit, occultent parfois le jour, gouvernent les marées, attisent la folie, transforment des êtres en bêtes, et offrent une mesure précise du temps. On attribue donc souvent **Law** et sagesse aux puissances lunaires.
+De nombreuses sociétés révèrent les lunes : elles illuminent la nuit, occultent parfois le jour, gouvernent les marées, attisent la folie, transforment des êtres en bêtes et offrent une mesure précise du temps. On attribue donc souvent la **Loi** et la sagesse aux puissances lunaires.
 
-Qu’il soit adoré sous différents noms (Kith de la Purple Planet, Shudfolk des Shudder Mountains), ces dieux-lunes sont des manifestations du **Watcher in the Sky : Shul**.
+Qu’il soit adoré sous différents noms (Kith de la Purple Planet, Shudfolk des Shudder Mountains), ces dieux-lunes sont des manifestations de l’**Observateur du Ciel : Shul**.
 
-Shul est le dieu des :
-- lunes,
-- mesures,
-- connaissance,
-- alphabétisation,
-et il est aussi la force divine derrière calendriers et almanachs. Il aurait créé **Ur**, la plus ancienne langue écrite.
+Shul est le dieu :
+- des lunes,
+- des mesures,
+- de la connaissance,
+- de l'alphabétisation,
+et il est aussi la force divine derrière les calendriers et les almanachs. Il aurait créé l'**Ur**, la plus ancienne langue écrite connue.
 
 ---
 
 ## Fidèles, alliances et interdits
 
-On trouve parmi ses fidèles : alchimistes, astrologues, juristes, fermiers, herboristes, navigateurs, sages, scribes — tous portés vers des régimes stricts.
+On trouve parmi ses fidèles des alchimistes, des astrologues, des juristes, des fermiers, des herboristes, des navigateurs, des sages et des scribes — tous portés vers des régimes de vie stricts.
 
-Son influence dépend des phases combinées des lunes du multivers (motif quasi aléatoire), que seuls Shul (et peut-être The Fates) peuvent prédire.
+Son influence dépend des phases combinées des lunes du multivers (un motif complexe, presque aléatoire), que seuls Shul (et peut-être Les Parques) peuvent prédire.
 
-Alliances variables : parfois avec Choranus, parfois avec Valdreth the Unchanging One. Parfois des causes communes avec Ildavir (nature) ou Pelagia (mer), mais la friction Law/Neutrality limite l’entente.
+Ses alliances sont variables : parfois avec Choranus, parfois avec Valdreth l'Immuable. Il partage parfois des causes communes avec Ildavir (la nature) ou Pelagia (la mer), mais la friction entre la Loi et la Neutralité limite leur entente.
 
-**Ennemi principal : The Hidden Lord.**  
-Aider ses fidèles est **péché** pour les clercs de Shul et entraîne une désapprobation accrue.
+**Ennemi principal : Le Seigneur Caché.**  
+Aider ses fidèles est un **péché** pour les clercs de Shul et entraîne une désapprobation accrue.
 
-Autres péchés : aider ceux qui détruisent des écrits, altèrent le flux du temps, ou refusent de partager la connaissance avec les fidèles de Shul.
+Autres péchés : aider ceux qui détruisent des écrits, altèrent le flux du temps ou refusent de partager la connaissance avec les fidèles de Shul.
 
-Les clercs de Shul considèrent aussi comme unholy les lycanthropes chaotiques (et thériantropes chaotiques), en plus des unholy habituels de Law.
+Les clercs de Shul considèrent également comme impies les lycanthropes et thériantropes chaotiques, en plus des créatures impies habituelles de la Loi.
 
 ---
 
-## Apparence, tenue, symbole, arme
+## Apparence, tenue, symbole et arme
 
-Shul apparaît généralement comme un humanoïde lumineux sans traits, conduisant un char d’argent tiré par deux bœufs ailés :
-- l’un noir (nouvelle lune),
-- l’autre blanc (pleine lune).
+Shul apparaît généralement comme un humanoïde lumineux sans traits distinctifs, conduisant un char d’argent tiré par deux bœufs ailés :
+- l’un noir (représentant la nouvelle lune),
+- l’autre blanc (représentant la pleine lune).
 
-Les clercs s’habillent selon la phase lunaire :
-- pleine lune : blanc,
-- nouvelle lune : noir,
-- demi-lune : symétrie noir/blanc.
+Les clercs s’habillent selon la phase lunaire actuelle :
+- pleine lune : vêtements blancs,
+- nouvelle lune : vêtements noirs,
+- demi-lune : tenue symétrique noire et blanche.
 
-Ils portent souvent 3 robes en voyage pour correspondre aux phases.
+Ils emportent souvent trois robes lors de leurs voyages pour correspondre aux différentes phases.
 
 | Élément | Détail |
 |---|---|
-| **Symbole sacré** | Croissant de lune avec demi-visage humain dans l’arc interne *(ou œil dans un cercle selon cultures)* |
-| **Arme sacrée** | **Moon-phase mace** : sphère métallique (si possible argentée) à une extrémité, anneau métallique à l’autre (désarmement / chaîne / entrave) |
+| **Symbole sacré** | Un croissant de lune avec un demi-visage humain dans l’arc interne *(ou un œil dans un cercle selon les cultures)* |
+| **Arme sacrée** | **Masse des phases lunaires** : une sphère métallique (si possible en argent) à une extrémité et un anneau métallique à l’autre (permettant le désarmement ou l'entrave) |
 | **Jours saints majeurs** | Éclipses solaires et lunaires |
-| **Sacrifices favoris** | Ceux contenant beaucoup d’**argent** |
+| **Sacrifices favoris** | Les offrandes contenant une grande quantité d’**argent** |
 
 ---
 
@@ -63,155 +63,150 @@ Ils portent souvent 3 robes en voyage pour correspondre aux phases.
 
 | Événement | Présage | Effet |
 |---|---|---|
-| **Éclipse solaire** | Bon | **+1d** aux spell checks |
-| **Éclipse lunaire** | Mauvais | **-1d** aux spell checks + prières ferventes |
+| **Éclipse solaire** | Favorable | **+1d** sur la chaîne de dés pour les tests d'incantation |
+| **Éclipse lunaire** | Défavorable | **-1d** sur la chaîne de dés pour les tests d'incantation + obligation de prières ferventes |
 
-Autres jours saints : nouvelles lunes et pleines lunes.
+Autres jours saints : les nuits de nouvelle lune et de pleine lune.
 
 ---
 
 # Traits spéciaux
 
-## Lay on Hands (manifestation unique)
+## Imposition des mains (manifestation unique)
 
-Le clerc peut choisir ou tirer **1d4** :
+Le clerc peut choisir ou tirer **1d4** pour la manifestation :
 
 | 1d4 | Manifestation |
 |---:|---|
-| 1 | Une petite lune lumineuse orbite la blessure et la baigne de lumière, puis s’éteint en disparaissant. |
-| 2 | Les mains exsudent une brume qui devient un nuage lumineux tourbillonnant ; la blessure l’absorbe en guérissant. |
-| 3 | En prenant son propre sang, le clerc écrit des mots de réparation autour de la zone ; les mots brillent et se rejoignent. |
-| 4 | Les yeux du clerc passent blanc → noir → blanc ; des tintements de clochettes de cristal émanent de la plaie en guérissant. |
+| 1 | Une petite lune lumineuse orbite autour de la blessure et la baigne de lumière avant de disparaître. |
+| 2 | Les mains du clerc exsudent une brume qui se transforme en un nuage lumineux tourbillonnant ; la blessure l’absorbe en guérissant. |
+| 3 | En utilisant son propre sang, le clerc trace des mots de réparation autour de la plaie ; les mots brillent et se rejoignent. |
+| 4 | Les yeux du clerc passent du blanc au noir, puis reviennent au blanc ; des tintements de clochettes de cristal émanent de la plaie durant la guérison. |
 
 ---
 
-## Divine Favors (notes générales)
+## Faveurs divines (notes générales)
 
-Ces faveurs peuvent devenir indisponibles si le clerc tombe en disgrâce (Deity Disapproval).
+Ces faveurs peuvent devenir indisponibles si le clerc tombe en disgrâce (Désapprobation divine).
 
-### Moonsense (1/jour)
-Communier avec Shul pour obtenir un savoir concernant un événement impliquant la lune : marée la plus basse, moment de clarté maximale, meilleur moment de plantation, implication lunaire dans une malédiction, etc. (pas limité au monde natal).
+### Sens lunaire (*Moonsense*, 1/jour)
+Permet de communier avec Shul pour obtenir des informations sur un événement lié aux lunes : marée la plus basse, moment de clarté maximale, meilleur moment pour les plantations, implication lunaire dans une malédiction, etc.
 
-### Reckoning Braid (1/jour)
-Cordelette triple tressée (noir, gris, blanc), faite par le clerc. Conduit de pouvoir : mesurer miraculeusement une chose avec précision (longueur, poids, temps, volume, température, etc.).
+### Tresse de mesure (*Reckoning Braid*, 1/jour)
+Une cordelette triple tressée (noir, gris, blanc), confectionnée par le clerc. Elle sert de conduit de pouvoir pour mesurer miraculeusement et avec précision n'importe quelle grandeur (longueur, poids, temps, volume, température, etc.).
 
-### Spells de départ (niveau 1)
-Les clercs commencent toujours avec :
-- **second sight**
-- **comprehend languages** *(arcane : échecs peuvent causer misfires & corruption, en plus de deity disapproval)*
+### Sorts de départ (niveau 1)
+Les clercs de Shul commencent toujours avec les sorts suivants :
+- **Seconde vue** (*second sight*)
+- **Compréhension des langues** (*comprehend languages*) *(sort arcanique : les échecs peuvent causer des revers et des corruptions, en plus de la désapprobation)*
 
 ---
 
-## Cleric of Shul Titles
+## Titres des clercs de Shul
 
-Les plus hauts ajoutent le préfixe “Moon” à leur nom (ex. “Moon Farah”).
+Les plus hauts dignitaires ajoutent le préfixe “Moon” à leur nom (ex : “Moon Farah”).
 
 | Niveau | Titre |
 |---:|---|
-| 1 | New |
-| 2 | Crescent |
-| 3 | Waxing |
-| 4 | Gibbous |
-| 5 | Moon |
+| 1 | Nouveau |
+| 2 | Croissant |
+| 3 | Croissant |
+| 4 | Gibbeux |
+| 5 | Lune |
 
 ---
 
-# Disapproval (Shul)
+# Désapprobation (Shul)
 
 *Les pénalités sont cumulatives sauf mention contraire.*
 
-| d20 | Disapproval |
+| d20 | Désapprobation |
 |---:|---|
-| 1 | Danser Moon Sirvarn’s Moondance pendant 1 tour complet, dès que possible. |
-| 2 | Écrire une excuse à Shul pendant 1h dès que possible. Si non terminé sous 2h : **-1** spell check jusqu’à complétion. |
-| 3 | De moonrise à moonset : prêcher l’évangile de Shul à au moins 1 auditeur. Échec : **-1** spell check jusqu’au moonset du lendemain. |
-| 4 | **-1 cumulatif** à tous spell checks jusqu’au prochain moonrise/moonset (le plus long). |
-| 5 | Jusqu’au moonset du lendemain : moonshadow lumineuse. Ne pas utiliser les mains (sauf combat & pouvoirs). Échec : **1d4** dégâts + perte de toutes capacités cléricales jusqu’à disparition. |
-| 6 | **-1** à Lay on Hands jusqu’à retirer une malédiction impliquant la lune. |
-| 7 | Interdiction d’utiliser les divine favors jusqu’à passer une nuit entière à observer la lune (moonrise→moonset). |
-| 8 | Jusqu’au prochain moonrise/moonset : **-2d** sur le sort/aptitude déclencheur. |
-| 9 | Jusqu’au moonset du 2e jour : moonshadow. Ne pas utiliser ses yeux (**-8** attaques, mouvement aléatoire à ½ vitesse). Échec : **2d4** dégâts + perte de capacités jusqu’à disparition. |
-| 10 | Interdit d’utiliser **second sight** pendant **1d3 jours**. |
-| 11 | Lumière inextinguible (torche) : les attaques et spell checks contre lui gagnent **+1d**. Doit mener la marche/choix. Disapproval ne reset pas à 1 tant que Shul n’est pas satisfait (juge). |
-| 12 | Interdit d’utiliser **comprehend languages** pendant **1d3 jours**. Ce qu’il écrit est illisible pour tous sauf lui. |
-| 13 | Jusqu’au moonset du 3e jour : moonshadow. Ne pas utiliser ses jambes. Échec : **3d4** dégâts + perte de capacités jusqu’à disparition. |
-| 14 | Lay on Hands uniquement sur êtres **lawful** (sauf adorateurs de Shul) pendant **2d3 jours**. |
-| 15 | “Endurer l’éclipse” : sphère de ténèbres 20’ autour du clerc. Doit fortement servir Shul malgré ça. Disapproval ne reset pas à 1 tant que Shul n’est pas satisfait (juge). |
-| 16 | **-1d** à Lay on Hands + toute guérison réussie soigne **1 HD** de moins. Jusqu’à retirer une malédiction impliquant la lune. |
-| 17 | Jusqu’au moonset du 4e jour : moonshadow. Ne pas utiliser sa bouche (pas manger, parler, incanter ; eau OK). Échec : **4d4** dégâts + perte de capacités jusqu’à disparition. |
-| 18 | Exige victoire contre The Hidden Lord : **-1d** spell checks jusqu’à acquérir un tome de savoir secret sur lui. |
-| 19 | Répandre l’alphabétisation : **-1d** spell checks jusqu’à enseigner lecture/écriture à quelqu’un. Tests hebdo : clerc ≤ Personality, élève ≤ Intelligence. |
-| 20+ | Marque du Moonless : **-2d** spell checks jusqu’à accomplir la quête du moonchild (webbed trees, moonpool steps, black owl on silver branch, new moon from Crimson Mountain). |
+| 1 | Le clerc doit exécuter la Danse Lunaire de Moon Sirvarn pendant un tour complet, dès que possible. |
+| 2 | Le clerc doit rédiger une lettre d'excuse à Shul pendant une heure. S’il ne termine pas dans les 2 heures, malus de **-1** aux tests d'incantation jusqu’à la fin du travail. |
+| 3 | Du lever au coucher de la lune : prêcher l’évangile de Shul à au moins un auditeur. En cas d'échec : malus de **-1** aux tests d'incantation jusqu’au prochain coucher de lune. |
+| 4 | Malus cumulatif de **-1** à tous les tests d'incantation jusqu’au prochain lever ou coucher de lune. |
+| 5 | Jusqu’au prochain coucher de lune : une ombre lunaire lumineuse suit le clerc. Interdiction d'utiliser ses mains (sauf pour le combat et les pouvoirs). En cas d'échec : **1d4** dégâts et perte de toutes les capacités de clerc jusqu’à disparition de l'ombre. |
+| 6 | Malus de **-1** à l'imposition des mains jusqu’à ce qu'il lève une malédiction impliquant la lune. |
+| 7 | Interdiction d’utiliser les faveurs divines jusqu’à avoir passé une nuit entière à observer la lune (du lever au coucher). |
+| 8 | Jusqu’au prochain lever ou coucher de lune : malus de **-2d** sur la chaîne de dés pour le sort ou l'aptitude ayant déclenché la désapprobation. |
+| 9 | Jusqu’au coucher de lune du deuxième jour : ombre lunaire. Interdiction d'utiliser ses yeux (**-8** aux attaques, déplacement aléatoire à demi-vitesse). En cas d'échec : **2d4** dégâts et perte de capacités. |
+| 10 | Interdiction d’utiliser le sort **Seconde vue** pendant **1d3 jours**. |
+| 11 | Lumière inextinguible : le clerc brille comme une torche. Les attaques et tests d'incantation contre lui bénéficient d'un bonus de **+1d**. La désapprobation ne se réinitialise pas tant que Shul n'est pas satisfait. |
+| 12 | Interdiction d’utiliser le sort **Compréhension des langues** pendant **1d3 jours**. Tout ce qu’il écrit est illisible pour autrui. |
+| 13 | Jusqu’au coucher de lune du troisième jour : ombre lunaire. Interdiction d'utiliser ses jambes. En cas d'échec : **3d4** dégâts et perte de capacités. |
+| 14 | L'imposition des mains ne fonctionne que sur les êtres **Loyaux** pendant **2d3 jours**. |
+| 15 | « Endurer l’éclipse » : une sphère de ténèbres de 6 m entoure le clerc. Il doit continuer à servir Shul malgré cela. La désapprobation ne se réinitialise pas tant que Shul n'est pas satisfait. |
+| 16 | Malus de **-1d** à l'imposition des mains et chaque guérison soigne **1 DV** de moins. Jusqu’à ce qu'il lève une malédiction lunaire. |
+| 17 | Jusqu’au coucher de lune du quatrième jour : ombre lunaire. Interdiction d'utiliser sa bouche (pas de nourriture, de parole ni d'incantation ; l'eau est autorisée). En cas d'échec : **4d4** dégâts et perte de capacités. |
+| 18 | Shul exige une victoire contre Le Seigneur Caché : malus de **-1d** aux tests d'incantation jusqu’à l'acquisition d'un ouvrage de savoir secret sur cet ennemi. |
+| 19 | Répandre l’alphabétisation : malus de **-1d** aux tests d'incantation jusqu’à avoir enseigné la lecture et l'écriture à quelqu'un. |
+| 20+ | Marque du Sans-Lune : malus de **-2d** aux tests d'incantation jusqu’à l'accomplissement d'une quête sacrée. |
 
 ---
 
-# Canticles of Shul
+# Cantiques de Shul
 
-Ces canticles se murmurent **sans son** (mimées) et sont des mantras répétitifs.
+Ces cantiques se murmurent **sans émettre de son** et consistent en des mantras répétitifs.
 
-| Niveau | Canticle |
+| Niveau | Cantique |
 |---:|---|
-| 1 | Lunar Glow |
-| 3 | Shul’s Shining One |
-| 5 | Nigodow’s Septichromatic Orbs |
+| 1 | Éclat Lunaire |
+| 3 | Le Brillant de Shul |
+| 5 | Orbes Septichromatiques de Nigodow |
 
 ---
 
-## Level 1 — LUNAR GLOW
+## Niveau 1 — ÉCLAT LUNAIRE (*Lunar Glow*)
 
-Le symbole sacré brille selon le spell check. Après le 1er round, nécessite concentration (DCC p.106).
+Le symbole sacré du clerc se met à briller. Après le premier round, le maintien de la lumière nécessite de la concentration.
 
-| Spell check | Résultat |
+| Test d'incantation | Résultat |
 |---:|---|
 | 1–11 | Échec |
-| 12–13 | Waxing Crescent : faible lueur rayon 1’ |
-| 14–23 | First Quarter : lueur bleue pâle rayon 20’, persiste 1 round après fin de concentration |
-| 24–31 | Waxing Gibbous : lueur crème rayon 40’ ; **+1d** aux checks de recherche (portes secrètes, pièges, etc.) ; persiste **1d3 rounds** |
-| 32+ | Full Moon : lueur blanche rayon 80’ ; dans la lumière : unholy à Shul **-1d** attaques & spell checks ; autres clercs de Shul **+1d** spell checks ; recherche **+1d**. Persiste **2d3 rounds** |
+| 12–13 | Premier Croissant : faible lueur dans un rayon de 30 cm. |
+| 14–23 | Premier Quartier : lueur bleu pâle dans un rayon de 6 m ; persiste 1 round après la fin de la concentration. |
+| 24–31 | Lune Gibbeuse : lueur crème dans un rayon de 12 m ; bonus de **+1d** aux tests de recherche (portes secrètes, pièges, etc.) ; persiste **1d3 rounds**. |
+| 32+ | Pleine Lune : lueur blanche dans un rayon de 24 m ; dans cette lumière, les impies de Shul subissent un malus de **-1d** aux attaques et tests d'incantation ; les autres clercs de Shul gagnent un bonus de **+1d**. Persiste **2d3 rounds**. |
 
 ---
 
-## Level 3 — SHUL’S SHINING ONE
+## Niveau 3 — LE BRILLANT DE SHUL (*Shul’s Shining One*)
 
-Mantra (1 tour continu) transformant le clerc en nuage d’énergie lunaire semi-corporel.
-- Se déplace lentement sur sol/eau ; sous lumière lunaire directe, vole vite via moonbeams.
-- En général, pas d’aptitudes utilisables sous cette forme.
-- Ne peut affecter (et être affectée) que par **Chaos**.
-- Si détruite : redevient le clerc en bleeding out + **+10** disapproval.
-- Shul ne l’accorde pas à ceux qui subissent déjà des effets de disapproval.
+Un mantra d'un tour complet transformant le clerc en un nuage d’énergie lunaire semi-corporel.
+- Se déplace lentement sur le sol ou l'eau ; sous la lumière lunaire directe, il peut voler rapidement.
+- Ne peut affecter (et être affecté) que par le **Chaos**.
+- Si la forme est détruite, le clerc reprend son aspect normal en état d'hémorragie avec un malus de **+10** en désapprobation.
 
-**Stat de base :** Init as cleric; HD as cleric; MV 10’ (sans lune) / fly 50’ (avec lune); SP immune fire, immune Law/Neutrality, only affects Chaos; SV as cleric; AL L.
+**Statistiques de base :** Init comme le clerc ; DV comme le clerc ; MV 3 m (sans lune) / vol 15 m (avec lune) ; SP immunisé au feu, à la Loi et à la Neutralité, n'affecte que le Chaos ; SV comme le clerc ; AL L.
 
-| Spell check | Résultat |
+| Test d'incantation | Résultat |
 |---:|---|
-| 1 | Échec + corruption (style wizard) : 1d6 (1–3 minor, 4–5 major, 6 greater) |
-| 2–13 | Échec |
-| 14–21 | Durée 1d3 rounds ; AC 14 ; Atk spectral tendril +3 (1d4+3) |
-| 22–29 | Durée 2d3 rounds ; AC 15 ; Atk vortices (DC 14 Will sinon entranced 1 round) **ou** tendril +CL (1d4+CL) |
-| 30–33 | Durée 1d3 turns ; AC 16 ; vortices DC 15 **ou** tendril +CL (1d5+CL) + le clerc est soigné **+CL hp** |
-| 34+ | Durée 2d3 turns ; AC 17 ; vortices DC 16 **ou** tendril +CL (1d6+CL) + soin **+CL hp** + peut roll turn unholy sur la cible si applicable |
+| 1 | Échec et corruption (style mage) : 1d6 (1–3 mineure, 4–5 majeure, 6 supérieure). |
+| 2–13 | Échec. |
+| 14–21 | Durée 1d3 rounds ; CA 14 ; Att tentacule spectral +3 (1d4+3). |
+| 22–29 | Durée 2d3 rounds ; CA 15 ; Att vortex (Volonté DD 14 ou hypnotisé 1 round) **ou** tentacule +NI (1d4+NI). |
+| 30–33 | Durée 1d3 tours ; CA 16 ; vortex DD 15 **ou** tentacule +NI (1d5+NI) + le clerc est soigné de **NI** PV. |
+| 34+ | Durée 2d3 tours ; CA 17 ; vortex DD 16 **ou** tentacule +NI (1d6+NI) + soin de **NI** PV + possibilité de renvoyer les impies. |
 
 ---
 
-## Level 5 — NIGODOW’S SEPTICHROMATIC ORBS
+## Niveau 5 — ORBES SEPTICHROMATIQUES DE NIGODOW (*Nigodow’s Septichromatic Orbs*)
 
-Requiert 7 gemmes de couleurs différentes (≥ 1,000 gp chacune), obtenues par quête ou dons dédiés à Shul et collectés par le clerc. À l’apprentissage, le corps absorbe les gemmes : peau à reflet opalescent permanent.
+Nécessite 7 gemmes de couleurs différentes (valeur ≥ 1 000 po chacune). Lors de l’apprentissage, le corps absorbe les gemmes, donnant à la peau un reflet opalescent permanent.
 
-Après 1 round de mantra : de petites lunes spectrales orbitent le clerc.
-- Au prochain spell check réussi **ou** à la prochaine attaque réussie contre lui : lancer **1d7** et appliquer.
-- Ensuite : à chaque nouveau déclencheur, prendre la lune suivante (cycle).
-- Les lunes disparaissent après activation.
-- Deity disapproval dissipe toutes les lunes restantes.
-- Utilisable 1/jour.
+Après un round de mantra, de petites lunes spectrales orbitent autour du clerc.
+- Au prochain test d'incantation réussi **ou** à la prochaine attaque réussie contre lui, lancez **1d7** pour l'effet.
+- Les lunes disparaissent après activation. Utilisable une fois par jour.
 
-| d7 | Lune / Gemme | Cleric makes successful spell check | Cleric is successfully attacked |
+| d7 | Lune / Gemme | Test d'incantation réussi | Le clerc est touché |
 |---:|---|---|---|
-| 1 | Black / Opal | Réduit disapproval de **1d3** | Attaquant : DC 15 Will ou sommeil magique **1d3 rounds** |
-| 2 | Red / Ruby | +10’ MV jusqu’au prochain round | Attaquant : DC 15 Ref ou **2d4+CL** feu |
-| 3 | Orange / Tourmaline | +2 AC jusqu’au prochain round | Attaquant : DC 15 Will ou attaque un allié à sa prochaine attaque |
-| 4 | Yellow / Topaz | +1d mêlée avec moon-phase mace (jusqu’au prochain round) | Attaquant : DC 15 Will ou s’inflige les mêmes dégâts à lui-même |
-| 5 | Green / Emerald | Le clerc est soigné **1d8+CL** | Le clerc est soigné **1d8+CL** |
-| 6 | Blue / Sapphire | +1d aux saves jusqu’au prochain round | Attaquant : DC 15 Ref ou **2d4+CL** électrique |
-| 7 | White / Diamond | Dépenser un free action die immédiatement | Attaquant : DC 15 Fort ou aveuglé **1d3 rounds** (-8 attaques, mouvement aléatoire à ½ vitesse) |
+| 1 | Noire / Opale | Réduit la désapprobation de **1d3** | Attaquant : Vol DD 15 ou sommeil **1d3 rounds** |
+| 2 | Rouge / Rubis | +3 m MV jusqu'au prochain round | Attaquant : Réf DD 15 ou **2d4+NI** feu |
+| 3 | Orange / Tourmaline | +2 à la CA jusqu'au prochain round | Attaquant : Vol DD 15 ou attaque un allié |
+| 4 | Jaune / Topaze | +1d au corps à corps (masse lunaire) | Attaquant : Vol DD 15 ou subit ses propres dégâts |
+| 5 | Verte / Émeraude | Le clerc est soigné de **1d8+NI** | Le clerc est soigné de **1d8+NI** |
+| 6 | Bleue / Saphir | +1d aux sauvegardes | Attaquant : Réf DD 15 ou **2d4+NI** foudre |
+| 7 | Blanche / Diamant | Dé d'action gratuit immédiat | Attaquant : Vig DD 15 ou aveuglé **1d3 rounds** |
 
 ---

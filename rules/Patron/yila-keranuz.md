@@ -1,168 +1,140 @@
 # YILA-KERANUZ  
-## The Lizard King
+## Le Roi-Lézard (*The Lizard King*)
 
 Yila-Keranuz est ancien et patient. Il s’est éveillé aux Jours Primordiaux, rampant hors de la vase pour saisir le monde originel dans ses griffes écailleuses. En cette époque préhistorique, Yila-Keranuz disputa la domination à Serbok et Schaphigroadaz, ses fervents adorateurs combattant ceux du Serpent et du Crapaud. Quand la fin survint dans un flash de lumière brûlante et des nuées de cendres suffocantes, Yila-Keranuz se glissa en hibernation, attendant le temps où lui et ses enfants domineraient de nouveau le monde.
 
 À présent, des éons plus tard, le Roi-Lézard s’est réveillé. Ses sbires, bien que diminués en taille et en nombre, restent dévoués à leur maître et œuvrent de nouveau à imposer sa volonté à travers d’innombrables contrées. Ses ennemis se moquent de Yila-Keranuz, le disant lent et lourd, une chose maladroite laissée derrière quand le monde a avancé. Il se contente de laisser ses adversaires le croire, car il sait que la victoire est la récompense ultime de la patience.
 
-Yila-Keranuz est souvent le patron des magiciens qui préfèrent la vengeance et la survie aux magies flamboyantes et aux frappes foudroyantes. Le Roi-Lézard compte également un bon nombre de guerriers parmi ses fidèles. Ces hommes et ces femmes honorent sa robustesse et sa létalité. Dans les temps anciens, Yila-Keranuz était servi par les dinosaures, mais leurs effectifs sont rares et leur intellect amoindri à l’ère actuelle. Néanmoins, quelques survivants des Jours Primordiaux honorent encore Yila-Keranuz par les Vieux Rites, dans des jungles verdoyantes et étouffantes ou dans des vallées montagneuses isolées. Lui et ses adeptes demeurent des ennemis jurés de Serbok et de Schaphigroadaz, cherchant à contrecarrer les plans du Serpent et du Crapaud à chaque occasion. Les serviteurs sorciers qui se lient au Roi-Lézard deviendront probablement des soldats dans cette guerre écailleuse.
+Yila-Keranuz est souvent le patron des mages qui préfèrent la vengeance et la survie aux magies flamboyantes et aux frappes foudroyantes. Le Roi-Lézard compte également un bon nombre de guerriers parmi ses fidèles. Ces hommes et ces femmes honorent sa robustesse et sa létalité. Dans les temps anciens, Yila-Keranuz était servi par les dinosaures, mais leurs effectifs sont rares et leur intellect amoindri à l’ère actuelle. Néanmoins, quelques survivants des Jours Primordiaux honorent encore Yila-Keranuz par les Vieux Rites, dans des jungles verdoyantes et étouffantes ou dans des vallées montagneuses isolées. Lui et ses adeptes demeurent des ennemis jurés de Serbok et de Schaphigroadaz, cherchant à contrecarrer les plans du Serpent et du Crapaud à chaque occasion. Les serviteurs mages qui se lient au Roi-Lézard deviendront probablement des soldats dans cette guerre écailleuse.
 
 ---
 
-## Invoke Patron — résultats du spell check
+## Invoquer un patron — Résultats du test d'incantation
 
-| Spell check | Effet |
+| Test d'incantation | Effet |
 |---:|---|
-| 12–13 | **Récompense de la patience.** Si le lanceur n’effectue **aucune action** autre que le **mouvement** au round suivant, le Roi-Lézard lui accorde un **bonus de +1d** à sa **prochaine attaque** ou à son **prochain spell check** au round d’après. |
-| 14–17 | **Nuée de lézards venimeux.** Une masse de petits lézards venimeux submerge un adversaire du lanceur, infligeant **2d6 dégâts** + **1d3 perte de Strength**. Un **Fort save DC 13** réduit les dégâts à **1d6** et annule la perte de caractéristique. |
-| 18–19 | **Résilience reptilienne.** Le lanceur devient **immunisé** à la chaleur **non-magique** (insolation, déshydratation due aux climats arides, coups de soleil, etc.) et gagne un **bonus de +4** aux jets de sauvegarde contre le **feu magique**. Sa peau devient écailleuse, lui conférant **+4 AC**, et il gagne **10 hp temporaires**. Ces bénéfices durent **1d4+CL heures**. Les **hp temporaires** sont perdus en premier si le lanceur subit des dégâts. |
-| 20–23 | **Lézard géant.** Le Roi-Lézard dépêche un **giant lizard** (DCC RPG core rulebook, p. 420) avec **hp maximum** pour servir le lanceur pendant **1d6+CL turns**. Le lézard peut servir de monture, garde le lanceur pendant son sommeil et attaque les ennemis du maître sur commande. |
-| 24–27 | **Hybride lézard/humain.** Yila-Keranuz transforme le lanceur en un hybride énorme. Désormais haut de **8’**, couvert d’écailles colorées et doté d’une tête de lézard, le lanceur gagne **+6** à ses **attaques**, **dégâts** et **AC**, ainsi que **20 hp temporaires** supplémentaires. Il gagne aussi **+5** à tous les jets de sauvegarde contre la **chaleur** et le **poison**. Durée : **2d4+CL turns**. |
-| 28–29 | **Pterodactyl.** Yila-Keranuz invoque un **pterodactyl** (DCC RPG, p. 424) au service du lanceur. Il sert le lanceur comme le lézard géant du résultat **20–23** pendant **1d3+CL jours**, puis disparaît. S’il est tué avant, il disparaît dans une bouffée d’air fétide et humide. Le Roi-Lézard n’apprécie pas que son don soit ainsi gâché : le prochain **invoke patron** du lanceur subit un **-2**. |
-| 30–31 | **Petit tyrannosaurus rex.** Comme ci-dessus, mais le lanceur reçoit un **petit tyrannosaurus rex**. La bête peut être montée, garde le lanceur durant son sommeil, et attaque les ennemis du maître sur commande. Elle reste **1d5+CL jours**, puis disparaît. Si tuée avant, elle disparaît dans une bouffée d’air fétide et humide. Le Roi-Lézard n’est pas satisfait : le prochain **invoke patron** du lanceur subit un **-4**. *(Stat bloc ci-dessous.)* |
-| 32+ | **Hibernation prolongée.** Le Roi-Lézard confère au lanceur le pouvoir d’entrer en **hibernation** pour éviter les ravages de l’âge. Une heure après avoir lancé **invoke patron** avec ce résultat, le corps du lanceur entre en **animation suspendue**, identique à la mort. À partir de ce moment, il ne nécessite plus ni nourriture ni boisson et **ne vieillit plus** pendant l’hibernation. Durée : jusqu’à **100 ans par CL**, mais le lanceur peut stipuler une fin plus tôt avant d’entrer dans l’état suspendu. Il se réveille automatiquement à la fin (ou au moment stipulé). Pendant l’hibernation, son esprit est méditatif et largement inconscient des événements autour de son corps. Cependant, toute attaque ou blessure peut le réveiller : à chaque fois que son corps subit des dégâts, il peut tenter un **Intelligence check DC 14** pour mettre fin à l’hibernation et se réveiller afin de faire face au danger. En cas d’échec, il pourra réessayer la prochaine fois qu’il subit des dégâts, jusqu’à ce que l’hibernation prenne fin ou qu’il soit tué. Si l’état suspendu cesse prématurément à cause de dégâts, il doit **invoke patron** à nouveau et obtenir ce résultat pour retourner en hibernation. |
+| 12–13 | **Récompense de la patience.** Si le lanceur n’effectue **aucune action** autre que le **mouvement** au round suivant, le Roi-Lézard lui accorde un **bonus de +1d** (sur la chaîne de dés) à sa **prochaine attaque** ou à son **prochain test d'incantation** au round d’après. |
+| 14–17 | **Nuée de lézards venimeux.** Une masse de petits lézards venimeux submerge un adversaire du lanceur, infligeant **2d6 dégâts** et une perte de **1d3 points de Force**. Un **jet de Vigueur DD 13** réduit les dégâts à **1d6** et annule la perte de Force. |
+| 18–19 | **Résilience reptilienne.** Le lanceur devient **immunisé** à la chaleur **non magique** (insolation, déshydratation due aux climats arides, coups de soleil, etc.) et gagne un **bonus de +4** aux jets de sauvegarde contre le **feu magique**. Sa peau devient écailleuse, lui conférant un bonus de **+4 à la CA**, et il gagne **10 PV temporaires**. Ces bénéfices durent **1d4+NI heures**. Les PV temporaires sont perdus en premier si le lanceur subit des dégâts. |
+| 20–23 | **Lézard géant.** Le Roi-Lézard dépêche un **lézard géant** (*giant lizard*, livre de règles p. 420) avec ses **PV maximum** pour servir le lanceur pendant **1d6+NI tours**. Le lézard peut servir de monture, garde le lanceur pendant son sommeil et attaque les ennemis du maître sur commande. |
+| 24–27 | **Hybride lézard/humain.** Yila-Keranuz transforme le lanceur en un hybride énorme. Désormais haut de **2,40 m** (8’), couvert d’écailles colorées et doté d’une tête de lézard, le lanceur gagne un bonus de **+6** à ses **attaques**, ses **dégâts** et sa **CA**, ainsi que **20 PV temporaires** supplémentaires. Il gagne aussi **+5** à tous les jets de sauvegarde contre la **chaleur** et le **poison**. Durée : **2d4+NI tours**. |
+| 28–29 | **Ptéridactyle.** Yila-Keranuz invoque un **ptéridactyle** (*pterodactyl*, livre de règles p. 424) au service du lanceur. Il sert le lanceur comme le lézard géant du résultat 20–23 pendant **1d3+NI jours**, puis disparaît. S’il est tué avant, il s'évapore dans une bouffée d’air fétide. Le Roi-Lézard n’apprécie pas que son don soit gâché : le prochain test d'**Invoquer un patron** du lanceur subit un malus de **-2**. |
+| 30–31 | **Petit tyrannosaurus rex.** Comme ci-dessus, mais le lanceur reçoit un **petit tyrannosaurus rex**. La bête peut être montée, garde le lanceur durant son sommeil et attaque les ennemis sur commande. Elle reste **1d5+NI jours**. Si elle est tuée prématurément, le prochain test d'**Invoquer un patron** subit un malus de **-4**. *(Bloc de statistiques ci-dessous.)* |
+| 32+ | **Hibernation prolongée.** Le Roi-Lézard confère au lanceur le pouvoir d’entrer en **hibernation** pour éviter les ravages de l’âge. Une heure après l'incantation, le corps du lanceur entre en **animation suspendue**, identique à la mort. Il ne nécessite plus ni nourriture ni boisson et **ne vieillit plus**. Durée : jusqu’à **100 ans par NI**, mais le lanceur peut stipuler une fin plus précoce. Il se réveille automatiquement à la fin. Toute blessure peut le réveiller : à chaque fois que son corps subit des dégâts, il peut tenter un **test d'Intelligence DD 14** pour mettre fin à l’hibernation. En cas d’échec, il pourra réessayer à la prochaine blessure. |
 
-**Tyrannosaurus Rex (petit)** : Init +0; Atk bite +8 melee (2d10+2); AC 15; HD 6d10+6; MV 50’; Act 2d20; SP none; SV Fort +10, Ref +2, Will +0; AL N.
+**Tyrannosaurus Rex (petit)** : Init +0 ; Att morsure +8 mêlée (2d10+2) ; CA 15 ; DV 6d10+6 ; MV 15 m ; Act 2d20 ; SP aucune ; SV Vig +10, Réf +2, Vol +0 ; AL N.
 
 ---
 
-## Patron Taint — YILA-KERANUZ
+## Souillure du patron — YILA-KERANUZ
 
-Quand un **patron taint** est indiqué pour Yila-Keranuz, lancer **1d6** sur la table ci-dessous. Quand un lanceur a acquis les **six** taints à **tous les niveaux d’effet**, il n’est plus nécessaire de continuer à lancer.
+Quand une **souillure du patron** est indiquée pour Yila-Keranuz, lancez **1d6**. Une fois que le lanceur a acquis les **six** souillures à **tous les niveaux d’effet**, on ne lance plus les dés.
 
 | d6 | Résultat |
 |---:|---|
-| 1 | **Sang froid.** 1re fois : le lanceur devient lent par temps froid : **-5’ vitesse** et **-1 initiative**. 2e fois : initiative **-2** et il subit **1d3 dégâts** par heure (ou fraction) passée à **60°F** ou moins. 3e fois : il devient **torpide** au froid, pratiquement **paralysé** jusqu’à être placé au chaud pendant **1 heure** ou plus. |
-| 2 | **Langue hypertrophiée.** La langue grossit, pend souvent et lèche les lèvres comme un ver. 2e fois : elle devient plus énorme et grotesque, entraînant une perte permanente de **-1 Personality**. 3e fois : la perte devient **-2 Personality** et la langue gêne la parole : le lanceur est difficile à comprendre (**Intelligence check DC 10** pour que l’auditeur déduise ce qu’il dit) et ses sorts obtiennent des résultats **“loss, failure, or worse”** sur un spell check de **natural 1 ou 2**. |
-| 3 | **Appétence pour les climats chauds.** 1re fois : chaque mois passé loin d’un environnement **subtropical, tropical, ou désert chaud**, le lanceur doit réussir un **Will save DC 5**. En cas d’échec, il est pris d’une envie incontrôlable de se rendre au lieu adéquat le plus proche et d’y rester **1d7 jours**. Seule une contrainte physique peut l’en empêcher ; il marchera s’il n’a pas l’argent pour voyager autrement. Après le séjour, l’envie cesse. 2e fois : **DC 10**, et il doit rester **2d7 jours**. 3e fois : il doit **s’installer définitivement** dans un tel lieu et ne s’en éloigne que **1d4 jours par mois**. |
-| 4 | **Haine du Serpent et du Crapaud.** Les guerres anciennes résonnent dans son esprit, nourrissant sa haine des créatures serpentines/crapaudes et de leurs fidèles. 1re fois : répugnance mineure : **-2** à tous les jets sociaux contre humanoïdes “snake-like” ou “toad-like” et contre ceux qui vénèrent des puissances associées. 2e fois : **Will save DC 8** pour éviter de les attaquer (ainsi que les serpents et crapauds ordinaires) lorsqu’il les rencontre. 3e fois : **DC 14** ; même s’il se retient, il subit **-4** à toutes les interactions sociales avec ces créatures. |
-| 5 | **Porteur de salmonella.** Le lanceur devient porteur et n’est pas immunisé. Sans hygiène stricte, le lanceur et quiconque en contact prolongé avec lui doivent réussir un **Fort save DC 5** chaque semaine ou perdre **1d3 Stamina temporaire** (récupération normale). 2e fois : **DC 8** et perte **1d4**. 3e fois : **DC 12** et perte **1d5**. Les effets de neutralisation de maladie n’annulent pas ce taint, mais certaines guérisons divines peuvent le **négocier temporairement** (au choix du judge). |
-| 6 | **Queue reptilienne.** Le lanceur pousse une queue : 1re fois, petit moignon dissimulable. 2e fois : **3’** de long et **1’** de diamètre à la base (encore dissimulable sous robes/vêtements amples). 3e fois : **6’** de long ; impossible à cacher par de simples vêtements, et sa nature étrange impose **-1 Personality**. Au choix du judge, la queue peut améliorer la réaction initiale des races reptiliennes. |
+| 1 | **Sang froid.** **1re fois :** le lanceur devient lent par temps froid : malus de **-1,5 m à la vitesse** (-5’) et **-1 en Initiative**. **2e fois :** malus de **-2 en Initiative** et il subit **1d3 dégâts** par heure passée à **15°C** (60°F) ou moins. **3e fois :** il devient **torpide** au froid, pratiquement **paralysé** jusqu’à être réchauffé pendant une heure ou plus. |
+| 2 | **Langue hypertrophiée.** La langue grossit, pend souvent et lèche les lèvres. **2e fois :** elle devient énorme et grotesque, entraînant une perte permanente de **-1 en Personnalité**. **3e fois :** la perte passe à **-2 en Personnalité** et la langue gêne la parole : le lanceur est difficile à comprendre (**test d'Intelligence DD 10** pour l’auditeur) et ses sorts échouent (résultat *perdu et échec*) sur un test d'incantation de **1 ou 2 naturel**. |
+| 3 | **Appétence pour les climats chauds.** **1re fois :** chaque mois passé loin d’un environnement chaud (tropical, désert), le lanceur doit réussir un **jet de Volonté DD 5**. En cas d’échec, il est pris d’une envie incontrôlable de se rendre au lieu chaud le plus proche pendant **1d7 jours**. **2e fois :** **DD 10** et séjour de **2d7 jours**. **3e fois :** il doit **s’installer définitivement** dans un tel lieu et ne s’en éloigne que **1d4 jours par mois**. |
+| 4 | **Haine du Serpent et du Crapaud.** Le lanceur déteste les créatures serpentines/batraciennes et leurs fidèles. **1re fois :** malus de **-2** à tous les jets sociaux contre ces créatures. **2e fois :** **jet de Volonté DD 8** requis pour ne pas les attaquer à vue. **3e fois :** **DD 14** ; même s’il se retient, il subit un malus de **-4** à toutes les interactions sociales avec elles. |
+| 5 | **Porteur de salmonelle.** Le lanceur devient porteur sain mais n'est pas immunisé. Sans hygiène stricte, lui et ses contacts prolongés doivent réussir un **jet de Vigueur DD 5** chaque semaine ou perdre **1d3 points d'Endurance temporaires**. **2e fois :** **DD 8** et perte de **1d4**. **3e fois :** **DD 12** et perte de **1d5**. |
+| 6 | **Queue reptilienne.** Le lanceur fait pousser une queue. **1re fois :** petit moignon. **2e fois :** une queue de **90 cm** (3’) de long (dissimulable sous des vêtements amples). **3e fois :** une queue de **1,80 m** (6’) ; impossible à cacher, imposant un malus de **-1 en Personnalité**. La queue peut améliorer la réaction initiale des races reptiliennes. |
 
 ---
 
-## Patron Spells — YILA-KERANUZ
+## Sorts du patron — YILA-KERANUZ
 
 Yila-Keranuz, le Roi-Lézard, accorde trois sorts à ses serviteurs :
 
-- **Niveau 1 :** *Lizard’s Tongue*  
-- **Niveau 2 :** *Gifts of the Lizard*  
-- **Niveau 3 :** *Shed the Lizard’s Skin*
+- **Niveau 1 : Langue de Lézard** (*Lizard’s Tongue*)
+- **Niveau 2 : Dons du Lézard** (*Gifts of the Lizard*)
+- **Niveau 3 : Muer comme le Lézard** (*Shed the Lizard’s Skin*)
 
 ---
 
-## Spellburn — YILA-KERANUZ
+## Brûlesort — YILA-KERANUZ
 
-Yila-Keranuz récompense ses serviteurs qui suivent sa croyance : **les patients triomphent** et finissent par **anéantir** leurs ennemis. Ceux qui se lient au Roi-Lézard doivent prouver leur capacité à attendre le moment parfait et, lorsque le coup tombe enfin, à détruire leurs ennemis par tous les moyens nécessaires.
-
-Quand le lanceur utilise **spellburn**, lancer **1d4** et consulter la table ci-dessous (ou s’en inspirer pour votre campagne).
+Yila-Keranuz récompense ses serviteurs patients. Quand le lanceur utilise un **brûlesort**, lancez **1d4** :
 
 | d4 | Résultat |
 |---:|---|
-| 1 | **Lézards spectraux.** Deux lézards spectraux aux yeux scintillants descendent le long des bras du lanceur. Au sommet de l’incantation, ils se jettent sur lui, mordant sa peau et déchirant sa chair. Les blessures phantasmiques infligent la perte de points de caractéristiques dépensés. |
-| 2 | **Don total.** Yila-Keranuz assiste le lanceur, mais exige qu’il se donne entièrement. Le lanceur doit spellburn **au moins 6 points** de ses caractéristiques physiques pour tenter un succès phénoménal. En retour, Yila-Keranuz **double** partiellement l’effort au ratio **2:3** : pour chaque **2 points** de spellburn, le lanceur gagne **+3** à son **spell check**. Si le spell check aboutit à la **destruction complète** des ennemis, le lanceur récupère immédiatement un nombre de points de dégâts de caractéristiques égal à **la moitié de son CL** (arrondi à l’inférieur). |
-| 3 | **Mue traumatique.** La peau du lanceur devient lentement écailleuse, puis se transforme en véritables écailles au moment où le sort s’achève. Aussitôt après, la peau écailleuse se déchire et se détache entièrement avant la fin du round. Le traumatisme se manifeste en perte de points de caractéristiques physiques. |
-| 4 | **Épreuve de patience.** Yila-Keranuz refuse d’aider à moins que le lanceur ne prouve sa patience. Le lanceur **ne peut pas** spellburn ce round ; mais s’il retarde volontairement son sort jusqu’au **prochain incrément de temps d’incantation** requis (action, round suivant, turn, heure, etc. selon le sort), il bénéficie d’un bonus **deux-pour-un** sur les points de caractéristiques dépensés via spellburn. Le sort est automatiquement retardé jusqu’au moment indiqué tant que le lanceur **ne bouge pas** et **ne subit pas de dégâts**. Si l’un des deux se produit, le sort échoue automatiquement et le lanceur a **50%** de chances de perdre le sort pour la journée comme s’il avait raté son spell check. |
+| 1 | **Lézards spectraux.** Deux lézards spectraux mordent et déchirent la chair du lanceur le long de ses bras, provoquant la perte de caractéristiques. |
+| 2 | **Don total.** Le lanceur doit brûler **au moins 6 points** de caractéristiques physiques. En retour, Yila-Keranuz lui accorde un bonus de **+3 au test d'incantation pour chaque tranche de 2 points** brûlés. S’il détruit complètement ses ennemis, il récupère immédiatement un nombre de points égal à **la moitié de son NI**. |
+| 3 | **Mue traumatique.** La peau du lanceur se transforme en écailles puis se déchire et se détache violemment, provoquant la perte de caractéristiques physiques. |
+| 4 | **Épreuve de patience.** Le lanceur ne peut pas brûler de points ce round-là. S’il retarde volontairement son sort jusqu’au **prochain incrément de temps** (round, tour, etc.), il bénéficie d'un bonus **2 pour 1** sur les points brûlés. L'effet est annulé s'il bouge ou subit des dégâts. |
 
 ---
 
-# Sorts de patron
+# Langue de Lézard (*Lizard’s Tongue*)
+**Niveau :** 1 (Yila-Keranuz)  
+**Portée :** Personnelle  
+**Durée :** 1 round ou plus  
+**Temps d'incantation :** 1 action  
+**Jet de sauvegarde :** Aucun  
 
-## Lizard’s Tongue  
-**Level :** 1 (Yila-Keranuz)  
-**Range :** Self  
-**Duration :** 1 round ou plus  
-**Casting time :** 1 action  
-**Save :** N/A  
+### Généralités
+La langue du lanceur devient bifide et sinueuse. Elle peut servir à attaquer, à lancer des sorts ou comme membre supplémentaire.
 
-### General
-La langue du lanceur se transforme en celle d’un lézard, bifide et frémissante. Cette langue sinueuse peut servir à attaquer, à lancer des sorts, ou comme appendice supplémentaire.
-
-### Manifestation (1d4)
-1) La bouche du lanceur s’élargit, sa langue se fend et pend grotesquement.  
-2) Un lézard scintillant, semi-transparent, aux écailles multicolores apparaît et rampe dans la bouche du lanceur.  
-3) Un halo de lézards de toutes les couleurs de l’arc-en-ciel apparaît brièvement autour de la tête du lanceur puis disparaît.  
-4) Le lanceur saisit sa langue et la tire hors de sa bouche, la modelant comme de l’argile.
-
-### Résultats du spell check
-
-| Spell check | Effet |
+| Test d'incantation | Effet |
 |---:|---|
-| 1 | Lost, failure, and patron taint. |
-| 2–11 | Lost. Failure. |
-| 12–13 | La langue se dédouble et atteint **2’**. Durée : **1 round**. Le lanceur peut l’utiliser comme un membre supplémentaire pour soulever des objets, manier des armes et effectuer des actions simples nécessitant deux “doigts” ou moins. Peut aussi servir d’arme de mêlée : **1d4 dégâts** sur un hit réussi. |
-| 14–17 | Comme ci-dessus, mais durée **1d3+CL rounds**. En arme : **+1** au jet d’attaque, **1d6 dégâts**. |
-| 18–19 | Comme ci-dessus, durée **1d5+CL rounds**. En arme : **+2** au jet d’attaque, **1d8 dégâts**. |
-| 20–23 | La langue se transforme pour **1d6+CL**, et chaque fourche se termine par un croc hypodermique rempli de poison. Une frappe réussie à **+2** inflige **1d8+1 dégâts** et impose un **Fortitude save DC 8+CL** ou **+1d4 dégâts**. |
-| 24–27 | Comme ci-dessus pour **1d7+CL**, crocs venimeux. Une frappe réussie à **+3** inflige **1d8+2 dégâts** et impose un **Fort save DC 10+CL** ou **+2d4 dégâts**. |
-| 28–29 | Durée **1d8+CL rounds**. La langue se divise pour former une **main écailleuse** rudimentaire à l’extrémité, capable de manier des armes avec le bonus d’attaque normal du lanceur. Permet aussi de “jeter” des sorts : le lanceur gagne un **1d14 action die** supplémentaire, utilisable **uniquement** pour invoquer la magie. |
-| 30–31 | Durée **1d10+CL rounds**. Main écailleuse : manie des armes avec le bonus d’attaque normal **+2**. Action die supplémentaire : **1d16**, uniquement pour invoquer la magie. |
-| 32+ | Durée **1d12+CL rounds**. Main écailleuse : chaque doigt est doté d’un croc hypodermique venimeux. Peut être utilisé comme membre supplémentaire pour manier une arme avec bonus d’attaque normal **+4**, ou comme arme empoisonnée : **1d10+3 dégâts** et **Fort save DC 12+CL** ou **+4d5 dégâts**. Action die supplémentaire : **1d20**, uniquement pour invoquer la magie. |
+| 1 | Perdu, échec et souillure du patron. |
+| 2–11 | Perdu. Échec. |
+| 12–13 | La langue se dédouble et atteint **60 cm** (2’). Durée : **1 round**. Peut soulever des objets ou servir d’arme de mêlée : **1d4 dégâts**. |
+| 14–17 | Comme ci-dessus, durée **1d3+NI rounds**. En tant qu'arme : **+1** au jet d’attaque, **1d6 dégâts**. |
+| 18–19 | Comme ci-dessus, durée **1d5+NI rounds**. En tant qu'arme : **+2** au jet d’attaque, **1d8 dégâts**. |
+| 20–23 | Durée **1d6+NI rounds**. Chaque fourche se termine par un croc venimeux. Une frappe réussie à **+2** inflige **1d8+1 dégâts** ; **jet de Vigueur DD 8+NI** ou **+1d4 dégâts** supplémentaires. |
+| 24–27 | Comme ci-dessus pendant **1d7+NI rounds**. Frappe à **+3** pour **1d8+2 dégâts** ; **jet de Vigueur DD 10+NI** ou **+2d4 dégâts**. |
+| 28–29 | Durée **1d8+NI rounds**. La langue forme une **main écailleuse** rudimentaire. Le lanceur gagne un **dé d’action d14** supplémentaire, utilisable **uniquement** pour lancer des sorts. |
+| 30–31 | Durée **1d10+NI rounds**. Main écailleuse : bonus de **+2** aux attaques. Dé d’action supplémentaire : **d16** pour la magie. |
+| 32+ | Durée **1d12+NI rounds**. Main écailleuse venimeuse : bonus de **+4** aux attaques ou **1d10+3 dégâts** (Vigueur DD 12+NI ou **+4d5**). Dé d’action supplémentaire : **d20** pour la magie. |
 
 ---
 
-## Gifts of the Lizard  
-**Level :** 2 (Yila-Keranuz)  
-**Range :** Self  
-**Duration :** Varies  
-**Casting time :** 1 action  
-**Save :** N/A  
+# Dons du Lézard (*Gifts of the Lizard*)
+**Niveau :** 2 (Yila-Keranuz)  
+**Portée :** Personnelle  
+**Durée :** Variable  
+**Temps d'incantation :** 1 action  
+**Jet de sauvegarde :** Aucun  
 
-### General
-Le sort accorde au lanceur un ensemble de qualités associées aux différentes espèces de lézards du monde connu. Chaque don est **cumulatif**, permettant un nombre impressionnant d’actions spéciales avec un haut spell check.
+### Généralités
+Le sort accorde un ensemble de qualités reptiliennes cumulatives.
 
-### Manifestation (1d4)
-1) Une nuée de minuscules scinques parcourt le corps du lanceur, laissant l’effet derrière eux quand ils disparaissent abruptement.  
-2) Une ombre reptilienne passe sur le corps du lanceur, lui laissant ses dons lorsqu’elle s’éloigne.  
-3) Des sifflements de lézards entourent le lanceur.  
-4) La peau du lanceur ondule et ses yeux deviennent reptiliens à mesure que les dons le transforment.
-
-### Résultats du spell check
-
-| Spell check | Effet |
+| Test d'incantation | Effet |
 |---:|---|
-| 1 | Lost, failure, and patron taint. |
-| 2–11 | Lost. Failure. |
-| 12–13 | Failure, but spell is not lost. |
-| 14–15 | **Grimper aux murs.** Le lanceur grimpe comme un lézard : **+20** aux jets liés à l’escalade (pas besoin d’être pieds/mains nus). Durée : **2d6+CL rounds**. |
-| 16–19 | Comme **14–15**, plus **écailles dures** : **+4 AC**. Durée (pour ces deux pouvoirs) : **1d3+CL turns**. |
-| 20–21 | Comme **16–19**, plus **camouflage caméléon** : **+20** aux tests de discrétion basés sur la vue. Affecte le corps et les possessions. Changement de coloration : **1 action**. Durée de tous les pouvoirs : **2d6+CL turns**. |
-| 22–25 | Comme **20–21**, plus **courir sur l’eau/liquides** sans couler : **-5’ speed**, sinon le liquide est traité comme sol. Doit rester en mouvement ; s’il s’arrête, il coule immédiatement. Durée de tous les pouvoirs : **1d4+CL heures**. |
-| 26–29 | Comme **22–25**, plus **crocs venimeux** : bite +4 melee (1d6 + mod Str + poison). La cible mordue doit réussir un **Fort save DC 12** ou subir **+2d6 dégâts** (moitié en cas de réussite). Durée de tous les pouvoirs : **2d6+CL heures**. |
-| 30–31 | Comme **26–29**, mais les écailles sont plus dures : bonus d’AC passe à **+8** et le lanceur gagne **+4 Fort save**. Durée : **3d6+CL heures**. |
-| 32–33 | Comme **30–31**, plus **résistance à la chaleur/aridité** : températures normales **≤ 120°F** sans effet ; survit longtemps sans eau. Subit **moitié** des dégâts des attaques magiques basées sur la chaleur (**un quart** en cas de save réussi). Durée : **24 heures**. |
-| 34+ | Comme **32–33**, plus **transformation en giant lizard** à volonté (1 action). Sous forme lézard : peut parler et lancer des sorts ; possessions absorbées et inutilisables. Gains : **+10 AC total** (incluant les bonus ci-dessus), **MV 40’** ou **swim 20’**, **+15 hp**, bite +6 melee (3d4 + mod Str + poison). Poison identique au résultat **26–29**. Peut alterner librement entre formes. Durée (tous pouvoirs) : **CL jours**. |
+| 1 | Perdu, échec et souillure du patron. |
+| 2–11 | Perdu. Échec. |
+| 12–13 | Échec, mais le sort n'est pas perdu. |
+| 14–15 | **Grimper aux murs.** Le lanceur grimpe comme un lézard : **+20** aux tests d'escalade. Durée : **2d6+NI rounds**. |
+| 16–19 | Comme ci-dessus, plus **écailles dures** : **+4 à la CA**. Durée : **1d3+NI tours**. |
+| 20–21 | Comme ci-dessus, plus **camouflage caméléon** : **+20** aux tests de discrétion. Changer de couleur prend **1 action**. Durée : **2d6+NI tours**. |
+| 22–25 | Comme ci-dessus, plus **marcher sur l'eau**. Malus de **-1,5 m à la vitesse**. Doit rester en mouvement. Durée : **1d4+NI heures**. |
+| 26–29 | Comme ci-dessus, plus **crocs venimeux** : morsure +4 mêlée (1d6 + mod. For + poison). La cible doit réussir un **jet de Vigueur DD 12** ou subir **+2d6 dégâts**. Durée : **2d6+NI heures**. |
+| 30–31 | Comme ci-dessus, mais bonus de **+8 à la CA** et **+4 au jet de Vigueur**. Durée : **3d6+NI heures**. |
+| 32–33 | Comme ci-dessus, plus **résistance à la chaleur** (jusqu'à **50°C** / 120°F). Subit demi-dégâts du feu magique. Durée : **24 heures**. |
+| 34+ | Comme ci-dessus, plus **transformation en lézard géant** à volonté. Peut parler et lancer des sorts. Gains : **+10 CA total**, **MV 12 m** ou nage 6 m, **+15 PV**, morsure +6 (3d4 + mod. For + poison). Durée : **NI jours**. |
 
 ---
 
-## Shed the Lizard’s Skin  
-**Level :** 3 (Yila-Keranuz)  
-**Range :** Self  
-**Duration :** Permanent  
-**Casting time :** 1 action  
-**Save :** N/A  
+# Muer comme le Lézard (*Shed the Lizard’s Skin*)
+**Niveau :** 3 (Yila-Keranuz)  
+**Portée :** Personnelle  
+**Durée :** Permanente  
+**Temps d'incantation :** 1 action  
+**Jet de sauvegarde :** Aucun  
 
-### General
-La peau du lanceur se détache, emportant blessures, maladies, poisons et afflictions similaires, au prix de son corps. Sur une incantation réussie, le lanceur perd automatiquement le nombre indiqué de points de caractéristiques, mais choisit quelle(s) caractéristique(s) physique(s) (Strength, Agility et/ou Stamina) sont affectées.
+### Généralités
+La peau du lanceur se détache, emportant blessures, maladies et poisons, au prix d'une perte de points de caractéristiques physiques (Force, Agilité ou Endurance).
 
-### Manifestation (1d4)
-1) La peau devient écailleuse et déchirée, tombant en larges rubans qui se dissolvent en fumée verdâtre.  
-2) De minuscules lézards apparaissent et grignotent les blessures, les transformant en peau intacte.  
-3) Un œuf cuirassé enveloppe le lanceur puis se brise, le laissant rajeuni.  
-4) Le lanceur arrache sa chair à mains nues pour révéler une peau immaculée dessous.
-
-### Résultats du spell check
-
-| Spell check | Effet |
+| Test d'incantation | Effet |
 |---:|---|
-| 1 | Lost, failure, and patron taint. |
-| 2–11 | Lost. Failure. |
-| 12–15 | Failure, but spell is not lost. |
-| 16–17 | La peau pèle : le lanceur récupère **1 hp**, mais perd **1 point** d’une caractéristique physique au choix. |
-| 18–21 | La peau pèle : le lanceur récupère **1 die of health**, mais perd **1 point** d’une caractéristique physique au choix. |
-| 22–23 | La peau pèle : le lanceur récupère **2 dice of health**, mais perd **2 points** répartis sur une ou plusieurs caractéristiques physiques au choix. |
-| 24–26 | La peau pèle : le lanceur récupère **3 dice of health** **ou** se guérit d’**une** maladie. Il perd **3 points** répartis sur une ou plusieurs caractéristiques physiques au choix. |
-| 27–31 | La peau pèle : le lanceur récupère **4 dice of health**, **neutralize** un poison **ou** guérit **une** maladie. Il perd **4 points** répartis sur une ou plusieurs caractéristiques physiques au choix. |
-| 32–33 | La peau pèle : le lanceur récupère **5 dice of health**, **neutralize** un poison **ou** guérit **une** maladie. Il perd **5 points** répartis sur une ou plusieurs caractéristiques physiques au choix. |
-| 34–35 | La peau pèle : le lanceur récupère **5 dice of health**, **neutralize** un poison, **et** guérit **une** maladie. Il perd **6 points** répartis sur une ou plusieurs caractéristiques physiques au choix. |
-| 36+ | La peau pèle : le lanceur est restauré à **full hit points**, guéri de **toutes** les maladies en cours, et tout poison est **neutralized**. Il perd **8 points** répartis sur une ou plusieurs caractéristiques physiques au choix. |
+| 1 | Perdu, échec et souillure du patron. |
+| 2–11 | Perdu. Échec. |
+| 12–15 | Échec, mais le sort n'est pas perdu. |
+| 16–17 | Récupère **1 PV**, mais perd **1 point** de caractéristique physique. |
+| 18–21 | Récupère **1 dé de vie** de soins, mais perd **1 point** de caractéristique. |
+| 22–23 | Récupère **2 dés de vie**, mais perd **2 points** de caractéristiques. |
+| 24–26 | Récupère **3 dés de vie** ou guérit **une** maladie. Perd **3 points**. |
+| 27–31 | Récupère **4 dés de vie**, neutralise un poison ou guérit **une** maladie. Perd **4 points**. |
+| 32–33 | Récupère **5 dés de vie**, neutralise un poison ou guérit **une** maladie. Perd **5 points**. |
+| 34–35 | Récupère **5 dés de vie**, neutralise un poison **et** guérit une maladie. Perd **6 points**. |
+| 36+ | Restauré à **tous ses PV**, guéri de **toutes** les maladies et poisons neutralisés. Perd **8 points**. |
