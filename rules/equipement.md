@@ -1,6 +1,10 @@
 ---
-title: Equipement
+title: Équipement
 ---
+
+# Équipement
+
+Vous trouverez ici les tables de matériel, armes et armures pour vos aventuriers.
 
 ## Table 3-1 : Armes
 
