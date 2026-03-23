@@ -1,6 +1,6 @@
 # PELAGIA
 
-![Pelagia](/img/god/pelagia.png)
+![Pelagia](/img/god/pelagia.webp)
 *Déesse de la Mer Chantante • La Reine de Corail • La Jeune Voyageuse*
 
 ---

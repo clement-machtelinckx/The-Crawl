@@ -1,3 +1,7 @@
+---
+title: Equipement
+---
+
 ## Table 3-1 : Armes
 
 | Arme | Dégâts | Portée | Coût |

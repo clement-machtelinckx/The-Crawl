@@ -1,6 +1,6 @@
 # SHUL
 
-![Shul](/img/god/shul.png)
+![Shul](/img/god/shul.webp)
 *L'Observateur du Ciel • Dieu des lunes, de la mesure, de la connaissance et de l'écriture • « Le Législateur » (selon certains)*
 
 ---

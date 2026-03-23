@@ -1,4 +1,8 @@
 # SERBOK
+
+![Serbok](/img/patreon/serbok.webp)
+*Serbok*
+
 ## L'Ombre Rampante (*The Slithering Shadow*)
 
 Si certains érudits reconnaissent le mot **« Serbok »** comme un terme archaïque signifiant « serpent », rares sont ceux qui savent qu’il s’agit aussi de l’héritage d’une entité retorse qui a traqué les mondes dans des époques révolues. À l’âge où les **hommes-serpents** (*serpent-men*) revendiquaient le monde, leurs sorciers écailleux rendaient hommage au plus puissant d’entre eux : **Serbok**, aussi nommé **« Celui aux Écailles Scintillantes »** (*He of the Scintillating Scales*) ou **« l'Ombre Rampante »** (*the Slithering Shadow*). C’est Serbok qui enseigna aux hommes-serpents la ruse, la trahison et la brutalité — régnant sur une centaine de royaumes moindres depuis l’ombre, par la magie, le chantage et la peur.

@@ -1,6 +1,6 @@
 # MALOTOCH
 
-![Malotoch](/img/god/malotoch.png)
+![Malotoch](/img/god/malotoch.webp)
 *Déesse Corbeau Charognard • Notre-Dame de la Dissolution • Maîtresse des Corbeaux • La Mère*
 
 ---

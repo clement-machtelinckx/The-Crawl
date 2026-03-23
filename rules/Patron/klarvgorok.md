@@ -1,5 +1,8 @@
 # KLARVGOROK 
 
+![Klavgorok](/img/patreon/klavgorok.webp)
+*Klavgorok*
+
 ## Le Regard Impitoyable (*The Merciless Gaze*)
 
 Klarvgorok ressemble à un immense œil bilobé, injecté de sang, perché (presque comiquement) sur une paire de pattes d’oiseau. Il ne cligne jamais et voit au-delà du temps et de l’espace. *(Réf. : DCC #80 Intrigue at The Court of Chaos, p. 5)*

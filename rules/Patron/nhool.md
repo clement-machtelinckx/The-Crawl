@@ -1,5 +1,8 @@
 # NHOOL
 
+
+![Nhool](/img/patreon/nhool.webp)
+
 Nhool est l’incarnation de la destruction guerrière. Chaque champ de bataille est sa salle de banquet, chaque forteresse brisée son trône. Il est le **Prince des Ruines**, assis au sommet des trônes renversés de deux mille royaumes. Il est aussi vieux que le carnage et aussi insensible que la hache d’un berserker. Partout où la paix et la prospérité se sont effondrées sous la conquête et la violence, Nhool a posé ses **trois mains gantelées**.
 
 Détenant sous son commandement un cinquième de la puissance de la **Cour du Chaos**, Nhool est souvent recherché comme patron par les serviteurs du Chaos qui se délectent de guerre et de destruction. Il a beaucoup à offrir à ceux qui ploient le genou devant le Prince des Ruines.

@@ -1,5 +1,8 @@
 # OBITU-QUE
 
+![Hobitu-que](/img/patreon/obitu-que.webp)
+*Hobitu-que*
+
 Le **Seigneur des Cinq** (*Lord of the Five*) est un diantrefosse et un général balor que des mutations expérimentales ont doté de **cinq yeux rouge rubis**. Sa forme physique fut vaincue par une lignée de nobles barbares, mais son esprit dominateur survit dans les régions de **fléau** et de **décomposition**, là où ses cérémonies sont accomplies. Il exige que ses sujets poursuivent son agenda cryptique de conquête. Il répond vite aux invocations… mais l’aide qu’il envoie peut **dominer** le lanceur autant qu’elle l’assiste.
 
 ---

@@ -1,5 +1,8 @@
 # DZZHALI
 
+![Dzzhali](/img/patreon/dzzhali.webp)
+*Dzzhali*
+
 *La Mariée Étranglée • Patronne de la vengeance froide, de la rage singulière, de la malice et de la trahison*
 
 Beaucoup de sages disent que **Dzzhali** (la *Mariée Étranglée*) fut jadis mortelle : assassinée par son époux lors de sa nuit de noces, elle aurait envoyé son âme dans l’Abîme plutôt que d’accepter le repos, puis serait sortie de la **Mer du Chaos** (*Sea of Chaos*) pour se hisser au pouvoir dans les **Cours du Chaos** (*Courts of Chaos*).

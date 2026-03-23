@@ -1,4 +1,9 @@
 # YILA-KERANUZ  
+
+
+![Yila-Keranuz](/img/patreon/yila-keranuz.webp)
+*Yila-Keranuz*
+
 ## Le Roi-Lézard (*The Lizard King*)
 
 Yila-Keranuz est ancien et patient. Il s’est éveillé aux Jours Primordiaux, rampant hors de la vase pour saisir le monde originel dans ses griffes écailleuses. En cette époque préhistorique, Yila-Keranuz disputa la domination à Serbok et Schaphigroadaz, ses fervents adorateurs combattant ceux du Serpent et du Crapaud. Quand la fin survint dans un flash de lumière brûlante et des nuées de cendres suffocantes, Yila-Keranuz se glissa en hibernation, attendant le temps où lui et ses enfants domineraient de nouveau le monde.

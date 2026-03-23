@@ -1,6 +1,6 @@
 # LE SEIGNEUR CACHÉ
 
-![The Hidden Lord](/img/god/the_hidden_lord.png)
+![The Hidden Lord](/img/god/the_hidden_lord.webp)
 *Dieu des Secrets • Celui qui porte le Manteau • Gardien du Savoir Interdit • Celui aux Noms Multiples*
 
 ---

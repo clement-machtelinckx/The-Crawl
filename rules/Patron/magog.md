@@ -1,5 +1,8 @@
 # MAGOG
 
+![Magog](/img/patreon/magog.webp)
+*Magog*
+
 Magog est une figure colossale dont la présence rayonne d’une puissance brute et purement physique. Contrairement à la plupart des créatures du Chaos, qui ont tendance à prendre une myriade de formes et de tailles, Magog apparaît toujours sous un aspect assez gargantuesque pour dominer ses pairs au sein de la **Horde du Chaos** (*Host of Chaos*). Magog observe le monde dans un silence vibrant d’une tension qui semble menacer de déchirer le tissu même de la réalité. On dit que, lors des rares occasions où Magog parle à voix haute, ses paroles ne sont que des grognements bestiaux ne se traduisant dans aucune langue connue.
 
 Ce mélange étrange de silence énigmatique et de paroles étrangères amplifie la présence terrifiante de Magog et rend en même temps ses motifs mystérieux. Il ressort de ses stratagèmes que Magog cherche à subjuguer toutes les espèces humanoïdes. Mais si un but plus vaste existe, il demeure voilé, tout comme sa forme l’est par la robe de bure ensanglantée à capuchon qu’il porte.

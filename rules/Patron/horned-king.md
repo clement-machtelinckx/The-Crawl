@@ -1,5 +1,8 @@
 # LE ROI CORNU
 
+![Le Roi Cornu](/img/patreon/roi-cornu.webp)
+*Le Roi Cornu*
+
 Le **Roi Cornu** (*Horned King*) règne sur le **Royaume Trente-Fois-Dixième** (*Thrice-Tenth Kingdom*), parcourant le multivers lors de ses **Chasses Sauvages** (*Wild Hunts*). Seigneur sombre et solennel, il ne se délecte que de la chasse, éprouvant sa prouesse martiale contre les proies les plus dangereuses. Patron des “anciennes voies”, il bénit les sorcières païennes, les chamans barbares et les guerriers qui exaltent la nature sauvage.
 
 ---

@@ -1,5 +1,8 @@
 # LA CARNIFEX
 
+![La Carnifex](/img/patreon/carnifex.webp)
+*La Carnifex*
+
 Quand les dieux tournent leurs affections vers le monde mortel, cela finit invariablement en tragédie. Le corps mortel est impropre à la divinité, et le regard d’un dieu est à la fois une bénédiction et une malédiction. Pourtant, certains dieux se délectent à jouer avec les vies des mortels — et peuvent, pour un temps, même en tomber amoureux.
 
 **La Carnifex** est l’une de ces déesses. Une fois par millénaire, la sainte des **bourreaux**, des **lépreux** et des **parias** choisit un mortel pour sien. Mais si l’élu fait des avances à un autre patron — ou pire, partage ses affections avec un autre mortel — la colère de la déesse rejetée devient sans limites.

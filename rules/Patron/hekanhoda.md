@@ -1,5 +1,8 @@
 # HEKANHODA
 
+![Hekanhoda](/img/patreon/hekanhoda.webp)
+*Hekanhoda*
+
 **Hekanhoda** : *Seigneur des Grotesques, Vicomte de la Corruption, Calife de l'Impur, Duc des Difformités, Avatar des Afflictions.*  
 Son corps porte toutes les difformités connues — et d’autres que nul n’a encore nommées. Il se drape de robes de cour qui, loin de cacher ses tares, les **exaltent**. Son faste n’est pas une simple posture : Hekanhoda possède l’une des lignées les plus prestigieuses de la **Horde du Chaos** (*Host of Chaos*). Il est le **fils bâtard** de la Reine des Fées Sombres (*Dark Fey Queen*), engendré par **Bobugbubilz** lui-même. Les *Annales* racontent que le Roi d'Elfland renversa la Reine des Fées Sombres ; Hekanhoda ne cache pas avoir juré un **serment de haine** contre le Régent à la Barbe Blanche (*White-Bearded Regent*).
 

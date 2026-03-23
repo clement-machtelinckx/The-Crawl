@@ -1,6 +1,6 @@
 # CADIXTAT
 
-![Cadixtat](/img/god/cadixtat.png)
+![Cadixtat](/img/god/cadixtat.webp)
 *Le Titan du Chaos, le Seigneur Brisé, le Chaos Tranché*
 
 ---

@@ -1,119 +1,69 @@
-# HALFELIN
+# Halfelin
 
-Vous êtes un petit homme avec un grand 
-appétit et une maison confortable, 
-dans laquelle vous prévoyez de 
-revenir dès que cette petite quête que vous 
-venez d’entreprendre sera terminée. Et 
-une fois rentré, vous comptez bien ne 
-plus jamais repartir. Les grandes races 
-peuvent bien courir après la gloire et 
-les richesses, mais tout ce à quoi vous 
-aspirez, vous, c’est un chaudron bien 
-rempli, un foyer chaleureux  et de 
-braves gens avec qui discuter à l’heure 
-du thé.
 
-Les halfelins habitent les campagnes. 
-Peu ambitieux, ils apprécient leur vie 
-calme et bien ordonnée. Leur petite 
-stature et leurs modestes objectifs leur 
-permettent d’échapper au regard des 
-puissants.	Ils	restent	entre	eux	et	ne	
-rentrent en contact avec les autres que 
-quand ils sont inopinément embarqués 
-dans les affaires des « grandes gens », 
-comme ils appellent les elfes, les nains et 
-les humains. Les halfelins se tournent vers 
-des professions artisanales simples : fermier, 
-jardinier, brasseur, etc. Les quelques rares 
-qui partent à l’aventure sont généralement 
-des commerçants ou des bons à rien qui se sont 
-éloignés d’une façon ou d’une autre de l’ordre 
-naturel de leur vie normale.
+![Halfelin](/img/class/halflin.webp)
+
+Vous êtes un petit homme avec un grand appétit et une maison confortable, dans laquelle vous prévoyez de revenir dès que cette quête sera terminée. Les halfelins attachent de l’importance à la communauté et à la famille. Bien que petits, ils sont incroyablement chanceux et leur présence dans un groupe d'aventuriers semble souvent détourner les coups du sort.
+
+---
+
+## Caractéristiques de classe
 
 | Élément | Détail |
 |---|---|
-| **Points de vie** | Un halfelin gagne **1d6** points de vie par niveau. Ils sont petits, mais chanceux. |
-| **Armes maîtrisées** | Les halfelins préfèrent combattre avec **une arme dans chaque main**. Ils manient : **arbalète, arc court, bâton, dague, épée courte, fronde, gourdin, hachette, javelot**. |
-| **Armures** | Les halfelins portent souvent une **armure** (c’est plus sûr, pas vrai ?). |
-| **Alignement** | Les halfelins attachent de l’importance à la **communauté**, la **famille** et la **fraternité**. Ils sont généralement **loyaux**, ou, à la limite, **neutres**. Les halfelins **chaotiques** et **mauvais** sont extrêmement rares. |
+| **Points de vie** | Un halfelin gagne **1d6** points de vie par niveau. |
+| **Armes maîtrisées** | Arbalète, arc court, bâton, dague, épée courte, fronde, gourdin, hachette, javelot. |
+| **Armures** | Les halfelins portent généralement une armure légère ou intermédiaire. |
+| **Lenteur** | Mouvement de **6 m** (au lieu de 9 m). |
+| **Particularité** | Expert en combat à deux armes et source de Chance pour ses alliés. |
+
+---
+
+## Progression
+
+| Niveau | Bonus d'Attaque | Dé Critique / Table | Dés d'Action | Réflexes | Vigueur | Volonté |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | +1 | 1d8 / III | 1d20 / 1d20 | +1 | +1 | +1 |
+| 2 | +2 | 1d8 / III | 1d20 / 1d20 | +1 | +1 | +1 |
+| 3 | +2 | 1d10 / III | 1d20 / 1d20 | +2 | +1 | +2 |
+| 4 | +3 | 1d10 / III | 1d20 / 1d20 | +2 | +2 | +2 |
+| 5 | +4 | 1d12 / III | 1d20 / 1d20 | +3 | +2 | +3 |
+
+---
+
+## Capacité principale : Porte-bonheur
+
+Les halfelins sont réputés chanceux et leur chance peut déteindre sur ceux qui les entourent.
+
+### Brûler sa Chance
+- **Bonus doublé :** Pour chaque point de Chance dépensé, le halfelin gagne **+2** à son jet (au lieu de +1).
+- **Aider un allié :** Un halfelin peut brûler sa Chance pour aider n’importe quel allié visible. L'allié reçoit le bonus de +2 à son propre jet (attaque, sauvegarde, incantation, compétence, etc.).
+
+### Récupération de la Chance
+Contrairement aux autres classes, le halfelin récupère sa Chance naturellement :
+- Chaque nuit de repos restaure un nombre de points de Chance égal à son **niveau**.
+- La Chance ne peut jamais dépasser sa valeur initiale.
+
+---
 
 ## Combat à deux armes
 
-Les halfelins sont des maîtres dans l’art 
-du combat à deux armes. Quand il utilise deux armes à une 
-main de même taille, un halfelin peut efficacement manipuler 
-ces armes au combat en utilisant un d16 pour attaquer au lieu 
-d’un d20 normal. Quand il combat à deux armes, un halfelin 
-effectue un coup critique automatique sur un 16 naturel. De 
-plus, le halfelin ne commet de maladresse que quand les deux 
-d16 ont un résultat de 1. 
+Les halfelins sont des maîtres du combat à deux armes (une arme à une main dans chaque main).
+- **Test d'attaque :** Au lieu d'un d20, le halfelin lance un **d16** pour chacune de ses deux armes.
+- **Coup Critique :** Réussit un critique automatique sur un **16 naturel** avec l'une ou l'autre arme.
+- **Maladresse :** Ne commet de maladresse que si les **deux** d16 indiquent un 1.
 
-**Infravision :** Les halfelins habitent des foyers agréables 
-creusés sous les collines. En conséquence, ils peuvent voir 
-dans le noir jusqu’à 9 m. 
+---
 
-**Petite taille :** Les halfelins mesurent de 60 cm à 1,20 m, et 
-les plus costauds d’entre eux ne pèsent guère plus de 35 kg. 
-Cette petite taille leur permet de se faufiler dans les passages 
-étroits et les ouvertures minuscules. 
+## Traits Raciaux
 
-**Lenteur :** Un halfelin a un mouvement de base de 6 m au lieu 
-de 9 m pour les humains.
+- **Infravision :** Peut voir dans le noir jusqu’à 9 m.
+- **Discrétion :** Bonus aux tests de Déplacement silencieux et Se cacher dans l’ombre.
+- **Petite taille :** Permet de se faufiler dans des passages étroits inaccessibles aux humains.
 
-**Discrétion :**	Les	halfelins	sont	assez	doués	pour	fureter.	Ils	
-reçoivent un bonus pour Déplacement silencieux 
-et pour Se cacher dans l’ombre en fonction de 
-leur niveau.
+---
 
-## Porte-bonheur
+## Langues
 
-Les halfelins sont réputés 
-chanceux.	Lorsqu’il	brûle	sa	Chance,	
-un halfelin obtient les bénéfices 
-supplémentaires suivants :
-
-D’abord, un halfelin double le bonus 
-obtenu	en	brûlant	sa	Chance.	Pour	
-chaque point de Chance dépensé, un 
-halfelin gagne +2 à son jet.
-
-Ensuite, contrairement aux autres 
-classes, un halfelin récupère la 
-Chance	brûlée	sous	certaines	
-conditions. La valeur de Chance 
-du halfelin se régénère chaque 
-nuit d’un nombre de points égal à 
-son niveau. Ce processus ne peut 
-pas porter sa valeur de Chance 
-au-delà de son maximum naturel. 
-(Ce processus fonctionne de façon 
-similaire à celui décrit pour la classe 
-de voleur.) 
-
-Enfin, la chance du halfelin peut 
-déteindre	sur	ceux	qui	l’entourent.	Il	
-peut	la	brûler	pour	aider	un	allié.	L’allié	
-en question doit être à proximité et visible 
-pour	le	halfelin.	Celui-ci	peut	brûler	sa	
-Chance pour le bénéfice de ses alliés en dehors 
-de	son	rang	d’initiative.	Il	perd	alors	des	points	
-de Chance et son allié récupère les bonus. Le bonus 
-de Chance ainsi généré peut s’appliquer à tous les 
-jets effectués par un allié : attaque, sauvegarde, incantation, 
-compétence de voleur, etc.
-
-Notez cependant que cette capacité ne s’applique que pour 
-un halfelin du groupe. Avoir un halfelin dans un groupe 
-porte chance, mais on n’a pas « plus de chance » avec plus 
-de halfelins. Si plusieurs halfelins accompagnent un groupe 
-d’aventuriers, seul l’un d’eux sert de porte-bonheur, et rien 
-ne peut changer ça même en réorganisant le groupe ou en le 
-divisant. La chance est capricieuse, régie par les dieux et les 
-maîtres de jeu. Les joueurs feraient mieux de ne pas tenter de 
-contourner l’esprit de cette règle.
-
-**Langues :** Au niveau 1, un halfelin maîtrise automatiquement le 
-commun, la langue des halfelins et une langue supplémentaire par 
-point	de	modificateur	d’Intelligence.
+- **Langues de base :** Commun, Halfelin.
+- **Langues supplémentaires :** Une langue supplémentaire par point de modificateur d'Intelligence.

@@ -1,6 +1,6 @@
 # JUSTICIA
 
-![Justicia](/img/god/justicia.png)
+![Justicia](/img/god/justicia.webp)
 *de la Veille sans Heaume • Droiture et Miséricorde*
 
 ---

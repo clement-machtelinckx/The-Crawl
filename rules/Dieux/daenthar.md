@@ -1,6 +1,6 @@
 # DAENTHAR
 
-![Daenthar](/img/god/daenthar.png)
+![Daenthar](/img/god/daenthar.webp)
 *Seigneur de la Forge Sanctifiée • Seigneur de la Montagne*
 
 ---

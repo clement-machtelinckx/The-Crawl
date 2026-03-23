@@ -2,318 +2,268 @@
 
 ## Objectif
 
-Ce document définit les conventions de travail, de rédaction et de maintenance pour ce projet **Docusaurus**. Il sert de référence unique pour toute contribution sur la documentation, avec une attention particulière portée aux fichiers Markdown et MDX afin de garantir une base homogène, lisible et durable.
+Ce document définit les règles de travail pour intervenir sur **The-Crawl**, un projet **Docusaurus 3** en **React 19** et **TypeScript**, orienté :
+- règles & lore
+- résumés de sessions
+- créateur de personnage
+- composants utilitaires liés au jeu
 
-L’objectif principal est de préserver les conventions déjà en place, d’éviter les écarts de style, et d’assurer une uniformité éditoriale et technique dans toute l’application.
+L'objectif est que Gemini agisse comme un contributeur **prudent, cohérent et utile**, en respectant l’architecture existante du projet avant toute préférence personnelle.
 
 ---
 
-## Principes directeurs
+## Contexte du projet
+
+Le projet est organisé autour de trois axes principaux :
+
+- `rules/` : documentation principale, règles, lore, contenu de référence
+- `sessions/` : résumés de sessions sous forme de blog Docusaurus
+- `src/` : logique front, composants React, styles, pages custom, données et helpers
+
+Le site est configuré avec :
+- **Docusaurus 3**
+- **React 19**
+- **TypeScript**
+- recherche locale avec `@easyops-cn/docusaurus-search-local`
+
+Le projet est en **français** et la locale active est `fr`.
+
+---
+
+## Structure à respecter
+
+### Répertoires principaux
+
+- `rules/` → contenu documentaire principal
+- `sessions/` → posts de sessions
+- `src/components/` → composants React réutilisables
+- `src/pages/` → pages custom Docusaurus
+- `src/data/` → données métier
+- `src/lib/` → helpers / logique utilitaire
+- `src/css/` → styles globaux
+- `docusaurus.config.ts` → configuration du site
+- `sidebars.ts` → structure de navigation docs
+
+### Rôle des sections
+
+#### `rules/`
+Contient les pages de règles, lore, classes, dieux, patrons, magie, critiques, maladresses, etc.
+
+Quand tu modifies ce dossier :
+- respecte l’arborescence existante
+- garde une structure de titres cohérente
+- n’invente pas une nouvelle organisation sans justification forte
+- privilégie la continuité éditoriale avec les autres pages voisines
+
+#### `sessions/`
+Correspond au blog Docusaurus utilisé comme journal de sessions.
+
+Quand tu modifies ce dossier :
+- respecte les conventions de nommage déjà visibles
+- conserve le format blog Docusaurus standard
+- garde un ton narratif cohérent avec les sessions existantes
+- ne transforme pas les sessions en documentation technique
+
+#### `src/`
+Contient le code applicatif.
+
+Quand tu modifies ce dossier :
+- respecte les patterns React/TypeScript déjà en place
+- évite les abstractions inutiles
+- privilégie la lisibilité
+- ne déplace pas massivement les fichiers sans raison claire
+
+---
+
+## Règles générales de travail
 
 ### 1. Préserver l’existant cohérent
-- Toujours respecter l’architecture, le ton, les conventions de nommage et les patterns déjà présents dans le projet.
-- Ne pas refactorer inutilement un contenu ou une structure qui est déjà cohérente avec le reste du site.
-- Toute amélioration doit s’intégrer naturellement dans l’existant.
+Toujours préférer les conventions déjà présentes dans le projet.
 
-### 2. Uniformité avant préférence personnelle
-- En cas d’hésitation entre plusieurs façons valides de faire, choisir celle qui est déjà utilisée dans le projet.
-- Éviter les variations de style entre deux pages qui traitent du même type de contenu.
-- Une convention imparfaite mais appliquée partout est préférable à plusieurs conventions concurrentes.
+- Si un pattern est déjà utilisé plusieurs fois, le réutiliser.
+- Ne pas introduire un nouveau style de code ou de rédaction sans besoin réel.
+- Ne pas refactorer “par goût personnel”.
 
-### 3. Clarté, stabilité, maintenabilité
-- Rédiger pour être lisible par un humain avant tout.
-- Produire des pages faciles à relire, comparer, corriger et maintenir.
-- Favoriser une structure prévisible d’une page à l’autre.
+### 2. Uniformité avant perfection
+Une convention imparfaite mais déjà largement appliquée vaut mieux qu’un mélange de plusieurs conventions.
 
-### 4. Fidélité sur le fond
-- Pour les contenus traduits ou adaptés, rester fidèle au sens de la source.
-- Ne pas introduire d’interprétation métier ou de règle non présente dans la source sans le signaler explicitement.
-- En cas d’incertitude, préférer une formulation neutre plutôt qu’une surinterprétation.
+- Conserver les noms, structures et organisations déjà dominants.
+- Harmoniser uniquement quand il existe une incohérence claire et réelle.
+- Éviter les changements larges qui n’apportent pas de gain concret.
 
----
+### 3. Changements ciblés
+Intervenir de façon minimale et précise.
 
-## Périmètre
+- Modifier seulement ce qui est nécessaire.
+- Éviter les changements hors périmètre.
+- Ne pas mélanger correction, refactor, réécriture éditoriale et amélioration UX dans une seule intervention.
 
-Ces règles s’appliquent en priorité à :
-- tous les fichiers `.md`
-- tous les fichiers `.mdx`
-- la documentation Docusaurus
-- les pages de règles, dieux, patrons, ressources, lore, aides de jeu
-- les métadonnées de pages et conventions de navigation
-
-Elles s’appliquent aussi, quand pertinent, aux fichiers de configuration et contenus éditoriaux liés à Docusaurus.
+### 4. Expliquer les impacts
+Avant une modification importante, identifier :
+- les fichiers concernés
+- les dépendances probables
+- les effets sur la navigation, le build, le contenu ou le rendu
 
 ---
 
-## Conventions globales du projet
+## Conventions Markdown / MDX
 
-### Langue
-- Le site doit rester cohérent dans la langue d’affichage de chaque section.
-- Une page en français doit être entièrement en français, sauf exceptions explicitement assumées.
-- Les noms propres peuvent rester dans leur langue d’origine si c’est un choix éditorial stable.
-- Les termes techniques ou de règles ne doivent pas être mélangés arbitrairement entre français et anglais.
+### Principes
+Le contenu Markdown doit rester :
+- clair
+- lisible
+- stable
+- cohérent avec le reste du site
 
-### Terminologie
-- Toujours utiliser la même traduction pour un même terme fonctionnel ou mécanique.
-- Interdire les variations non justifiées d’un fichier à l’autre.
-- Si un glossaire interne existe, il fait autorité.
-- Si aucun glossaire n’existe, toute nouvelle traduction doit chercher à prolonger la convention majoritaire déjà visible dans le projet.
+### À faire
+- Utiliser une hiérarchie de titres logique (`#`, `##`, `###`)
+- Garder des listes simples et lisibles
+- Préférer des formulations courtes et nettes
+- Conserver le français sauf demande explicite contraire
+- Respecter le ton du dossier concerné (`rules` ≠ `sessions`)
 
-### Style éditorial
-- Préférer un style simple, direct, lisible.
-- Éviter les tournures trop littérales issues d’une traduction brute.
-- Éviter les formulations ambiguës, surchargées ou artificielles.
-- Garder une cohérence de ton entre pages comparables.
+### À éviter
+- Réécrire une page entière si seule une section doit changer
+- Introduire du MDX avancé sans besoin réel
+- Mélanger plusieurs styles rédactionnels dans une même section
+- Renommer massivement des fichiers ou titres sans impact clairement justifié
+
+### Dans `rules/`
+- privilégier un ton de référence, explicatif, structuré
+- éviter le bavardage
+- produire des blocs facilement consultables pendant une partie
+- garder la cohérence des sections entre pages similaires
+
+### Dans `sessions/`
+- conserver un ton narratif ou compte-rendu
+- respecter la logique chronologique
+- ne pas convertir ces fichiers en fiches encyclopédiques
 
 ---
 
-## Standards Markdown / MDX
+## Conventions React / TypeScript
 
-### Règle générale
-Chaque fichier Markdown ou MDX doit être :
-- homogène avec les autres pages du même dossier
-- prévisible dans sa structure
-- proprement formaté
-- facile à diff et à relire
+### Objectif
+Le code front doit rester simple à relire et naturel dans un projet Docusaurus.
 
-### Encodage et caractères
-- Utiliser l’UTF-8.
-- Conserver correctement les accents français.
-- Éviter les caractères invisibles, guillemets incohérents ou espaces parasites.
-- Utiliser des apostrophes et ponctuations françaises de façon cohérente.
+### À faire
+- Respecter TypeScript strictement
+- Préférer des composants petits et lisibles
+- Réutiliser les helpers existants avant d’en créer de nouveaux
+- Garder les composants proches des usages du projet
+- Vérifier que le code reste compatible avec Docusaurus
 
-### Titres
-- Un seul `#` par page pour le titre principal.
-- Respecter une hiérarchie stricte des niveaux de titres, sans sauter de niveau inutilement.
-- Ne pas utiliser les titres uniquement pour créer un effet visuel.
-- Les titres d’une même famille de pages doivent suivre le même modèle.
+### À éviter
+- abstractions prématurées
+- hooks ou patterns complexes sans besoin réel
+- gros refactors de structure sans demande explicite
+- changements de style “framework-driven” qui cassent le ton du projet
 
-Exemple attendu :
+### Pages et composants
+Avant de modifier `src/pages` ou `src/components` :
+- vérifier si un composant similaire existe déjà
+- vérifier si la logique est spécifique à une page ou réutilisable
+- ne mutualiser que si le gain est évident
 
-```md
-# Cadixtat
+---
 
-## Description
+## Conventions Docusaurus
 
-## Clergé
+### Toujours prendre en compte
+Le projet repose sur Docusaurus avec :
+- docs montées depuis `rules/`
+- blog monté depuis `sessions/`
+- sidebar gérée par `sidebars.ts`
+- config centrale dans `docusaurus.config.ts`
 
-## Pouvoirs
+### Donc :
+- toute création de contenu doit respecter la logique Docusaurus
+- toute modification de structure doit vérifier son impact sur la navigation
+- ne pas casser les routes `/rules` et `/sessions`
+- ne pas introduire de config Docusaurus non nécessaire
+
+### Attention particulière
+- `onBrokenLinks: 'throw'` signifie que les liens cassés sont bloquants
+- toute création, suppression ou modification de page doit vérifier les liens internes
+- les changements de structure documentaire doivent rester compatibles avec la sidebar et le build
+
+---
+
+## Scripts et vérifications
+
+Avant de considérer un travail comme terminé, penser à vérifier au minimum ce qui est pertinent parmi :
+
+```bash
+npm run start
+npm run build
+npm run serve
+npm run typecheck
+npm run clear
 ```
 
-### Paragraphes
-- Laisser une ligne vide entre deux blocs logiques.
-- Éviter les paragraphes inutilement compacts si le contenu gagne à respirer.
-- Éviter aussi les retours à la ligne artificiels à l’intérieur d’un paragraphe simple.
-
-### Listes
-- Utiliser un style de liste unique dans une même page.
-- Préférer `-` pour les listes non ordonnées.
-- Garder une indentation stable.
-- Une liste doit être grammaticalement homogène.
-
-Exemple :
-
-```md
-- Premier point
-- Deuxième point
-- Troisième point
-```
-
-### Tableaux
-- Utiliser les tableaux Markdown uniquement lorsqu’ils améliorent réellement la lecture.
-- Harmoniser l’ordre des colonnes pour les tableaux similaires.
-- Garder les mêmes labels pour les mêmes concepts.
-- Éviter les tableaux partiellement traduits.
-- Vérifier l’alignement, la lisibilité et la cohérence des intitulés.
-
-### Mise en emphase
-- Utiliser `**gras**` pour faire ressortir une information structurante.
-- Utiliser `*italique*` avec parcimonie.
-- Ne pas multiplier les styles dans la même ligne.
-- Éviter de simuler un titre avec du gras seul.
-
-### Citations et blocs spéciaux
-- Utiliser les blockquotes uniquement pour de vraies citations, notes ou extraits.
-- Ne pas détourner ce format pour la mise en page générale.
-
-### Liens
-- Les liens internes doivent suivre les conventions Docusaurus en place dans le projet.
-- Vérifier que le texte du lien est explicite.
-- Éviter les libellés vagues comme `ici`, `voir`, `lien`.
-- Pour les ressources statiques, respecter l’arborescence réellement servie par le site.
-
-### Images
-- Les images doivent être référencées avec des chemins cohérents avec la structure du projet.
-- Toujours vérifier que le fichier existe réellement dans l’emplacement attendu.
-- Utiliser un texte alternatif pertinent quand le contexte le demande.
-
-### Frontmatter
-- Le frontmatter doit rester minimal, cohérent et conforme à l’usage déjà en place.
-- Ne pas ajouter de clés non utilisées par le projet.
-- Garder le même ordre de champs pour les pages comparables quand c’est possible.
-
-Exemple :
-
-```md
----
-title: Cadixtat
-sidebar_position: 1
----
-```
-
-### MDX
-- N’utiliser MDX que lorsqu’un besoin réel le justifie.
-- Si une page n’a besoin que de contenu éditorial, préférer `.md`.
-- Limiter l’usage de composants embarqués pour ne pas complexifier la maintenance.
-- Tout composant MDX utilisé doit rester lisible, justifié et cohérent avec l’existant.
+### Règle
+- si la modification touche au code TypeScript : vérifier `npm run typecheck`
+- si elle touche à la structure du site, aux pages, aux routes ou au contenu important : vérifier `npm run build`
+- ne pas prétendre qu’un changement est sûr sans avoir identifié les vérifications utiles
 
 ---
 
-## Uniformité des pages de règles
+## Manière d’analyser avant d’agir
 
-Les pages de règles, dieux, patrons ou aides de jeu doivent suivre une structure stable quand le type de contenu est similaire.
+Quand une tâche est demandée, suivre cet ordre :
 
-### Même type de page = même squelette
-Pour deux pages d’une même catégorie, viser autant que possible :
-- le même ordre de sections
-- le même niveau de détail
-- les mêmes conventions de titres
-- la même logique de traduction
-- la même façon de présenter les pouvoirs, capacités, tableaux et effets
-
-### Noms propres
-- Décider explicitement si un nom propre reste en VO ou est traduit.
-- Ne pas alterner les deux formes d’une page à l’autre sans raison.
-- Si nécessaire, utiliser la forme `Nom français (Nom VO)` au premier passage, puis conserver une seule forme ensuite.
-
-### Terminologie de règles
-- Tous les termes mécaniques doivent être uniformisés dans tout le dossier `rules`.
-- Un même concept ne doit pas apparaître sous plusieurs formes concurrentes.
-- Les intitulés de tables, d’effets et de capacités doivent suivre un modèle constant.
-
-### Traduction
-- Traduire le sens, pas seulement les mots.
-- Éviter les faux amis et les calques syntaxiques.
-- En cas de difficulté, privilégier la clarté de lecture pour un joueur francophone.
-- Si une notion reste volontairement en VO, cela doit être un choix éditorial conscient et réutilisé partout.
+1. comprendre le périmètre exact
+2. repérer les fichiers directement concernés
+3. vérifier les conventions déjà utilisées autour
+4. proposer un plan court si le changement touche plusieurs couches
+5. appliquer le changement minimal nécessaire
+6. signaler les risques, hypothèses ou zones d’incertitude
 
 ---
 
-## Nommage des fichiers et dossiers
+## Ce que Gemini doit éviter absolument
 
-### Fichiers
-- Utiliser des noms de fichiers cohérents avec la convention existante du projet.
-- Éviter de mélanger plusieurs styles de nommage dans un même dossier.
-- Préférer des noms stables, explicites et prévisibles.
-
-### Dossiers
-- Respecter l’organisation documentaire existante.
-- Ne pas créer de nouveaux sous-dossiers sans nécessité claire.
-- Grouper les contenus par logique fonctionnelle ou éditoriale, pas par préférence individuelle.
-
----
-
-## Qualité attendue lors d’une modification
-
-Toute modification de contenu doit être relue selon les axes suivants.
-
-### Vérification éditoriale
-- orthographe
-- grammaire
-- accents
-- ponctuation
-- cohérence du ton
-- suppression des restes anglais non voulus
-- fluidité des phrases
-
-### Vérification structurelle
-- hiérarchie des titres
-- espacement entre blocs
-- homogénéité des listes
-- cohérence des tableaux
-- liens valides
-- chemins d’assets corrects
-
-### Vérification de cohérence projet
-- conformité avec les pages similaires
-- respect du vocabulaire déjà en usage
-- respect des conventions Docusaurus déjà présentes
-- absence d’introduction de nouveaux patterns sans justification
+- faire un refactor global non demandé
+- renommer massivement des fichiers ou dossiers
+- réorganiser `rules/` ou `sessions/` sans demande claire
+- inventer des conventions qui n’existent pas dans le projet
+- transformer un simple ajout de contenu en chantier d’architecture
+- produire du code ou du contenu “théoriquement élégant” mais déconnecté de l’existant
+- modifier le ton éditorial des pages sans raison
+- supprimer des informations existantes sans le signaler
 
 ---
 
-## Règles de contribution
+## Format de réponse attendu pour les tâches importantes
 
-### Avant de modifier
-- Lire les fichiers voisins du même dossier.
-- Identifier le pattern dominant.
-- Réutiliser la structure déjà présente quand elle est cohérente.
+Pour toute tâche non triviale, Gemini doit idéalement répondre avec :
 
-### Pendant la modification
-- Limiter le changement au besoin réel.
-- Ne pas mélanger correction de fond et refonte stylistique globale sans nécessité.
-- Éviter les modifications massives non homogènes.
-
-### Après la modification
-- Relire intégralement la page.
-- Vérifier la cohérence avec au moins deux pages similaires.
-- Vérifier les liens, ressources et titres.
-- S’assurer que le rendu final reste propre dans Docusaurus.
+1. **Résumé rapide**
+2. **Fichiers concernés**
+3. **Plan d’action**
+4. **Changements proposés**
+5. **Risques / points à vérifier**
 
 ---
 
-## À éviter absolument
+## Priorités de décision
 
-- Mélanger français et anglais dans une même page sans raison claire.
-- Introduire plusieurs traductions concurrentes d’un même terme.
-- Utiliser une structure de titre différente pour des pages comparables.
-- Créer des tableaux dont les colonnes changent arbitrairement d’un fichier à l’autre.
-- Conserver des morceaux de texte source non traduits par oubli.
-- Modifier un nom propre, un titre ou un terme mécanique sans vérifier les autres pages du dossier.
-- Ajouter du MDX ou des composants React là où du Markdown simple suffit.
-- Corriger un fichier isolé en créant une nouvelle convention incompatible avec le reste.
+En cas d’hésitation, l’ordre de priorité est :
 
----
-
-## Check-list de validation pour chaque page Markdown
-
-Avant validation, vérifier :
-
-- [ ] La page est entièrement cohérente dans sa langue.
-- [ ] Le titre principal est unique et correct.
-- [ ] La hiérarchie des sections est logique.
-- [ ] Les listes et tableaux suivent le style du projet.
-- [ ] La terminologie est homogène avec les autres pages.
-- [ ] Les noms propres suivent la convention retenue.
-- [ ] Les liens et assets pointent vers des ressources existantes.
-- [ ] Le texte ne contient pas de restes anglais involontaires.
-- [ ] La mise en forme Markdown est propre et stable.
-- [ ] Le rendu Docusaurus attendu reste lisible.
-
----
-
-## Recommandation spécifique pour ce projet
-
-Étant donné la nature du site et les écarts observés sur certaines pages de règles, toute nouvelle contribution sur `rules/` doit inclure une vigilance renforcée sur :
-- la qualité du français
-- la cohérence de traduction
-- l’uniformité des tableaux et labels
-- la stabilité des conventions entre `Dieux`, `Patron`, `Ressources` et autres sections apparentées
-
-Quand une nouvelle page est créée à partir d’une source anglaise, il faut systématiquement faire deux passes :
-1. une passe de traduction fidèle au contenu source
-2. une passe d’harmonisation avec les conventions françaises déjà présentes sur le site
+1. ne pas casser le site
+2. respecter la structure existante
+3. rester cohérent avec le projet
+4. produire une solution simple
+5. améliorer seulement si cela reste local, clair et utile
 
 ---
 
 ## Résumé opérationnel
 
-Pour toute intervention sur ce projet Docusaurus :
-- respecter l’existant utile
-- viser l’uniformité sur tout le site
-- traiter les fichiers Markdown comme un périmètre critique
-- garder une structure stable et lisible
-- harmoniser systématiquement la langue, les titres, les tableaux, les termes de règles et les noms propres
-
-Ce fichier doit être considéré comme la référence de base pour toute contribution éditoriale sur le projet.
-
+Gemini doit se comporter comme un contributeur qui :
+- respecte **The-Crawl** comme projet Docusaurus en français
+- traite `rules/` comme une base documentaire stable
+- traite `sessions/` comme un journal de sessions
+- traite `src/` comme du code React/TypeScript à modifier avec prudence
+- évite les refactors gratuits
+- privilégie les changements ciblés, lisibles et cohérents avec l’existant

@@ -1,11 +1,10 @@
-# GUERRIER
+# Guerrier
+
+![Guerrier](/img/class/guerrier.webp)
 
 Vous êtes un chevalier couvert de mailles en mission pour le roi, un brigand cupide ne rendant de comptes à personne, un nomade sauvage vêtu d’une peau d’ours et à l’estomac vide ou un robuste garde engagé et équipé par un riche marchand.
 
-De toutes les classes, les guerriers ont :
-- le **meilleur bonus à l’attaque**,
-- le **plus de points de vie**,
-- et, potentiellement, le **plus grand nombre d’attaques**.
+De toutes les classes, les guerriers ont le meilleur bonus à l’attaque, le plus de points de vie et, potentiellement, le plus grand nombre d’attaques. Ils gagnent leur or grâce à leurs prouesses martiales, se balançant à travers des temples ou défonçant des portes de chêne pour traquer leurs ennemis.
 
 ---
 
@@ -13,69 +12,73 @@ De toutes les classes, les guerriers ont :
 
 | Élément | Détail |
 |---|---|
-| **Points de vie** | Un guerrier gagne **1d12** points de vie à chaque niveau. |
-| **Armes maîtrisées** | **Arbalète, arc court, arc long, armes d’hast, bâton, dague, épée à deux mains, épée courte, épée longue, fléchette, fléau, fronde, gourdin, hache, hache de bataille, javelot, lance, lance d’arçon, marteau de guerre, masse**. |
-| **Armures** | Les guerriers peuvent porter **toutes les armures** qu’ils peuvent s’offrir. |
+| **Points de vie** | Un guerrier gagne **1d12** points de vie par niveau. |
+| **Armes maîtrisées** | Arbalète, arc court, arc long, armes d’hast, bâton, dague, épée à deux mains, épée courte, épée longue, fléchette, fléau, fronde, gourdin, hache, hache de bataille, javelot, lance, lance d’arçon, marteau de guerre, masse. |
+| **Armures** | Les guerriers peuvent porter **toutes les armures** et utiliser des boucliers. |
 | **Initiative** | Un guerrier ajoute son **niveau de classe** à ses jets d’initiative. |
+| **Particularité** | Utilise un **Dé de Haut Fait** au lieu d'un bonus d'attaque fixe. |
 
 ---
 
-## Bonus à l’attaque : le dé de haut fait
+## Progression
 
-Contrairement aux autres classes, les guerriers ne bénéficient pas d’un bonus à l’attaque fixe à chaque niveau. Ils reçoivent à la place un modificateur aléatoire appelé **dé de haut fait**.
-
-- Au niveau 1 : **d3**, lancé **à chaque attaque**
-- Le résultat s’applique **à la fois** au **jet d’attaque** et aux **dégâts**
-- Le dé s’améliore avec le niveau :
-  - jusqu’au **d7** au niveau 5
-  - puis jusqu’au **d10+4** au niveau 10
-
-> Exemple : le dé peut conférer **+1** à la première attaque (et aux dégâts), puis **+3** à la suivante !
+| Niveau | Dé de Haut Fait | Dé Critique / Table | Dés d'Action | Réflexes | Vigueur | Volonté |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | d3 | 1d12 / III | 1d20 | +1 | +1 | +0 |
+| 2 | d4 | 1d14 / III | 1d20 | +1 | +1 | +0 |
+| 3 | d5 | 1d16 / IV | 1d20 | +1 | +2 | +1 |
+| 4 | d6 | 1d20 / IV | 1d20 | +2 | +2 | +1 |
+| 5 | d7 | 1d24 / V | 1d20 + 1d14 | +2 | +3 | +1 |
 
 ---
 
-## Haut fait d’armes
+## Capacité principale : Le Dé de Haut Fait
 
-Les guerriers gagnent leur or grâce à leurs prouesses martiales. Ils se balancent à travers des temples, accrochés aux chaînes des chandeliers, défoncent des portes de chêne bardées de fer et sautent par-dessus des gouffres à la poursuite de leurs ennemis.
+Contrairement aux autres classes, les guerriers ne bénéficient pas d’un bonus à l’attaque fixe. Ils reçoivent à la place un modificateur aléatoire appelé **Dé de Haut Fait**.
 
-Au cœur de la mêlée, leurs **hauts faits d’armes** font pencher la balance :
-- une charge enfiévrée qui repousse les lignes ennemies,
-- un coup de fléau qui s’enroule sur le bras d’un homme-bête,
-- une dague bien placée, plantée dans la visière du chevalier ennemi.
+- Le dé est lancé **à chaque attaque** (jet d'attaque et dégâts).
+- Le résultat s’ajoute au **jet d’attaque** ET aux **dégâts**.
+- Le type de dé s'améliore avec le niveau (voir tableau de progression).
+
+> **Exemple :** Au niveau 1 (d3), le dé peut conférer +1 à une attaque, puis +3 à la suivante.
+
+---
+
+## Haut Fait d’Armes
+
+Le guerrier peut accomplir des manœuvres spectaculaires en plus de ses dégâts normaux.
 
 ### Déclarer un haut fait
-Un guerrier peut annoncer un haut fait d’armes (ou simplement **un haut fait**) **avant n’importe quel jet d’attaque**.
+Le joueur annonce un haut fait d’armes (désarmer, repousser, renverser, aveugler, etc.) **avant** son jet d’attaque. C’est une action intégrée au mouvement de combat.
 
-C’est une manœuvre de combat spectaculaire intégrée à l’action en cours, par exemple :
-- **désarmer** un ennemi,
-- le **déséquilibrer**,
-- le **repousser** pour dégager l’accès à un couloir.
+### Réussite du haut fait
+Le haut fait est réussi si :
+1. Le jet d’attaque **touche** la cible (total ≥ CA).
+2. Le résultat naturel du **Dé de Haut Fait** est de **3 ou plus**.
 
-Le haut fait n’augmente pas forcément les dégâts, mais peut provoquer des effets comme :
-- repousser, faire trébucher, enchevêtrer, aveugler, etc.
-
-### Réussite / Échec d’un haut fait
-Le **dé de haut fait** détermine les chances de réussir :
-
-- Si le dé de haut fait indique **3 ou plus** **et** que l’attaque **porte** (total ≥ CA de la cible) : ✅ **haut fait réussi**
-- Si le dé de haut fait indique **2 ou moins**, **ou** que l’attaque **échoue** : ❌ **haut fait échoué**
+Si ces deux conditions sont remplies, l'attaque inflige ses dégâts normaux ET l'effet du haut fait se produit. Si l'attaque touche mais que le dé de haut fait est de 1 ou 2, l'attaque blesse normalement mais la manœuvre échoue.
 
 ---
 
-## Coups critiques
+## Combat
 
-Le guerrier est celui qui a le plus de chances d’effectuer un **coup critique** au cours d’un combat, et qui obtient les effets les plus destructeurs quand cela se produit.
-
-- Il utilise le **dé critique le plus élevé**
-- Il tire sur les **tables de critique** les plus dévastatrices
-- Il a aussi plus de chances de critiquer : du **niveau 1 au niveau 4**, sur un jet naturel de **19–20**
+### Coups Critiques
+Le guerrier est le maître des coups critiques.
+- **Seuil étendu :** Du niveau 1 à 4, le guerrier obtient un critique sur un **19 ou 20** naturel. Au niveau 5, il critique sur **18, 19 ou 20**.
+- **Effets dévastateurs :** Il utilise les dés de critique les plus élevés et les tables les plus sanglantes (Table III, IV ou V selon le niveau).
 
 ---
 
-## Chance : arme favorite
+## Chance : Arme Favorite
 
-Au niveau 1, le **modificateur de Chance** du guerrier s’applique aux jets d’attaque effectués avec **un type d’arme bien spécifique**.
+Au niveau 1, le guerrier choisit un type d'arme spécifique (ex: *épée longue*, *hache de bataille*, *arc long*). 
 
-- Ce type d’arme est **choisi au niveau 1**
-- Ni l’arme, ni le modificateur **ne changent** durant la carrière du guerrier
-- Le type doit être **précis** : *épée longue* ou *épée courte*, pas « les épées » en général
+- Son **modificateur de Chance** s'applique à tous les jets d'attaque avec cette arme.
+- Ce bonus est **fixé au niveau 1** : il ne change pas même si la caractéristique de Chance du personnage évolue plus tard.
+
+---
+
+## Langues
+
+- **Langues de base :** Commun.
+- **Langues supplémentaires :** Un guerrier connaît une langue supplémentaire par point de modificateur d'Intelligence.
