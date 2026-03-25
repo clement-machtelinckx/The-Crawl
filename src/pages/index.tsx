@@ -7,6 +7,7 @@ import DccDiceRoller from '../components/dcc/DccDiceRoller';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import InstallPwaButton from '../components/PwaButonInstal';
 
 
 
@@ -17,6 +18,11 @@ export default function Home(): ReactNode {
       <main className="container">
         <h1>{siteConfig.title}</h1>
         <p>{siteConfig.tagline}</p>
+        <br />
+        <p>cliquer sur le bouton pour installer l’application sur votre appareil</p>
+        <br />
+        <InstallPwaButton />
+        <br />
         <Link to="/sessions">Aller au résumé des sessions</Link>
         <br />
         <Link to="/rules/Regles-Dcc/combat">Aller aux règles</Link>
