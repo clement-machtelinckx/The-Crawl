@@ -11,7 +11,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://the-crawl.vercel.app/',
   baseUrl: '/',
 
   organizationName: 'clement-machtelinckx',
@@ -55,6 +55,24 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
+  plugins: [
+  [
+    '@docusaurus/plugin-pwa',
+    {
+      debug: false,
+      offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString'],
+      pwaHead: [
+        { tagName: 'link', rel: 'icon', href: '/img/icon-192.png' },
+        { tagName: 'link', rel: 'manifest', href: '/manifest.webmanifest' },
+        { tagName: 'meta', name: 'theme-color', content: '#111827' },
+        { tagName: 'meta', name: 'apple-mobile-web-app-capable', content: 'yes' },
+        { tagName: 'meta', name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+        { tagName: 'link', rel: 'apple-touch-icon', href: '/img/icon-192.png' },
+      ],
+    },
+  ],
+],
 
   themes: [
     [
