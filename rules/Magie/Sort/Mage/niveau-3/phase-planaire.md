@@ -1,4 +1,4 @@
-# Pas planaire
+# Phase planaire
 **Niveau :** 3  
 **Portée :** Potentiellement infinie  
 **Durée :** Permanente  

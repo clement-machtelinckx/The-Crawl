@@ -1,4 +1,4 @@
-# Lenteur
+# Ralentissement
 **Niveau :** 3  
 **Portée :** 6 m + 3 m par niveau d'incantateur  
 **Durée :** Variable  
@@ -6,7 +6,7 @@
 **Temps d’incantation :** 1 round  
 
 ## Général
-L'incantateur entrave la capacité d'une créature à se déplacer à sa vitesse normale. Ce sort peut également être utilisé pour annuler célérité.
+L'incantateur entrave la capacité d'une créature à se déplacer à sa vitesse normale. Ce sort peut également être utilisé pour annuler hâte.
 
 ## Revers
 Lancer 1d4 : (1) l'incantateur ralentit le temps pour lui-même (rate sa prochaine activation) ; (2) ralentit le temps pour lui et 1d4 alliés à 6 m ; (3) l'incantateur vieillit de 1d10+10 ans ; (4) accorde lenteur à un insecte proche.

@@ -1,4 +1,4 @@
-# Chien occulte
+# Limier occulte
 **Niveau :** 3  
 **Portée :** 9 m  
 **Durée :** Variable  

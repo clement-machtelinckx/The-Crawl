@@ -1,4 +1,4 @@
-# Parler avec les morts
+# Entretien avec les morts
 
 **Niveau :** 3
 **Portée :** Personnelle

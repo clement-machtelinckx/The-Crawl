@@ -1,4 +1,4 @@
-# Vaporisation colorée
+# Couleurs dansantes
 **Niveau :** 1  
 **Portée :** 12 m  
 **Durée :** Instantanée  
@@ -9,7 +9,7 @@
 L'incantateur invoque un jet de couleurs brillantes qui aveuglent et éblouissent la cible.
 
 ## Revers
-Lancer 1d3 : (1) l'énergie colorée revient sur l'incantateur, l'aveuglant pendant 1d4 rounds ; (2) la vaporisation colorée est retardée de manière incontrôlable ; le juge lance secrètement un dé du type de son choix ; le sort est déchargé ce nombre de rounds plus tard avec un nouveau résultat de test d'incantation relancé ; (3) les vaporisations colorées partent dans différentes directions aléatoires plutôt que de former un arc-en-ciel cohérent ; lancer 1d12 pour la direction [cadran d'horloge avec 12h devant l'incantateur] ; 1d4+1 teintes colorées jaillissent, chacune dans une direction différente, provoquant la cécité [1d4 rounds, sauvegarde de Volonté DD 12 pour résister] à la première créature dans cette direction, qu'elle soit amie ou ennemie.
+Lancer 1d3 : (1) l'énergie colorée revient sur l'incantateur, l'aveuglant pendant 1d4 rounds ; (2) la couleurs dansantes est retardée de manière incontrôlable ; le juge lance secrètement un dé du type de son choix ; le sort est déchargé ce nombre de rounds plus tard avec un nouveau résultat de test d'incantation relancé ; (3) les vaporisations colorées partent dans différentes directions aléatoires plutôt que de former un arc-en-ciel cohérent ; lancer 1d12 pour la direction [cadran d'horloge avec 12h devant l'incantateur] ; 1d4+1 teintes colorées jaillissent, chacune dans une direction différente, provoquant la cécité [1d4 rounds, sauvegarde de Volonté DD 12 pour résister] à la première créature dans cette direction, qu'elle soit amie ou ennemie.
 
 ## Corruption
 Lancer 1d8, en notant le tableau de changement de couleur supplémentaire à la fin de celui-ci : (1) la peau de l'incantateur change de façon permanente pour adopter un motif arc-en-ciel ; (2) les yeux de l'incantateur changent chacun pour une nouvelle couleur différente ; (3) les cheveux de l'incantateur changent de couleur ; (4) la peau de l'incantateur change de couleur ; (5-7) corruption mineure ; (8) corruption majeure. Lancer un autre 1d10 pour les changements de couleur : [1] bleu ; [2] vert ; [3] jaune ; [4] orange ; [5] rouge ; [6] violet ; [7] argent ; [8] or ; [9] blanc ; [10] noir.

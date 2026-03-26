@@ -1,4 +1,4 @@
-# Assistance ordonnée de Lokerimon
+# Aide méthodique de Lokerimon
 **Niveau :** 4  
 **Portée :** 15 m  
 **Durée :** Variable  

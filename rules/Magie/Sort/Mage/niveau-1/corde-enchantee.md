@@ -1,4 +1,4 @@
-# Travail de la corde
+# Corde enchantée
 **Niveau :** 1  
 **Portée :** 9 m ou plus  
 **Durée :** Variable  
@@ -6,7 +6,7 @@
 **Temps d’incantation :** 1 round  
 
 ## Général
-L'incantateur invoque une corde de nulle part et lui ordonne d'obéir à ses ordres. La corde peut être utilisée pour emmêler des ennemis, escalader des murs, traverser des ravins, soulever des amis ou des ennemis, se donner une forme d'écriture ou faire d'autres choses étonnantes. Contrairement aux autres sorts, le lancement de travail de la corde permet à l'incantateur de choisir n'importe quel résultat égal ou inférieur au test d'incantation.
+L'incantateur invoque une corde de nulle part et lui ordonne d'obéir à ses ordres. La corde peut être utilisée pour emmêler des ennemis, escalader des murs, traverser des ravins, soulever des amis ou des ennemis, se donner une forme d'écriture ou faire d'autres choses étonnantes. Contrairement aux autres sorts, le lancement de corde enchantée permet à l'incantateur de choisir n'importe quel résultat égal ou inférieur au test d'incantation.
 
 ## Revers
 Lancer 1d4 : (1) pendant les 1d4 prochaines heures, l'incantateur repousse les cordes comme par un champ de force invisible ; (2) la corde est invoquée pour ligoter immédiatement l'incantateur solidement [test d'Agi ou de For DD 15 pour s'échapper] ; (3) l'incantateur et les 1d4 alliés les plus proches sont tous attirés ensemble par une corde invoquée magiquement qui procède à les lier dans un nœud complexe ; (4) 1d4 cordes animées apparaissent et commencent à attaquer toutes les créatures proches ! [CA 8, 5 PV chacune, atk fouet +3 mêlée [dmg 1d3]].

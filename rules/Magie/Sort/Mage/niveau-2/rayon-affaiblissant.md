@@ -1,4 +1,4 @@
-# Rayon d'affaiblissement
+# Rayon affaiblissant
 **Niveau :** 2  
 **Portée :** 45 m  
 **Durée :** Instantanée  

@@ -1,4 +1,4 @@
-# Détection de l'invisible
+# Voir l’invisible
 **Niveau :** 2  
 **Portée :** 15 m ou plus  
 **Durée :** 1 tour ou plus  

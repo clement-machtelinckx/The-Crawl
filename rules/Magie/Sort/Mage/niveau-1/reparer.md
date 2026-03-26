@@ -1,4 +1,4 @@
-# Réparation
+# Réparer
 **Niveau :** 1  
 **Portée :** 1,5 m  
 **Durée :** Variable  

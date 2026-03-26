@@ -1,4 +1,4 @@
-# Célérité
+# Hâte
 **Niveau :** 3  
 **Portée :** Soi-même ou rayon de 6 m autour de l'incantateur  
 **Durée :** 1d4 rounds ou plus  
@@ -6,10 +6,10 @@
 **Temps d’incantation :** 2 rounds  
 
 ## Général
-L'incantateur gagne une rapidité de mouvement. Ses actions sont amplifiées en vitesse de sorte qu'il peut bouger deux fois plus vite qu'un homme normal ou plus ! Cependant, les créatures affectées vieillissent à un rythme anormal. Les créatures accélérées doublent leur vitesse de mouvement et gagnent des dés d'action supplémentaires. Ce sort peut être lancé pour annuler lenteur.
+L'incantateur gagne une rapidité de mouvement. Ses actions sont amplifiées en vitesse de sorte qu'il peut bouger deux fois plus vite qu'un homme normal ou plus ! Cependant, les créatures affectées vieillissent à un rythme anormal. Les créatures accélérées doublent leur vitesse de mouvement et gagnent des dés d'action supplémentaires. Ce sort peut être lancé pour annuler ralentissement.
 
 ## Revers
-Lancer 1d4 : (1) l'incantateur ralentit le temps pour lui-même (rate sa prochaine activation) ; (2) ralentit le temps pour lui et 1d4 alliés à 6 m ; (3) l'incantateur vieillit de 1d10+10 ans ; (4) accorde célérité à un insecte proche.
+Lancer 1d4 : (1) l'incantateur ralentit le temps pour lui-même (rate sa prochaine activation) ; (2) ralentit le temps pour lui et 1d4 alliés à 6 m ; (3) l'incantateur vieillit de 1d10+10 ans ; (4) accorde hâte à un insecte proche.
 
 ## Corruption
 Lancer 1d8 : (1) vieillit de 2d10+10 ans ; (2) vieillit l'incantateur et tous à 6 m de 2d10+10 ans ; (3) acquiert des tics et des mouvements erratiques ; (4) nerveux et à cran (-1 aux actions nécessitant de la concentration) ; (5-6) majeure ; (7-8) plus grande.

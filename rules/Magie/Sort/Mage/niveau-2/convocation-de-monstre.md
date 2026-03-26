@@ -1,4 +1,4 @@
-# Invocation de monstre
+# Convocation de monstre
 **Niveau :** 2  
 **Portée :** 6 m  
 **Durée :** Variable  

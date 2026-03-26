@@ -1,4 +1,4 @@
-# Éclair du ciel
+# Éclair divin
 
 **Niveau :** 3
 **Portée :** 30 m

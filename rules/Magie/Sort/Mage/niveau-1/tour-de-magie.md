@@ -1,4 +1,4 @@
-# Sort mineur
+# Tour de magie
 **Niveau :** 1  
 **Portée :** Variable  
 **Durée :** Variable  
@@ -6,7 +6,7 @@
 **Temps d’incantation :** 1 action  
 
 ## Général
-À mesure que les mages apprennent leur métier, ils pratiquent de nombreuses incantations mineures qui produisent des effets visuels ou auditifs simples. Ce sort peut être utilisé pour appliquer de l'énergie magique à de nombreuses tâches mineures. Avec les risques inhérents au lancement de sorts, peu de mages sont assez audacieux pour invoquer fréquemment des sorts mineurs, mais leur disponibilité est parfois précieuse. Le sort de sort mineur peut être utilisé pour promulguer tout effet que l'incantateur prononce lors de l'incantation, dans les limites du sort.
+À mesure que les mages apprennent leur métier, ils pratiquent de nombreuses incantations mineures qui produisent des effets visuels ou auditifs simples. Ce sort peut être utilisé pour appliquer de l'énergie magique à de nombreuses tâches mineures. Avec les risques inhérents au lancement de sorts, peu de mages sont assez audacieux pour invoquer fréquemment des sorts mineurs, mais leur disponibilité est parfois précieuse. Le sort de tour de magie peut être utilisé pour promulguer tout effet que l'incantateur prononce lors de l'incantation, dans les limites du sort.
 
 ## Manifestation
 Variable.

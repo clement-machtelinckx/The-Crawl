@@ -1,4 +1,4 @@
-# Invocation de démon
+# Convocation de démon
 **Niveau :** 3  
 **Portée :** 6 m  
 **Durée :** Variable  
