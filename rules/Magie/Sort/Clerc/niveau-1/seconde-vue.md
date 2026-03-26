@@ -6,8 +6,19 @@
 **Jet de sauvegarde :** Aucun
 **Temps d’incantation :** 1 tour
 
-## Général
+*Le clerc augure l’avenir pour obtenir un aperçu des conséquences de ses actions.*
+
+## Effet
 Par le sortilège, l’haruspicie ou toute autre méthode appropriée au clerc, celui-ci augure l’avenir. Ce faisant, il obtient un aperçu des conséquences qu’entraîneront ses actions.
+
+## Limites / précisions
+Le temps d’incantation (1 tour) reflète la durée nécessaire pour mener l’augure et interpréter les signes.
+
+## Revers
+Sans objet.
+
+## Défaveur
+En cas d'échec critique (1 naturel), le clerc subit une **Défaveur** (voir les règles de magie).
 
 ## Résultats du test d’incantation
 

@@ -3,22 +3,37 @@
 **Portée :** Soi-même  
 **Durée :** Permanente  
 **Jet de sauvegarde :** N/A  
-**Temps d’incantation :** 1 semaine par niveau d'incantateur  
+**Temps d’incantation :** 1 semaine par NI  
 
-## Général
-L'incantateur fabrique un bâton et l'imprègne d'énergies magiques liées à son âme. Un mage ne peut créer qu'un seul bâton à la fois. Le coût matériel est de 1000 po par niveau d'incantateur, plus un minimum de 2 points de sacrifice magique par niveau. Un point de ce sacrifice ne guérit jamais. L'efficacité du bâton augmente avec le niveau d'incantateur d'origine (celui lors de la création).
+*L'incantateur forge et enchante son bâton pour en faire un réceptacle de sa propre âme.*
+
+## Effet
+Crée un objet magique puissant lié à l'essence du mage. Le bâton sert d'arme, de source de lumière et de catalyseur pour d'autres sorts.
+
+## Limites / précisions
+- **Unique :** Un mage ne peut posséder qu'un seul bâton à la fois.
+- **Coût :** Matériaux (**1000 po / NI**) et sacrifice magique (**spellburn**) de **2 pts / NI**.
+- **Sacrifice permanent :** Un point du sacrifice magique consenti lors de la création ne guérit jamais.
+- **Lien vital :** Si le bâton est détruit, le mage subit des dégâts massifs (voir règles de lien d'âme).
+
+## Revers
+Non applicable directement (voir échec critique).
+
+## Corruption
+Lancer 1 naturel : Échec, perdu, corruption et marque du patron.
+
+---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Échec, perdu, corruption et marque du patron ! |
-| 2-11 | Perdu. Échec. |
-| 12-13 | Échec, mais le sort n'est pas perdu. |
-| 14-15 | Bâton simple lié à l'âme (dégâts si détruit). Arme magique +1 (1d4+1 + Niv + For). Émet de la lumière sur 6 m. |
-| 16-19 | Comme ci-dessus, plus bonus de +1 (+2 si Niv 4+) aux tests d'un autre sort choisi. |
-| 20-21 | Comme ci-dessus, plus bonus de +1 (+2 si Niv 4+) aux jets de sauvegarde. |
-| 22-25 | Bonus pour deux sorts choisis, et bonus aux sauvegardes. |
-| 26-29 | Bonus pour deux sorts, plus bonus aux sauvegardes et à la CA. |
-| 30-31 | Bonus pour trois sorts, plus bonus aux sauvegardes et à la CA. |
-| 32-33 | Comme ci-dessus, plus capacité d'emmagasiner des charges pour les trois sorts choisis. |
-| 34+ | Maîtrise totale du bâton avec charges et bonus accrus. |
+| 1-11 | Perdu. Échec. |
+| 12-13 | Échec simple (sort non perdu). |
+| 14-15 | **Bâton lié**. Arme **+1** (**1d4+1 + NI + For**). Lumière sur **6 m**. |
+| 16-19 | Idem, plus bonus **+1** (**+2** si NI 4+) aux tests d'un autre sort choisi. |
+| 20-21 | Idem, plus bonus **+1** (**+2** si NI 4+) aux **jets de sauvegarde**. |
+| 22-25 | Bonus pour **deux sorts** choisis et bonus aux sauvegardes. |
+| 26-29 | Bonus pour deux sorts, aux sauvegardes et à la **CA**. |
+| 30-31 | Bonus pour **trois sorts**, aux sauvegardes et à la CA. |
+| 32-33 | Idem, peut emmagasiner des **charges** pour les trois sorts. |
+| 34+ | **Maîtrise totale**. Charges et bonus accrus. |

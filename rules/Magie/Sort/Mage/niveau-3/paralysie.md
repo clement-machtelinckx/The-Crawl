@@ -5,19 +5,32 @@
 **Jet de sauvegarde :** Volonté vs test d'incantation  
 **Temps d’incantation :** 1 action  
 
-## Général
-L'incantateur paralyse ses ennemis, les empêchant de bouger ou d'agir. Les mages subissent une pénalité de -2 à leurs tests pour ce sort.
+*L'incantateur fige ses ennemis par un simple toucher ou une injonction mystique.*
+
+## Effet
+Neutralise une ou plusieurs cibles en les rendant incapables de tout mouvement. L'effet peut être porté par les armes du mage ou projeté par la voix.
+
+## Limites / précisions
+- **Difficulté :** Le mage subit un malus permanent de **-2** aux tests de ce sort.
+- **Automatisme :** À partir du palier 20, les créatures de faible niveau (**≤ 2 DV**) ne bénéficient d'aucun jet de sauvegarde.
+
+## Revers
+50 % de chances de corruption majeure ou de revers (voir règles standard).
+
+## Corruption
+Voir échec critique.
+
+---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | 50% de chances de corruption majeure ou de revers. |
-| 2-11 | Échec. |
-| 12-13 | Mains et armes de mêlée chargées d'énergie. Prochaine attaque réussie : dégâts normaux + jet de Volonté ou paralysé pendant 1d6+niv rounds. |
-| 14-17 | Comme ci-dessus, mais la charge reste pendant 1d4+niv rounds. |
-| 18-19 | Armes de mêlée et de jet chargées pendant 1d4+niv rounds. |
-| 20-23 | Une créature à 9 m est paralysée par un mot. 2 DV ou moins : auto. 3 DV+ : Volonté. Durée 1d8+niv rounds. |
-| 24-27 | Jusqu'à trois cibles à 30 m. 4 DV ou moins : auto. 5 DV+ : Volonté. Durée 2d6+niv rounds. |
-| 28-29 | Toucher paralysant latent pendant 24 heures. Déclenché par un mot lors du contact. 6 DV ou moins : auto. 7 DV+ : Volonté. Durée 4d6+niv heures. |
-| 30-31 | Choisissez un effet ci-dessus : durée doublée. |
-| 32+ | Choisissez un effet : durée permanente. |
+| 1-11 | **Échec.** |
+| 12-13 | **Arme chargée**. Prochaine attaque : Dégâts normaux + paralyse la cible (**1d6 + NI rounds**). |
+| 14-17 | **Arme chargée** pendant **1d4 + NI rounds**. Toute attaque réussie peut paralyser. |
+| 18-19 | **Armes de jet/mêlée** chargées pendant **1d4 + NI rounds**. |
+| 20-23 | **Mot paralysant** (9 m). **1 cible**. **DV ≤ 2 : auto**. 3 DV+ : Volonté. Durée **1d8 + NI rounds**. |
+| 24-27 | **Mot paralysant** (30 m). **3 cibles**. **DV ≤ 4 : auto**. 5 DV+ : Volonté. Durée **2d6 + NI rounds**. |
+| 28-29 | **Toucher latent** (24 h). Déclenché par un mot. **DV ≤ 6 : auto**. 7 DV+ : Volonté. Durée **4d6 + NI heures**. |
+| 30-31 | Choisissez un effet : **durée doublée**. |
+| 32+ | Choisissez un effet : **permanence**. |

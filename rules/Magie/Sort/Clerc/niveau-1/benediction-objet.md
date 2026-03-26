@@ -6,10 +6,19 @@
 **Jet de sauvegarde :** Aucun
 **Temps d’incantation :** 1 action ou plus (voir ci-dessous)
 
-## Général
-Le clerc implore la bénédiction de son dieu. S’il l’obtient, cette bénédiction peut être d’un grand secours pour la réussite de ses entreprises. Le sort peut être lancé sur le clerc lui-même, sur un objet ou sur l’un de ses alliés.
+*Par la prière et l'onction, le clerc infuse un objet ordinaire d'une puissance sacrée durable.*
 
-Le temps d’incantation reflète la prière et la méditation alors que le clerc utilise son symbole sacré pour mener le rituel de bénédiction.
+## Effet
+Le clerc implore la bénédiction de son dieu pour sacraliser un objet. S’il l’obtient, l’objet devient un réceptacle de la volonté divine, capable de blesser les impies, de protéger le porteur ou de guider la lame du fidèle.
+
+## Limites / précisions
+Le temps d’incantation reflète la prière et la méditation alors que le clerc utilise son symbole sacré pour mener le rituel de bénédiction. La puissance accordée est conditionnée par l'usage sacré de l'objet : s'il est détourné à des fins impies, sa magie peut être révoquée à jamais.
+
+## Revers
+Sans objet.
+
+## Défaveur
+En cas d'échec critique (1 naturel), le clerc subit une **Défaveur** (voir les règles de magie).
 
 ## Résultats du test d’incantation
 

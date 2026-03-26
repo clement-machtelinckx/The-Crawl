@@ -1,24 +1,37 @@
-# Sanctification/Profanation
+# Sanctification / Profanation
 
 **Niveau :** 4  
 **Portée :** Zone de 20 carrés par NI  
-**Durée :** Varie  
-**Jet de sauvegarde :** Voir ci-dessous  
+**Durée :** Variable  
+**Jet de sauvegarde :** Spécial (Vigueur)  
 **Temps d’incantation :** 1 tour (10 minutes)  
 
-## Général
-Le clerc consacre un espace physique à sa divinité, lui accordant une protection surnaturelle et l’harmonisant avec la volonté et les desseins de son maître divin. Ce sanctuaire devient un refuge pour le clerc et les autres fidèles de la divinité. Le sort peut également être lancé sur un espace déjà sacré pour une autre divinité. Si le test d’incantation du clerc est supérieur à celui du clerc qui a originellement sanctifié l’espace, la zone devient profanée et n’accorde plus aucun avantage à ceux qui s’y trouvent. Un espace profané doit être purifié de toute trace de son ancienne connexion divine (un processus d’un mois) avant de pouvoir être sanctifié à une nouvelle divinité. Aucune purification n’est nécessaire pour re-sanctifier un espace à son ancien protecteur divin. Le clerc, les fidèles de sa divinité et ceux du même alignement que le clerc bénéficient du plein avantage du sanctuaire déterminé par le test d’incantation. Ceux d’un alignement différent qui adorent une divinité qui n’est pas en opposition directe avec celle du clerc bénéficient de la moitié des avantages normaux (arrondis au supérieur). Les individus impies (selon la foi du clerc) ou adorant une divinité opposée subissent une pénalité négative égale au bonus accordé aux fidèles et peuvent également subir des dégâts physiques. Chaque sanctuaire accorde un bonus aux tests d’incantation, au renvoi des morts-vivants, à l’imposition des mains et aux demandes d’aide divine. De plus, le sanctuaire accorde un bonus aux actions liées à la divinité à laquelle il est dédié (à déterminer par le juge).
+*Le clerc consacre une zone à sa divinité pour en faire un havre protecteur ou briser le caractère sacré d'un lieu ennemi.*
+
+## Effet
+Crée un sanctuaire harmonisé avec la divinité du clerc. Accorde des bonus aux tests divins des fidèles et inflige des pénalités (ou des dégâts) aux impies. Peut également servir à profaner un lieu sacré adverse.
+
+## Limites / précisions
+- **Alignement :** Plein bonus pour les fidèles ; demi-bonus pour les alliés neutres ; malus égal au bonus pour les impies.
+- **Profanation :** Si le test du clerc bat le test d'origine du lieu, la zone devient profanée. Purification requise (1 mois) pour changer de divinité.
+- **Bonus cumulés :** Affecte les tests d'incantation, le renvoi des morts-vivants, l'imposition des mains et l'aide divine.
+
+## Revers
+Aucun.
+
+## Défaveur
+En cas d'échec critique, le clerc subit les effets de la défaveur divine.
 
 ## Résultats du test d’incantation
 
 | Test | Résultat |
 |---:|---|
 | 1–17 | **Échec.** |
-| 18–19 | Le clerc crée un sanctuaire mineur. Tous les tests d’incantation, le renvoi des morts-vivants, l’imposition des mains, les demandes d’aide divine et les actions liées à la divinité du sanctuaire reçoivent un bonus de **+1**. La zone reste un sanctuaire pendant **3 heures**. |
-| 20–23 | Le clerc crée un sanctuaire mineur. Tous les tests d’incantation, le renvoi des morts-vivants, l’imposition des mains, les demandes d’aide divine et les actions liées à la divinité du sanctuaire reçoivent un bonus de **+2**. Les créatures impies avec **1 DV ou moins** doivent réussir un jet de **Vigueur** en entrant dans la zone ou subir **1d3** points de dégâts. La zone reste un sanctuaire pendant **6 heures**. |
-| 24–25 | Le clerc crée un sanctuaire modéré. Tous les tests d’incantation, le renvoi des morts-vivants, l’imposition des mains, les demandes d’aide divine et les actions liées à la divinité du sanctuaire reçoivent un bonus de **+3**. Les créatures impies avec **2 DV ou moins** doivent réussir un jet de **Vigueur** en entrant dans la zone ou subir **1d5** points de dégâts. Les sorts ciblant le clerc et ses alliés à l’intérieur du sanctuaire subissent un malus de **-1** aux tests d’incantation. La zone reste un sanctuaire pendant **12 heures**. |
-| 26–27 | Le clerc crée un sanctuaire majeur. Tous les tests d’incantation, le renvoi des morts-vivants, l’imposition des mains, les demandes d’aide divine et les actions liées à la divinité du sanctuaire reçoivent un bonus de **+4**. Les créatures impies avec **3 DV ou moins** doivent réussir un jet de **Vigueur** en entrant dans la zone ou subir **1d6** points de dégâts. Les sorts ciblant le clerc et ses alliés à l’intérieur du sanctuaire subissent un malus de **-2** aux tests d’incantation. La zone reste un sanctuaire pendant **1 jour**. |
-| 28–33 | Le clerc crée un sanctuaire majeur. Tous les tests d’incantation, le renvoi des morts-vivants, l’imposition des mains, les demandes d’aide divine et les actions liées à la divinité du sanctuaire reçoivent un bonus de **+5**. Les créatures impies avec **4 DV ou moins** doivent réussir un jet de **Vigueur** en entrant dans la zone ou subir **1d8** points de dégâts. Les sorts ciblant le clerc et ses alliés à l’intérieur du sanctuaire subissent un malus de **-4** aux tests d’incantation. La zone reste un sanctuaire pendant **1 semaine**. |
-| 34–35 | Le clerc crée un véritable sanctuaire. Tous les tests d’incantation, le renvoi des morts-vivants, l’imposition des mains, les demandes d’aide divine et les actions liées à la divinité du sanctuaire reçoivent un bonus de **+6**. Les créatures impies avec **5 DV ou moins** doivent réussir un jet de **Vigueur** en entrant dans la zone ou subir **1d10** points de dégâts plus **1** point de dégât supplémentaire chaque round suivant (**Vigueur** pour résister). Les sorts ciblant le clerc et ses alliés à l’intérieur du sanctuaire subissent un malus de **-4** aux tests d’incantation. La zone reste un sanctuaire pendant **1 mois**. |
-| 36–37 | Le clerc crée un sanctuaire divin. Tous les tests d’incantation, le renvoi des morts-vivants, l’imposition des mains, les demandes d’aide divine et les actions liées à la divinité du sanctuaire reçoivent un bonus de **+7**. Les créatures impies avec **6 DV ou moins** doivent réussir un jet de **Vigueur** en entrant dans la zone ou subir **1d20** points de dégâts plus **2** points de dégâts supplémentaires chaque round suivant (**Vigueur** pour résister). Les sorts ciblant le clerc et ses alliés à l’intérieur du sanctuaire subissent un malus de **-5** aux tests d’incantation. La zone reste un sanctuaire de façon **permanente** jusqu’à ce qu’elle soit profanée. |
-| 38+ | Le clerc crée un lieu à jamais révéré par ses fidèles. Des pèlerinages sont organisés pour apercevoir le sanctuaire. Il devient le site de miracles et la divinité peut y apparaître pour parler aux fidèles. Pour les ennemis, il devient un symbole de haine et des croisades sont organisées pour raser le site. Tous les tests d’incantation, le renvoi des morts-vivants, l’imposition des mains, les demandes d’aide divine et les actions liées à la divinité du sanctuaire reçoivent un bonus de **+10**. Les créatures impies avec **8 DV ou moins** doivent réussir un jet de **Vigueur** en entrant dans la zone ou subir **2d20** points de dégâts plus **4** points de dégâts supplémentaires chaque round suivant (**Vigueur** pour résister). Les sorts ciblant le clerc et ses alliés à l’intérieur du sanctuaire subissent un malus de **-10** aux tests d’incantation. La zone reste un sanctuaire de façon **permanente** jusqu’à ce qu’elle soit physiquement détruite, profanée, et que le sol soit salé ou aspergé d’eaux et d’huiles maudites. |
+| 18–19 | **Sanctuaire mineur (3 h)**. Bonus de **+1**. |
+| 20–23 | **Sanctuaire mineur (6 h)**. Bonus de **+2**. Impies (**≤ 1 DV**) : **1d3** dmg (Vig pour éviter). |
+| 24–25 | **Sanctuaire modéré (12 h)**. Bonus de **+3**. Impies (**≤ 2 DV**) : **1d5** dmg. Sorts ennemis : **-1** test incant. |
+| 26–27 | **Sanctuaire majeur (1 jour)**. Bonus de **+4**. Impies (**≤ 3 DV**) : **1d6** dmg. Sorts ennemis : **-2**. |
+| 28–33 | **Sanctuaire majeur (1 semaine)**. Bonus de **+5**. Impies (**≤ 4 DV**) : **1d8** dmg. Sorts ennemis : **-4**. |
+| 34–35 | **Véritable sanctuaire (1 mois)**. Bonus de **+6**. Impies (**≤ 5 DV**) : **1d10** dmg + **1** dmg/round. Sorts ennemis : **-4**. |
+| 36–37 | **Sanctuaire divin (Permanent)**. Bonus de **+7**. Impies (**≤ 6 DV**) : **1d20** dmg + **2** dmg/round. Sorts ennemis : **-5**. |
+| 38+ | **Lieu de miracle (Permanent)**. Bonus de **+10**. Impies (**≤ 8 DV**) : **2d20** dmg + **4** dmg/round. Sorts ennemis : **-10**. Nécessite une destruction physique et rituelle pour être profané. |

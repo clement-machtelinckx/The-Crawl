@@ -1,21 +1,28 @@
 # Paralysie
-**Niveau :** 1  
-**Portée :** Contact ou plus  
-**Durée :** 1 round ou plus  
-**Jet de sauvegarde :** Volonté vs DD (test d’incantation)  
-**Temps d’incantation :** 1 action  
 
-## Général
+**Niveau :** 1
+**Portée :** Contact ou plus
+**Durée :** 1 round ou plus
+**Jet de sauvegarde :** Volonté vs DD (test d’incantation)
+**Temps d’incantation :** 1 action
+
+*La lumière de la divinité du clerc empêche ses ennemis de lever la main pour commettre des actes malveillants.*
+
+## Effet
 La lumière de la divinité du clerc empêche ses ennemis de lever la main pour commettre des actes malveillants.
 
-## Manifestation
-Lancez **1d4** :  
-1) crépitement électrique  
-2) liens noirs et visqueux  
-3) pâleur cadavérique  
-4) brouillard éthéré grisâtre  
+## Limites / précisions
+**Manifestation (1d4) :**
+1. Crépitement électrique
+2. Liens noirs et visqueux
+3. Pâleur cadavérique
+4. Brouillard éthéré grisâtre
 
----
+## Revers
+Sans objet.
+
+## Défaveur
+En cas d'échec critique (1 naturel), le clerc subit une **Défaveur** (voir les règles de magie).
 
 ## Résultats du test d’incantation
 

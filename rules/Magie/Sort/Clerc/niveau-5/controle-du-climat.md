@@ -1,24 +1,37 @@
 # Contrôle du climat
 
-**Niveau :** 5
-**Portée :** 3 km
-**Durée :** 4d12+NI heures
-**Jet de sauvegarde :** Aucun
-**Temps d’incantation :** 1 tour (10 min) plus 1 tour
+**Niveau :** 5  
+**Portée :** 3 km  
+**Durée :** 4d12 + NI heures  
+**Jet de sauvegarde :** Aucun  
+**Temps d’incantation :** 1 tour (incantation) + 1 tour (manifestation)  
 
-## Général
-Le clerc modifie les conditions météorologiques naturelles pour créer les conditions de son choix, allant jusqu’à produire des effets très inhabituels pour la saison et la région. Ce sort nécessite 1 tour (10 minutes) d’incantation, après quoi dix minutes supplémentaires sont nécessaires pour que le changement météo apparaisse. Les vents soufflent toujours dans la direction choisie par le clerc, et le changement de temps dépend généralement (mais pas toujours) de la saison.
+*Le clerc manipule les forces de la nature pour modifier les conditions météorologiques locales.*
+
+## Effet
+Permet de changer le temps, de la simple brise à la tempête biblique. Le clerc peut calmer une météo existante ou en invoquer une nouvelle, incluant des phénomènes contre-nature.
+
+## Limites / précisions
+- **Délai :** Le changement nécessite 10 minutes pour se manifester après l'incantation.
+- **Direction :** Le clerc contrôle toujours la direction des vents.
+- **Précision :** Aux paliers moyens, le clerc ne contrôle pas la direction exacte des tornades ou des éclairs. Ce contrôle devient absolu au palier 36+.
+
+## Revers
+Aucun.
+
+## Défaveur
+En cas d'échec critique, le clerc subit les effets de la défaveur divine.
 
 ## Résultats du test d’incantation
 
 | Test | Résultat |
 |---:|---|
 | 1–19 | **Échec.** |
-| 20–21 | Le clerc modifie légèrement le temps pour produire des conditions plus agréables ou inclémentes. Un léger brouillard apparaît par temps clair ; une pluie légère s'arrête ; une brise légère agite l'air autrement calme ; une légère chute de neige commence, etc. |
-| 22–25 | Le clerc produit un changement notable du temps, créant de petites rafales ou les calmant. Le brouillard arrive ; la pluie commence à tomber ; la neige commence à s'accumuler ; les vents gagnent en force ; etc. Le clerc peut créer des effets météorologiques assez puissants pour modifier l'issue d'une saison agricole. |
-| 26–27 | Le clerc crée de fortes altérations des modèles météorologiques locaux pour produire des effets météorologiques impressionnants. Une chute de neige abondante commence soudainement ; la pluie tombe à torrents ; des vents forts commencent à souffler ; un brouillard dense recouvre la terre, etc. Le clerc peut créer des effets météorologiques assez puissants pour affecter le succès d'une armée ou d'une marine au combat. |
-| 28–29 | Le clerc produit une météo destructrice ou calme celle-ci. Un blizzard recouvre la zone ; des grêlons tombent du ciel ; des vents de force tempête arrachent les toits ; des orages lancent des éclairs ; des tornades commencent à toucher le sol ; etc. Ces conditions destructrices sont assez puissantes pour causer des dommages environnementaux aux créatures surprises à l'extérieur (généralement 1 à 1d4 points par round d'exposition). Le changement de temps dépend de la saison et le clerc n'a aucun contrôle sur la direction que prend la météo. Il ne peut pas diriger les tornades vers des bâtiments spécifiques ni faire en sorte que la foudre frappe une cible spéciale. Il peut cependant toujours contrôler la direction du vent. |
-| 30–35 | Le clerc produit une météo hautement destructrice et manifestement contre nature. La neige tombe en plein été ; des vagues de chaleur font fondre les glaciers polaires ; des tempêtes de neige fondue font des ravages dans le désert, etc. Les conditions destructrices sont assez puissantes pour causer des dommages environnementaux aux créatures surprises à l'extérieur (généralement 1 à 1d4 points par round d'exposition). Le clerc peut également produire des événements météorologiques anormaux s'il le souhaite. Ceux-ci incluent des neiges de teintes inhabituelles, des pluies de poissons ou de grenouilles ; des nuages de formes ou de motifs spécifiques, etc. |
-| 36–37 | Le commandement du clerc sur la météo est terrifiant. Non seulement il peut créer une météo manifestement contre nature pour la saison et le climat, mais il peut diriger la météo comme si elle était une extension de son corps. La foudre frappe des individus spécifiques (10d6 points de dégâts par frappe), les tempêtes de vent affectent certains bâtiments tout en en laissant d'autres intacts ; les vents de tempête gonflent les voiles de certains navires tout en en évitant d'autres ; etc. Le juge a le dernier mot sur l'effet ou les effets de la météo dirigée, mais ces effets sont assez puissants pour causer une dévastation massive. |
-| 38–39 | Le clerc crée un maelström magique de météo dont la puissance est magnifique. Jusqu'à trois effets météorologiques de son choix se produisent simultanément, à condition qu'ils ne soient pas contradictoires. Le clerc peut avoir des vents de force tempête, du grésil glacial et de la foudre dans la même tempête ; invoquer des tornades, de la grêle battante et une pluie aveuglante tout à la fois ; ravager les côtes avec des trombes marines, des tsunamis et un brouillard impénétrable ; ou toute autre combinaison de son choix. Le clerc ne pourrait pas, cependant, faire en sorte qu'une chaleur torride et une neige glaciale se produisent ensemble. Le juge a le dernier mot sur les combinaisons autorisées et leurs effets. |
-| 40+ | Le clerc provoque une dévastation totale ou calme celle-ci dans la zone d'effet. Des tornades remplies d'éclairs dévastent les fortifications ; des tsunamis chargés d'icebergs déchirent les côtes ; le grésil glacial et les vents glaciaires gèlent instantanément les créatures et la vie végétale ; etc. La tempête entrera dans la légende. Le juge est l'arbitre final de la dévastation causée, mais elle doit être catastrophique, au-delà même de la plus grande tempête parfaite. |
+| 20–21 | **Changement léger**. Brouillard, pluie légère s'arrête ou commence. |
+| 22–25 | **Changement notable**. Neige s'accumule, vents forcissent. Affecte une saison agricole. |
+| 26–27 | **Changement fort**. Pluie torrentielle, brouillard dense. Affecte une armée ou flotte. |
+| 28–29 | **Météo destructrice**. Blizzard, orage, tornades. Dommages environnementaux (**1 à 1d4** dmg/round). |
+| 30–35 | **Météo contre-nature**. Neige en été, vague de chaleur polaire, pluies de grenouilles. |
+| 36–37 | **Contrôle absolu**. Extension du corps du clerc. Foudre ciblée (**10d6** dmg), vents sélectifs. |
+| 38–39 | **Maelström**. Jusqu'à **trois effets** simultanés (ex: vents, grésil et foudre). |
+| 40+ | **Dévastation totale**. Tempête légendaire, destruction des fortifications et côtes. Catastrophique. |

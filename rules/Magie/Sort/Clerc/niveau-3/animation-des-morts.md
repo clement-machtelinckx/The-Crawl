@@ -6,8 +6,19 @@
 **Jet de sauvegarde :** Aucun
 **Temps d’incantation :** 1 action
 
-## Général
-Le clerc fait appel au pouvoir de sa divinité pour animer la chair putréfiée et les os anciens de créatures tuées, créant ainsi des serviteurs décérébrés pour exécuter sa volonté et tourmenter ses ennemis. Le nombre et le type de morts-vivants créés sont déterminés par le test d’incantation ainsi que par le nombre et le type de cadavres disponibles (par exemple, un clerc peut créer des squelettes à partir d’ossements, mais a besoin d’un cadavre complet pour créer un zombie). Il ne peut pas créer plus de serviteurs que ce que les matériaux bruts permettent, quel que soit le résultat du test. Les morts-vivants restent animés et sous le contrôle du clerc pendant une heure ou plus. À la fin de la durée, ils s'effondrent. Un clerc ne peut pas contrôler simultanément plus de (4 x NI) Dés de Vie de morts-vivants. Il peut libérer des créatures pour en commander de nouvelles, mais les morts-vivants libérés risquent de se retourner contre leur ancien maître. Un cadavre humanoïde typique produit un squelette de 1 DV ou un zombie de 3 DV.
+*Le clerc fait appel au pouvoir de sa divinité pour animer la chair putréfiée et les os anciens de créatures tuées.*
+
+## Effet
+Le clerc fait appel au pouvoir de sa divinité pour animer la chair putréfiée et les os anciens de créatures tuées, créant ainsi des serviteurs décérébrés pour exécuter sa volonté et tourmenter ses ennemis. Le nombre et le type de morts-vivants créés sont déterminés par le test d’incantation ainsi que par le nombre et le type de cadavres disponibles (par exemple, un clerc peut créer des squelettes à partir d’ossements, mais a besoin d’un cadre complet pour créer un zombie). Il ne peut pas créer plus de serviteurs que ce que les matériaux bruts permettent, quel que soit le résultat du test. Les morts-vivants restent animés et sous le contrôle du clerc pendant une heure ou plus. À la fin de la durée, ils s'effondrent. 
+
+## Limites / précisions
+Un clerc ne peut pas contrôler simultanément plus de (4 x NI) Dés de Vie de morts-vivants. Il peut libérer des créatures pour en commander de nouvelles, mais les morts-vivants libérés risquent de se retourner contre leur ancien maître. Un cadavre humanoïde typique produit un squelette de 1 DV ou un zombie de 3 DV.
+
+## Revers
+Sans objet.
+
+## Défaveur
+En cas d'échec critique (1 naturel), le clerc subit une **Défaveur** (voir les règles de magie).
 
 ## Résultats du test d’incantation
 

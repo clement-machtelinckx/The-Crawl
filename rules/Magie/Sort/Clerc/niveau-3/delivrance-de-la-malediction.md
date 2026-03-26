@@ -3,28 +3,35 @@
 **Niveau :** 3
 **Portée :** Contact
 **Durée :** Instantanée
-**Jet de sauvegarde :** Voir ci-dessous
+**Jet de sauvegarde :** Spécial
 **Temps d’incantation :** 1 round
 
-## Général
-Le clerc fait appel à la puissance divine pour bannir les effets néfastes d’une malédiction sur une personne ou un objet.
+*Le clerc bannit les influences maléfiques et les sorts de malédiction par l'autorité de sa divinité.*
 
-- **Malédiction mineure :** Perte de 2 points de caractéristique ou moins.
-- **Malédiction modérée :** Perte de 3-4 points ou effet limitatif (pénalité aux jets, vitesse réduite, etc.).
-- **Malédiction majeure :** Perte de 5 points ou plus ou effet débilitant (cécité, surdité, immobilité, etc.).
+## Effet
+Le sort permet d'annuler les effets d'une malédiction sur une personne ou un objet. Selon la puissance du sort, le retrait peut être automatique ou nécessiter un nouveau jet de sauvegarde.
 
-Lorsqu'un jet de sauvegarde est requis, le sujet effectue un second jet contre la malédiction (même DD). Si aucun jet n'était prévu à l'origine, le sujet effectue un jet de **Vigueur** ou de **Volonté** (au choix) contre un DD de **10 + DV** de la créature ayant lancé la malédiction. En cas d'échec, le sort échoue et 24 heures doivent s'écouler avant une nouvelle tentative.
+## Limites / précisions
+- **Niveaux de malédiction :** Mineure (≤ 2 pts carac), Modérée (3-4 pts ou malus), Majeure (≥ 5 pts ou handicap lourd).
+- **Tentatives :** En cas d'échec, le clerc doit attendre **24 heures** avant de retenter le sort sur la même cible.
+- **Jet de sauvegarde :** Si requis, utilise le DD original de la malédiction ou **10 + DV** du lanceur.
+
+## Revers
+Aucun.
+
+## Défaveur
+En cas d'échec critique, le clerc subit les effets de la défaveur divine.
 
 ## Résultats du test d’incantation
 
 | Test | Résultat |
 |---:|---|
 | 1–15 | **Échec.** |
-| 16–17 | Une seule personne ou objet maudit est autorisé à effectuer un nouveau jet de sauvegarde pour échapper à une malédiction **mineure**. |
-| 18–21 | Un nombre d'individus ou d'objets égal au **NI** peut effectuer un jet de sauvegarde contre une malédiction **mineure**. Si une seule cible est visée, elle gagne un bonus au jet égal au **NI**. |
-| 22–23 | Le clerc retire automatiquement une malédiction **mineure** sur une seule cible, ou permet un jet de sauvegarde contre une malédiction **modérée**. |
-| 24–26 | Le clerc retire automatiquement une malédiction **mineure** sur un nombre de cibles égal au **NI**, ou permet un jet de sauvegarde contre une malédiction **modérée** sur un nombre de cibles égal au **NI**. Si une seule cible est visée, elle gagne un bonus au jet égal au **NI**. |
-| 27–31 | Le clerc retire automatiquement une malédiction **mineure** ou **modérée** sur une seule cible, ou permet un jet de sauvegarde contre une malédiction **majeure**. |
-| 32–33 | Le clerc retire automatiquement une malédiction **mineure** ou **modérée** sur un nombre de cibles égal au **NI**, ou permet un jet de sauvegarde contre une malédiction **majeure** sur un nombre de cibles égal au **NI**. Si une seule cible est visée, elle gagne un bonus au jet égal au **NI**. |
-| 34–35 | Le clerc retire automatiquement **n’importe quelle malédiction** affectant une seule cible, quelle que soit sa puissance. |
-| 36+ | Le clerc retire automatiquement n’importe quelle malédiction sur un nombre de cibles égal au **NI**. De plus, le créateur de la malédiction en devient automatiquement la victime, quel que soit l'endroit où il se trouve. |
+| 16–17 | **1 cible**. Nouveau jet de sauvegarde autorisé contre une malédiction **mineure**. |
+| 18–21 | **NI cibles**. Nouveau jet de sauvegarde contre une malédiction **mineure**. Cible unique : bonus égal au **NI**. |
+| 22–23 | **1 cible**. Retrait **automatique** (mineure) ou nouveau jet (modérée). |
+| 24–26 | **NI cibles**. Retrait automatique (mineure) ou nouveau jet (modérée). Cible unique : bonus au jet égal au **NI**. |
+| 27–31 | **1 cible**. Retrait **automatique** (mineure ou modérée) ou nouveau jet (majeure). |
+| 32–33 | **NI cibles**. Retrait automatique (mineure ou modérée) ou nouveau jet (majeure). Cible unique : bonus au jet égal au **NI**. |
+| 34–35 | **1 cible**. Retrait **automatique** de n'importe quelle malédiction. |
+| 36+ | **NI cibles**. Retrait automatique. Le créateur de la malédiction en devient la victime. |

@@ -5,24 +5,33 @@
 **Jet de sauvegarde :** Aucun  
 **Temps d’incantation :** 1 round  
 
-## Général
-L'incantateur peut réparer des objets endommagés, généralement de nature simple et ordinaire. Le sort inverse, déchirure, peut causer des défauts mineurs et offre un jet de Vigueur à l'objet affecté.
+*L'incantateur restaure l'intégrité d'objets brisés ou endommagés.*
+
+## Effet
+Répare les fissures, déchirures ou mécanismes brisés. À haut niveau, peut réparer des structures massives ou même soigner des blessures physiques.
+
+## Limites / précisions
+- **Nature :** Initialement limité aux objets simples et non-magiques. La permanence et la complexité augmentent avec le test.
+- **Inverse :** L'incantateur peut apprendre *déchirure* pour endommager les objets.
 
 ## Revers
-Lancer 1d6 : (1) les vêtements de l'incantateur se décousent et tombent en un tas de fils à ses pieds ; (2) toutes les sangles, lacets, boucles et attaches à moins de 6 m de l'incantateur se défont ; (3) des traces de rouille profonde apparaissent sur toutes les armes métalliques à moins de 3 m, imposant une pénalité permanente de -1 aux dégâts ; (4) une patine verdâtre ternit tous les métaux précieux de l'incantateur, réduisant leur valeur ; (5) l'objet mécanique le plus complexe à moins de 6 m se brise d'une manière difficile à réparer ; (6) l'incantateur subit une blessure mineure mais agaçante, comme un ongle incarné, infligeant une pénalité de -1 à tous les jets pendant 10 minutes.
+Lancer 1d6 : (1) vêtements décousus ; (2) toutes les attaches rayon 6 m se défont ; (3) rouille sur armes métalliques (**-1 dmg permanent**) ; (4) métaux précieux ternis ; (5) objet complexe proche se brise ; (6) blessure mineure (ongle incarné, **-1** jets pendant 10 min).
+
+## Corruption
+Lancer 1d6 : (1-2) mineure ; (3-6) voir règle standard (marque runique, voile sur les yeux, doigts tachés).
 
 ---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Échec, perdu et pire encore ! Lancez 1d6 modifié par la Chance : (0 ou moins) corruption + revers ; (1) corruption ; (2+) revers. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
 | 2-11 | Perdu. Échec. |
-| 12-13 | L'incantateur répare un défaut mineur dans un objet simple de nature non magique et inanimé. La réparation dure 24 heures. Le défaut à réparer doit être d'un seul matériau et ne pas dépasser 0,03 m³. |
-| 14-17 | L'incantateur répare un défaut mineur dans un objet simple de nature non magique et inanimé. La réparation dure une semaine. |
-| 18-19 | L'incantateur répare définitivement un défaut mineur dans un objet simple. Il y a 50 % de chances que l'objet réparé soit substitué à un objet entier similaire (quelqu'un, ailleurs, a vu son objet intact remplacé par un objet déchiré !). |
-| 20-23 | L'incantateur répare définitivement un objet normal et complexe avec des pièces mobiles et des éléments multiples (par exemple, une arbalète ou une serrure). |
-| 24-27 | L'incantateur répare définitivement un objet volumineux et complexe d'origine ordinaire (par exemple, une statue ou un chariot effondré). L'objet peut avoir un poids allant jusqu'à quatre fois celui de l'incantateur. |
-| 28-29 | L'incantateur répare définitivement un objet très volumineux et complexe (par exemple, les remparts brisés d'une tour). Les objets plus volumineux nécessitent un round de concentration par tonne de poids. |
-| 30-31 | L'incantateur répare des objets très volumineux d'une grande complexité à une portée de 30 m, même s'ils sont de nature magique. |
-| 32+ | L'incantateur répare des objets très volumineux, même s'ils sont complexes ou magiques. En option, il peut lancer ce sort sur une créature vivante pour guérir ses blessures (guérit une infirmité ou 2d6 PV). |
+| 12-13 | Réparation mineure (**24 h**). Objet simple non-magique (≤ 0,03 m³). |
+| 14-17 | Réparation mineure pendant **une semaine**. |
+| 18-19 | Réparation **définitive**. 50 % de chance de substitution (objet dérobé ailleurs). |
+| 20-23 | Réparation **définitive** d'objet complexe (arbalète, serrure). |
+| 24-27 | Réparation **définitive** d'objet volumineux (chariot, statue). Poids max : **4x le mage**. |
+| 28-29 | Réparation **définitive** de structures (remparts). Concentration : **1 round / tonne**. |
+| 30-31 | Portée **30 m**. Objets magiques inclus. |
+| 32+ | Structures magiques complexes. Option : **Soigne une créature** (guérit infirmité ou **2d6 PV**). |

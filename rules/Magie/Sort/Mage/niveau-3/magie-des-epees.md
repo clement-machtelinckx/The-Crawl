@@ -3,14 +3,27 @@
 **Portée :** Soi-même  
 **Durée :** Permanente  
 **Jet de sauvegarde :** Aucun  
-**Temps d’incantation :** Un mois ou plus  
+**Temps d’incantation :** 1 mois ou plus  
 
-## Général
-L'incantateur forge et enchante des armes magiques. Le processus est long et nécessite souvent un forgeron partenaire. Le sacrifice magique (spellburn) utilisé est perdu pendant toute la durée du rituel. Se référer au livre de règles DCC (Table 8-4) pour les détails.
+*L'incantateur forge des armes de légende en y enfermant des essences magiques.*
+
+## Effet
+Rituel complexe permettant de créer des armes magiques. Le processus est laborieux et nécessite souvent la coopération d'un artisan forgeron.
+
+## Limites / précisions
+- **Coût :** Voir table 8-4 du livre de règles DCC pour les coûts en matériaux et en sacrifice magique.
+- **Spellburn :** Les points de caractéristique sacrifiés sont indisponibles pendant toute la durée du rituel (minimum un mois).
+
+## Revers
+Lancer 1 naturel : Perdu et corruption.
+
+## Corruption
+Spécifique à la forge d'objets magiques (voir livre de règles).
+
+---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Perdu et corruption. |
-| 2-15 | Perdu. Échec. |
-| 16+ | Voir le livre de règles DCC, Table 8-4. |
+| 1-15 | **Échec.** Matériaux et temps perdus. |
+| 16+ | **Succès**. Se référer à la **Table 8-4** du livre de règles DCC pour la nature et les bonus de l'arme créée. |
