@@ -1,4 +1,4 @@
-# Transformation en pierre
+# Pétrification
 **Niveau :** 3  
 **Portée :** Contact ou plus  
 **Durée :** Permanente  

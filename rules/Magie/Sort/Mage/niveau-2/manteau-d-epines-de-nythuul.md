@@ -1,4 +1,4 @@
-# Manteau de porc-épic de Nythuul
+# Manteau d’épines de Nythuul
 **Niveau :** 2  
 **Portée :** Soi-même  
 **Durée :** 1 round par niveau d'incantateur  

@@ -1,4 +1,4 @@
-# Réplication
+# Duplication
 **Niveau :** 5  
 **Portée :** Contact  
 **Durée :** Permanente  

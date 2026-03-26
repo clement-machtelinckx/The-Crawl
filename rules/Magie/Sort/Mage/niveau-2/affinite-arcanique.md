@@ -1,4 +1,4 @@
-# Affinité profane
+# Affinité arcanique
 **Niveau :** 2  
 **Portée :** Soi-même  
 **Durée :** Variable  

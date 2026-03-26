@@ -1,4 +1,4 @@
-# Neutralisation du Poison ou des Maladies
+# Neutralisation du poison et des maladies
 
 **Niveau :** 2  
 **Portée :** Contact ou plus  

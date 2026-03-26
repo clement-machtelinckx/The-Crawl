@@ -1,4 +1,4 @@
-# Consultation d'esprit
+# Consulter les esprits
 **Niveau :** 3  
 **Portée :** 1,5 m ou plus  
 **Durée :** 1 round par niveau d'incantateur  

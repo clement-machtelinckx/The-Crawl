@@ -1,4 +1,4 @@
-# Manipulation de force
+# Mur de force
 **Niveau :** 1  
 **Portée :** 7,5 m  
 **Durée :** Variable  

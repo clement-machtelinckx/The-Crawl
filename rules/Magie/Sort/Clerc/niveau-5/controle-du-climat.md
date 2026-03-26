@@ -1,4 +1,4 @@
-# Contrôle de la météo
+# Contrôle du climat
 
 **Niveau :** 5
 **Portée :** 3 km
