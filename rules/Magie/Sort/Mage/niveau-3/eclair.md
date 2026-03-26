@@ -5,28 +5,34 @@
 **Jet de sauvegarde :** Réflexes vs test d'incantation  
 **Temps d’incantation :** 1 round  
 
-## Général
-L'incantateur invoque une puissante décharge d'énergie électrique capable d'électrocuter les créatures, de briser le bois, de faire éclater la pierre et de fondre les métaux.
+*L'incantateur libère une foudroyante décharge électrique capable de consumer ses ennemis.*
+
+## Effet
+Invoque l'électricité pour frapper une ou plusieurs cibles. L'éclair peut rebondir, se diviser ou exploser en boule de foudre selon la réussite.
+
+## Limites / précisions
+- **Matériaux :** Brise le bois, fait éclater la pierre et fond les métaux ordinaires.
+- **Sauvegarde :** Un jet de Réflexes réussi réduit les dégâts de moitié.
 
 ## Revers
-Lancer 1d3 : (1) l'incantateur se zappe lui-même (2d4 dmg) ; (2) zappe un allié à 9 m (2d4 dmg) ; (3) charge le point où il se tient (tout porteur de métal à 3 m subit 2d6 dmg le round suivant).
+Lancer 1d3 : (1) auto-électrocution (**2d4** dmg) ; (2) allié proche frappé (**2d4** dmg) ; (3) charge statique au sol (porteurs de métal zone 3 m : **2d6** dmg round suivant).
 
 ## Corruption
-Lancer 1d8 : (1) chargé d'électricité statique (1 dmg par contact avec du métal) ; (2) cheveux dressés en permanence ; (3) sensible aux courants électriques (+1 dmg par dé de foudre) ; (4) cerveau brouillé (Intelligence et Personnalité échangées) ; (5-6) majeure ; (7-8) plus grande.
+Lancer 1d8 : (1) électricité statique permanente (**1 dmg** au contact du métal) ; (2) cheveux dressés ; (3) vulnérabilité foudre (**+1 dmg/dé**) ; (4) inversion Int/Per ; (5-8) majeure ou supérieure.
 
 ---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Échec, perdu et pire encore ! Lancez 1d6 modifié par la Chance : (0 ou moins) corruption + marque du patron + revers ; (1-2) corruption ; (3) marque du patron (ou corruption si pas de patron) ; (4+) revers. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
 | 2-11 | Perdu. Échec. |
-| 12-15 | Échec, mais le sort n'est pas perdu. |
-| 16-17 | Un seul éclair sur une cible à 30 m (3d6 dmg). |
-| 18-21 | Un seul éclair sur une cible à 15 m (point d'origine jusqu'à 15 m de l'incantateur, 4d6 dmg). |
-| 22-23 | Électricité statique. Cible à 30 m. Toutes les cibles vivantes à 9 m de la cible (y compris les alliés) subissent 2d6 dmg. |
-| 24-26 | Chaîne d'éclairs. Un éclair saute sur jusqu'à quatre cibles. Première à 15 m, puis 9 m entre chaque. Dégâts : 4d6, 3d6, 2d6, 1d6. |
-| 27-31 | Éclair fourchu. Cinq éclairs jaillissant des doigts dans un arc de 45°. Portée 45 m. 5d6 dmg par cible (une seule fois par cible). |
-| 32-33 | Foudre en boule. Explosion à 60 m. Cible centrale : 10d6 dmg. Rayon 6 m : 6d6 dmg. |
-| 34-35 | Tempête d'éclairs. Jusqu'à six cibles à 150 m. Chaque cible est frappée par 1d7 éclairs infligeant 1d12 dmg chacun. |
-| 36+ | Éclair massif fourchu sur huit cibles. Portée 120 m (origine 300 m). Total 24d6 dmg à diviser entre les cibles. |
+| 12-15 | Échec simple (sort non perdu). |
+| 16-17 | **1 éclair** (30 m). Dégâts : **3d6**. |
+| 18-21 | **1 éclair** (origine déportée 15 m). Dégâts : **4d6**. |
+| 22-23 | **Électricité statique**. Cible (30 m) + zone 9 m : **2d6** dmg à tous les vivants. |
+| 24-26 | **Chaîne d'éclairs**. Saute sur **4 cibles**. Dégâts dégressifs : **4d6, 3d6, 2d6, 1d6**. |
+| 27-31 | **Éclair fourchu**. 5 jets dans un arc de 45°. Dégâts : **5d6** par cible. |
+| 32-33 | **Foudre en boule**. Explosion à 60 m. Centre : **10d6**. Rayon 6 m : **6d6**. |
+| 34-35 | **Tempête**. 6 cibles à 150 m. Chaque cible : **1d7 x 1d12** dmg. |
+| 36+ | **Éclair colossal**. 8 cibles à 120 m. Total **24d6** dmg à diviser. |

@@ -6,12 +6,21 @@
 **Jet de sauvegarde :** Volonté vs DD du test d’incantation (parfois)
 **Temps d’incantation :** 1 action
 
-## Général
-Le clerc brandit son symbole sacré et détecte les émanations du mal dans un rayon de **1,5 m** de large qui s’étend sur **18 m** (ou plus) devant le symbole.
+*Le clerc perçoit la noirceur tapie dans les cœurs et les lieux impies à sa divinité.*
 
-La définition du mal est basée sur le clerc : généralement, elle englobe les créatures d’alignement opposé, celles qui sont impies pour la divinité du clerc et celles qui ont une intention clairement nuisible. Selon la puissance du sort, il peut détecter des dangers encore plus subtils. Ce sort ne révèle pas les créatures qui sont autrement cachées, mais il informe le clerc que des intentions maléfiques émanent d’une certaine position.
+## Effet
+Le clerc brandit son symbole sacré pour déceler les émanations de malveillance dans un rayon de **1,5 m** de large qui s’étend devant lui. Selon la puissance de l'incantation, cette perception peut devenir omnidirectionnelle et même affaiblir les êtres impies.
 
-Ce sort peut être inversé pour détecter le bien, c’est-à-dire les créatures d’alignement allié, de divinité commune ou ayant des objectifs sacrés similaires.
+## Limites / précisions
+- **Inversion :** Ce sort peut être inversé pour détecter le bien (créatures d’alignement allié, de divinité commune ou ayant des objectifs sacrés similaires).
+- **Définition du mal :** Le mal est défini par la foi du clerc : créatures d’alignement opposé, êtres impies pour sa divinité ou individus ayant des intentions clairement nuisibles.
+- **Portée :** Ce sort ne révèle pas les créatures physiquement cachées (par invisibilité par exemple), mais informe le clerc de l'origine exacte des intentions maléfiques.
+
+## Revers
+Sans objet.
+
+## Défaveur
+En cas d'échec critique (1 naturel), le clerc subit une **Défaveur** (voir les règles de magie).
 
 ## Résultats du test d’incantation
 

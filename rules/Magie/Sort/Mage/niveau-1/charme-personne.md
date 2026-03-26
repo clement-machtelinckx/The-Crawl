@@ -5,27 +5,35 @@
 **Jet de sauvegarde :** Volonté vs test d'incantation  
 **Temps d’incantation :** 1 round  
 
-## Général
-L'incantateur charme un ennemi pour qu'il devienne un ami ! Tout humanoïde vivant ordinaire peut être affecté normalement. Les druides peuvent également utiliser ce sort sur les animaux. Les mages peuvent tenter ce sort sur les monstres et les morts-vivants avec une pénalité de -2 au test, et tenter d'affecter les créatures d'autres plans et les démons avec une pénalité de -4 au test.
+*L'incantateur influence l'esprit d'une créature pour qu'elle le considère comme un ami dévoué.*
+
+## Effet
+Subvertit la volonté d'un humanoïde (ou autre créature selon le lanceur) pour en faire un allié obéissant.
+
+## Limites / précisions
+- **Cibles :** Humanoïdes vivants. Pénalité de **-2** pour les monstres/morts-vivants, **-4** pour les extraplanaires/démons.
+- **Actions :** La cible n'effectuera pas d'actions suicidaires.
+- **Rupture :** Jet de sauvegarde périodique selon l'Intelligence (de 1 jour à 1 mois).
+- **Marque :** La cible porte souvent un signe physique de son asservissement (tic, cernes, ressemblance avec le mage).
 
 ## Revers
-Lancer 1d4 : (1) l'incantateur tombe amoureux de la cible visée ; (2) 1d4 créatures proches déterminées au hasard tombent amoureuses les unes des autres ; (3) l'incantateur endort par inadvertance la cible visée [sauvegarde de Volonté pour résister] ; (4) la cible n'est pas charmée mais est au contraire repoussée et mise en colère par l'incantateur.
+Lancer 1d4 : (1) le mage tombe amoureux de la cible ; (2) 1d4 créatures tombent amoureuses entre elles ; (3) cible s'endort (Volonté DD test) ; (4) cible devient furieuse contre le mage.
 
 ## Corruption
-Lancer 1d6 : (1-3) corruption mineure ; (4-5) corruption majeure ; (6) corruption plus grande.
+Lancer 1d6 : (1-3) mineure ; (4-5) majeure ; (6) plus grande.
 
 ---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Échec, perdu et pire encore ! Lancez 1d6 modifié par la Chance : (0 ou moins) corruption + revers + marque du patron ; (1-2) corruption ; (3) marque du patron (ou corruption si pas de patron) ; (4+) revers. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
 | 2-11 | Perdu. Échec. |
-| 12-13 | Une seule cible doit réussir un jet de Volonté sous peine d'être hébétée pendant 1d4 rounds. Les cibles hébétées peuvent se déplacer à moitié de leur vitesse mais ne peuvent effectuer aucune autre action. |
-| 14-17 | Une seule cible doit réussir un jet de Volonté sous peine de tomber sous le contrôle total de l'incantateur, comme s'il était son ami. Cependant, la cible n'effectuera pas d'actions suicidaires ou qu'un ami dévoué n'effectuerait pas autrement. Malheureusement, la volonté de la cible doit être subvertie de force pour que l'incantateur puisse exercer son contrôle, elle n'est donc qu'une coquille de son ancien moi, opérant avec une pénalité de -2 à tous ses jets, sauvegardes, tests et scores de caractéristiques tant qu'elle est sous le contrôle du mage. La cible reçoit une autre sauvegarde pour briser le charme selon son Intelligence d'origine : Int 3-6 = un mois ; Int 7-9 = trois semaines ; Int 10-11 = deux semaines ; Int 12-15 = une semaine ; Int 16-17 = trois jours ; Int 18+ = le jour suivant. Tant qu'elle est affectée par le sort, la cible est marquée par un signe du contrôle de l'incantateur. Lancer 1d4 : (1) tic facial étrange ; (2) cernes profonds sous les yeux ; (3) la posture et les expressions faciales ressemblent à celles de l'incantateur ; (4) les cheveux se dressent sur la tête. |
-| 18-19 | Une seule cible doit réussir un jet de Volonté sous peine de tomber sous le contrôle total de l'incantateur, comme s'il était son ami. Cependant, la cible n'effectuera pas d'actions suicidaires ou qu'un ami dévoué n'effectuerait pas autrement. La cible est capable de fonctionner normalement tant qu'elle est charmée. La cible reçoit une autre sauvegarde pour briser le charme selon son Intelligence d'origine : Int 3-6 = un mois ; Int 7-9 = trois semaines ; Int 10-11 = deux semaines ; Int 12-15 = une semaine ; Int 16-17 = trois jours ; Int 18+ = le jour suivant. Tant qu'elle est affectée par le sort, la cible est marquée par un signe du contrôle de l'incantateur, et sa posture et ses expressions faciales changent subtilement pour ressembler à celles de l'incantateur. |
-| 20-23 | Le mage peut cibler un nombre de créatures égal à son niveau d'incantateur. Chaque cible doit réussir un jet de Volonté sous peine de tomber sous le contrôle total de l'incantateur, comme s'il était son ami. Cependant, la cible n'effectuera pas d'actions suicidaires ou qu'un ami dévoué n'effectuerait pas autrement. La cible est capable de fonctionner normalement tant qu'elle est charmée. La cible reçoit une autre sauvegarde pour briser le charme selon son Intelligence d'origine : Int 3-6 = un mois ; Int 7-9 = trois semaines ; Int 10-11 = deux semaines ; Int 12-15 = une semaine ; Int 16-17 = trois jours ; Int 18+ = le jour suivant. |
-| 24-27 | L'incantateur peut cibler un nombre de créatures égal à 1d6 + niveau d'incantateur. Chaque cible doit réussir un jet de Volonté sous peine de tomber sous le contrôle total de l'incantateur, comme s'il était son ami. Cependant, la cible n'effectuera pas d'actions suicidaires ou qu'un ami dévoué n'effectuerait pas autrement. La cible est capable de fonctionner normalement tant qu'elle est charmée. La cible reçoit une autre sauvegarde pour briser le charme selon son Intelligence d'origine. |
-| 28-29 | L'incantateur peut cibler un nombre de créatures égal à 2d6 + niveau d'incantateur. Chaque cible doit réussir un jet de Volonté sous peine de tomber sous le contrôle total de l'incantateur, comme s'il était son ami. Cependant, la cible n'effectuera pas d'actions suicidaires ou qu'un ami dévoué n'effectuerait pas autrement. La cible est capable de fonctionner normalement tant qu'elle est charmée. La cible reçoit une autre sauvegarde pour briser le charme selon son Intelligence d'origine. |
-| 30-31 | L'incantateur peut cibler un nombre de créatures égal à 3d6 + niveau d'incantateur. Les cibles ayant un nombre de DV égal ou inférieur à celui de l'incantateur ne reçoivent pas de sauvegarde. Celles qui ont plus de DV que l'incantateur doivent réussir un jet de Volonté sous peine de tomber sous le contrôle total du mage, comme s'il était son ami. Cependant, la cible n'effectuera pas d'actions suicidaires ou qu'un ami dévoué n'effectuerait pas autrement. La cible est capable de fonctionner normalement tant qu'elle est charmée. La cible reçoit une autre sauvegarde pour briser le charme selon son Intelligence d'origine. |
-| 32+ | L'incantateur peut influencer les émotions de grands groupes de personnes, y compris des foules de spectateurs publics ou des armées de guerriers en colère. L'incantateur peut tenter de charmer jusqu'à 100 personnes à la fois, tant qu'elles sont dans son champ de vision ; il n'y a pas de limite de portée effective, et les cibles n'ont pas besoin d'être regroupées (par exemple, si le mage utilise des moyens de scrutation pour observer plusieurs armées, il peut cibler 20 personnes de chaque armée). Les cibles ayant un nombre de DV égal ou inférieur à celui de l'incantateur ne reçoivent pas de sauvegarde. Celles qui ont plus de DV que l'incantateur reçoivent une sauvegarde de Volonté. Un échec indique que les cibles tombent sous le contrôle complet de l'incantateur et le considèrent comme leur ami proche. Les cibles reçoivent une autre sauvegarde pour briser le charme selon leur Intelligence d'origine. |
+| 12-13 | **1 cible**. **Hébétée** (**1d4 rounds**, vitesse / 2, aucune autre action). |
+| 14-17 | **1 cible**. Contrôle total (type ami). Malus de **-2** à tous ses jets (volonté subvertie). |
+| 18-19 | **1 cible**. Contrôle total. Fonctionne normalement (sans malus). |
+| 20-23 | **NI cibles**. Contrôle total. Fonctionnement normal. |
+| 24-27 | **1d6 + NI cibles**. Contrôle total. |
+| 28-29 | **2d6 + NI cibles**. Contrôle total. |
+| 30-31 | **3d6 + NI cibles**. Cibles (**DV ≤ NI**) : **pas de sauvegarde**. Autres : Volonté DD test. |
+| 32+ | **Foule (jusqu'à 100)**. Cibles (**DV ≤ NI**) : **pas de sauvegarde**. Les cibles n'ont pas besoin d'être groupées. |

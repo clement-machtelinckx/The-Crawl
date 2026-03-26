@@ -5,27 +5,32 @@
 **Jet de sauvegarde :** Aucun  
 **Temps d’incantation :** 1 action  
 
-## Général
-L'incantateur produit des jets de feu de ses mains nues pour brûler ses ennemis.
+*L'incantateur projette des jets de flammes depuis ses mains pour consumer ses adversaires.*
+
+## Effet
+Génère une explosion ou un jet de feu infligeant des dégâts. À haut niveau, peut affecter plusieurs cibles ou créer un arc incendiaire complet.
+
+## Limites / précisions
+- **Zone :** Jet direct (paliers bas) ou arc/cercle (paliers hauts).
 
 ## Revers
-Lancer 1d4 : (1) le jet de flamme jaillit d'un membre aléatoire, gâchant la visée ; déterminer aléatoirement où et dans quelle direction les flammes jaillissent ; le jet inflige 1d3 points de dégâts à tout ce qui se trouve à portée dans cette direction ; (2) les mains de l'incantateur s'enflamment lui causant 1d3 points de dégâts ; (3) 1d4 possessions aléatoires de l'incantateur prennent feu et brûlent jusqu'à être carbonisées ; (4) tout feu dans un rayon de 4,5 m de l'incantateur est immédiatement éteint.
+Lancer 1d4 : (1) jaillit d'un membre aléatoire (**1d3** dmg direction aléatoire) ; (2) brûle les mains du mage (**1d3** dmg) ; (3) possessions du mage prennent feu ; (4) extinction de tous les feux à 4,5 m.
 
 ## Corruption
-Lancer 1d4 : (1) mains noircies en permanence ; (2) le simple contact fait s'enflammer le papier 25 % du temps ; (3) poils et cheveux brûlés définitivement ; (4) l'incantateur subit une pénalité permanente de -2 aux tests d'incantation pour la magie basée sur le froid.
+Lancer 1d4 : (1) mains noircies (permanent) ; (2) contact incendiaire (25 % chance) ; (3) poils/cheveux brûlés ; (4) malus **-2** permanent aux tests de magie du Froid.
 
 ---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Échec, perdu et pire encore ! Lancez 1d6 modifié par la Chance : (0 ou moins) corruption + marque du patron + revers ; (1-2) corruption ; (3) marque du patron (ou corruption si pas de patron) ; (4+) revers. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
 | 2-11 | Perdu. Échec. |
-| 12-13 | Une seule explosion de feu frappe une cible à portée pour 1d3 points de dégâts. |
-| 14-17 | Le sort produit une explosion de feu qui brûle une seule cible à portée pour 1d6 points de dégâts. |
-| 18-19 | Le sort produit une explosion de feu qui brûle une seule cible à portée pour 1d6 + niveau d'incantateur points de dégâts. |
-| 20-23 | Le sort produit une explosion de feu qui brûle jusqu'à trois cibles à portée pour 1d6 + niveau d'incantateur points de dégâts. Toutes les cibles doivent se trouver à moins de 3 m les unes des autres. |
-| 24-27 | Le sort produit une explosion de feu qui brûle jusqu'à trois cibles à portée pour 2d6 + niveau d'incantateur points de dégâts. Toutes les cibles doivent se trouver à moins de 3 m les unes des autres. |
-| 28-29 | L'incantateur crée une seule explosion de feu de 3 m de large et 9 m de long qui inflige des dégâts égaux à 3d6 + niveau d'incantateur à tous ceux qui sont pris dans l'explosion. |
-| 30-31 | L'incantateur crée deux explosions de feu de 3 m de large et 9 m de long. Chacune peut être dirigée dans un arc de 180° autour de sa position. |
-| 32+ | L'incantateur peut projeter du feu dans un arc de 360° vers l'extérieur de son corps. Dans ce rayon complet, il peut choisir un "coin" de 0-180° où le feu ne jaillit pas (pour protéger les alliés). Toutes les créatures dans l'arc affecté, jusqu'à une portée de 12 m, sont immolées, subissant des dégâts égaux à 4d10 + niveau d'incantateur. |
+| 12-13 | **1 cible**. Dégâts : **1d3**. |
+| 14-17 | **1 cible**. Dégâts : **1d6**. |
+| 18-19 | **1 cible**. Dégâts : **1d6 + NI**. |
+| 20-23 | **3 cibles** (à moins de 3 m). Dégâts : **1d6 + NI**. |
+| 24-27 | **3 cibles**. Dégâts : **2d6 + NI**. |
+| 28-29 | **Explosion (3 m x 9 m)**. Dégâts : **3d6 + NI**. |
+| 30-31 | **Deux explosions (3 m x 9 m)** dans un arc de 180°. |
+| 32+ | **Cercle complet (arc 360°, portée 12 m)**. Le mage peut exclure un angle mort pour protéger ses alliés. Dégâts : **4d10 + NI**. |

@@ -5,11 +5,16 @@
 **Jet de sauvegarde :** Aucun  
 **Temps d’incantation :** 1 action  
 
-## Général
-L'incantateur déverrouille magiquement les portes, coffres et autres fermetures.
+*L'incantateur déverrouille et ouvre les fermetures physiques ou magiques.*
+
+## Effet
+Permet d'ouvrir les serrures, coffres ou portes. À haut niveau, peut forcer des barrières protégées magiquement.
+
+## Limites / précisions
+- **Cible :** Une serrure ou un ensemble de serrures sur un même objet.
 
 ## Revers
-Lancer 1d4 : (1) la serrure ciblée se scelle magiquement, DD +10 pour être crochetée ; (2) toutes les serrures à 15 m se verrouillent ; (3) une serrure aléatoire sur l'incantateur se déverrouille ; (4) l'incantateur perd la capacité d'ouvrir des portes pendant 1d4 heures.
+Lancer 1d4 : (1) serrure scellée (**DD +10**) ; (2) verrouille tout rayon 15 m ; (3) serrure du mage se déverrouille ; (4) incapable d'ouvrir une porte (**1d4 h**).
 
 ## Corruption
 Lancer 1d6 : (1-3) mineure ; (4-5) majeure ; (6) plus grande.
@@ -19,13 +24,13 @@ Lancer 1d6 : (1-3) mineure ; (4-5) majeure ; (6) plus grande.
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Échec, perdu et pire encore ! Lancez 1d6 modifié par la Chance : (0 ou moins) corruption + marque du patron + revers ; (1-2) corruption ; (3) marque du patron (ou corruption si pas de patron) ; (4+) revers. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
 | 2-11 | Perdu. Échec. |
-| 12-13 | Une serrure simple est déverrouillée. |
-| 14-17 | Une serrure complexe ou magiquement verrouillée est déverrouillée. |
-| 18-19 | Toutes les serrures sur un objet sont déverrouillées. |
-| 20-23 | L'incantateur déverrouille une porte ou un coffre et le fait s'ouvrir avec fracas. |
-| 24-27 | Plusieurs serrures à 15 m sont déverrouillées simultanément. |
-| 28-29 | Une porte scellée magiquement (comme par fermeture magique) est ouverte. |
-| 30-31 | Portée de 60 m. |
-| 32+ | Déverrouillage absolu. Aucune barrière, physique ou magique, ne peut résister. |
+| 12-13 | Déverrouille une **serrure simple**. |
+| 14-17 | Déverrouille une **serrure complexe ou magique**. |
+| 18-19 | Déverrouille **toutes les serrures** d'un même objet. |
+| 20-23 | Ouvre la porte avec un **fracas sonore**. |
+| 24-27 | Déverrouille **plusieurs serrures** rayon 15 m. |
+| 28-29 | Force une porte sous *fermeture magique*. |
+| 30-31 | Portée étendue à **60 m**. |
+| 32+ | **Ouverture absolue**. Aucune barrière (physique/magique) ne résiste. |

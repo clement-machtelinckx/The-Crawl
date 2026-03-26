@@ -2,23 +2,37 @@
 
 **Niveau :** 2  
 **Portée :** 9 m ou plus  
-**Durée :** Varie  
+**Durée :** Variable  
 **Jet de sauvegarde :** Volonté vs DD du test d’incantation  
 **Temps d’incantation :** 1 round  
 
-## Général
-Avec ce sort, le clerc lie une créature surnaturelle et la force à obéir à sa volonté. Le sort est plus facile si la créature a déjà été invoquée pour être contrôlée via un autre sort. Mais le clerc peut également lancer ce sort pour contrôler des créatures rencontrées sur leurs plans natals. Le clerc peut cibler une créature déjà sous le contrôle d’un autre lanceur de sorts et invoquée via un autre sort (par exemple, invocation d’animaux, invocation de monstres ou compagnon invisible) ou originaire d’un plan non matériel (par exemple, démons, diables, élémentaires, esprits, fantômes, etc.). Le clerc lie cette créature pour qu’elle obéisse à sa volonté au lieu de la volonté de son maître actuel. Un jet de sauvegarde de Volonté est autorisé pour résister, mais le jet de sauvegarde est effectué par l’autre lanceur de sorts et non par la créature cible, qui est déjà dominée. Si le test est réussi, le contrôle de la créature liée est transféré au clerc lançant le sort. Le clerc conserve le contrôle pendant un certain temps, après quoi le contrôle revient au lanceur d’origine (époque à laquelle le sort d’invocation ou de contrôle d’origine peut avoir pris fin). Ce sort n’affecte pas les familiers ou autres créatures qui obéissent volontairement à un lanceur de sorts, seulement celles sous contrôle forcé. Dans certaines circonstances, comme indiqué ci-dessous, le clerc peut également affecter d’autres cibles. Une créature sous le contrôle du clerc peut être commandée de prendre toute action normalement en son pouvoir, similairement au sort d’invocation d’animaux. La créature doit être capable d’entendre les ordres du clerc et les exécutera au mieux de ses capacités. Les ordres suicidaires ou intrinsèquement contradictoires accordent à la cible un autre jet de sauvegarde de Volonté pour résister.
+*Le clerc asservit une créature surnaturelle pour la forcer à obéir à sa volonté.*
+
+## Effet
+Le clerc prend le contrôle d'une créature invoquée par un autre (animal, monstre, compagnon invisible) ou d'une entité extraplanaire (démon, élémentaire, esprit). Le contrôle peut être dérobé à un maître actuel ou imposé à une créature libre.
+
+## Limites / précisions
+- **Cibles :** Créatures sous contrôle forcé. N'affecte pas les familiers ou serviteurs volontaires.
+- **Conflit :** Si la cible a déjà un maître, le jet de sauvegarde est effectué par le **lanceur d'origine** et non la créature.
+- **Libre arbitre :** À haut niveau (22+), peut affecter des créatures dotées de libre arbitre sur un plan non natal.
+- **Ordres :** Fonctionne comme *Invoquer un animal*. Les ordres suicidaires permettent un nouveau jet de **Volonté**.
+
+## Revers
+Aucun.
+
+## Défaveur
+En cas d'échec critique, le clerc subit les effets de la défaveur divine.
 
 ## Résultats du test d’incantation
 
 | Test | Résultat |
 |---:|---|
 | 1–13 | **Échec.** |
-| 14–15 | Le clerc peut cibler une créature jusqu’à **2 DV**. Si le sort réussit, le clerc contrôle cette créature pendant **1d6 rounds**. |
-| 16–19 | Le clerc peut cibler une créature jusqu’à **4 DV**. Si le sort réussit, le clerc contrôle cette créature pendant **1d6+NI rounds**. |
-| 20–21 | Le clerc peut cibler une créature jusqu’à **6 DV**. Si le sort réussit, le clerc contrôle cette créature pendant **2d6+NI rounds**. |
-| 22–25 | Le clerc peut cibler une créature jusqu’à **6 DV**. Si le sort réussit, le clerc contrôle cette créature pendant **2d6+NI rounds**. Alternativement, le clerc peut également choisir de cibler une créature extraplanaire dotée d’un libre arbitre de **4 DV ou moins** se trouvant actuellement sur un plan non natal. Elle bénéficie d’un jet de sauvegarde de Volonté en utilisant son propre modificateur. Le clerc contrôle la créature comme si elle était sous les effets d’un sort d’invocation d’animaux du même test d’incantation. À la fin de la durée, la créature retrouve son libre arbitre. |
-| 26–29 | Le clerc peut cibler une créature jusqu’à **8 DV**. Si le sort réussit, le clerc contrôle cette créature pendant **2d6+NI tours**. Alternativement, le clerc peut également choisir de cibler une créature extraplanaire dotée d’un libre arbitre de **6 DV ou moins** se trouvant actuellement sur un plan non natal. Elle bénéficie d’un jet de sauvegarde de Volonté en utilisant son propre modificateur. Le clerc contrôle la créature comme si elle était sous les effets d’un sort d’invocation d’animaux. À la fin de la durée, la créature retrouve son libre arbitre. |
-| 30–31 | Le clerc peut cibler une créature jusqu’à **8 DV**. Si le sort réussit, le clerc contrôle cette créature pendant **2d6+NI tours**. Alternativement, le clerc peut également choisir de cibler une autre créature de **8 DV ou moins**, qui peut être n’importe quelle créature extraplanaire dotée d’un libre arbitre actuellement sur un plan non natal, n’importe quel animal mondain ou n’importe quel monstre inintelligent. Elle bénéficie d’un jet de sauvegarde de Volonté en utilisant son propre modificateur. Le clerc contrôle la créature comme si elle était sous les effets d’un sort d’invocation d’animaux. À la fin de la durée, la créature retrouve son libre arbitre. |
-| 32–33 | Le clerc peut cibler une créature jusqu’à **12 DV**. Si le sort réussit, le clerc contrôle cette créature pendant **2d6+NI heures**. Alternativement, le clerc peut également choisir n’importe quelle autre cible, intelligente ou non, extraplanaire ou non, de **10 DV ou moins**. Elle bénéficie d’un jet de sauvegarde de Volonté en utilisant son propre modificateur. Le clerc contrôle la créature comme si elle était sous les effets d’un sort d’invocation d’animaux. À la fin de la durée, la créature retrouve son libre arbitre. |
-| 34+ | Le clerc peut cibler n’importe quelle créature de n’importe quel nombre de Dés de Vie ou de niveau de puissance et tenter de contrôler cette créature pendant **2d6+NI jours**. À la fin de la durée, la créature retrouve son libre arbitre. |
+| 14–15 | Cible jusqu'à **2 DV**. Durée **1d6 rounds**. |
+| 16–19 | Cible jusqu'à **4 DV**. Durée **1d6+NI rounds**. |
+| 20–21 | Cible jusqu'à **6 DV**. Durée **2d6+NI rounds**. |
+| 22–25 | Cible jusqu'à **6 DV**. Durée **2d6+NI rounds**. Option : Extraplanaire libre (**≤ 4 DV**) pendant la même durée. |
+| 26–29 | Cible jusqu'à **8 DV**. Durée **2d6+NI tours**. Option : Extraplanaire libre (**≤ 6 DV**). |
+| 30–31 | Cible jusqu'à **8 DV**. Durée **2d6+NI tours**. Option : Extraplanaire libre, animal ou monstre inintelligent (**≤ 8 DV**). |
+| 32–33 | Cible jusqu'à **12 DV**. Durée **2d6+NI heures**. Option : Toute cible intelligente ou non (**≤ 10 DV**). |
+| 34+ | **Toute créature**, quel que soit son niveau. Durée **2d6+NI jours**. |

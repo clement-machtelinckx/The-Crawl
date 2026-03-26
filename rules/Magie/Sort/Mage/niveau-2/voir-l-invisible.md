@@ -5,11 +5,16 @@
 **Jet de sauvegarde :** Aucun  
 **Temps d’incantation :** 1 action  
 
-## Général
-L'incantateur peut voir les créatures et les objets invisibles, éthérés ou autrement dissimulés magiquement.
+*L'incantateur perce les voiles du secret pour discerner ce qui est caché aux yeux des mortels.*
+
+## Effet
+Permet de voir les créatures et objets invisibles, éthérés ou illusoires. À haut niveau, confère la *vision véritable* capable d'ignorer tout déguisement ou dissimulation.
+
+## Limites / précisions
+- **Nature :** Détecte l'invisibilité magique, les images miroir et les portes secrètes (palier 20+).
 
 ## Revers
-Lancer 1d4 : (1) l'incantateur devient lui-même invisible mais de manière incontrôlée pendant 1d6 rounds ; (2) l'incantateur subit un éblouissement qui le rend aveugle aux objets normaux tout en voyant les invisibles pendant 1d4 rounds ; (3) l'incantateur voit des choses qui ne sont pas là (hallucinations) pendant 1 tour ; (4) une créature invisible à proximité devient soudainement visible mais très en colère contre l'incantateur.
+Lancer 1d4 : (1) mage devient invisible par erreur ; (2) aveugle au monde normal (**1d4 rounds**) ; (3) hallucinations (**1 tour**) ; (4) créature invisible devient visible et furieuse.
 
 ## Corruption
 Lancer 1d6 : (1-3) mineure ; (4-5) majeure ; (6) plus grande.
@@ -19,13 +24,13 @@ Lancer 1d6 : (1-3) mineure ; (4-5) majeure ; (6) plus grande.
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Échec, perdu et pire encore ! Lancez 1d6 modifié par la Chance : (0 ou moins) corruption + marque du patron + revers ; (1-2) corruption ; (3) marque du patron (ou corruption si pas de patron) ; (4+) revers. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
 | 2-11 | Perdu. Échec. |
-| 12-13 | L'incantateur peut voir les créatures invisibles à moins de 15 m comme des formes translucides. |
-| 14-17 | L'incantateur peut voir clairement tout ce qui est invisible à moins de 30 m. |
-| 18-19 | L'incantateur voit tout ce qui est invisible, éthéré ou dissimulé par une image-miroir à moins de 30 m. |
-| 20-23 | Comme ci-dessus, et la durée est de 1 heure. L'incantateur perçoit aussi les portes secrètes magiquement dissimulées. |
-| 24-27 | Portée de 60 m. L'incantateur peut accorder cette vision à un allié par contact. |
-| 28-29 | Vision perçante. L'incantateur peut voir à travers les illusions visuelles simples et les déguisements magiques. |
-| 30-31 | Portée de la ligne de vue. Durée 4 heures. |
-| 32+ | Vision véritable. L'incantateur voit tout ce qui est tel qu'il est réellement, ignorant toutes les dissimulations magiques, invisibilités et illusions à perte de vue pendant 24 heures. |
+| 12-13 | Voit les invisibles comme des **formes translucides** (15 m). |
+| 14-17 | Voit **clairement** tout ce qui est invisible (30 m). |
+| 18-19 | Voit invisible, éthéré et **images-miroir** (30 m). |
+| 20-23 | Idem, durée **1 heure**. Détecte aussi les **portes secrètes** magiques. |
+| 24-27 | Portée **60 m**. Peut être accordé à un allié par contact. |
+| 28-29 | **Vision perçante**. Perce les illusions visuelles et déguisements. |
+| 30-31 | Portée **Ligne de vue**. Durée **4 heures**. |
+| 32+ | **Vision véritable**. Ignore tout (invisibilité, illusion, dissimulation) à perte de vue pendant **24 h**. |

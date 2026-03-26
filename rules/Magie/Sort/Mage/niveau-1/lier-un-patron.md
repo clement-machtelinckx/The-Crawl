@@ -5,15 +5,24 @@
 **Jet de sauvegarde :** Aucun  
 **Temps d’incantation :** 1 semaine + quêtes  
 
-## Général
-L'incantateur se dévoue au service d'un seigneur surnaturel, formant un pacte pour gagner son soutien en tant que patron tant qu'il continue de le servir fidèlement. Ce patron peut être un démon, un diable, un fantôme, un esprit, un élémentaire, un ange, un seigneur du chaos ou tout autre être surnaturel. La cérémonie initiale prend une semaine. Une fois le pacte conclu, l'incantateur peut invoquer le soutien du patron avec le sort invoquer un patron. En échange de l'aide du patron, celui-ci peut demander à l'incantateur d'accomplir certaines tâches.
+*L'incantateur se voue au service d'une puissance supérieure pour devenir son agent mortel en échange de pouvoir.*
+
+## Effet
+Forme un pacte mystique avec un seigneur surnaturel (démon, ange, esprit, etc.). Ce lien permet ensuite d'utiliser le sort *invoquer un patron* pour demander son aide.
+
+## Limites / précisions
+- **Cérémonie :** Dure une semaine entière et nécessite souvent l'accomplissement de quêtes spécifiques.
+- **Obligations :** En échange de son pouvoir, le patron exigera l'accomplissement de tâches ou de sacrifices.
+
+## Revers
+Aucun (échec lié au succès des quêtes).
 
 ## Corruption
-Ce sort entraîne toujours une marque du patron plutôt qu'une corruption normale.
+Ce sort entraîne systématiquement une **marque du patron** au lieu d'une corruption normale en cas d'échec critique.
 
 ---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1-31 | Voir le livre de règles. |
+| 1-31 | Voir le livre de règles (souvent lié à la réussite du rituel et à la force du lien). |

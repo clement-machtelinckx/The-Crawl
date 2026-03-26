@@ -2,23 +2,36 @@
 
 **Niveau :** 4  
 **Portée :** 15 m + 3 m par NI  
-**Durée :** Varie  
+**Durée :** Variable  
 **Jet de sauvegarde :** Vigueur vs DD du test d’incantation  
 **Temps d’incantation :** 1 action  
 
-## Général
-Le clerc frappe ses ennemis d’afflictions, de maladies et de blessures. Ceux qui s’opposent à sa foi (considérés comme impies ou d’alignement opposé) subissent un malus de -2 à leur jet de sauvegarde de Vigueur. Toutes les autres créatures effectuent leur jet de sauvegarde normalement. Le sort affecte tous les ennemis dans une zone de 10 carrés par NI. Les alliés situés dans la zone ciblée ne sont pas affectés.
+*Le clerc frappe une zone d'afflictions divines, provoquant handicaps et maladies chez ses ennemis.*
+
+## Effet
+Le sort sature une zone d'énergie divine vengeresse. Selon la puissance du test, les ennemis peuvent être assourdis, estropiés, aveuglés, affaiblis par une perte de Force, dévorés par une bactérie ou frappés par une peste sacrée.
+
+## Limites / précisions
+- **Cibles :** Affecte tous les ennemis dans une zone de 10 carrés par NI. Les alliés sont immunisés.
+- **Impies :** Les créatures d'alignement opposé ou hostiles à la foi subissent une pénalité de **-2** à leur jet de sauvegarde.
+- **Fatigue divine :** Au palier maximal (38+), l'intervention directe de la divinité inflige un malus de **-10** aux tests d'incantation du clerc pendant une semaine.
+
+## Revers
+Aucun.
+
+## Défaveur
+En cas d'échec critique, le clerc subit les effets de la défaveur divine.
 
 ## Résultats du test d’incantation
 
 | Test | Résultat |
 |---:|---|
 | 1–17 | **Échec.** |
-| 18–19 | Tous les ennemis dans la zone d’effet doivent réussir un jet de sauvegarde de Vigueur sous peine d’être assourdis. Les créatures sourdes subissent un malus de -4 aux jets d’initiative et pour éviter d’être surprises. Les lanceurs de sorts sourds subissent un malus de -2 à tous leurs tests d’incantation. L’affliction dure NI heures. |
-| 20–23 | Toutes les cibles de la zone d’effet doivent réussir un jet de sauvegarde de Vigueur sous peine d’être estropiées. Les individus estropiés voient leur vitesse de déplacement réduite à 1,5 m (5') et subissent un malus de -2 à tous les jets d’attaque et de dégâts, aux jets de sauvegarde et aux tests d’incantation jusqu’à ce que la condition soit levée. L’affliction dure NI heures. |
-| 24–25 | Toutes les cibles de la zone d’effet doivent réussir un jet de sauvegarde de Vigueur sous peine d’être aveuglées. Les créatures aveugles subissent un malus de -4 aux jets d’initiative, d’attaque et de dégâts, aux jets de sauvegarde et aux tests d’incantation, et sont faciles à surprendre. De plus, un personnage aveugle utilisant une arme de trait a un malus de -8 pour toucher et tout tir manqué a 50 % de chances de toucher un allié déterminé aléatoirement. L’affliction dure NI heures. |
-| 26–27 | Toutes les cibles dans la zone d’effet doivent réussir un jet de sauvegarde de Vigueur sous peine de perdre temporairement 1d8 points de Force par NI. La Force perdue revient au rythme normal une fois le sort terminé. Les créatures dont la Force tombe à zéro tombent inconscientes jusqu’à ce qu’elles récupèrent au moins un point de Force. Cette faiblesse dure 24 heures complètes. |
-| 28–33 | Toutes les cibles dans la zone d’effet sont affligées d’une hideuse bactérie mangeuse de chair. À chaque round, les victimes doivent réussir un jet de sauvegarde de Vigueur sous peine de subir 1d6 points de dégâts cumulés chaque round pendant NI rounds ; c’est-à-dire 1d6 au premier round, 2d6 au deuxième, 3d6 au troisième, et ainsi de suite. Un jet de sauvegarde de Vigueur réussi permet seulement d’éviter les dégâts du round en cours ; il n’arrête pas l’effet du sort pour les rounds suivants. La bactérie dévore toutes les matières organiques portées par les victimes, détruisant le cuir, le tissu, le bois et les matériaux similaires en 1d4 rounds. Un sort de *neutralisation des maladies* détruit la bactérie, tout comme une flamme magique (*boule de feu*, *contrôle du feu*, etc.), mais la cible subit alors tous les dégâts du feu. |
-| 34–35 | Toutes les cibles de la zone d’effet doivent réussir un jet de sauvegarde de Vigueur sous peine d’être frappées par une peste d’origine divine. La maladie inflige immédiatement 1d10+NI points de dégâts aux cibles et la perte d’un point de Chance. La maladie continue de ravager le corps des cibles après la fin du sort et peut facilement s’avérer fatale. Chaque jour suivant, la cible malade doit réussir un jet de sauvegarde de Vigueur (DD 25). En cas d’échec, elle reste malade, perd un autre point de Chance et subit 1d6 points de dégâts supplémentaires. Chaque jour après le premier, le DD du jet de sauvegarde de Vigueur est réduit de 1 jusqu’à ce que la cible réussisse son jet, que la maladie suive son cours ou qu’elle tue son sujet. La maladie dure 4 jours plus 1 jour par NI. |
-| 36–37 | Toutes les cibles de la zone d’effet doivent réussir un jet de sauvegarde de Vigueur sous peine de s’enflammer spontanément ! Elles et toutes leurs possessions non magiques s’embrasent, infligeant 1d10 points de dégâts à chaque round où elles restent en feu. Éteindre la flamme magique nécessite une action de round complet et la victime doit réussir un jet de Réflexes (DD 20). Le feu continue jusqu’à ce qu’il soit éteint ou que la victime meure. |
-| 38+ | Le regard de la divinité du clerc se tourne vers les impies de la zone d’effet et décime complètement tous ceux qui échouent à leur jet de sauvegarde de Vigueur. Les cibles fondent en flaques de boue sanglante et de chair liquide qui s’évaporent rapidement comme si elles n’avaient jamais existé. En raison de l’implication personnelle de la divinité dans cet effet, tous les tests d’incantation du clerc subissent un malus de -10 pendant une semaine entière par la suite. Sa divinité l’a suffisamment aidé et ignorera probablement toute nouvelle demande pendant une semaine. Ce modificateur peut être levé à la discrétion du juge si le clerc entreprend une tâche monumentale au nom de sa divinité. |
+| 18–19 | **Surdité** (**NI heures**). Malus **-4** Init et surprise. Lanceurs : **-2** aux tests incant. |
+| 20–23 | **Estropié** (**NI heures**). Vitesse **1,5 m**. Malus **-2** attaques, dégâts, SV et tests incant. |
+| 24–25 | **Cécité** (**NI heures**). Malus **-4** Init, atk, dmg, SV et tests incant. Armes de trait : **-8** et 50 % chance de toucher un allié si raté. |
+| 26–27 | Perte temporaire de **1d8 points de Force par NI** pendant **24 heures**. 0 For = inconscience. |
+| 28–33 | **Bactérie mangeuse de chair**. Dégâts cumulatifs (**1d6** au 1er round, **2d6** au 2e, etc.) pendant **NI rounds**. Dévore cuir, tissu et bois en **1d4 rounds**. |
+| 34–35 | **Peste divine**. **1d10+NI** dégâts et perte **1 pt Chance**. Chaque jour : SV **DD 25** ou **1d6** dégâts et perte **1 pt Chance** (DD -1 par jour ensuite). Durée **4 jours + NI**. |
+| 36–37 | **Inflammation spontanée**. **1d10** dégâts/round. Éteindre : Action complète et Réf **DD 20**. |
+| 38+ | **Annihilation**. Les cibles fondent instantanément. **-10** aux tests du clerc pendant **1 semaine**. |

@@ -2,28 +2,38 @@
 **Niveau :** 3  
 **Portée :** 1 rune inscrite  
 **Durée :** Jusqu'au déclenchement  
-**Jet de sauvegarde :** Volonté vs test d'incantation ; -1 si alignement opposé  
-**Temps d’incantation :** 1 tour  
+**Jet de sauvegarde :** Volonté (Spécial)  
+**Temps d’incantation :** 1 tour (10 minutes)  
 
-## Général
-L'incantateur trace une rune du secret alphabet des fées. Ces sigilles abritent un pouvoir subtil mais dangereux. Les matériaux coûtent 200 po par rune. L'incantateur choisit un effet égal ou inférieur au résultat de son test.
+*L'incantateur trace des runes secrètes issues du royaume des fées pour piéger des objets ou des passages.*
+
+## Effet
+Permet d'inscrire un sigille magique sur un support solide. La rune se déclenche lors d'une interaction (toucher, lecture) pour infliger des dégâts, repousser les intrus ou altérer leur comportement.
+
+## Limites / précisions
+- **Coût :** Matériaux précieux d'une valeur de **200 po** par rune.
+- **Modularité :** Le mage peut choisir n'importe quel effet égal ou inférieur à son test.
+- **Alignement :** Les cibles d'alignement opposé subissent un malus de **-1** au jet de sauvegarde.
 
 ## Revers
-Lancer 1d4 : (1) rune aléatoire inscrite sur la main du mage et détonne immédiatement ; (2) rune tracée mais inactive (tatouage coûteux) ; (3) symbole permanent du visage du mage ; (4) oublie comment lire et écrire pendant 1d6 tours.
+Lancer 1d4 : (1) rune aléatoire détonne sur la main du mage ; (2) rune inerte (tatouage coûteux) ; (3) portrait permanent du mage sur l'objet ; (4) analphabétisme total (**1d6 tours**).
+
+## Corruption
+Non applicable directement (voir échec critique dans la table).
 
 ---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Échec, perdu et pire encore ! Lancez 1d6 modifié par la Chance : (0 ou moins) corruption + marque du patron + revers ; (1-2) corruption ; (3) marque du patron (ou corruption si pas de patron) ; (4+) revers. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
 | 2-11 | Perdu. Échec. |
-| 12-15 | Échec, mais le sort n'est pas perdu. |
-| 16-17 | Douleur. La première créature à déranger la rune ressent une douleur intense (2d6 dmg). La rune se dissout. |
-| 18-21 | Brûlure. Brûlure douloureuse (1d6+1 dmg immédiat, puis diminue toutes les heures). |
-| 22-23 | Refus. La créature est repoussée (Vol DD test incant ou 1d4 dmg). |
-| 24-26 | Explosive. Explosion de feu (3d6 dmg dans un rayon de 3 m). |
-| 27-31 | Sécurité. L'objet est protégé. Les attaquants perdent l'envie d'attaquer ou s'endorment (1d4 rounds) s'ils ratent leur jet de Volonté. |
-| 32-33 | Répulsion. La cible est projetée à 1d20 x 1,5 m en arrière (1d8 dmg). |
-| 34-35 | Paratonnerre. La cible attire les éclairs (1d4 par minute lors d'orages, 3d6 dmg chacun) pendant 7 jours. |
-| 36+ | Rage. La cible entre dans une rage aveugle et attaque tout le monde jusqu'à la mort. |
+| 12-15 | Échec simple (sort non perdu). |
+| 16-17 | **Douleur**. Dégâts immédiats : **2d6**. La rune disparaît. |
+| 18-21 | **Brûlure**. Dégâts : **1d6+1**, puis diminue chaque heure. |
+| 22-23 | **Refus**. Cible repoussée (**1d4** dmg, Volonté pour éviter). |
+| 24-26 | **Explosion**. Rayon 3 m : **3d6** dégâts de feu. |
+| 27-31 | **Sécurité**. Les attaquants s'endorment (**1d4 rounds**) ou perdent l'envie d'agir (Volonté DD test). |
+| 32-33 | **Répulsion**. Cible projetée à **1d20 x 1,5 m** (**1d8** dmg). |
+| 34-35 | **Paratonnerre**. Cible attire les éclairs (**1d4/min**, **3d6** dmg) pendant **7 jours**. |
+| 36+ | **Rage**. Rage aveugle et suicidaire jusqu'à la mort. |

@@ -6,10 +6,19 @@
 **Jet de sauvegarde :** Aucun
 **Temps d’incantation :** 1 action
 
-## Général
+*Le clerc repousse les effets glaçants du froid ou de la chaleur, se protégeant lui-même et les autres.*
+
+## Effet
 Le clerc repousse les effets glaçants du froid ou de la chaleur, se protégeant lui-même et les autres. Il peut supporter ces conditions sans inconfort.
 
+## Limites / précisions
 Lorsqu’il lance le sort, le clerc choisit l’effet auquel résister (chaleur ou froid). Il est possible de lancer le sort deux fois pour créer une résistance aux deux effets.
+
+## Revers
+Sans objet.
+
+## Défaveur
+En cas d'échec critique (1 naturel), le clerc subit une **Défaveur** (voir les règles de magie).
 
 ## Résultats du test d’incantation
 

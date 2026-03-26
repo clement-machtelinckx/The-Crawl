@@ -6,12 +6,21 @@
 **Jet de sauvegarde :** Varie
 **Temps d’incantation :** 1 action
 
-## Général
+*Le clerc implore sa divinité pour le protéger contre les sources maléfiques et impies.*
+
+## Effet
 Le clerc implore sa divinité pour le protéger. Il est protégé même s’il n’est pas conscient du danger.
 
 La définition du mal est basée sur le clerc : généralement, elle englobe les créatures d’alignement opposé, celles qui sont impies pour sa foi et celles qui ont une intention clairement nuisible. Selon la puissance du sort, il peut détecter des dangers encore plus subtils.
 
+## Limites / précisions
 Ce sort peut être inversé pour protéger du bien.
+
+## Revers
+Sans objet.
+
+## Défaveur
+En cas d'échec critique (1 naturel), le clerc subit une **Défaveur** (voir les règles de magie).
 
 ## Résultats du test d’incantation
 

@@ -6,12 +6,21 @@
 **Jet de sauvegarde :** Aucun
 **Temps d’incantation :** 1 action ou plus (voir ci-dessous)
 
-## Général
-Le clerc implore la bénédiction de son dieu. S’il l’obtient, cette bénédiction peut être d’un grand secours pour la réussite de ses entreprises. Le sort peut être lancé sur le clerc lui-même, sur un objet ou sur l’un de ses alliés.
+*Le clerc invoque la grâce de sa divinité pour guider les pas et les coups de ses fidèles alliés.*
 
-Le sort est plus efficace sur les alliés du même alignement. Lancer ce sort sur une cible d’un alignement différent entraîne une pénalité de -1 au test d’incantation, et le lancer sur une cible d’un alignement opposé ou fidèle à une divinité adverse entraîne une pénalité de -2.
+## Effet
+Le clerc implore la bénédiction de son dieu. S’il l’obtient, cette faveur divine soutient la réussite des entreprises de ses alliés. Le sort insuffle une vigueur sacrée à la cible, facilitant ses actions au combat ou lors de tests de compétence.
 
-Le temps d’incantation reflète la prière et la méditation alors que le clerc utilise son symbole sacré pour mener le rituel de bénédiction. Les bénédictions lancées dans des circonstances favorables reçoivent un bonus de +1 à +4, à la discrétion du juge (ex. dans le temple du dieu du clerc, lors d’un jour sacré ou avec une relique sainte). À l’inverse, des circonstances défavorables (ex. dans un temple ennemi impie) entraînent une pénalité de -1 à -4.
+## Limites / précisions
+Le temps d’incantation reflète la prière et la méditation alors que le clerc utilise son symbole sacré pour mener le rituel.
+- **Alignement :** Le sort est plus efficace sur les alliés du même alignement. Lancer ce sort sur une cible d’un alignement différent entraîne une pénalité de **-1** au test d’incantation ; sur une cible d’alignement opposé ou fidèle à une divinité adverse, la pénalité est de **-2**.
+- **Circonstances :** Les bénédictions lancées dans des lieux ou moments favorables (ex: temple allié, jour sacré) reçoivent un bonus de **+1** à **+4**. Des circonstances défavorables (ex: temple impie) entraînent une pénalité de **-1** à **-4**.
+
+## Revers
+Sans objet.
+
+## Défaveur
+En cas d'échec critique (1 naturel), le clerc subit une **Défaveur** (voir les règles de magie).
 
 ## Résultats du test d’incantation
 

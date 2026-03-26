@@ -3,21 +3,32 @@
 **Portée :** 6 m  
 **Durée :** Variable  
 **Jet de sauvegarde :** Aucun  
-**Temps d’incantation :** 1 tour ou moins  
+**Temps d’incantation :** 1 tour ou moins (voir tableau)  
 
-## Général
-L'incantateur invoque un démon des abysses pour le servir. Ce sort est extrêmement dangereux. L'incantateur doit tracer un cercle de protection. La puissance du démon invoqué dépend du résultat du test.
+*L'incantateur déchire le voile des Abysses pour invoquer une entité démoniaque sous son contrôle.*
+
+## Effet
+Invoque un démon pour accomplir une tâche. Ce sort est l'un des plus périlleux pour l'âme et l'intégrité physique du mage.
+
+## Limites / précisions
+- **Protection :** Nécessite le tracé d'un cercle de protection au sol (inclu dans l'incantation).
+- **Risque :** Un démon invoqué cherche toujours une faille pour se retourner contre son maître.
 
 ## Revers
-Lancer 1d4 : (1) le démon attaque immédiatement l'incantateur ; (2) le démon est libre de ses mouvements et sème le chaos ; (3) l'incantateur est marqué par une marque démoniaque ; (4) le démon exige un sacrifice immédiat.
+Lancer 1d4 : (1) démon attaque immédiatement le mage ; (2) démon libre de ses mouvements (chaos) ; (3) marque démoniaque permanente ; (4) exigence d'un sacrifice immédiat.
+
+## Corruption
+Non applicable directement (voir échec critique).
+
+---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1-13 | Échec. |
-| 14-15 | Démon mineur (1-2 DV) invoqué pour 1d6 rounds. |
-| 16-19 | Démon mineur (3-4 DV) pour 1 tour. |
-| 20-23 | Démon de puissance moyenne (5-6 DV) pour 1 tour. |
-| 24-27 | Démon puissant (7-8 DV) pour 1 heure. |
-| 28-31 | Seigneur démon mineur invoqué. Risque de possession. |
-| 32+ | Grand seigneur démon. Exige des pactes sombres. |
+| 1-13 | **Échec.** |
+| 14-15 | **Démon mineur (1-2 DV)** pendant **1d6 rounds**. |
+| 16-19 | **Démon mineur (3-4 DV)** pendant **1 tour**. |
+| 20-23 | **Puissance moyenne (5-6 DV)** pendant **1 tour**. |
+| 24-27 | **Démon puissant (7-8 DV)** pendant **1 heure**. |
+| 28-31 | **Seigneur démon mineur**. Risque élevé de possession. |
+| 32+ | **Grand Seigneur Démon**. Exige des pactes sombres définitifs. |

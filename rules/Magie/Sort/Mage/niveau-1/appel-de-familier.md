@@ -5,8 +5,18 @@
 **Jet de sauvegarde :** Aucun  
 **Temps d’incantation :** 1 semaine  
 
-## Général
-Ce long rituel prépare l'incantateur à se lier avec un familier. Le familier se fait connaître pendant la cérémonie 50 % du temps ; sinon, l'incantateur fait sa connaissance dans les semaines suivant le rituel. Le test d'incantation est effectué à la fin du rituel, et un sacrifice magique (spellburn) minimum de 10 points est requis pour lancer ce sort. L'incantateur gagne des points de vie égaux à ceux du familier et d'autres pouvoirs également, selon la créature invoquée. Une fois que l'incantateur a invoqué un familier, il ne peut pas en invoquer un autre tant que l'actuel n'est pas mort et qu'une pleine lune ne s'est pas écoulée. Si un familier meurt, l'incantateur s'effondre immédiatement de douleur intense, perd deux fois les points de vie du familier de façon permanente et subit une pénalité de -5 au test d'incantation jusqu'à la prochaine pleine lune.
+*L'incantateur lie son âme à celle d'une créature magique pour obtenir soutien et pouvoirs.*
+
+## Effet
+Le rituel attire un familier qui devient un compagnon permanent. Le mage gagne des points de vie supplémentaires et des pouvoirs spécifiques à la créature.
+
+## Limites / précisions
+- **Coût :** Nécessite un sacrifice magique (**spellburn**) minimum de **10 points**.
+- **Fréquence :** Impossible d'en invoquer un nouveau tant que l'actuel vit. Après sa mort, une pleine lune doit passer.
+- **Mort du familier :** Effondrement de douleur, perte **permanente** de **2x les PV** du familier, et malus de **-5** aux tests d'incantation jusqu'à la pleine lune.
+
+## Revers
+Non applicable (voir échec critique dans la table).
 
 ## Corruption
 Lancer 1d6 : (1-3) mineure ; (4-5) majeure ; (6) plus grande.
@@ -16,9 +26,9 @@ Lancer 1d6 : (1-3) mineure ; (4-5) majeure ; (6) plus grande.
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Perdu, échec, marque du patron et corruption. Contrairement aux sorts normaux, le sort est perdu pendant un mois entier, pas seulement un jour. |
-| 2-11 | Perdu et échec. Le sort est perdu pendant un mois entier. |
-| 12-13 | Selon le juge. |
+| 1 | **Perdu, échec, marque et corruption**. Sort perdu pendant **un mois**. |
+| 2-11 | Perdu et échec. Sort perdu pendant **un mois**. |
+| 12-13 | Selon le juge (voir tables spécifiques de familiers). |
 | 14-17 | Selon le juge. |
 | 18-19 | Selon le juge. |
 | 20-23 | Selon le juge. |

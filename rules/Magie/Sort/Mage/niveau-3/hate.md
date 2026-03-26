@@ -1,32 +1,38 @@
 # Hâte
 **Niveau :** 3  
-**Portée :** Soi-même ou rayon de 6 m autour de l'incantateur  
-**Durée :** 1d4 rounds ou plus  
+**Portée :** Soi-même ou rayon de 6 m  
+**Durée :** Variable  
 **Jet de sauvegarde :** N/A  
 **Temps d’incantation :** 2 rounds  
 
-## Général
-L'incantateur gagne une rapidité de mouvement. Ses actions sont amplifiées en vitesse de sorte qu'il peut bouger deux fois plus vite qu'un homme normal ou plus ! Cependant, les créatures affectées vieillissent à un rythme anormal. Les créatures accélérées doublent leur vitesse de mouvement et gagnent des dés d'action supplémentaires. Ce sort peut être lancé pour annuler ralentissement.
+*L'incantateur accélère le flux temporel pour lui-même ou ses alliés, démultipliant leurs actions.*
+
+## Effet
+Octroie une rapidité surnaturelle. Les cibles doublent leur vitesse et gagnent des dés d'action supplémentaires. Peut également servir à annuler un sort de *ralentissement*.
+
+## Limites / précisions
+- **Vieillissement :** L'accélération temporelle provoque un vieillissement prématuré des cibles (voir revers et corruption).
+- **Cumul :** Ne se cumule pas avec d'autres effets de hâte.
 
 ## Revers
-Lancer 1d4 : (1) l'incantateur ralentit le temps pour lui-même (rate sa prochaine activation) ; (2) ralentit le temps pour lui et 1d4 alliés à 6 m ; (3) l'incantateur vieillit de 1d10+10 ans ; (4) accorde hâte à un insecte proche.
+Lancer 1d4 : (1) ralentissement personnel (rate activation suivante) ; (2) ralentissement zone 6 m ; (3) vieillissement du mage (**1d10+10 ans**) ; (4) accorde hâte à un insecte proche.
 
 ## Corruption
-Lancer 1d8 : (1) vieillit de 2d10+10 ans ; (2) vieillit l'incantateur et tous à 6 m de 2d10+10 ans ; (3) acquiert des tics et des mouvements erratiques ; (4) nerveux et à cran (-1 aux actions nécessitant de la concentration) ; (5-6) majeure ; (7-8) plus grande.
+Lancer 1d8 : (1) vieillit de **2d10+10 ans** ; (2) vieillit le mage + alliés (6 m) ; (3) tics et mouvements erratiques ; (4) nervosité (**-1** concentration) ; (5-8) majeure ou plus grande.
 
 ---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Échec, perdu et pire encore ! Lancez 1d6 modifié par la Chance : (0 ou moins) corruption + marque du patron + revers ; (1-3) corruption ; (4) marque du patron (ou corruption si pas de patron) ; (5+) revers. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
 | 2-11 | Perdu. Échec. |
-| 12-15 | Échec, mais le sort n'est pas perdu. |
-| 16-17 | Double mouvement et un dé d'action supplémentaire chaque round. Durée 1d4+1 rounds. |
-| 18-21 | Dé d'action supplémentaire immédiat ce round. Ensuite, double mouvement et un dé d'action supplémentaire pendant 1d6+2 rounds. |
-| 22-23 | Comme ci-dessus, et une autre créature à 6 m est affectée. Durée 2d4+1 rounds. |
-| 24-26 | Immobilité surnaturelle. Gagne immédiatement 1d4 actions supplémentaires ce round. Ensuite, double mouvement et un dé d'action supplémentaire pendant 2d4+2 rounds. |
-| 27-31 | L'incantateur et jusqu'à trois alliés gagnent double mouvement et un dé d'action supplémentaire pendant 2d4+2 rounds. |
-| 32-33 | Triple mouvement et deux dés d'action supplémentaires chaque round. Quatre autres créatures gagnent double mouvement et un dé d'action supplémentaire. Durée 3d4 rounds. |
-| 34-35 | L'incantateur et quatre autres créatures gagnent triple mouvement et deux dés d'action supplémentaires chaque round. Durée 3d4 rounds. |
-| 36+ | Bulle temporelle. L'incantateur et quatre créatures prennent 1d4+1 actions immédiatement (les autres sont ignorés). Ensuite, quadruple mouvement et trois dés d'action supplémentaires (triple mouvement et deux dés pour les autres). Durée 3d4 rounds. |
+| 12-15 | Échec simple (sort non perdu). |
+| 16-17 | **Double mouvement** + **1 dé d'action** supplémentaire. Durée **1d4+1 rounds**. |
+| 18-21 | **Action immédiate** ce round. Ensuite : Double mouvement + 1 dé d'action (**1d6+2 rounds**). |
+| 22-23 | Idem, affecte le mage **+ 1 créature** (6 m). Durée **2d4+1 rounds**. |
+| 24-26 | **1d4 actions immédiates**. Ensuite : Double mouvement + 1 dé d'action (**2d4+2 rounds**). |
+| 27-31 | **Mage + 3 alliés** : Double mouvement + 1 dé d'action (**2d4+2 rounds**). |
+| 32-33 | **Mage** : Triple mouvement + 2 dés d'action. **4 alliés** : Double mouvement + 1 dé d'action. Durée **3d4 rounds**. |
+| 34-35 | **Mage + 4 alliés** : Triple mouvement + 2 dés d'action. Durée **3d4 rounds**. |
+| 36+ | **Bulle temporelle**. Mage + 4 cibles : **1d4+1 actions immédiates**. Ensuite : Quadruple mouvement + 3 dés d'action. |

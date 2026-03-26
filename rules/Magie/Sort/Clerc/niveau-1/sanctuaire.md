@@ -1,21 +1,28 @@
 # Sanctuaire
-**Niveau :** 1  
-**Portée :** Personnelle ou plus  
-**Durée :** 1 round ou plus  
-**Jet de sauvegarde :** Volonté vs DD (test d’incantation)  
-**Temps d’incantation :** 1 action  
 
-## Général
+**Niveau :** 1
+**Portée :** Personnelle ou plus
+**Durée :** 1 round ou plus
+**Jet de sauvegarde :** Volonté vs DD (test d’incantation)
+**Temps d’incantation :** 1 action
+
+*Le clerc invoque un lieu sanctuarisé où ses alliés et lui sont en sécurité.*
+
+## Effet
 Le clerc invoque un lieu sanctuarisé où ses alliés et lui sont en sécurité.
 
-## Manifestation
-Lancez **1d4** :  
-1) aura brillante  
-2) halo angélique  
-3) rai de lumière tombant des cieux  
-4) « légèreté divine » donnant l’impression que le clerc flotte juste au-dessus du sol  
+## Limites / précisions
+**Manifestation (1d4) :**
+1. Aura brillante
+2. Halo angélique
+3. Rai de lumière tombant des cieux
+4. « Légèreté divine » donnant l’impression que le clerc flotte juste au-dessus du sol
 
----
+## Revers
+Sans objet.
+
+## Défaveur
+En cas d'échec critique (1 naturel), le clerc subit une **Défaveur** (voir les règles de magie).
 
 ## Résultats du test d’incantation
 

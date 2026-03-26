@@ -2,23 +2,35 @@
 
 **Niveau :** 2  
 **Portée :** Contact ou plus  
-**Durée :** Un jour ou permanent (voir ci-dessous)  
+**Durée :** Un jour ou permanent  
 **Jet de sauvegarde :** Aucun  
 **Temps d’incantation :** 1 round  
 
-## Général
-Le clerc libère une créature de la paralysie. Des incantations plus puissantes guérissent également la pétrification et d’autres effets limitant le mouvement.
+*Le clerc libère une créature des entraves physiques et magiques qui bloquent son mouvement.*
+
+## Effet
+Le sort élimine instantanément la paralysie, qu'elle soit d'origine physique ou magique. À haut niveau, il peut même inverser la pétrification ou les transformations en glace.
+
+## Limites / précisions
+- **Permanence :** La guérison est permanente pour les causes mondaines ou les sorts temporaires. Pour les malédictions magiques permanentes, un test faible (14-15) ne libère la cible que pour **1 jour**.
+- **Pétrification :** Nécessite un test de **20+** pour être traitée.
+
+## Revers
+Aucun.
+
+## Défaveur
+En cas d'échec critique, le clerc subit les effets de la défaveur divine.
 
 ## Résultats du test d’incantation
 
 | Test | Résultat |
 |---:|---|
 | 1–13 | **Échec.** |
-| 14–15 | Une créature touchée est immédiatement guérie de la paralysie. Si la paralysie était due à des raisons mondaines (ex: une moelle épinière sectionnée) ou à un effet magique de durée limitée (ex: un sort de paralysie qui n’est pas permanent), la guérison est permanente. Si la paralysie était due à un effet magique permanent, la paralysie est guérie pendant un jour mais revient au début du jour suivant. |
-| 16–19 | Une créature touchée est immédiatement et de façon permanente guérie de la paralysie. |
-| 20–21 | Une créature touchée est immédiatement et de façon permanente guérie de la paralysie, ainsi que de toute autre condition limitant le mouvement. Par exemple, une créature transformée en pierre retrouve son état naturel. Le sort guérit également les transformations en glace ou en d’autres substances. |
-| 22–25 | Jusqu’à **deux** créatures touchées sont immédiatement et de façon permanente guéries de la paralysie, ainsi que de toute autre condition limitant le mouvement. Par exemple, une créature transformée en pierre retrouve son état naturel. Le sort guérit également les transformations en glace ou en d’autres substances. |
-| 26–29 | Jusqu’à **deux** créatures à moins de **9 m** du clerc sont immédiatement et de façon permanente guéries de la paralysie, ainsi que de toute autre condition limitant le mouvement. Par exemple, une créature transformée en pierre retrouve son état naturel. Le sort guérit également les transformations en glace ou en d’autres substances. |
-| 30–31 | Toutes les créatures à moins de **9 m** du clerc sont immédiatement et de façon permanente guéries de la paralysie, ainsi que de toute autre condition limitant le mouvement. Par exemple, une créature transformée en pierre retrouve son état naturel. Le sort guérit également les transformations en glace ou en d’autres substances. |
-| 32–33 | Toutes les créatures à moins de **18 m** du clerc sont immédiatement et de façon permanente guéries de la paralysie, ainsi que de toute autre condition limitant le mouvement. Par exemple, une créature transformée en pierre retrouve son état naturel. Le sort guérit également les transformations en glace ou en d’autres substances. |
-| 34+ | Toutes les créatures à moins de **36 m** du clerc sont immédiatement et de façon permanente guéries de la paralysie, ainsi que de toute autre condition limitant le mouvement. Par exemple, une créature transformée en pierre retrouve son état naturel. Le sort guérit également les transformations en glace ou en d’autres substances. |
+| 14–15 | Guérit la paralysie d'une cible touchée. Si l'effet est permanent, la guérison ne dure que **24 heures**. |
+| 16–19 | Guérison **permanente** d'une cible touchée. |
+| 20–21 | Guérison **permanente** d'une cible touchée, incluant la **pétrification** ou transformation en glace. |
+| 22–25 | Idem, pour **deux cibles** touchées. |
+| 26–29 | Idem, pour **deux cibles** à moins de **9 m**. |
+| 30–31 | Idem, pour **toutes les cibles** à moins de **9 m**. |
+| 32–33 | Idem, pour **toutes les cibles** à moins de **18 m**. |
+| 34+ | Idem, pour **toutes les cibles** à moins de **36 m**. |

@@ -6,21 +6,32 @@
 **Jet de sauvegarde :** Aucun  
 **Temps d’incantation :** 1 tour  
 
-## Général
-Le clerc restaure la vitalité perdue d’une créature. En général, cela restaure des points de caractéristique perdus ou des membres cassés/sectionnés, bien que cela puisse aussi soigner. Ce sort ne peut pas restaurer la Chance perdue. Le sort peut être lancé sur le clerc ou un allié.
+*Le clerc restaure la vigueur physique, guérit les mutilations et ravive les corps épuisés.*
 
-Utiliser *restauration de la vitalité* pour compenser un sacrifice de caractéristique (spellburn) d’un sorcier créera inévitablement des ennuis au clerc, car sa divinité n’apprécie certainement pas que son pouvoir soit utilisé pour guérir des blessures délibérément créées pour servir les intérêts d’une autre créature surnaturelle !
+## Effet
+Restaure les points de caractéristique perdus (temporaires ou permanents) et les points de vie. Peut régénérer des membres brisés ou sectionnés.
+
+## Limites / précisions
+- **Chance :** Ce sort ne peut jamais restaurer la Chance perdue.
+- **Spellburn :** Utiliser ce sort pour soigner le sacrifice magique d'un sorcier déplaît aux dieux et peut entraîner des complications.
+- **Membres :** Pour les paliers 20-33, les parties sectionnées doivent être présentes pour être rattachées. Au palier 34+, les membres repoussent même s'ils sont manquants.
+
+## Revers
+Aucun.
+
+## Défaveur
+En cas d'échec critique, le clerc subit les effets de la défaveur divine.
 
 ## Résultats du test d’incantation
 
 | Test | Résultat |
 |---:|---|
 | 1–13 | **Échec.** |
-| 14–15 | Le clerc restaure une diminution de caractéristique qui n’est pas de nature permanente. Que ce soit causé par un sacrifice de sort (spellburn), une attaque de monstre, des membres cassés ou d’autres moyens, le sort restaure **1 point** de Force, Vigueur, Agilité, Intelligence ou Personnalité temporairement perdu. La caractéristique ne peut pas être augmentée au-delà du maximum d’origine de la cible. Alternativement, le clerc peut soigner **1 point de vie**, jusqu’au maximum de la cible. |
-| 16–19 | Comme ci-dessus, mais le sort restaure **2 points** de caractéristique temporairement perdus. Alternativement, le clerc peut soigner **4 points de vie**. Le clerc ne peut pas combiner le soin des caractéristiques et des points de vie. |
-| 20–21 | Le clerc restaure une diminution de caractéristique, même si elle est de nature permanente. Le sort restaure **1d4+NI points** de Force, Vigueur, Agilité, Intelligence ou Personnalité perdus. Si la restauration est associée à une blessure, la blessure est également guérie. Par exemple, si la perte de Force provenait d’un membre cassé ou d’une main sectionnée, ce membre est restauré dans sa fonctionnalité, à condition que les parties du corps sectionnées aient été conservées. Alternativement, le clerc peut soigner **2d4+NI points de vie**. |
-| 22–25 | Le clerc restaure une diminution de caractéristique, même si elle est permanente, et soigne **2d6+NI points de vie**. Le sort restaure **1d6+NI points** de caractéristique. |
-| 26–29 | Le clerc restaure une diminution de caractéristique, même si elle est permanente, et soigne **3d6+NI points de vie**. Le sort restaure **1d8+NI points** de caractéristique. |
-| 30–31 | Le clerc peut désigner jusqu’à **quatre cibles** dans un rayon de **9 m**. Pour toutes les cibles, le clerc restaure la diminution de caractéristique, même si elle est permanente, et soigne **4d6+NI points de vie**. Le sort restaure **3d4+NI points** de caractéristique. |
-| 32–33 | Le clerc peut désigner jusqu’à **10 cibles** dans un rayon de **18 m**. Pour toutes les cibles, le clerc restaure **toute** la diminution de caractéristique, même si elle est permanente, et soigne toutes les créatures jusqu’à leur maximum de points de vie. |
-| 34+ | Le clerc cible une seule créature à moins de **9 m**. Elle est restaurée dans sa santé totale et parfaite : les points de vie sont restaurés au maximum, les caractéristiques sont restaurées à leurs niveaux normaux, et la créature est guérie de toute maladie, infirmité et infection. Les membres perdus repoussent et les défauts causés par des moyens physiques sont corrigés, même si les parties manquantes ne sont pas à portée de main. De plus, la créature gagne de façon permanente **+1 point de vie** à son maximum total. Ce bénéfice peut être reçu plusieurs fois, mais pour chaque point de vie offert de façon permanente à une cible après le premier, le clerc perd définitivement **1 point de vie**. |
+| 14–15 | Restaure **1 point** de caractéristique temporaire (For, Vig, Agi, Int, Per) OU soigne **1 PV**. |
+| 16–19 | Restaure **2 points** de caractéristique temporaires OU soigne **4 PV**. |
+| 20–21 | Restaure **1d4+NI points** de caractéristique (même permanents). Répare les membres (si présents). OU soigne **2d4+NI PV**. |
+| 22–25 | Restaure **1d6+NI points** de caractéristique ET soigne **2d6+NI PV**. |
+| 26–29 | Restaure **1d8+NI points** de caractéristique ET soigne **3d6+NI PV**. |
+| 30–31 | **4 cibles (9 m)**. Restaure **3d4+NI points** de caractéristique ET soigne **4d6+NI PV**. |
+| 32–33 | **10 cibles (18 m)**. Restaure **tous** les points de caractéristique ET tous les PV. |
+| 34+ | **1 cible**. Santé totale restaurée, membres repoussés. Bonus permanent de **+1 PV**. Le clerc peut répéter ce don en sacrifiant ses propres **PV max**. |

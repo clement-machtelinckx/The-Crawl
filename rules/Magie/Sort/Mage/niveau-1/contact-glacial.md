@@ -5,45 +5,33 @@
 **Jet de sauvegarde :** Volonté vs DD test d’incantation  
 **Temps d’incantation :** 1 action  
 
-## Général
-Ce sort nécromantique confère le toucher glacial des morts. L’incantateur doit brûler au moins **1 point de caractéristique** quand il lance ce sort.
+*L'incantateur imprègne ses mains d'une énergie nécromantique glaciale pour drainer la vie de ses adversaires.*
 
-## Manifestation
-Lancez **1d4** :  
-1) Les mains du mage brillent d’une lueur bleue.  
-2) Les mains du mage deviennent noires.  
-3) Le mage émet une puissante odeur de corruption.  
-4) Les mains du mage deviennent squelettiques.
+## Effet
+Les mains du mage se chargent d'énergie négative, infligeant des dégâts supplémentaires et des bonus à l'attaque. Les morts-vivants sont particulièrement vulnérables à cet effet.
 
-## Corruption
-Lancez **1d8** :  
-1) La peau du visage de l’incantateur se flétrit et sèche, lui donnant l’apparence d’un crâne squelettique.  
-2) La peau des mains de l’incantateur tombe et ses mains deviennent squelettiques.  
-3) L’incantateur brille en permanence d’une aura bleue maladive.  
-4) Les morts-vivants sont attirés par l’incantateur et se précipitent vers lui comme des papillons attirés par une flamme.  
-5–6) Corruption mineure.  
-7) Corruption majeure.  
-8) Corruption supérieure.
+## Limites / précisions
+- **Coût :** Nécessite un sacrifice magique (**spellburn**) d'au moins **1 point de caractéristique**.
+- **Cibles :** Affecte la ou les prochaines créatures touchées au corps à corps selon le palier.
 
 ## Revers
-Lancez **1d3** :  
-1) L’incantateur s’électrocute avec l’énergie nécromantique pour **1d4** dégâts.  
-2) L’incantateur électrocute un allié proche au hasard pour **1d4** points de dégâts.  
-3) L’incantateur projette une explosion d’énergie nécromantique dans le cadavre le plus proche, qui se retrouve animé comme **zombie** avec **1d6** points de vie (s’il n’y a pas de cadavres proches, pas d’effet).
+Lancer 1d3 : (1) auto-électrocution (**1d4** dmg) ; (2) allié proche électrocuté (**1d4** dmg) ; (3) anime le cadavre le plus proche en **zombie** (**1d6 PV**).
+
+## Corruption
+Lancer 1d8 : (1) visage squelettique (permanent) ; (2) mains squelettiques (permanent) ; (3) aura bleue maladive (permanent) ; (4) attire les morts-vivants ; (5-8) mineure, majeure ou supérieure.
 
 ---
 
 ## Résultats du test d’incantation
-
 | Test | Résultat |
-|---:|---|
-| 1 | **Perdu, échec et pire !** Lancez **1d6** modifié par la Chance : **(0 ou moins)** corruption + revers + souillure de patron ; **(1–2)** corruption ; **(3)** souillure de patron (ou corruption si pas de patron) ; **(4+)** revers. |
-| 2–11 | **Perdu. Échec.** |
-| 12–13 | Les mains de l’incantateur se chargent d’énergie négative. Au round suivant, la prochaine créature attaquée par l’incantateur subit **1d6** points de dégâts supplémentaires. Les morts-vivants subissent **+2** points de dégâts supplémentaires. |
-| 14–17 | Les mains de l’incantateur se chargent d’énergie négative. Au round suivant, l’incantateur bénéficie d’un bonus de **+2** aux jets d’attaque, et la prochaine créature attaquée par l’incantateur subit **1d6** points de dégâts supplémentaires. Les morts-vivants subissent **+2** points de dégâts supplémentaires. |
-| 18–19 | Les mains de l’incantateur se chargent d’énergie négative. Pendant le tour suivant, l’incantateur bénéficie d’un bonus de **+2** aux jets d’attaque, et toutes les créatures attaquées par l’incantateur subissent **1d6** points de dégâts supplémentaires. Les morts-vivants subissent **+2** points de dégâts supplémentaires. |
-| 20–23 | Les mains de l’incantateur se chargent d’énergie négative. Pendant le tour suivant, l’incantateur bénéficie d’un bonus de **+2** aux jets d’attaque, et toutes les créatures attaquées par l’incantateur subissent **2d6** points de dégâts supplémentaires. Les morts-vivants subissent **+2** points de dégâts supplémentaires. |
-| 24–27 | Les mains de l’incantateur se chargent d’énergie négative. Pendant le tour suivant, l’incantateur bénéficie d’un bonus de **+4** aux jets d’attaque, et toutes les créatures attaquées par l’incantateur subissent **2d6** points de dégâts supplémentaires et perdent **1d4** points de Force. Les morts-vivants subissent **+4** points de dégâts supplémentaires. |
-| 28–29 | Les mains de l’incantateur se chargent d’énergie négative. Pendant l’heure suivante, l’incantateur bénéficie d’un bonus de **+4** aux jets d’attaque, et toutes les créatures attaquées par l’incantateur subissent **2d6** points de dégâts supplémentaires et perdent **1d4** points de Force. Les morts-vivants subissent **+4** points de dégâts supplémentaires. |
-| 30–31 | Les mains de l’incantateur se chargent d’énergie négative. Pendant l’heure suivante, l’incantateur bénéficie d’un bonus de **+6** aux jets d’attaque, et toutes les créatures attaquées par l’incantateur subissent **3d6** points de dégâts supplémentaires et perdent **1d4** points de Force. Les morts-vivants subissent **+6** points de dégâts supplémentaires. |
-| 32+ | Le corps de l’incantateur émet une lueur bleutée maladive et crépite d’énergie nécromantique ! Toutes les créatures à moins de **3 m** de l’incantateur subissent **1d6** points de dégâts à chaque round tant qu’elles restent dans la zone (**1d6+2** pour les morts-vivants). Jusqu’au prochain lever du soleil, l’incantateur bénéficie d’un bonus de **+8** à tous les jets d’attaque, et toutes les créatures attaquées par l’incantateur subissent **3d6** points de dégâts supplémentaires (**+8** points de dégâts supplémentaires aux morts-vivants). |
+| --- | --- |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
+| 2-11 | Perdu. Échec. |
+| 12-13 | Prochaine attaque (1 round) : **+1d6** dégâts (**+2** vs morts-vivants). |
+| 14-17 | Prochaine attaque (1 round) : **+2** Atk et **+1d6** dégâts (**+2** vs morts-vivants). |
+| 18-19 | Pendant **1 tour** : **+2** Atk et **+1d6** dégâts à chaque frappe (**+2** vs morts-vivants). |
+| 20-23 | Pendant **1 tour** : **+2** Atk et **+2d6** dégâts (**+2** vs morts-vivants). |
+| 24-27 | Pendant **1 tour** : **+4** Atk, **+2d6** dégâts et perte **1d4 Force** (**+4** vs morts-vivants). |
+| 28-29 | Pendant **1 heure** : **+4** Atk, **+2d6** dégâts et perte **1d4 Force** (**+4** vs morts-vivants). |
+| 30-31 | Pendant **1 heure** : **+6** Atk, **+3d6** dégâts et perte **1d4 Force** (**+6** vs morts-vivants). |
+| 32+ | Aura de **3 m** jusqu'à l'aube : **1d6** dmg/round (**1d6+2** morts-vivants). Bonus **+8** Atk et **+3d6** dégâts (**+8** morts-vivants). |

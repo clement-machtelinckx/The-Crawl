@@ -5,11 +5,16 @@
 **Jet de sauvegarde :** Aucun  
 **Temps d’incantation :** 1 action  
 
-## Général
-L'incantateur conjure un bouclier magique qui le défend contre ses adversaires.
+*L'incantateur conjure un champ de force protecteur pour dévier les attaques.*
+
+## Effet
+Crée un bouclier d'énergie qui augmente la Classe d'Armure et peut bloquer les projectiles (magiques ou physiques) selon la puissance du test.
+
+## Limites / précisions
+- **Cible :** L'incantateur ou un allié touché (à partir du palier 18).
 
 ## Revers
-Lancer 1d4 : (1) le bouclier de l'incantateur apparaît comme une explosion de force dirigée vers l'intérieur au lieu de se propager vers l'extérieur, causant 1d4 points de dégâts ; (2) le bouclier est accidentellement invoqué au bénéfice de l'ennemi le plus proche, lui accordant un bonus de +4 à la CA pendant 1d3 tours ; (3) l'incantateur invoque accidentellement le bouclier horizontalement sous ses pieds, le soulevant à 7,5 cm du sol et le faisant "glisser" dessus pendant les 1d3+1 prochains rounds ; cela augmente sa vitesse de +3 m mais impose une pénalité de -1 aux attaques, tests d'incantation, dégâts et CA ; (4) l'incantateur s'enferme complètement dans un bouclier qui bloque toutes les attaques, dégâts, sorts et contacts physiques, le rendant invulnérable mais incapable de bouger ou de communiquer avec l'extérieur pendant 1d4 rounds.
+Lancer 1d4 : (1) explosion vers l'intérieur (**1d4** dmg) ; (2) profite à l'ennemi (**+4 CA, 1d3 tours**) ; (3) bouclier horizontal ("glisse" sur le sol, vitesse **+3 m**, malus **-1** tests/CA) ; (4) invulnérabilité totale mais immobile et coupé du monde (**1d4 rounds**).
 
 ## Corruption
 Lancer 1d8 : (1-4) mineure ; (5-7) majeure ; (8) plus grande.
@@ -19,13 +24,13 @@ Lancer 1d8 : (1-4) mineure ; (5-7) majeure ; (8) plus grande.
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1 | Échec, perdu et pire encore ! Lancez 1d6 modifié par la Chance : (0 ou moins) corruption + revers ; (1-2) corruption ; (3+) revers. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
 | 2-11 | Perdu. Échec. |
-| 12-13 | L'incantateur conjure un bouclier faible qui fournit un bonus de +2 à la CA pendant 1d6 rounds. |
-| 14-17 | L'incantateur conjure un bouclier qui fournit un bonus de +4 à la CA pendant 2d6 rounds. |
-| 18-19 | L'incantateur conjure un bouclier qui fournit un bonus de +4 à la CA pendant 1d3 tours. L'incantateur peut appliquer le bouclier à lui-même ou à un allié touché. |
-| 20-23 | L'incantateur conjure un bouclier qui fournit un bonus de +4 à la CA pendant 1d3 tours. En plus du bonus de CA, le bouclier bloque également les projectiles magiques automatiquement. |
-| 24-27 | Le bouclier dure 1d4+1 tours et offre trois avantages : bonus de +4 à la CA ; bloque les projectiles magiques automatiquement ; et réduit les dégâts de la plupart des projectiles ordinaires (flèches, billes de fronde, carreaux, etc.) de 10 points par attaque. |
-| 28-29 | L'incantateur conjure deux boucliers qui durent 1d4 heures. Ils offrent un bonus de +4 à la CA, bloquent les projectiles magiques, réduisent les dégâts des projectiles ordinaires de 10 points, et fournissent un bonus de +2 à tout test de contre-sort ultérieur. |
-| 30-31 | L'incantateur conjure un bataillon de boucliers magiques. L'incantateur est automatiquement protégé, ainsi que tous les alliés dans un rayon de 3 m. Chaque bouclier dure 1d4+1 heures. Ils offrent un bonus de +6 à la CA, bloquent les projectiles magiques, réduisent les dégâts des projectiles ordinaires de 20 points, et fournissent un bonus de +4 au contre-sort. |
-| 32+ | L'incantateur appelle un globe d'énergies magiques miroitantes qui dure jusqu'au prochain lever du soleil. Chaque globe offre un bonus de +8 à la CA, bloque les projectiles magiques, réduit les dégâts de toutes les attaques contre sa cible de 2 points, réduit les dégâts des projectiles ordinaires de 20 points, et fournit un bonus de +4 au contre-sort. |
+| 12-13 | Bonus de **+2 à la CA** pendant **1d6 rounds**. |
+| 14-17 | Bonus de **+4 à la CA** pendant **2d6 rounds**. |
+| 18-19 | Bonus de **+4 à la CA** pendant **1d3 tours**. |
+| 20-23 | Bonus de **+4 à la CA**. Bloque les **projectiles magiques** automatiquement. Durée **1d3 tours**. |
+| 24-27 | Durée **1d4+1 tours**. Bonus **+4 CA**. Bloque projectiles magiques. Réduit dégâts projectiles ordinaires de **10 points**. |
+| 28-29 | **Deux boucliers**. Durée **1d4 heures**. Bonus **+4 CA**, bloque projectiles magiques, -10 dmg ordinaires, **+2** au contre-sort. |
+| 30-31 | **Bataillon de boucliers** (Rayon 3 m). Durée **1d4+1 heures**. Bonus **+6 CA**, bloque projectiles magiques, -20 dmg ordinaires, **+4** au contre-sort. |
+| 32+ | **Globe miroitant** (jusqu'à l'aube). Bonus **+8 CA**, bloque projectiles magiques, **-2** à toutes les attaques reçues, -20 dmg ordinaires, **+4** au contre-sort. |
