@@ -1,30 +1,25 @@
 # Rempart magique
 **Niveau :** 5  
 **Portée :** Contact ou zone  
-**Durée :** Variable  
+**Durée :** 10 min par NI  
 **Jet de sauvegarde :** N/A  
-**Temps d’incantation :** 1 tour  
+**Temps d’incantation :** 1 round  
 
 *L'incantateur érige une barrière de protection contre les sorts et les créatures surnaturelles.*
 
 ## Effet
-Crée un dôme ou un mur d'énergie pure qui bloque le passage des entités extraplanaires et neutralise les effets magiques hostiles.
+Crée un champ d'interférence magique autour du mage.
 
 ## Limites / précisions
-- La taille du rempart et sa résistance dépendent du test d'incantation.
-- Peut être configuré pour laisser passer certains alliés ou types de magie.
+- **Interférence :** Inflige un malus aux tests d'incantation ennemis ciblant le mage.
+- **Contre-sort :** Accorde un bonus aux tentatives de contre-sort du mage.
+- **Immunité :** À haut niveau, immunise contre les sorts de bas niveau.
 
 ## Revers
-- **1 :** Le rempart s'effondre vers l'intérieur, emprisonnant le mage (1d6 dégâts).
-- **2 :** La barrière attire les démons au lieu de les repousser.
-- **3 :** Tous les effets magiques bénéfiques du mage sont dissipés instantanément.
-- **4 :** L'incantateur devient allergique aux objets magiques pendant 24 heures.
+Lancer 1d5 : (1) malus de **-2** aux tests du mage pour la journée ; (2) aimant magique (50 % de chance d'être la cible des sorts proches) ; (3) incapacité de lancer des sorts pendant la durée ; (4) zone de malus général de **-2** à 4,5 m ; (5) perte d'un sort aléatoire.
 
 ## Corruption
-- **1 :** La peau de l'incantateur devient translucide comme du verre.
-- **2 :** Le mage est entouré d'un bourdonnement statique permanent.
-- **3 :** Les cheveux de l'incantateur se dressent sur sa tête dès qu'il y a de la magie à proximité.
-- **4 :** Le mage ne peut plus dormir sans être entouré d'un cercle de sel.
+Lancer 1d4 : (1) cicatrices rouges après chaque attaque magique ; (2) addiction au lancement de sorts (perte Endurance si non-pratiqué) ; (3) lueur bleutée permanente ; (4) daltonisme total.
 
 ---
 
@@ -32,7 +27,11 @@ Crée un dôme ou un mur d'énergie pure qui bloque le passage des entités extr
 | Test | Résultat |
 | --- | --- |
 | 1-17 | Échec. |
-| 18-21 | Bonus de +4 aux sauvegardes magiques. |
-| 22-25 | Zone de 6 m de rayon impénétrable par les démons (1-4 DV). |
-| 26-31 | Zone d'immunité totale aux sorts de bas niveau. |
-| 32+ | Rempart permanent protégeant une forteresse entière. |
+| 18-19 | Malus de **-1** aux sorts ennemis. |
+| 20-23 | Malus de **-2** aux sorts ennemis. |
+| 24-25 | Malus de **-3** aux sorts ennemis. |
+| 26-28 | Malus de **-4** aux sorts ennemis. |
+| 29-33 | Malus de **-5** et bonus de **+1** aux contre-sorts. |
+| 34-35 | Malus de **-5** et bonus de **+2** aux contre-sorts. |
+| 36-37 | **Immunité aux sorts de Niveau 1**. Bonus de **+3** aux contre-sorts. |
+| 38+ | **Immunité aux sorts de Niveau 1 et 2**. Bonus de **+4** aux contre-sorts. |

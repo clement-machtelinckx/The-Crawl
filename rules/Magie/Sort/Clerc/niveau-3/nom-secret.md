@@ -1,20 +1,19 @@
 # Nom secret
 
 **Niveau :** 3
-**Portée :** 30 m par NI ou illimitée
-**Durée :** Instantanée
-**Jet de sauvegarde :** Volonté vs DD du test d’incantation
-**Temps d’incantation :** 1 action
+**Portée :** Personnel
+**Durée :** Variable
+**Jet de sauvegarde :** N/A
+**Temps d’incantation :** 1 round
 
-*Le clerc révèle l'essence véritable d'une créature pour mieux la dominer par sa magie.*
+*Le clerc découvre le nom véritable d'une créature, lui conférant un pouvoir absolu sur elle.*
 
 ## Effet
-Révèle le "nom véritable" d'une cible intelligente ou d'une construction. La connaissance de ce nom accorde des bonus permanents aux sorts et tests d'incantation dirigés contre cette cible.
+Révèle le nom ésotérique d'une entité (démon, esprit, etc.). Connaître ce nom accorde des bonus massifs aux tests de *Lien* ou de *Bannissement* contre cette cible.
 
 ## Limites / précisions
-- **Cibles :** Créatures intelligentes ou constructions nommées.
-- **Conditions :** Nécessite la vue ou un échantillon physique (sang, cheveux). L'échantillon permet une portée illimitée sur le même plan.
-- **Permanence :** Une fois le nom connu, les bonus contre la cible sont définitifs pour le clerc.
+- **Recherche :** Avant de lancer le sort, le clerc doit effectuer des recherches (bibliothèques, légendes) pendant plusieurs semaines ou mois.
+- **Usage :** Le nom ne peut être utilisé que par le clerc qui l'a découvert.
 
 ## Revers
 Aucun.
@@ -27,11 +26,11 @@ En cas d'échec critique, le clerc subit les effets de la défaveur divine.
 | Test | Résultat |
 |---:|---|
 | 1–15 | **Échec.** |
-| 16–17 | **Nom secret mineur** (soupçon). Cible : **-1** aux SV contre les sorts du clerc. |
-| 18–21 | **Nom secret mineur** (complet). Cible : **-2** aux SV. |
-| 22–23 | **Nom secret majeur**. Cible : **-3** aux SV. Bonus de **+2** pour domination/renvoi (*exorcisme, injonction*, etc.). |
-| 24–26 | **Nom secret majeur**. Cible : **-3** aux SV. Bonus de **+3** pour domination/renvoi. |
-| 27–31 | **Véritable nom secret**. Cible : **-4** aux SV. Bonus de **+4** pour domination/renvoi. **+1** aux autres sorts. |
-| 32–33 | **Véritable nom secret**. Cible : **-4** aux SV. Bonus de **+4** pour domination/renvoi. **+2** aux autres sorts. |
-| 34–35 | **Nom véritable et lignée directe**. Famille : **-5** aux SV. Cible : **+5** domination, **+3** autres sorts. |
-| 36+ | **Nom véritable dynastique**. Dynastie : **-5** ou **-(NI+2)** aux SV. Cible/Lignée : **+4** ou **+(NI+2)** tests incant. |
+| 16–17 | Révèle le nom d'une créature de **2 DV ou moins**. Bonus de **+2** aux tests contre elle. |
+| 18–21 | Révèle le nom d'une créature de **4 DV ou moins**. Bonus de **+4**. |
+| 22–23 | Révèle le nom d'une créature de **6 DV ou moins**. Bonus de **+6**. |
+| 24–26 | Révèle le nom d'une créature de **8 DV ou moins**. Bonus de **+8**. |
+| 27–31 | Révèle le nom d'une créature de **10 DV ou moins**. Bonus de **+10**. |
+| 32–33 | Révèle le nom d'une créature de **12 DV ou moins**. Bonus de **+12**. |
+| 34–35 | Révèle le nom d'une créature de **15 DV ou moins**. Bonus de **+15**. |
+| 36+ | Révèle le nom de **n'importe quelle créature**. Bonus de **+20** aux tests contre elle. |
