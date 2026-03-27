@@ -8,7 +8,7 @@
 *L'incantateur lie son âme à celle d'une créature magique pour obtenir soutien et pouvoirs.*
 
 ## Effet
-Le rituel attire un familier qui devient un compagnon permanent. Le mage gagne des points de vie supplémentaires et des pouvoirs spécifiques à la créature.
+Le rituel attire un familier qui devient un compagnon permanent. Le familier se manifeste pendant la cérémonie dans **50 %** des cas ; sinon, le mage fait sa connaissance dans les semaines qui suivent. Le mage gagne des points de vie supplémentaires et des pouvoirs spécifiques à la créature.
 
 ## Limites / précisions
 - **Coût :** Nécessite un sacrifice magique (**spellburn**) minimum de **10 points**.

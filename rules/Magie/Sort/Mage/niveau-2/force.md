@@ -8,17 +8,18 @@
 *L'incantateur insuffle une puissance musculaire colossale à une cible.*
 
 ## Effet
-Augmente drastiquement la Force d'un allié. Selon le palier, la cible peut atteindre des scores de légende ou conférer cette puissance à tout un groupe.
+L'incantateur insuffle une puissance musculaire colossale à une cible.
+**Note :** S'agissant d'un sort de clerc adapté, le mage subit une pénalité de **-2** à ses tests d'incantation.
 
 ## Limites / précisions
-- **Consentement :** Ne fonctionne que sur une cible consentante.
-- **Sacrifice :** Le mage peut augmenter l'effet via un sacrifice magique (**spellburn**) de Force (voir paliers hauts).
+- **Épuisement :** La cible peut subir une fatigue après la fin du sort.
+- **Cumul :** Ne se cumule pas avec d'autres bonus magiques de Force.
 
 ## Revers
-Lancer 1d4 : (1) affaiblissement personnel (**-1d4+1 For**) ; (2) draine la force de zone (**-1d4+1 For** rayon 6 m) ; (3) volonté alliée donnée aux ennemis ; (4) mage à For 0 (donnée à l'allié).
+Lancer 1d4 : (1) muscles du mage s'atrophient (**-2 For** pendant **1h**) ; (2) la cible devient trop forte et brise ses propres armes ; (3) rage incontrôlable de la cible ; (4) inverse l'effet (**-2 For** à la cible).
 
 ## Corruption
-Lancer 1d8 : (1) muscles flétris (**-1 For permanent**) ; (2) spellburn de For coûte double ; (3) +1d4 For / -1d4 Int ; (4) muscles difformes ; (5-8) mineure, majeure ou plus grande.
+Lancer 1d6 : (1-3) mineure ; (4-5) majeure ; (6) plus grande.
 
 ---
 
@@ -26,13 +27,12 @@ Lancer 1d8 : (1) muscles flétris (**-1 For permanent**) ; (2) spellburn de For 
 | Test | Résultat |
 | --- | --- |
 | 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
-| 2-11 | Perdu. Échec. |
-| 12-13 | Échec simple (sort non perdu). |
-| 14-15 | **1 cible : Force 18 (+3)** pendant **1d6 + 1 rounds**. |
-| 16-19 | **1 cible : Bonus +10 For** pour une seule action (fin du round suivant). |
-| 20-21 | **1 cible : Force 20 (+4)** pendant **1d6 tours**. |
-| 22-25 | **1 (For 20)** ou **2 (For 18)** pendant **1d6 tours**. |
-| 26-29 | **Tous les alliés (6 m) : Force 18** pendant **1d6 tours**. |
-| 30-31 | **Tous les alliés (6 m) : +10 For** (1 coup), puis **For 18** (**1d6 h**). |
+| 2-13 | Perdu. Échec. |
+| 14-17 | **+2 For** ou **+1 dé** d'action (mêlée) pendant **1 tour**. |
+| 18-19 | **+4 For** ou **+1 dé** d'action (mêlée) pendant **1 tour**. |
+| 20-23 | **For 18** ou **+2 dés** d'action pendant **1 tour**. |
+| 24-27 | **For 20** ou **+2 dés** d'action pendant **1 heure**. |
+| 28-29 | **For 22** ou **+3 dés** d'action pendant **1 heure**. |
+| 30-31 | **Tous les alliés (6 m) : For 18** pendant **1 heure**. |
 | 32-33 | **Tous les alliés (30 m) : Force 20** pendant **1d4 jours**. |
 | 34+ | **Don permanent**. **+1 Force** définitif (Rituel 1 semaine, 10 pts spellburn min). |

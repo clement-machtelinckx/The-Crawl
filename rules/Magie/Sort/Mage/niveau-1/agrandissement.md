@@ -34,4 +34,4 @@ Lancer 1d16 : (1-6) partie du corps agrandie de façon permanente (x1d3+1) ; (7-
 | 24-27 | **Taille triplée** (type Géant). Bonus de **+6** aux attaques, dégâts et CA. Gain de **+20 PV**. |
 | 28-29 | Jusqu'à **3 cibles** triplent de taille. Bonus **+6** Atk/Dmg/CA et **+20 PV**. |
 | 30-31 | Comme ci-dessus, durée **1 jour par NI**. |
-| 32+ | **Proportions divines** (30 m de haut). Bonus de **+10** aux attaques, dégâts et CA. Gain de **+100 PV**. |
+| 32+ | **Proportions divines** (30 m de haut). Bonus de **+10** aux attaques, dégâts et CA. Gain de **+100 PV**. La durée dépend de la taille : 1 tour pour la hauteur maximale (30 m), augmentant de 1 tour pour chaque réduction de 3 m (jusqu'à 10 tours pour 3 m de haut). |
