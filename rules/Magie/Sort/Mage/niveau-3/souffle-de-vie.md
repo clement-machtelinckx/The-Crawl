@@ -5,11 +5,28 @@
 **Jet de sauvegarde :** N/A  
 **Temps d’incantation :** 1 tour ou plus  
 
-## Général
-L'incantateur insuffle la vie dans un objet inanimé, le transformant en un serviteur temporaire.
+*L'incantateur insuffle la vie dans un objet inanimé, le transformant en un serviteur temporaire.*
+
+## Effet
+L'incantateur donne vie à un objet inanimé. Celui-ci devient un serviteur capable de suivre des ordres simples.
+
+## Limites / précisions
+- La taille de l'objet animé et la durée de l'effet dépendent de la réussite du test.
+- L'intelligence de l'objet est très limitée, sauf réussite exceptionnelle.
 
 ## Revers
-Lancer 1d4 : (1) l'objet prend vie mais est hostile à l'incantateur ; (2) l'incantateur perd une partie de son propre souffle (pénalité de -2 aux tests physiques pendant 1d4 heures) ; (3) l'objet devient un farceur agaçant ; (4) 1d4 objets proches prennent vie brièvement et s'enfuient.
+- **1 :** L'objet prend vie mais est hostile à l'incantateur.
+- **2 :** L'incantateur perd une partie de son propre souffle (pénalité de -2 aux tests physiques pendant 1d4 heures).
+- **3 :** L'objet devient un farceur agaçant.
+- **4 :** 1d4 objets proches prennent vie brièvement et s'enfuient.
+
+## Corruption
+- **1 :** Les mains de l'incantateur deviennent froides comme la pierre.
+- **2 :** L'incantateur commence à parler aux objets inanimés de façon compulsive.
+- **3 :** Un léger craquement de bois ou de pierre se fait entendre aux articulations du mage.
+- **4 :** Les yeux de l'incantateur prennent l'éclat du verre poli.
+
+---
 
 ## Résultats du test d’incantation
 | Test | Résultat |

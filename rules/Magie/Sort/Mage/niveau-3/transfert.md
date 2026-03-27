@@ -5,14 +5,27 @@
 **Jet de sauvegarde :** Volonté pour annuler  
 **Temps d’incantation :** 1 round  
 
-## Général
-L'incantateur prend possession d'un autre corps, temporairement ou de façon permanente.
+*L'incantateur prend possession d'un autre corps, temporairement ou de façon permanente.*
+
+## Effet
+L'incantateur transfère sa conscience dans une autre créature vivante pour en prendre le contrôle.
+
+## Limites / précisions
+- La cible peut résister par un jet de sauvegarde de Volonté.
+- L'effet peut être temporaire ou permanent selon la puissance de l'incantation.
 
 ## Revers
-Lancer 1d5 : (1) toutes les surfaces réfléchissantes à 4,5 m éclatent ; (2) échange d'âme avec un animal inoffensif (rat, oiseau) pendant 1d3 rounds ; (3) cible la mauvaise victime ; (4) l'incantateur tombe dans le coma pendant 1d4 rounds ; (5) retour psychique (tout le monde peut lire l'esprit du mage pendant 1d4 heures).
+- **1 :** Toutes les surfaces réfléchissantes à 4,5 m éclatent.
+- **2 :** Échange d'âme avec un animal inoffensif (rat, oiseau) pendant 1d3 rounds.
+- **3 :** Cible la mauvaise victime.
+- **4 :** L'incantateur tombe dans le coma pendant 1d4 rounds.
+- **5 :** Retour psychique (tout le monde peut lire l'esprit du mage pendant 1d4 heures).
 
 ## Corruption
-Lancer 1d4 : (1) vieillit de 1 an ; (2) regard hypnotique horrible ; (3) parle en langues inconnues par intermittence ; (4) reflet dans le miroir d'une autre personne.
+- **1 :** Vieillit de 1 an.
+- **2 :** Regard hypnotique horrible.
+- **3 :** Parle en langues inconnues par intermittence.
+- **4 :** Reflet dans le miroir d'une autre personne.
 
 ---
 

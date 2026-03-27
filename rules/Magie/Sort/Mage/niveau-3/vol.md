@@ -5,14 +5,29 @@
 **Jet de sauvegarde :** N/A  
 **Temps d’incantation :** 1 round  
 
-## Général
-L'incantateur accorde la capacité de voler à lui-même ou à une autre créature. La vitesse et la durée varient selon le test. La maniabilité est bonne, équivalente à celle d'un grand oiseau. La durée est lancée secrètement par le juge.
+*L'incantateur accorde la capacité de voler à lui-même ou à une autre créature.*
+
+## Effet
+L'incantateur permet à une créature de se déplacer dans les airs. La vitesse et la durée de ce vol varient selon la réussite du test d'incantation.
+
+## Limites / précisions
+- La maniabilité est bonne, équivalente à celle d'un grand oiseau.
+- La durée exacte est lancée secrètement par le juge.
 
 ## Revers
-Lancer 1d4 : (1) l'incantateur s'enfonce de 15 cm dans le sol ; (2) l'incantateur envoie ses possessions voler (vêtements, armes, grimoires) pendant 1d4+1 rounds à 18 m/round dans une direction aléatoire ; (3) envoie toutes les armes à 9 m voler au loin ; (4) l'incantateur et 1d4 cibles deviennent extrêmement lourds (vitesse divisée par deux).
+- **1 :** L'incantateur s'enfonce de 15 cm dans le sol.
+- **2 :** L'incantateur envoie ses possessions voler (vêtements, armes, grimoires) pendant 1d4+1 rounds à 18 m/round dans une direction aléatoire.
+- **3 :** Envoie toutes les armes à 9 m voler au loin.
+- **4 :** L'incantateur et 1d4 cibles deviennent extrêmement lourds (vitesse divisée par deux).
 
 ## Corruption
-Lancer 1d8 : (1) plumes autour des chevilles ; (2) ailes palmées et plumeuses dans le dos (inutiles) ; (3) attire les oiseaux et insectes ; (4) gagne 1d20+10 kg (poids impossible à perdre) ; (5) vulnérabilité élémentaire à l'air (+1 dégât par dé) ; (6) majeure ; (7-8) plus grande.
+- **1 :** Plumes autour des chevilles.
+- **2 :** Ailes palmées et plumeuses dans le dos (inutiles).
+- **3 :** Attire les oiseaux et insectes.
+- **4 :** Gagne 1d20+10 kg (poids impossible à perdre).
+- **5 :** Vulnérabilité élémentaire à l'air (+1 dégât par dé).
+- **6 :** Majeure.
+- **7-8 :** Plus grande.
 
 ---
 
