@@ -8,34 +8,34 @@
 *L'incantateur insuffle la vie dans un objet inanimé, le transformant en un serviteur temporaire.*
 
 ## Effet
-L'incantateur donne vie à un objet inanimé. Celui-ci devient un serviteur capable de suivre des ordres simples.
+L'objet touché s'anime et gagne une forme de conscience limitée.
+**Matériaux et Protection (CA) :**
+- Papier/Tissu : CA 4 (1 PV)
+- Cuir/Peau : CA 8 (1d4 PV)
+- Bois/Argile : CA 10 (1d8 PV, +1 dmg)
+- Pierre : CA 12 (2d8 PV, +2 dmg)
+- Fer/Acier : CA 14 (3d8 PV, +3 dmg)
 
 ## Limites / précisions
-- La taille de l'objet animé et la durée de l'effet dépendent de la réussite du test.
-- L'intelligence de l'objet est très limitée, sauf réussite exceptionnelle.
+- **Obéissance :** Le mage doit réussir un test de **Personnalité (DD 5)** pour les ordres dangereux ou contraires à la nature de l'objet.
+- **Sorts combinés :** Le mage peut inclure un autre sort (ex: *Vol*) dans l'automate en sacrifiant 1 pt de spellburn et réussissant le test du second sort.
 
 ## Revers
-- **1 :** L'objet prend vie mais est hostile à l'incantateur.
-- **2 :** L'incantateur perd une partie de son propre souffle (pénalité de -2 aux tests physiques pendant 1d4 heures).
-- **3 :** L'objet devient un farceur agaçant.
-- **4 :** 1d4 objets proches prennent vie brièvement et s'enfuient.
+Lancer 1d4 : (1) l'objet prend vie mais est hostile à l'incantateur ; (2) l'incantateur perd une partie de son propre souffle (pénalité de -2 aux tests physiques pendant 1d4 heures) ; (3) l'objet devient un farceur agaçant ; (4) 1d4 objets proches prennent vie brièvement et s'enfuient.
 
 ## Corruption
-- **1 :** Les mains de l'incantateur deviennent froides comme la pierre.
-- **2 :** L'incantateur commence à parler aux objets inanimés de façon compulsive.
-- **3 :** Un léger craquement de bois ou de pierre se fait entendre aux articulations du mage.
-- **4 :** Les yeux de l'incantateur prennent l'éclat du verre poli.
+Lancer 1d6 : (1) un doigt se transforme en bois/pierre ; (2) les objets de même type s'animent et tremblent près du mage ; (3-4) mineure ; (5) majeure ; (6) plus grande.
 
 ---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1-13 | Échec. |
-| 14-15 | Un petit objet (taille d'un chat) prend vie pendant 1 tour. Il peut effectuer des tâches simples. |
-| 16-19 | Un objet de taille humaine prend vie pendant 1 tour. Il a les stats d'un guerrier de niveau 1. |
-| 20-21 | Un objet de taille humaine pendant 1 heure, ou un grand objet (chariot, statue) pendant 1 tour. |
-| 22-25 | Plusieurs petits objets (1d4) ou un grand objet pendant 1 heure. |
-| 26-29 | Un objet de taille géante (navire, petite tour) pendant 1 heure. |
-| 30-31 | Un objet de taille humaine devient permanent jusqu'à sa destruction. |
-| 32+ | L'incantateur insuffle une vie véritable et une intelligence limitée dans un objet de façon permanente. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
+| 2-15 | Perdu. Échec. |
+| 16-17 | **Petit objet** (max 5 kg). Int 2, For 6, Agi 12. Durée **1d24 tours**. |
+| 18-21 | **Objet moyen** (max 50 kg). Int 2, For 10, Agi 10. Durée **1d24 tours**. |
+| 22-25 | **Grand objet** (max 250 kg). Int 2, For 16, Agi 10. Durée **1d4 jours**. |
+| 26-29 | Comme ci-dessus, durée **1d4 semaines**. |
+| 30-31 | Contrôle absolu (pas de test de Personnalité requis). Durée **1d4 semaines**. |
+| 32+ | **Vie véritable**. Intelligence 8. Vie permanente (Golems, Homoncules). |

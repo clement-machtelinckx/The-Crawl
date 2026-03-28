@@ -18,7 +18,7 @@ Fait apparaître une bouche sur un objet pour délivrer un message lorsque les c
 Lancer 1d4 : (1) bouche insultante dès sa création ; (2) crie en continu (pas d'attente) ; (3) déforme le message (sens inverse) ; (4) se fixe sur la main du mage.
 
 ## Corruption
-Lancer 1d6 : (1-3) mineure ; (4-5) majeure ; (6) plus grande.
+Lancer 1d6 : (1) bégaiement permanent du mage ; (2) la bouche du mage prend une forme grotesque pendant 1d4 jours ; (3) le mage répète involontairement chaque phrase qu'il entend ; (4) la voix du mage change pour celle de la bouche magique ; (5) majeure ; (6) plus grande.
 
 ---
 

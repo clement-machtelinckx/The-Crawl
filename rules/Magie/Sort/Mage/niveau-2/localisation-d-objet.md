@@ -11,6 +11,7 @@
 Ressent la direction et la distance d'un objet spécifique (déjà vu) ou d'un type d'objet général. À haut niveau, permet une visualisation précise à travers les plans.
 
 ## Limites / précisions
+- **Memento :** Pour les paliers 12 à 21, l'incantateur doit posséder un objet lié à la cible ou l'avoir étudiée pendant au moins une heure récemment.
 - **Précision :** Augmente avec le palier, de la simple direction à la vision interplanaire.
 
 ## Revers

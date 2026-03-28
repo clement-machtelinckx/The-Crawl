@@ -3,35 +3,35 @@
 **Niveau :** 3
 **Portée :** 1,5 km par NI
 **Durée :** Instantanée
-**Jet de sauvegarde :** Spécial (Chance ou Volonté)
+**Jet de sauvegarde :** Spécial
 **Temps d’incantation :** 1 heure
 
-*Le clerc brise les pactes profanes entre un mortel et son patron surnaturel.*
+*Le clerc invoque les forces divines pour briser les liens unissant un mortel à son patron surnaturel.*
 
 ## Effet
-Permet de rompre un lien de patron. Si le test d'incantation du clerc bat le test original du lien, le sujet perd ses pouvoirs de patron et ne peut les retrouver avant un mois.
+Déchire le lien de *Lien avec un patron*. Si le test d'incantation dépasse celui du lien original, le lien est brisé. La cible perd tous ses sorts de patron et avantages.
+**Note :** Le rituel demande un jeûne préalable et ne peut être tenté qu'une fois tous les 7 jours.
 
 ## Limites / précisions
-- **Conditions :** Ne peut être lancé qu'une fois tous les **7 jours** après jeûne et prière.
-- **Composantes :** Objet personnel ou échantillon physique requis (sinon malus de **-4** et portée réduite à **30 m par NI**).
-- **Conséquences :** En cas d'échec de la rupture, le clerc risque d'attirer le courroux du patron (agents traqueurs).
+- **Lien physique :** Un objet appartenant à la cible (cheveux, sang) est requis. Sans cela, le test subit un malus de **-4** et la portée est réduite à **30 m par NI**.
+- **Refaire le lien :** Impossible pendant au moins un mois après un exorcisme réussi.
 
 ## Revers
 Aucun.
 
 ## Défaveur
-En cas d'échec critique, le clerc subit les effets de la défaveur divine.
+**Échec du test :** Si le test ne suffit pas à briser le lien, le clerc doit réussir un **test de Chance** pour ne pas attirer l'attention du Patron. En cas d'échec du test de Chance, le Patron envoie un serviteur (ou se manifeste lui-même à haut palier) pour punir le clerc.
 
 ## Résultats du test d’incantation
 
 | Test | Résultat |
 |---:|---|
-| 1–15 | **Échec.** Jet de **Chance (DD 5)** ou attention du patron attirée. |
-| 16–17 | **Rupture** (si test > original). Sujet **hébété (1d6 rounds, -2)**. Si échec rupture : Jet de **Chance (DD 10)** ou agent mineur arrive (1d5 jours). |
-| 18–21 | **Rupture**. Sujet **paralysé (1d6 rounds)**. Si échec : Jet de **Chance (DD 12)** ou agent mineur (1d4 jours). |
-| 22–23 | **Rupture**. **1d6+NI** dégâts au sujet. Si échec : Jet de **Chance (DD 14)** ou agent moyen (1d3 jours). |
-| 24–26 | **Rupture**. **1d8+NI** dégâts et perte **1 pt** carac. Si échec : Jet de **Chance (DD 16)** ou agent moyen (1d2 jours). |
-| 27–31 | **Rupture**. **1d10+NI** dégâts, perte **1 pt** carac et perte d'un sort aléatoire. Si échec : Jet de **Chance (DD 18)** ou agent moyen. |
-| 32–33 | **Rupture**. **2d6+NI** dégâts, perte **2 pts** carac et jet de **Volonté** ou inconscience (**1d6 heures**). Si échec : Jet de **Chance (DD 20)** ou agent puissant (immédiat). |
-| 34–35 | **Rupture**. **3d6+NI** dégâts, perte **3 pts** carac et jet de **Volonté** ou perte des sorts (24 h). |
-| 36+ | **Rupture**. Jet de **Vigueur (DD 22)** ou transformation horrifiante. Si échec rupture : Le patron apparaît instantanément. |
+| 1–15 | **Échec.** Test de Chance DD 5 pour ne pas être repéré. |
+| 16–17 | Lien brisé si test > original. Cible hébétée (**1d6 rounds**, **-2** à tout). Chance DD 10. |
+| 18–21 | Lien brisé. Cible paralysée (**1d6 rounds**). Chance DD 12. |
+| 22–23 | Lien brisé. Cible subit **1d6 + NI** dégâts. Chance DD 14. |
+| 24–26 | Lien brisé. Cible subit **1d8 + NI** dégâts et perte **1 pt** carac aléatoire. Chance DD 16. |
+| 27–31 | Lien brisé. Cible subit **1d10 + NI** dégâts, perte **1 pt** carac et perd un sort pour la journée. Chance DD 18. |
+| 32–33 | Lien brisé. Cible subit **2d6 + NI** dégâts, perte **2 pts** carac et tombe inconsciente (**1d6 h**). Chance DD 20. |
+| 34–35 | Lien brisé. Cible subit **3d6 + NI** dégâts, perte **3 pts** carac et perd tous ses sorts (24 h). Chance DD 22. |
+| 36+ | Lien brisé. Cible subit **3d8 + NI** dégâts et perd **1 pt carac permanent**. Si l'exorcisme rate, le Patron apparaît immédiatement pour détruire le clerc. |

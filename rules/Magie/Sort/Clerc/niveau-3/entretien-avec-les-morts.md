@@ -1,20 +1,20 @@
 # Entretien avec les morts
 
 **Niveau :** 3
-**Portée :** Personnelle
+**Portée :** Personnel
 **Durée :** Variable
-**Jet de sauvegarde :** Aucun
+**Jet de sauvegarde :** N/A
 **Temps d’incantation :** 1 heure
 
-*Le clerc invoque l'esprit d'un défunt pour l'interroger sur ses secrets passés.*
+*Le clerc s'entretient avec une créature décédée, dont l'esprit répond à ses questions.*
 
 ## Effet
-Permet de poser des questions à un cadavre. L'esprit répond selon ses connaissances de son vivant.
+Le clerc communique avec le cadavre d'une créature. Celle-ci répond au mieux de ses connaissances qu'elle possédait de son vivant. L'esprit conserve sa personnalité (têtue, menteuse, etc.).
 
 ## Limites / précisions
-- **Condition du corps :** Le cadavre doit généralement être intact pour les bas paliers. À haut niveau, des fragments suffisent.
-- **Langage :** Le clerc doit parler une langue comprise par le défunt.
-- **Coopération :** Les esprits conservent leur personnalité (têtue, menteuse, etc.).
+- **Langue :** Le clerc doit parler une langue que la créature comprenait.
+- **État du corps :** Pour les morts de plus d'un an (paliers < 24), un cadavre largement intact est requis. Pour les morts plus anciennes (24+), un fragment (dent, os) suffit car l'esprit parle à travers lui.
+- **Morts-vivants :** Le sort permet de communiquer avec les morts-vivants (considérés comme morts pour ce sort).
 
 ## Revers
 Aucun.
@@ -27,11 +27,11 @@ En cas d'échec critique, le clerc subit les effets de la défaveur divine.
 | Test | Résultat |
 |---:|---|
 | 1–15 | **Échec.** |
-| 16–17 | **1 question** (mort < 1 semaine). Durée **1 round**. Corps intact. |
-| 18–21 | **2 questions** (mort < 1 mois). Durée **2 rounds**. Corps intact. |
-| 22–23 | **3 questions** (mort < 1 an). Durée **2 tours**. Corps intact. |
-| 24–26 | **4 questions** (mort < 10 ans). Durée **2 tours**. Fragment (ex: crâne) suffit. |
-| 27–31 | **5 questions** (mort < 100 ans). Durée **2 tours**. Fragment suffit. Communication possible avec les morts-vivants. |
-| 32–33 | **6 questions** (mort < 1000 ans). Durée **1 heure**. Fragment suffit. |
-| 34–35 | **Illimité** (mort < 10 000 ans). Durée **1 heure**. Fragment suffit. |
-| 36+ | **Illimité** (mort < 100 000 ans). Durée **1 jour**. Communication mentale (aucune trace physique requise). |
+| 16–17 | **1 question**. Mort < 1 semaine. Conversation : **1 round**. Corps intact requis. |
+| 18–21 | **2 questions**. Mort < 1 mois. Conversation : **2 rounds**. Corps intact requis. |
+| 22–23 | **3 questions**. Mort < 1 an. Conversation : **2 tours**. Corps intact requis. |
+| 24–26 | **4 questions**. Mort < 10 ans. Conversation : **2 tours**. Fragment suffisant. |
+| 27–31 | **5 questions**. Mort < 100 ans. Conversation : **2 tours**. Fragment suffisant. |
+| 32–33 | **6 questions**. Mort < 1 000 ans. Conversation : **1 heure**. Fragment suffisant. |
+| 34–35 | **Questions illimitées**. Mort < 10 000 ans. Conversation : **1 heure**. Fragment suffisant. |
+| 36+ | **Questions illimitées**. Mort < 100 000 ans. Conversation : **1 jour**. Communication mentale (aucun fragment requis, mais connaissance du lieu de naissance/mort). |

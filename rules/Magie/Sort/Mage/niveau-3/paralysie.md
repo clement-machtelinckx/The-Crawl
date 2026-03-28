@@ -5,32 +5,33 @@
 **Jet de sauvegarde :** Volonté vs test d'incantation  
 **Temps d’incantation :** 1 action  
 
-*L'incantateur fige ses ennemis par un simple toucher ou une injonction mystique.*
+*L'incantateur fige ses ennemis par un simple toucher ou imprègne son arme d'une stase mortelle.*
 
 ## Effet
-Neutralise une ou plusieurs cibles en les rendant incapables de tout mouvement. L'effet peut être porté par les armes du mage ou projeté par la voix.
+La cible est incapable de bouger ou d'agir. S'agissant d'un sort transposé du clerc, le mage subit un malus de **-2** à ses tests.
+**Arme chargée :** À bas niveau (12-19), le sort charge une arme tenue. La première cible touchée par l'arme dans le tour suivant doit effectuer le jet de sauvegarde.
 
 ## Limites / précisions
-- **Difficulté :** Le mage subit un malus permanent de **-2** aux tests de ce sort.
-- **Automatisme :** À partir du palier 20, les créatures de faible niveau (**≤ 2 DV**) ne bénéficient d'aucun jet de sauvegarde.
+- **Nature :** Les créatures non-vivantes (automates, morts-vivants) sont immunisées.
+- **Rupture :** Des dégâts importants peuvent briser la paralysie (voir Juge).
 
 ## Revers
-50 % de chances de corruption majeure ou de revers (voir règles standard).
+Lancer 1d4 : (1) le mage se paralyse lui-même (1d4 rounds) ; (2) le froid de la paralysie inflige 1d6 dmg au mage ; (3) la cible gagne un bonus de +2 Agilité au lieu d'être paralysée ; (4) toutes les articulations du mage craquent (malus -2 actions physiques 1h).
 
 ## Corruption
-Voir échec critique.
+Lancer 1d6 : (1) démarche rigide et saccadée ; (2) peau devient cireuse et froide ; (3) le mage cesse de cligner des yeux ; (4) articulations se pétrifient par moments ; (5) majeure ; (6) plus grande.
 
 ---
 
 ## Résultats du test d’incantation
 | Test | Résultat |
 | --- | --- |
-| 1-11 | **Échec.** |
-| 12-13 | **Arme chargée**. Prochaine attaque : Dégâts normaux + paralyse la cible (**1d6 + NI rounds**). |
-| 14-17 | **Arme chargée** pendant **1d4 + NI rounds**. Toute attaque réussie peut paralyser. |
-| 18-19 | **Armes de jet/mêlée** chargées pendant **1d4 + NI rounds**. |
-| 20-23 | **Mot paralysant** (9 m). **1 cible**. **DV ≤ 2 : auto**. 3 DV+ : Volonté. Durée **1d8 + NI rounds**. |
-| 24-27 | **Mot paralysant** (30 m). **3 cibles**. **DV ≤ 4 : auto**. 5 DV+ : Volonté. Durée **2d6 + NI rounds**. |
+| 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
+| 2-13 | Perdu. Échec. |
+| 14-17 | **Arme chargée**. 1 cible. Durée **1d4 + NI rounds**. |
+| 18-19 | **Arme chargée**. 1 cible. Durée **1d6 + NI rounds**. |
+| 20-23 | **Regard paralysant (15 m)**. 1 cible. Durée **2d6 + NI rounds**. |
+| 24-27 | **Toucher de masse**. Jusqu'à **NI cibles** (9 m). Durée **2d6 + NI rounds**. |
 | 28-29 | **Toucher latent** (24 h). Déclenché par un mot. **DV ≤ 6 : auto**. 7 DV+ : Volonté. Durée **4d6 + NI heures**. |
 | 30-31 | Choisissez un effet : **durée doublée**. |
 | 32+ | Choisissez un effet : **permanence**. |

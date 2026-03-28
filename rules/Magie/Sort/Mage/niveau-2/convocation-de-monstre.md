@@ -5,22 +5,26 @@
 **Jet de sauvegarde :** Aucun  
 **Temps d’incantation :** 1 tour ou moins (voir tableau)  
 
-*L'incantateur invoque des créatures monstrueuses pour combattre ou servir ses desseins.*
+*L'incantateur invoque des créatures monstrueuses pour le servir.*
 
 ## Effet
-Invoque un ou plusieurs monstres originaires de ce plan. Les créatures obéissent aux ordres dans les limites de leur nature.
+L'incantateur invoque des créatures monstrueuses pour le servir. Il doit dessiner un pentacle (1/2 du temps d'incantation) et posséder un fragment du monstre visé.
+**Commandes :** Les ordres suicidaires ou contraires à la nature de la créature (ex: un loup mangeant des légumes) déclenchent une chance de libération :
+- **12-21 :** 50 % de chances de libération.
+- **22-29 :** 25 % de chances.
+- **30-33 :** 10 % de chances.
+- **34+ :** 1 % de chances.
+Si libérée, la créature retourne sur son plan ou attaque le mage (si le pentacle est brisé).
 
 ## Limites / précisions
-- **Composante :** Vestige matériel du monstre requis (poil, dent, etc.), consommé par le sort.
-- **Connaissance :** Le mage doit connaître l'espèce invoquée.
-- **Zone :** Aux bas paliers, les monstres doivent rester dans un **pentacle** tracé au sol.
-- **Protection :** Le mage ne peut pas nuire directement à ses invocations.
+- **Contrôle :** Les créatures obéissent aux ordres verbaux.
+- **Cercle :** Les créatures sont initialement confinées dans un cercle d'invocation.
 
 ## Revers
-Lancer 1d4 : (1) **1d6 créatures (1 DV)** hostiles ; (2) voyage forcé dans le repaire du monstre (**1d4 rounds** de combat avant retour) ; (3) renvoi du familier (**1d4 h**) ; (4) allié devient un singe intelligent (**1d4 rounds**).
+Lancer 1d4 : (1) monstre arrive libéré du contrôle ; (2) monstre erroné (inoffensif) ; (3) le mage est aspiré vers le plan du monstre (**1d4 rounds**) ; (4) 1d4 monstres mineurs arrivent et sèment le chaos.
 
 ## Corruption
-Lancer 1d6 : (1-3) mineure ; (4-6) majeure.
+Lancer 1d6 : (1-3) mineure ; (4-5) majeure ; (6) plus grande.
 
 ---
 
@@ -29,12 +33,12 @@ Lancer 1d6 : (1-3) mineure ; (4-6) majeure.
 | --- | --- |
 | 1 | Échec, perdu et pire encore ! (Table des revers/corruption). |
 | 2-11 | Perdu. Échec. |
-| 12-13 | Échec simple (sort non perdu). |
-| 14-15 | **1 monstre (≤ 1 DV)** pendant **1 h**. Doit rester dans le **pentacle**. |
-| 16-19 | **2 monstres (1 DV)** ou **1 (2 DV)**. Doivent rester dans le **pentacle**. |
-| 20-21 | Idem, mais peuvent **quitter le pentacle**. |
-| 22-25 | **2 (2 DV)** ou **1 (4 DV)** pendant **2 h**. Libres de mouvement. |
-| 26-29 | **NI cibles**. Invoque **4 (1 DV)**, **2 (2 DV)** ou **1 (4 DV)**. Incantation : **4 rounds**. |
+| 12-13 | **1 monstre (1 DV)** pendant **1 tour**. Incantation : **1 tour**. |
+| 14-17 | **1 monstre (2 DV)** ou **2 (1 DV)** pendant **1 tour**. Incantation : **1 tour**. |
+| 18-19 | **1 monstre (4 DV)**, **2 (2 DV)** ou **4 (1 DV)** pendant **1 tour**. Incantation : **1 tour**. |
+| 20-23 | **1 (5 DV)** ou **2 (3 DV)** pendant **1 heure**. Incantation : **1 tour**. |
+| 24-27 | **1 (8 DV)**, **2 (4 DV)** ou **4 (2 DV)** pendant **1 heure**. Incantation : **1 tour**. |
+| 28-29 | **1 (12 DV)** ou **2 (6 DV)** pendant **1 heure**. Incantation : **1 tour**. |
 | 30-31 | **8 (1 DV)**, **4 (2 DV)**, **2 (4 DV)** ou **1 (8 DV)** pendant **4 h**. Incantation : **4 rounds**. |
 | 32-33 | Comme ci-dessus. Incantation : **1 round**. |
 | 34+ | **16 (1 DV)** à **1 (16 DV)** pendant **24 h**. Incantation : **1 round**. |

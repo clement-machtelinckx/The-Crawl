@@ -1,188 +1,94 @@
 # Magie
 
-La magie vient de dieux et de démons aussi capricieux qu’insensibles à votre espérance de vie de moucheron. Ceux qui pratiquent la magie feraient mieux de prévoir une échappatoire au cas où les choses tourneraient mal. **Invoquer des énergies magiques est éprouvant, coûteux et dangereux.** Aucun mage ne le fait à la légère, ce qui explique qu’il n’existe pas de magie courante (pas de sorts employés uniquement pour éclairer un couloir, par exemple). Utilise une torche, pauvre fou, c’est beaucoup plus sûr.
+La magie vient de dieux et de démons aussi capricieux qu’insensibles à votre espérance de vie de moucheron. **Invoquer des énergies magiques est éprouvant, coûteux et dangereux.** Aucun mage ne le fait à la légère ; utilise une torche, pauvre fou, c’est beaucoup plus sûr.
 
 ---
 
-## TYPES DE MAGIE
+## Fonctionnement général
 
-Les mages et les clercs ne pratiquent pas le même type de magie.
+### Le Test d’incantation
+Pour lancer un sort, on effectue un **test d’incantation** :
+- **Clerc** : 1d20 + modificateur de Présence + niveau d’incantateur (NI).
+- **Mage** : 1d20 + modificateur d’Intelligence + NI + malus d’armure.
+- **Classes non entraînées** : Peuvent tenter de lire un parchemin avec **1d10** (sans aucun bonus).
 
-- **Mages** : magie noire, magie élémentaire, enchantement.
-- **Clercs** : reçoivent l’aide directe de leurs dieux → **magie sacrée** (magie divine), parfois similaire aux pouvoirs des mages et des elfes.
+Le résultat détermine la puissance du sort selon sa table spécifique. En général, un sort réussit si le résultat est **≥ 10 + (2 × niveau du sort)**.
 
-**Magie élémentaire** : invocations liées à la terre, l’air, le feu, l’eau, et les énergies/formes associées (lumière, brouillard, vol, etc.).  
-**Enchantement / magie blanche** : la plus courante, basée sur l’intersection du plan matériel avec d’autres plans.  
-**Magie sacrée / divine** : magie octroyée par la vénération d’un dieu ou d’une puissance supérieure (souvent les clercs).
+### Concentration
+Un lanceur de sort concentré ne peut se déplacer qu'à **demi-vitesse**. En cas de dégâts ou d'interruption, un **jet de Volonté DD 11** est requis pour ne pas briser le sort.
 
----
-
-## TESTS D’INCANTATION
-
-Quand votre personnage lance un sort :
-
-1. **Jetez 1d20** et ajoutez votre **niveau d’incantateur (NI)** → c’est le **test d’incantation**.
-2. Ajoutez ensuite :
-   - **Modificateur de Présence** si vous êtes **clerc**
-   - **Modificateur d’Intelligence** si vous êtes **mage**
-3. Les mages appliquent aussi :
-   - **Malus d’armure** (voir Table 3-3)
-   - Autres modificateurs selon la situation
-
-Ensuite, **comparez le résultat** à la **table d’incantation** du sort.
-
-- En général, un sort réussit si le résultat ≥ **DD = 10 + (2 × niveau du sort)**.
-- Plus le résultat est élevé, plus l’effet peut être spectaculaire (comme indiqué sur les tables).
-
-Un mage novice peut tenter de lancer des sorts de n’importe quel niveau auquel il a accès, mais cela implique souvent un risque d’échec significatif… et l’échec a des conséquences.
+### Jets de sauvegarde contre les sorts
+Sauf mention contraire, le **DD** pour résister à un sort est égal au **résultat du test d’incantation**.
 
 ---
 
-## CRITIQUES ET MALADRESSES
+## Magie Divine (Clerc)
 
-- **20 naturel** : réussite critique. Le lanceur gagne un **bonus supplémentaire** au test égal à son **NI**. Les conséquences exactes dépendent de la table du sort.
-- **1 naturel** : échec automatique. Peut aussi entraîner **corruption** ou **défaveur** (voir plus bas).
+Le clerc n'oublie pas ses sorts en cas d'échec, mais il risque d'irriter sa divinité.
 
----
+### La Défaveur
+Sur un **1 naturel** (ou un résultat inférieur au seuil de défaveur), le sort échoue et le clerc subit la **défaveur**.
+- **Montée du risque** : Chaque échec augmente le seuil de défaveur pour la journée (1-2, puis 1-3, etc.).
+- **Sacrifices** : Le clerc peut réduire sa défaveur accumulée par des offrandes (50 po = -1 pt) ou des services (min. 1 tour de prière/rituel).
 
-## CONCENTRATION
+### Imposition des mains
+Le clerc soigne les vivants (pas les morts-vivants ni les golems) par contact. Le nombre de dés de soin dépend de l'alignement relatif entre le clerc et sa cible.
 
-Certains sorts demandent de la concentration. Pendant ce temps, le mage ou le clerc ne peut entreprendre aucune autre action que :
+| Test d’incantation | Identique | Adjacent | Opposé |
+|---|---:|---:|---:|
+| 1-11 | Échec | Échec | Échec |
+| 12-13 | 2 dés | 1 dé | 1 dé |
+| 14-19 | 3 dés | 2 dés | 1 dé |
+| 20-21 | 4 dés | 3 dés | 2 dés |
+| 22+ | 5 dés | 4 dés | 3 dés |
 
-- **Se déplacer à la moitié de sa vitesse**
-
-Toute interruption significative (dégâts, chute, etc.) impose un **jet de Volonté DD 11**, sinon la concentration est brisée.
-
----
-
-## TESTS D’INCANTATION POUR LES AUTRES CLASSES
-
-Un personnage non entraîné (guerrier, voleur, etc.) peut tenter de lancer un sort depuis des instructions magiques (ex : parchemin), mais :
-
-- il lance **1d10** au lieu de 1d20
-- **n’ajoute pas** de modificateur de caractéristique
-- **n’ajoute pas** de niveau d’incantateur
-
-Un voleur entraîné peut lancer un dé plus élevé (voir Table 1-11 : Voleur).
+### Repousser les impies
+Brandir son symbole sacré pour faire fuir les morts-vivants, démons et diables.
+- **Jet** : 1d20 + Présence + NI + Chance. Un échec augmente la défaveur.
 
 ---
 
-## JETS DE SAUVEGARDE CONTRE LES SORTS
+## Magie Arcanique (Mage)
 
-En général, le **DD du jet de sauvegarde** contre un sort est égal au **résultat du test d’incantation**.
+La magie des mages est instable et déforme la réalité (et le mage lui-même).
 
-Exemple : *couleurs dansantes* lancé avec un test de **17** → **Volonté 17+** pour résister.
+### Spécificités du Mage
+- **Sorts connus** : Un mage de niveau 1 connaît généralement **4 sorts**.
+- **Langues** : Le mage maîtrise **2 langues supplémentaires** par point de bonus d'Intelligence.
+- **Perte de sort** : Si une table indique "perdu", le sort ne peut plus être lancé avant le lendemain.
 
-Si un sort ne donne pas de DD spécifique, on utilise le résultat du test d’incantation.
-
----
-
-## INVERSER DES SORTS
-
-Certains sorts peuvent être inversés (réparer → endommager, agrandissement → rétrécissement).  
-Mais inverser un sort n’est pas “suivre les instructions à l’envers” : la magie ne se “décuisine” pas facilement.
-
----
-
-## BRÛLESORT (SPELLBURN)
-
-Un mage peut canaliser plus d’énergie magique en sacrifiant temporairement des points de caractéristiques :
-
-- dépense provisoirement des points de **Force**, **Agilité** ou **Endurance**
-- pour chaque point dépensé : **+1 au test d’incantation**
-
-Les points perdus reviennent par guérison naturelle :
-- chaque jour sans brûlesort : **+1 point** de caractéristique récupéré.
-
-**Critique automatique :**  
-Si le mage sacrifie **20 points** de caractéristiques en une seule fois, il peut traiter le résultat de son prochain test d’incantation comme un **20 naturel**.
+### Brûlesort (Spellburn)
+Le mage peut sacrifier temporairement des points de **Force, Agilité ou Endurance** pour booster son test d'incantation (+1 par point sacrifié).
+- **Critique automatique** : Sacrifier 20 points d'un coup garantit un **20 naturel**.
+- **Récupération** : 1 point de caractéristique par jour sans brûlesort.
 
 ---
 
-## RÉCUPÉRER LES SORTS
+## Corruption et Revers
 
-Lancer des sorts coûte de l’énergie : un lanceur ne peut le faire qu’un certain nombre de fois par jour avant l’épuisement.
+### Corruption
+Sur un **1 naturel**, le mage peut subir une corruption physique ou mentale.
+- **Jet** : 1d10 - niveau du sort + modificateur de Chance.
+- **Éviter** : Le mage peut **brûler 1 point de Chance** pour annuler une corruption *après* le jet. Les revers arcaniques ne peuvent pas être évités ainsi.
 
-- Certaines tables indiquent **« perdu »** : le sort ne peut plus être relancé **aujourd’hui**.
-- Sinon, le sort reste réutilisable.
-- En général, seuls les **sorts de mage** sont perdus quand l’incantation échoue.
-
-**Clercs :** à chaque échec, le risque de **défaveur** augmente pour le reste de la journée (détails dans la classe de clerc).
-
-Récupération typique :
-- magie blanche : **au lever du jour**
-- magie noire : **quand la lune a fini de traverser le ciel**
-- magie démoniaque : **après 8 h de repos complet**
-- magie divine : **repos + prière**
-- etc., selon l’accord Juge/Joueur
-
----
-
-## MAGIE MERCURIELLE
-
-Les talents magiques dépendent de caprices cosmiques (ordre de naissance, lignage, horoscope, etc.).  
-Donc un même sort peut se manifester différemment selon le mage.
-
-Quand un mage apprend un nouveau sort, il effectue un jet sur la **Table 5-2 : Magie Mercurielle** :
-
-- jet en **%**
-- modifié par **(modificateur de Chance × 10%)**  
-  (ex : Chance +2 → +20%)
-
-Chaque sort appris a son propre résultat spécifique.
-
----
-
-## CORRUPTION
-
-Les mages de bas niveau sont puissants ; ceux de haut niveau craignent pour leur âme.  
-À force d’exposition aux démons, radiations planaires, énergies élémentaires, et Chaos, la magie provoque des **changements**.
-
-À chaque **1 naturel** au test d’incantation :
-- le mage subit l’échec du sort
-- peut subir un **revers**
-- ainsi qu’une **corruption** (spécifiée par la table du sort)
-
-Si une table demande une corruption mineure/majeure/supérieure :
-- lancez **1d10 – niveau du sort + modificateur de Chance**
-- d’autres modificateurs peuvent s’ajouter selon circonstances
-
-**Éviter la corruption par la Chance :**
-- un mage qui subit une corruption peut **brûler 1 point de Chance** pour l’éviter
-- cela se fait **après** le jet de corruption
-- impossible d’éviter un **revers arcanique** par la Chance
-- les **souillures de patron** comptent comme des corruptions (donc évitables par Chance)
-
----
-
-## TABLE 5-2 : MAGIE MERCURIELLE (résumé)
+### Table de Magie Mercurielle (Résumé)
+Chaque sort appris est unique pour le mage. Lancez d% modifié par **(Chance x 10%)**.
 
 | d% | Ajustement |
 |---:|---|
-| 01–10 | Souffle de vie : soigne 1d6/niveau du sort à 4,5 m (amis et ennemis) |
-| 11–20 | Très difficile : dégradé de 2 crans sur la chaîne de dés |
-| 21–30 | Sort meurtrier : rêves hantés par un ancien roi-sorcier |
-| 31–40 | Doit être crié : impossible d’être discret |
-| 41–50 | Cercle d’incantation : +1 par mage assistant (sans autre action) |
-| 51–60 | Bulle de contremagie : -4 aux tests à 30 m pendant 1 round |
-| 61–70 | Distorsion de Chance : -2 à tous les jets pendant 1d4 rounds |
-| 71–80 | Compte jusqu’à dix : doigt (ou orteil) fond à chaque lancement |
-| 81–90 | Jumeau mystique : visage jumeau dans la poitrine, 1d3 rounds, d20 d’action |
-| 91–100 | Magie du sang : sacrifice requis (sinon -4 ou souillure de patron) |
+| 01–10 | **Souffle de vie** : soigne 1d6/niveau du sort à 4,5 m |
+| 11–20 | **Très difficile** : dégradé de 2 crans sur la chaîne de dés |
+| 31–40 | **Doit être crié** : impossible d’être discret |
+| 61–70 | **Distorsion de Chance** : -2 à tous les jets pendant 1d4 rounds |
+| 81–90 | **Jumeau mystique** : visage jumeau dans la poitrine (1d3 rounds) |
+| 91–100 | **Magie du sang** : sacrifice requis (sinon -4 ou souillure) |
 
 ---
 
-## TABLE 5-3 : CORRUPTION MINEURE (extraits)
+## Tables de référence rapide
 
-D10 : pustules au visage (-1 Présence), peau “cire fondue”, jambe allongée, troubles des yeux (dont infravision), plaies qui ne guérissent pas, mutations des oreilles, frissons permanents, déformation durable du visage…
+### Défaveur (Clerc)
+1) Chants/rituels 10 min | 2) Prière 1h (-1 test) | 3) Convertir un fidèle | 4) -1 tests jusqu'au lendemain | 5) Épreuve d’humilité | 6) Quête de soin requise.
 
----
-
-## TABLE 5-7 : DÉFAVEUR (clerc)
-
-1) Chants/incantations 10 minutes  
-2) Prière 1 heure (sinon -1 tests d’incantation jusqu’à accomplissement)  
-3) Convertir un nouveau fidèle (sinon -1 à tous les jets le lendemain pendant 24 h)  
-4) -1 tests d’incantation jusqu’au lendemain  
-5) Épreuve d’humilité : obéir/servir les autres, sinon perte du lancer de sorts pour la journée (selon le juge)  
-6) -1 aux impositions des mains jusqu’à une quête de soin accomplie
+### Corruption mineure (Mage)
+Pustules (-1 Présence), peau "cire fondue", jambe allongée, yeux blancs, frissons permanents, oreilles mutées, déformation faciale.

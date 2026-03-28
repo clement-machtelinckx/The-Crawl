@@ -1,30 +1,25 @@
 # Champignons féconds d'Hepsoj
 **Niveau :** 5  
-**Portée :** 15 m  
-**Durée :** 1 round par niveau d'incantateur  
-**Jet de sauvegarde :** Vigueur vs test d'incantation  
+**Portée :** 15 m ou plus  
+**Durée :** 1 round par NI  
+**Jet de sauvegarde :** Vigueur ou Réflexes selon l'effet  
 **Temps d’incantation :** 1 action  
 
-*L'incantateur invoque une prolifération foudroyante de champignons sur ses ennemis.*
+*L'incantateur invoque une prolifération foudroyante de spores et de champignons pour attaquer ou se protéger.*
 
 ## Effet
-Provoque la croissance instantanée de moisissures et de champignons parasites sur la chair vivante. Les victimes subissent des dégâts continus et peuvent être transformées en monticules de fongus.
+Permet de manipuler les spores ambiantes. Le mage peut choisir un effet inférieur au résultat de son test.
 
 ## Limites / précisions
-- Les champignons se nourrissent de la chair de l'adversaire et produisent des spores dangereuses.
-- L'effet peut se propager par contact physique aux paliers supérieurs.
+- **Nuage :** Zone de 15 m de côté. Étrangle et inflige **1d6+NI** dégâts/round (Vig DD test).
+- **Armure :** Le mage se couvre de cuir fongique absorbant un nombre d'attaques égal au **NI**.
+- **Murs :** Crée des barrières de champignons géants (15 carrés/NI). Indestructible par des moyens non-magiques.
 
 ## Revers
-- **1 :** Les champignons poussent sur l'incantateur lui-même (1d8 dégâts par round).
-- **2 :** Une nuée de spores empoisonnées remplit la zone, affectant alliés et ennemis.
-- **3 :** Le mage devient allergique à toute forme de nourriture non-fongique.
-- **4 :** Tous les objets en bois à 9 m pourrissent instantanément.
+Lancer 1d5 : (1) homoncules fongiques volent un objet au mage ; (2) nuage de spores aveugle le mage ; (3) gorge obstruée par des champignons (muet **1d4 rounds**) ; (4) éruptions cutanées douloureuses (**1d6 dmg**) ; (5) invoque une boue primordiale hostile.
 
 ## Corruption
-- **1 :** Des plaques de moisissure colorée apparaissent sur la peau du mage.
-- **2 :** L'incantateur dégage une odeur de terre humide et de décomposition.
-- **3 :** Des petits champignons non-toxiques poussent dans les cheveux du mage.
-- **4 :** Le sang du mage devient une sève épaisse et noire.
+Lancer 1d4 : (1) toux chronique de spores ; (2) excroissances de cuir sur la peau ; (3) odeur de moisissure permanente ; (4) tête prend une forme de champignon.
 
 ---
 
@@ -32,7 +27,10 @@ Provoque la croissance instantanée de moisissures et de champignons parasites s
 | Test | Résultat |
 | --- | --- |
 | 1-17 | Échec. |
-| 18-21 | Croissance de champignons sur un membre (1d6 dmg). |
-| 22-25 | Recouvre le corps entier (2d6 dmg/round). |
-| 26-31 | Libère des spores (tout à 6 m doit réussir jet de Vigueur ou être aveuglé). |
-| 32+ | Les champignons transforment la victime en un monticule de fongus en 1d4 rounds. |
+| 18-19 | **Nuage suffocant**. Dégâts et malus **-3** à tous les jets. |
+| 20-23 | **Armure ablative**. Protège contre un nombre d'attaques égal au **NI**. |
+| 24-25 | **Tentacules étrangleurs**. Atk +4. Dégâts **1d8+4** et immobilisation. |
+| 26-28 | **Murs de champignons**. Barrières solides et façonnables. |
+| 29-33 | **Horde de Shroomen**. Invoque **2 guerriers-champignons par NI**. |
+| 34-37 | **État psychotropique**. Bonus **+8** aux tests de divination/patron pendant 1h. Risque de folie si échec. |
+| 38+ | **Appel à Mycetes-Thrax**. Contact avec l'entité titanique souterraine. Connaissances oubliées ou séismes massifs. |
