@@ -1,6 +1,7 @@
 # Elfe
 
 ![Elfe](/img/class/elfe.webp)
+
 Vous êtes un semi-humain fort et élancé originaire des bois et des forêts ombragées. Les elfes étudient à la fois les arts de la guerre et de la magie, bénéficiant de siècles d'expérience. Bien que vulnérables au fer, leur maîtrise de la magie mercurielle et leur lien avec les puissances extraplanaires en font des alliés (ou des ennemis) redoutables.
 
 ---
