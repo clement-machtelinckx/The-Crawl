@@ -4,6 +4,7 @@ import { useHistory } from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { createSupabaseBrowserClient } from '../lib/supabase';
 import { getAuthUser, saveAuthUser } from '../lib/auth';
+import { Button, TextInput, SelectInput, Card } from '../components/ui';
 
 type CustomFields = {
     supabaseUrl?: string;
@@ -96,94 +97,44 @@ export default function LoginPage() {
 
     return (
         <Layout title="Login">
-            <main style={mainStyle}>
-                <div style={cardStyle}>
+            <main style={{ padding: '2rem 1rem' }}>
+                <Card style={{ maxWidth: 420, margin: '0 auto' }}>
                     <h1 style={{ marginTop: 0 }}>Connexion</h1>
                     <p>Choisis ton nom puis entre ton mot de passe.</p>
 
-                    <form onSubmit={handleSubmit} style={formStyle}>
-                        <div style={fieldStyle}>
-                            <label htmlFor="player-name">Nom</label>
-                            <select
-                                id="player-name"
-                                value={selectedName}
-                                onChange={(e) => setSelectedName(e.target.value)}
-                                style={inputStyle}
-                                disabled={loadingPlayers || submitting}
-                            >
-                                <option value="">Sélectionner…</option>
-                                {players.map((player) => (
-                                    <option key={player.id} value={player.name}>
-                                        {player.name}
-                                    </option>
-                                ))}
-                            </select>
-                        </div>
+                    <form onSubmit={handleSubmit} style={{ display: 'grid', gap: '1rem' }}>
+                        <SelectInput
+                            label="Nom"
+                            id="player-name"
+                            value={selectedName}
+                            onChange={(e) => setSelectedName(e.target.value)}
+                            disabled={loadingPlayers || submitting}
+                        >
+                            <option value="">Sélectionner…</option>
+                            {players.map((player) => (
+                                <option key={player.id} value={player.name}>
+                                    {player.name}
+                                </option>
+                            ))}
+                        </SelectInput>
 
-                        <div style={fieldStyle}>
-                            <label htmlFor="player-password">Mot de passe</label>
-                            <input
-                                id="player-password"
-                                type="password"
-                                value={password}
-                                onChange={(e) => setPassword(e.target.value)}
-                                style={inputStyle}
-                                disabled={submitting}
-                            />
-                        </div>
+                        <TextInput
+                            label="Mot de passe"
+                            id="player-password"
+                            type="password"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                            disabled={submitting}
+                        />
 
-                        <button type="submit" style={buttonStyle} disabled={loadingPlayers || submitting}>
+                        <Button type="submit" fullWidth disabled={loadingPlayers || submitting}>
                             {submitting ? 'Connexion…' : 'Se connecter'}
-                        </button>
+                        </Button>
                     </form>
 
-                    {error && <p style={errorStyle}>{error}</p>}
-                </div>
+                    {error && <p style={{ color: 'var(--app-color-error)', marginTop: '1rem' }}>{error}</p>}
+                </Card>
             </main>
         </Layout>
     );
 }
-
-const mainStyle: React.CSSProperties = {
-    padding: '2rem 1rem',
-};
-
-const cardStyle: React.CSSProperties = {
-    maxWidth: 420,
-    margin: '0 auto',
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    borderRadius: 12,
-    padding: '1.25rem',
-    background: 'var(--ifm-background-surface-color)',
-};
-
-const formStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '1rem',
-};
-
-const fieldStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.35rem',
-};
-
-const inputStyle: React.CSSProperties = {
-    width: '100%',
-    padding: '0.75rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'var(--ifm-background-color)',
-};
-
-const buttonStyle: React.CSSProperties = {
-    padding: '0.8rem 1rem',
-    borderRadius: 8,
-    border: 'none',
-    cursor: 'pointer',
-    fontWeight: 600,
-};
-
-const errorStyle: React.CSSProperties = {
-    color: '#b42318',
-    marginTop: '1rem',
-};

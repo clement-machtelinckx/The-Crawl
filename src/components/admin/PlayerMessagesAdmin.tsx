@@ -2,6 +2,7 @@ import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Player, SessionItem } from './types';
+import { Button, TextareaInput, Card } from '../ui';
 
 type Props = {
     supabase: SupabaseClient;
@@ -174,8 +175,8 @@ Réponds directement ici :
     }
 
     return (
-        <section style={sectionStyle}>
-            <div style={headerRowStyle}>
+        <Card variant="section">
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', flexWrap: 'wrap' }}>
                 <div>
                     <h2 style={{ margin: 0 }}>Messages joueurs</h2>
                     <p style={{ margin: '0.4rem 0 0', opacity: 0.8 }}>
@@ -183,9 +184,9 @@ Réponds directement ici :
                     </p>
                 </div>
 
-                <button type="button" onClick={() => void generateMissingTokens()} style={secondaryButtonStyle}>
+                <Button type="button" variant="secondary" onClick={() => void generateMissingTokens()}>
                     Générer les liens manquants
-                </button>
+                </Button>
             </div>
 
             {!sessionItem && !loading && (
@@ -195,22 +196,20 @@ Réponds directement ici :
             )}
 
             <div style={{ marginTop: '1rem' }}>
-                <label htmlFor="message-template" style={{ display: 'block', marginBottom: '0.4rem' }}>
-                    Modèle du message
-                </label>
-                <textarea
+                <TextareaInput
+                    label="Modèle du message"
                     id="message-template"
                     value={template}
                     onChange={(e) => setTemplate(e.target.value)}
-                    style={textareaStyle}
+                    style={{ minHeight: 180 }}
                 />
-                <p style={helperStyle}>
+                <p style={{ marginTop: '0.4rem', fontSize: '0.9rem', opacity: 0.75 }}>
                     Variables disponibles : {'{name}'} {'{title}'} {'{date}'} {'{location}'} {'{link}'}
                 </p>
             </div>
 
-            {error && <p style={errorStyle}>{error}</p>}
-            {success && <p style={successStyle}>{success}</p>}
+            {error && <p style={{ color: 'var(--app-color-error)', marginTop: '1rem' }}>{error}</p>}
+            {success && <p style={{ color: 'var(--app-color-success)', marginTop: '1rem' }}>{success}</p>}
 
             <div style={{ marginTop: '1rem' }}>
                 {loading ? (
@@ -218,42 +217,50 @@ Réponds directement ici :
                 ) : players.length === 0 ? (
                     <p>Aucun joueur actif.</p>
                 ) : (
-                    <div style={listStyle}>
+                    <div style={{ display: 'grid', gap: '0.75rem' }}>
                         {players.map((player) => {
                             const link = player.login_token ? buildLoginLink(player.login_token) : null;
 
                             return (
-                                <article key={player.id} style={cardStyle}>
+                                <article key={player.id} style={{
+                                    border: '1px solid var(--ifm-color-emphasis-200)',
+                                    borderRadius: 10,
+                                    padding: '0.9rem',
+                                    display: 'flex',
+                                    gap: '1rem',
+                                    justifyContent: 'space-between',
+                                    alignItems: 'flex-start',
+                                    flexWrap: 'wrap'
+                                }}>
                                     <div style={{ flex: 1 }}>
                                         <strong>{player.name}</strong>
-                                        <div style={metaStyle}>
+                                        <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.35rem', fontSize: '0.9rem', opacity: 0.8, flexWrap: 'wrap' }}>
                                             <span>{player.login_token ? 'Lien prêt' : 'Pas encore de lien'}</span>
                                         </div>
 
                                         {link && (
-                                            <div style={linkBoxStyle}>
-                                                <code style={codeStyle}>{link}</code>
+                                            <div style={{ marginTop: '0.6rem', padding: '0.6rem', borderRadius: 8, border: '1px solid var(--ifm-color-emphasis-200)', overflowX: 'auto' }}>
+                                                <code style={{ whiteSpace: 'nowrap' }}>{link}</code>
                                             </div>
                                         )}
                                     </div>
 
-                                    <div style={actionsStyle}>
-                                        <button
+                                    <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                                        <Button
                                             type="button"
+                                            variant="secondary"
                                             onClick={() => void handleCopyLink(player)}
-                                            style={secondaryButtonStyle}
                                             disabled={!sessionItem}
                                         >
                                             Copier le lien
-                                        </button>
-                                        <button
+                                        </Button>
+                                        <Button
                                             type="button"
                                             onClick={() => void handleCopyMessage(player)}
-                                            style={primaryButtonStyle}
                                             disabled={!sessionItem}
                                         >
                                             Copier le message
-                                        </button>
+                                        </Button>
                                     </div>
                                 </article>
                             );
@@ -261,106 +268,6 @@ Réponds directement ici :
                     </div>
                 )}
             </div>
-        </section>
+        </Card>
     );
 }
-
-const sectionStyle: React.CSSProperties = {
-    border: '1px solid var(--ifm-toc-border-color)',
-    borderRadius: 12,
-    padding: '1rem',
-    background: 'var(--ifm-background-surface-color)',
-};
-
-const headerRowStyle: React.CSSProperties = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    gap: '1rem',
-    flexWrap: 'wrap',
-};
-
-const listStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.75rem',
-};
-
-const cardStyle: React.CSSProperties = {
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    borderRadius: 10,
-    padding: '0.9rem',
-    display: 'flex',
-    gap: '1rem',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    flexWrap: 'wrap',
-};
-
-const actionsStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.5rem',
-    flexWrap: 'wrap',
-};
-
-const metaStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.75rem',
-    marginTop: '0.35rem',
-    fontSize: '0.9rem',
-    opacity: 0.8,
-    flexWrap: 'wrap',
-};
-
-const textareaStyle: React.CSSProperties = {
-    width: '100%',
-    minHeight: 180,
-    padding: '0.75rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'var(--ifm-background-color)',
-    resize: 'vertical',
-};
-
-const helperStyle: React.CSSProperties = {
-    marginTop: '0.4rem',
-    fontSize: '0.9rem',
-    opacity: 0.75,
-};
-
-const linkBoxStyle: React.CSSProperties = {
-    marginTop: '0.6rem',
-    padding: '0.6rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    overflowX: 'auto',
-};
-
-const codeStyle: React.CSSProperties = {
-    whiteSpace: 'nowrap',
-};
-
-const primaryButtonStyle: React.CSSProperties = {
-    padding: '0.7rem 1rem',
-    borderRadius: 8,
-    border: 'none',
-    cursor: 'pointer',
-    fontWeight: 600,
-};
-
-const secondaryButtonStyle: React.CSSProperties = {
-    padding: '0.7rem 1rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'transparent',
-    cursor: 'pointer',
-};
-
-const errorStyle: React.CSSProperties = {
-    color: '#b42318',
-    marginTop: '1rem',
-};
-
-const successStyle: React.CSSProperties = {
-    color: '#027a48',
-    marginTop: '1rem',
-};

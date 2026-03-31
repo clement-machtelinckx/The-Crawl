@@ -1,6 +1,7 @@
 import React from 'react';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Player } from './types';
+import { Button, TextInput, Card } from '../ui';
 
 type PlayersCrudProps = {
     supabase: SupabaseClient;
@@ -155,41 +156,33 @@ export default function PlayersCrud({ supabase }: PlayersCrudProps) {
     }
 
     return (
-        <section style={sectionStyle}>
-            <div style={headerRowStyle}>
+        <Card variant="section">
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '1rem' }}>
                 <h2 style={{ margin: 0 }}>Joueurs</h2>
-                <button type="button" onClick={resetForm} style={secondaryButtonStyle}>
-                    Nouveau
-                </button>
+                <Button type="button" variant="secondary" onClick={resetForm}>
+                    Reset
+                </Button>
             </div>
 
-            <form onSubmit={handleSubmit} style={formStyle}>
-                <div style={fieldStyle}>
-                    <label htmlFor="player-name">Nom</label>
-                    <input
-                        id="player-name"
-                        type="text"
-                        value={form.name}
-                        onChange={(e) => setForm((prev) => ({ ...prev, name: e.target.value }))}
-                        style={inputStyle}
-                        placeholder="Ex: Yazii"
-                    />
-                </div>
+            <form onSubmit={handleSubmit} style={{ display: 'grid', gap: '1rem', marginTop: '1rem' }}>
+                <TextInput
+                    label="Nom"
+                    id="player-name"
+                    value={form.name}
+                    onChange={(e) => setForm((prev) => ({ ...prev, name: e.target.value }))}
+                    placeholder="Ex: Yazii"
+                />
 
-                <div style={fieldStyle}>
-                    <label htmlFor="player-password">Mot de passe</label>
-                    <input
-                        id="player-password"
-                        type="text"
-                        value={form.password_hash}
-                        onChange={(e) => setForm((prev) => ({ ...prev, password_hash: e.target.value }))}
-                        style={inputStyle}
-                        placeholder="Mot de passe V1"
-                    />
-                </div>
+                <TextInput
+                    label="Mot de passe"
+                    id="player-password"
+                    value={form.password_hash}
+                    onChange={(e) => setForm((prev) => ({ ...prev, password_hash: e.target.value }))}
+                    placeholder="Mot de passe V1"
+                />
 
-                <div style={checkboxRowStyle}>
-                    <label style={checkboxLabelStyle}>
+                <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                    <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                         <input
                             type="checkbox"
                             checked={form.is_admin}
@@ -198,7 +191,7 @@ export default function PlayersCrud({ supabase }: PlayersCrudProps) {
                         Admin
                     </label>
 
-                    <label style={checkboxLabelStyle}>
+                    <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                         <input
                             type="checkbox"
                             checked={form.is_active}
@@ -208,21 +201,21 @@ export default function PlayersCrud({ supabase }: PlayersCrudProps) {
                     </label>
                 </div>
 
-                <div style={actionsStyle}>
-                    <button type="submit" disabled={saving} style={primaryButtonStyle}>
+                <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+                    <Button type="submit" disabled={saving}>
                         {saving ? 'Enregistrement…' : editingId === null ? 'Créer le joueur' : 'Mettre à jour'}
-                    </button>
+                    </Button>
 
                     {editingId !== null && (
-                        <button type="button" onClick={resetForm} style={secondaryButtonStyle}>
+                        <Button type="button" variant="secondary" onClick={resetForm}>
                             Annuler
-                        </button>
+                        </Button>
                     )}
                 </div>
             </form>
 
-            {error && <p style={errorStyle}>{error}</p>}
-            {success && <p style={successStyle}>{success}</p>}
+            {error && <p style={{ color: 'var(--app-color-error)', marginTop: '1rem' }}>{error}</p>}
+            {success && <p style={{ color: 'var(--app-color-success)', marginTop: '1rem' }}>{success}</p>}
 
             <div style={{ marginTop: '1.5rem' }}>
                 {loading ? (
@@ -230,145 +223,38 @@ export default function PlayersCrud({ supabase }: PlayersCrudProps) {
                 ) : players.length === 0 ? (
                     <p>Aucun joueur pour le moment.</p>
                 ) : (
-                    <div style={listStyle}>
+                    <div style={{ display: 'grid', gap: '0.75rem' }}>
                         {players.map((player) => (
-                            <article key={player.id} style={cardStyle}>
+                            <article key={player.id} style={{
+                                border: '1px solid var(--ifm-color-emphasis-200)',
+                                borderRadius: 10,
+                                padding: '0.9rem',
+                                display: 'flex',
+                                justifyContent: 'space-between',
+                                gap: '1rem',
+                                alignItems: 'center'
+                            }}>
                                 <div>
                                     <strong>{player.name}</strong>
-                                    <div style={metaStyle}>
+                                    <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.35rem', fontSize: '0.9rem', opacity: 0.8, flexWrap: 'wrap' }}>
                                         <span>{player.is_admin ? 'Admin' : 'Joueur'}</span>
                                         <span>{player.is_active ? 'Actif' : 'Inactif'}</span>
                                     </div>
                                 </div>
 
-                                <div style={cardActionsStyle}>
-                                    <button type="button" onClick={() => startEdit(player)} style={secondaryButtonStyle}>
+                                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                                    <Button variant="secondary" onClick={() => startEdit(player)}>
                                         Modifier
-                                    </button>
-                                    <button type="button" onClick={() => void handleDelete(player.id)} style={dangerButtonStyle}>
+                                    </Button>
+                                    <Button variant="danger" onClick={() => void handleDelete(player.id)}>
                                         Supprimer
-                                    </button>
+                                    </Button>
                                 </div>
                             </article>
                         ))}
                     </div>
                 )}
             </div>
-        </section>
+        </Card>
     );
 }
-
-const sectionStyle: React.CSSProperties = {
-    border: '1px solid var(--ifm-toc-border-color)',
-    borderRadius: 12,
-    padding: '1rem',
-    background: 'var(--ifm-background-surface-color)',
-};
-
-const headerRowStyle: React.CSSProperties = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    gap: '1rem',
-};
-
-const formStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '1rem',
-    marginTop: '1rem',
-};
-
-const fieldStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.35rem',
-};
-
-const inputStyle: React.CSSProperties = {
-    padding: '0.75rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'var(--ifm-background-color)',
-};
-
-const checkboxRowStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '1rem',
-    flexWrap: 'wrap',
-};
-
-const checkboxLabelStyle: React.CSSProperties = {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '0.5rem',
-};
-
-const actionsStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.75rem',
-    flexWrap: 'wrap',
-};
-
-const listStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.75rem',
-};
-
-const cardStyle: React.CSSProperties = {
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    borderRadius: 10,
-    padding: '0.9rem',
-    display: 'flex',
-    justifyContent: 'space-between',
-    gap: '1rem',
-    alignItems: 'center',
-};
-
-const cardActionsStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.5rem',
-    flexWrap: 'wrap',
-};
-
-const metaStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.75rem',
-    marginTop: '0.35rem',
-    fontSize: '0.9rem',
-    opacity: 0.8,
-    flexWrap: 'wrap',
-};
-
-const primaryButtonStyle: React.CSSProperties = {
-    padding: '0.7rem 1rem',
-    borderRadius: 8,
-    border: 'none',
-    cursor: 'pointer',
-    fontWeight: 600,
-};
-
-const secondaryButtonStyle: React.CSSProperties = {
-    padding: '0.7rem 1rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'transparent',
-    cursor: 'pointer',
-};
-
-const dangerButtonStyle: React.CSSProperties = {
-    padding: '0.7rem 1rem',
-    borderRadius: 8,
-    border: '1px solid #b42318',
-    background: 'transparent',
-    color: '#b42318',
-    cursor: 'pointer',
-};
-
-const errorStyle: React.CSSProperties = {
-    color: '#b42318',
-    marginTop: '1rem',
-};
-
-const successStyle: React.CSSProperties = {
-    color: '#027a48',
-    marginTop: '1rem',
-};

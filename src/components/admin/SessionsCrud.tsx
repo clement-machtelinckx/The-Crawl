@@ -1,6 +1,7 @@
 import React from 'react';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { SessionItem } from './types';
+import { Button, TextInput, SelectInput, TextareaInput, DateTimeInput, Card } from '../ui';
 
 type SessionsCrudProps = {
     supabase: SupabaseClient;
@@ -168,103 +169,81 @@ export default function SessionsCrud({ supabase }: SessionsCrudProps) {
     }
 
     return (
-        <section style={sectionStyle}>
-            <div style={headerRowStyle}>
+        <Card variant="section">
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '1rem' }}>
                 <h2 style={{ margin: 0 }}>Sessions</h2>
-                <button type="button" onClick={resetForm} style={secondaryButtonStyle}>
-                    Nouvelle
-                </button>
+                <Button type="button" variant="secondary" onClick={resetForm}>
+                    Reset
+                </Button>
             </div>
 
-            <form onSubmit={handleSubmit} style={formStyle}>
-                <div style={fieldStyle}>
-                    <label htmlFor="session-title">Titre</label>
-                    <input
-                        id="session-title"
-                        type="text"
-                        value={form.title}
-                        onChange={(e) => setForm((prev) => ({ ...prev, title: e.target.value }))}
-                        style={inputStyle}
-                        placeholder="Ex: Prochaine session DCC"
-                    />
-                </div>
+            <form onSubmit={handleSubmit} style={{ display: 'grid', gap: '1rem', marginTop: '1rem' }}>
+                <TextInput
+                    label="Titre"
+                    id="session-title"
+                    value={form.title}
+                    onChange={(e) => setForm((prev) => ({ ...prev, title: e.target.value }))}
+                    placeholder="Ex: Prochaine session DCC"
+                />
 
-                <div style={fieldStyle}>
-                    <label htmlFor="session-game">Campagne / jeu</label>
-                    <input
-                        id="session-game"
-                        type="text"
-                        value={form.game}
-                        onChange={(e) => setForm((prev) => ({ ...prev, game: e.target.value }))}
-                        style={inputStyle}
-                        placeholder="Ex: DCC"
-                    />
-                </div>
+                <TextInput
+                    label="Campagne / jeu"
+                    id="session-game"
+                    value={form.game}
+                    onChange={(e) => setForm((prev) => ({ ...prev, game: e.target.value }))}
+                    placeholder="Ex: DCC"
+                />
 
-                <div style={fieldStyle}>
-                    <label htmlFor="session-starts-at">Date et heure</label>
-                    <input
-                        id="session-starts-at"
-                        type="datetime-local"
-                        value={form.starts_at}
-                        onChange={(e) => setForm((prev) => ({ ...prev, starts_at: e.target.value }))}
-                        style={inputStyle}
-                    />
-                </div>
+                <DateTimeInput
+                    label="Date et heure"
+                    id="session-starts-at"
+                    value={form.starts_at}
+                    onChange={(e) => setForm((prev) => ({ ...prev, starts_at: e.target.value }))}
+                />
 
-                <div style={fieldStyle}>
-                    <label htmlFor="session-location">Lieu</label>
-                    <input
-                        id="session-location"
-                        type="text"
-                        value={form.location}
-                        onChange={(e) => setForm((prev) => ({ ...prev, location: e.target.value }))}
-                        style={inputStyle}
-                        placeholder="Ex: Chez Yazii"
-                    />
-                </div>
+                <TextInput
+                    label="Lieu"
+                    id="session-location"
+                    value={form.location}
+                    onChange={(e) => setForm((prev) => ({ ...prev, location: e.target.value }))}
+                    placeholder="Ex: Chez Yazii"
+                />
 
-                <div style={fieldStyle}>
-                    <label htmlFor="session-status">Statut</label>
-                    <select
-                        id="session-status"
-                        value={form.status}
-                        onChange={(e) => setForm((prev) => ({ ...prev, status: e.target.value }))}
-                        style={inputStyle}
-                    >
-                        <option value="draft">Brouillon</option>
-                        <option value="open">Ouverte</option>
-                        <option value="closed">Fermée</option>
-                        <option value="archived">Archivée</option>
-                    </select>
-                </div>
+                <SelectInput
+                    label="Statut"
+                    id="session-status"
+                    value={form.status}
+                    onChange={(e) => setForm((prev) => ({ ...prev, status: e.target.value }))}
+                >
+                    <option value="draft">Brouillon</option>
+                    <option value="open">Ouverte</option>
+                    <option value="closed">Fermée</option>
+                    <option value="archived">Archivée</option>
+                </SelectInput>
 
-                <div style={fieldStyle}>
-                    <label htmlFor="session-note">Note</label>
-                    <textarea
-                        id="session-note"
-                        value={form.note}
-                        onChange={(e) => setForm((prev) => ({ ...prev, note: e.target.value }))}
-                        style={{ ...inputStyle, minHeight: 120, resize: 'vertical' }}
-                        placeholder="Petite note facultative"
-                    />
-                </div>
+                <TextareaInput
+                    label="Note"
+                    id="session-note"
+                    value={form.note}
+                    onChange={(e) => setForm((prev) => ({ ...prev, note: e.target.value }))}
+                    placeholder="Petite note facultative"
+                />
 
-                <div style={actionsStyle}>
-                    <button type="submit" disabled={saving} style={primaryButtonStyle}>
+                <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+                    <Button type="submit" disabled={saving}>
                         {saving ? 'Enregistrement…' : editingId === null ? 'Créer la session' : 'Mettre à jour'}
-                    </button>
+                    </Button>
 
                     {editingId !== null && (
-                        <button type="button" onClick={resetForm} style={secondaryButtonStyle}>
+                        <Button type="button" variant="secondary" onClick={resetForm}>
                             Annuler
-                        </button>
+                        </Button>
                     )}
                 </div>
             </form>
 
-            {error && <p style={errorStyle}>{error}</p>}
-            {success && <p style={successStyle}>{success}</p>}
+            {error && <p style={{ color: 'var(--app-color-error)', marginTop: '1rem' }}>{error}</p>}
+            {success && <p style={{ color: 'var(--app-color-success)', marginTop: '1rem' }}>{success}</p>}
 
             <div style={{ marginTop: '1.5rem' }}>
                 {loading ? (
@@ -272,12 +251,20 @@ export default function SessionsCrud({ supabase }: SessionsCrudProps) {
                 ) : sessions.length === 0 ? (
                     <p>Aucune session pour le moment.</p>
                 ) : (
-                    <div style={listStyle}>
+                    <div style={{ display: 'grid', gap: '0.75rem' }}>
                         {sessions.map((session) => (
-                            <article key={session.id} style={cardStyle}>
+                            <article key={session.id} style={{
+                                border: '1px solid var(--ifm-color-emphasis-200)',
+                                borderRadius: 10,
+                                padding: '0.9rem',
+                                display: 'flex',
+                                justifyContent: 'space-between',
+                                gap: '1rem',
+                                alignItems: 'flex-start'
+                            }}>
                                 <div>
                                     <strong>{session.title}</strong>
-                                    <div style={metaStyle}>
+                                    <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.35rem', fontSize: '0.9rem', opacity: 0.8, flexWrap: 'wrap' }}>
                                         <span>{session.game ?? 'Sans campagne'}</span>
                                         <span>{new Date(session.starts_at).toLocaleString()}</span>
                                         <span>{session.location ?? 'Lieu non défini'}</span>
@@ -286,123 +273,19 @@ export default function SessionsCrud({ supabase }: SessionsCrudProps) {
                                     {session.note && <p style={{ marginTop: '0.5rem' }}>{session.note}</p>}
                                 </div>
 
-                                <div style={cardActionsStyle}>
-                                    <button type="button" onClick={() => startEdit(session)} style={secondaryButtonStyle}>
+                                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                                    <Button variant="secondary" onClick={() => startEdit(session)}>
                                         Modifier
-                                    </button>
-                                    <button type="button" onClick={() => void handleDelete(session.id)} style={dangerButtonStyle}>
+                                    </Button>
+                                    <Button variant="danger" onClick={() => void handleDelete(session.id)}>
                                         Supprimer
-                                    </button>
+                                    </Button>
                                 </div>
                             </article>
                         ))}
                     </div>
                 )}
             </div>
-        </section>
+        </Card>
     );
 }
-
-const sectionStyle: React.CSSProperties = {
-    border: '1px solid var(--ifm-toc-border-color)',
-    borderRadius: 12,
-    padding: '1rem',
-    background: 'var(--ifm-background-surface-color)',
-};
-
-const headerRowStyle: React.CSSProperties = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    gap: '1rem',
-};
-
-const formStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '1rem',
-    marginTop: '1rem',
-};
-
-const fieldStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.35rem',
-};
-
-const inputStyle: React.CSSProperties = {
-    padding: '0.75rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'var(--ifm-background-color)',
-    width: '100%',
-};
-
-const actionsStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.75rem',
-    flexWrap: 'wrap',
-};
-
-const listStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.75rem',
-};
-
-const cardStyle: React.CSSProperties = {
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    borderRadius: 10,
-    padding: '0.9rem',
-    display: 'flex',
-    justifyContent: 'space-between',
-    gap: '1rem',
-    alignItems: 'flex-start',
-};
-
-const cardActionsStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.5rem',
-    flexWrap: 'wrap',
-};
-
-const metaStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.75rem',
-    marginTop: '0.35rem',
-    fontSize: '0.9rem',
-    opacity: 0.8,
-    flexWrap: 'wrap',
-};
-
-const primaryButtonStyle: React.CSSProperties = {
-    padding: '0.7rem 1rem',
-    borderRadius: 8,
-    border: 'none',
-    cursor: 'pointer',
-    fontWeight: 600,
-};
-
-const secondaryButtonStyle: React.CSSProperties = {
-    padding: '0.7rem 1rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'transparent',
-    cursor: 'pointer',
-};
-
-const dangerButtonStyle: React.CSSProperties = {
-    padding: '0.7rem 1rem',
-    borderRadius: 8,
-    border: '1px solid #b42318',
-    background: 'transparent',
-    color: '#b42318',
-    cursor: 'pointer',
-};
-
-const errorStyle: React.CSSProperties = {
-    color: '#b42318',
-    marginTop: '1rem',
-};
-
-const successStyle: React.CSSProperties = {
-    color: '#027a48',
-    marginTop: '1rem',
-};

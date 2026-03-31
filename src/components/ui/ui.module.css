@@ -1,0 +1,131 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: var(--app-radius-m);
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s;
+  border: 1px solid transparent;
+  line-height: 1.2;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primary {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.primary:hover:not(:disabled) {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+.secondary {
+  background-color: transparent;
+  border-color: var(--app-input-border);
+  color: var(--ifm-font-color-base);
+}
+
+.secondary:hover:not(:disabled) {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.danger {
+  background-color: transparent;
+  border-color: var(--app-color-error);
+  color: var(--app-color-error);
+}
+
+.danger:hover:not(:disabled) {
+  background-color: var(--app-color-error);
+  color: #fff;
+}
+
+.ghost {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--ifm-font-color-base);
+  padding: 0.45rem 0.7rem;
+}
+
+.ghost:hover:not(:disabled) {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+/* Form Styles */
+.field {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: var(--app-radius-m);
+  border: 1px solid var(--app-input-border);
+  background-color: var(--app-input-bg);
+  color: var(--ifm-font-color-base);
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 2px var(--ifm-color-primary-lightest);
+}
+
+.input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid var(--app-card-border);
+  border-radius: var(--app-radius-l);
+  padding: 1.25rem;
+  background-color: var(--app-card-bg);
+}
+
+.section {
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: var(--app-radius-l);
+  padding: 1rem;
+  background-color: var(--app-card-bg);
+}
+
+/* Alert Styles */
+.alert {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.error {
+  color: var(--app-color-error);
+}
+
+.success {
+  color: var(--app-color-success);
+}
