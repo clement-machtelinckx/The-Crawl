@@ -1,11 +1,18 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import 'dotenv/config';
 
 const config: Config = {
   title: 'The-Crawl',
   tagline: 'Règles & Lore + Résumés de sessions',
   favicon: 'img/favicon.ico',
+
+    customFields: {
+        supabaseUrl: process.env.SUPABASE_URL ?? '',
+        supabasePublishableKey: process.env.SUPABASE_PUBLISHABLE_KEY ?? '',
+    },
+
 
   future: {
     v4: true,
@@ -102,6 +109,7 @@ const config: Config = {
       },
       items: [
         { to: '/createur-personnage', label: 'Créateur de personnage', position: 'left' },
+          {to: '/prochaine-session', label: 'session a venir', position: 'left'},
         { to: '/rules', label: 'Règles & Lore', position: 'left' },
         { to: '/sessions', label: 'Sessions', position: 'left' },
         { type: 'search', position: 'right' },
@@ -122,6 +130,7 @@ const config: Config = {
             { label: 'Règles & Lore', to: '/rules' },
             { label: 'Sessions', to: '/sessions' },
             { label: 'Créateur de personnage', to: '/createur-personnage' },
+              {label: 'session a venir', to: '/prochaine-session'}
           ],
         },
         {

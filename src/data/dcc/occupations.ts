@@ -1,51 +1,50 @@
 import type { OccupationTable } from '../../lib/dcc';
 
 const PROJECTILE_AMMO_NOTE = {
-  key: '†',
-  text: 'Pour les armes à projectile (comme une fronde ou des fléchettes), lancez 1d6 pour déterminer le nombre de munitions.',
+    key: '†',
+    text: 'Pour les armes à projectile (comme une fronde ou des fléchettes), lancez 1d6 pour déterminer le nombre de munitions.',
 } as const;
 
 const FARM_CROP_META = {
-  formula: '1d8',
-  purpose: 'Type de culture',
-  results: [
-    { roll: 1, label: 'patate' },
-    { roll: 2, label: 'blé' },
-    { roll: 3, label: 'navet' },
-    { roll: 4, label: 'maïs' },
-    { roll: 5, label: 'riz' },
-    { roll: 6, label: 'panais' },
-    { roll: 7, label: 'radis' },
-    { roll: 8, label: 'rutabaga' },
-  ],
-} as const;
+    formula: '1d8',
+    purpose: 'Type de culture',
+    results: [
+        { roll: 1, label: 'patate' },
+        { roll: 2, label: 'blé' },
+        { roll: 3, label: 'navet' },
+        { roll: 4, label: 'maïs' },
+        { roll: 5, label: 'riz' },
+        { roll: 6, label: 'panais' },
+        { roll: 7, label: 'radis' },
+        { roll: 8, label: 'rutabaga' },
+    ],
+};
 
 const EXTRA_ANIMAL_META = {
-  formula: '1d6',
-  purpose: 'Animal supplémentaire au-delà du premier',
-  results: [
-    { roll: 1, label: 'mouton' },
-    { roll: 2, label: 'chèvre' },
-    { roll: 3, label: 'vache' },
-    { roll: 4, label: 'canard' },
-    { roll: 5, label: 'oie' },
-    { roll: 6, label: 'mule' },
-  ],
-} as const;
+    formula: '1d6',
+    purpose: 'Animal supplémentaire au-delà du premier',
+    results: [
+        { roll: 1, label: 'mouton' },
+        { roll: 2, label: 'chèvre' },
+        { roll: 3, label: 'vache' },
+        { roll: 4, label: 'canard' },
+        { roll: 5, label: 'oie' },
+        { roll: 6, label: 'mule' },
+    ],
+};
 
 const CART_CONTENT_META = {
-  formula: '1d6',
-  purpose: 'Contenu de la charrette',
-  results: [
-    { roll: 1, label: 'tomates' },
-    { roll: 2, label: 'rien' },
-    { roll: 3, label: 'paille' },
-    { roll: 4, label: 'vos morts' },
-    { roll: 5, label: 'terre' },
-    { roll: 6, label: 'cailloux' },
-  ],
-} as const;
-
+    formula: '1d6',
+    purpose: 'Contenu de la charrette',
+    results: [
+        { roll: 1, label: 'tomates' },
+        { roll: 2, label: 'rien' },
+        { roll: 3, label: 'paille' },
+        { roll: 4, label: 'vos morts' },
+        { roll: 5, label: 'terre' },
+        { roll: 6, label: 'cailloux' },
+    ],
+};
 export const OCCUPATIONS: OccupationTable = [
   {
     id: 'occupation-01',

@@ -24,7 +24,7 @@ function DetailList({
 }: {
   title: string;
   children: React.ReactNode;
-}): JSX.Element {
+}) {
   return (
     <div style={{ marginBottom: '1.25rem' }}>
       <h3 style={{ marginBottom: '0.5rem' }}>{title}</h3>
@@ -39,7 +39,7 @@ function NotesBlock({
 }: {
   notes?: Array<{ key: string; text: string }>;
   metaRolls?: TableMetaRoll[];
-}): JSX.Element | null {
+}) {
   if ((!notes || notes.length === 0) && (!metaRolls || metaRolls.length === 0)) {
     return null;
   }
@@ -75,7 +75,7 @@ function NotesBlock({
   );
 }
 
-export default function DccLevel0CharacterGenerator(): JSX.Element {
+export default function DccLevel0CharacterGenerator() {
   const [name, setName] = useState('');
   const [alignment, setAlignment] = useState<Alignment>('');
   const [character, setCharacter] = useState<Level0Character | null>(null);
