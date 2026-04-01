@@ -235,8 +235,8 @@ export default function ProchaineSessionPage() {
     if (!ready) {
         return (
             <Layout title="Prochaine session">
-                <main style={mainStyle}>
-                    <div style={containerStyle}>
+                <main className="app-page-main">
+                    <div className="app-container">
                         <p>Chargement…</p>
                     </div>
                 </main>
@@ -246,17 +246,17 @@ export default function ProchaineSessionPage() {
 
     return (
         <Layout title="Prochaine session">
-            <main style={{ padding: '1.25rem 1rem 3rem' }}>
-                <div style={{ maxWidth: 980, margin: '0 auto', display: 'grid', gap: '1rem' }}>
-                    <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', flexWrap: 'wrap' }}>
+            <main className="app-page-main">
+                <div className="app-container app-grid">
+                    <header className="app-row-between">
                         <div>
                             <h1 style={{ marginBottom: '0.4rem' }}>Prochaine session</h1>
-                            <p style={{ margin: 0, opacity: 0.8 }}>
+                            <p className="app-muted" style={{ margin: 0 }}>
                                 Connecté en tant que <strong>{authUser?.name}</strong>
                             </p>
                         </div>
 
-                        <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+                        <div className="app-row">
                             <AuthHeaderButton />
                         </div>
                     </header>
@@ -273,11 +273,11 @@ export default function ProchaineSessionPage() {
                     ) : (
                         <>
                             <Card style={{ borderRadius: 16 }}>
-                                <div style={{ display: 'grid', gap: '0.75rem' }}>
+                                <div className="app-grid">
                                     <div>
                                         <p style={{ margin: '0 0 0.35rem', fontSize: '0.9rem', opacity: 0.7, textTransform: 'uppercase', letterSpacing: '0.04em' }}>Session suivante</p>
                                         <h2 style={{ marginTop: 0, marginBottom: '0.5rem' }}>{sessionItem.title}</h2>
-                                        <div style={{ display: 'grid', gap: '0.4rem' }}>
+                                        <div className="app-stack" style={{ gap: '0.4rem' }}>
                                             <span><strong>Jeu :</strong> {sessionItem.game ?? 'Non défini'}</span>
                                             <span><strong>Date :</strong> {new Date(sessionItem.starts_at).toLocaleString('fr-FR', { dateStyle: 'full', timeStyle: 'short' })}</span>
                                             <span><strong>Lieu :</strong> {sessionItem.location ?? 'Non défini'}</span>
@@ -287,7 +287,7 @@ export default function ProchaineSessionPage() {
                                 </div>
 
                                 {sessionItem.note && (
-                                    <div style={{ marginTop: '1rem', paddingTop: '1rem', borderTop: '1px solid var(--ifm-color-emphasis-200)' }}>
+                                    <div style={{ marginTop: '1rem', paddingTop: '1rem', borderTop: '1px solid var(--app-border-color)' }}>
                                         <strong>Note :</strong>
                                         <p style={{ margin: '0.4rem 0 0' }}>{sessionItem.note}</p>
                                     </div>
@@ -297,39 +297,36 @@ export default function ProchaineSessionPage() {
                             <Card variant="section">
                                 <h2 style={{ marginTop: 0 }}>Ma réponse</h2>
 
-                                <div style={{ marginBottom: '1rem', opacity: 0.85 }}>
+                                <div style={{ marginBottom: '1rem' }} className="app-muted">
                                     <span>
                                         <strong>Réponse actuelle :</strong> {labelForResponse(currentResponse)}
                                     </span>
                                 </div>
 
-                                <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-                                    <button
-                                        type="button"
-                                        className={`button ${currentResponse === 'yes' ? 'button--primary' : 'button--secondary'}`}
+                                <div className="app-row">
+                                    <Button
+                                        variant={currentResponse === 'yes' ? 'primary' : 'secondary'}
                                         onClick={() => void handleSaveResponse('yes')}
                                         disabled={savingResponse}
                                     >
                                         Oui
-                                    </button>
+                                    </Button>
 
-                                    <button
-                                        type="button"
-                                        className={`button ${currentResponse === 'maybe' ? 'button--primary' : 'button--secondary'}`}
+                                    <Button
+                                        variant={currentResponse === 'maybe' ? 'primary' : 'secondary'}
                                         onClick={() => void handleSaveResponse('maybe')}
                                         disabled={savingResponse}
                                     >
                                         Peut-être
-                                    </button>
+                                    </Button>
 
-                                    <button
-                                        type="button"
-                                        className={`button ${currentResponse === 'no' ? 'button--primary' : 'button--secondary'}`}
+                                    <Button
+                                        variant={currentResponse === 'no' ? 'primary' : 'secondary'}
                                         onClick={() => void handleSaveResponse('no')}
                                         disabled={savingResponse}
                                     >
                                         Non
-                                    </button>
+                                    </Button>
                                 </div>
 
                                 <div style={{ marginTop: '1rem' }}>
@@ -340,16 +337,16 @@ export default function ProchaineSessionPage() {
                                         onChange={(e) => setComment(e.target.value)}
                                         placeholder="Ex: je serai là vers 20h30"
                                     />
-                                    <p style={{ marginTop: '0.4rem', fontSize: '0.9rem', opacity: 0.75 }}>
+                                    <p className="app-text-small app-muted" style={{ marginTop: '0.4rem' }}>
                                         Le commentaire sera enregistré lors du prochain clic sur Oui / Non / Peut-être.
                                     </p>
                                 </div>
 
-                                {error && <p style={{ color: 'var(--app-color-error)', marginTop: '1rem' }}>{error}</p>}
-                                {success && <p style={{ color: 'var(--app-color-success)', marginTop: '1rem' }}>{success}</p>}
+                                {error && <p className="alert error">{error}</p>}
+                                {success && <p className="alert success">{success}</p>}
                             </Card>
 
-                            <div style={{ display: 'grid', gap: '1rem' }}>
+                            <div className="app-grid">
                                 <ResponseColumn title={`Oui (${yesList.length})`} items={yesList} />
                                 <ResponseColumn title={`Peut-être (${maybeList.length})`} items={maybeList} />
                                 <ResponseColumn title={`Non (${noList.length})`} items={noList} />
@@ -361,7 +358,7 @@ export default function ProchaineSessionPage() {
                                 {pendingPlayers.length === 0 ? (
                                     <p>Tout le monde a répondu.</p>
                                 ) : (
-                                    <ul style={{ margin: 0, paddingLeft: '1.2rem', display: 'grid', gap: '0.45rem' }}>
+                                    <ul className="app-grid" style={{ margin: 0, paddingLeft: '1.2rem', gap: '0.45rem' }}>
                                         {pendingPlayers.map((player) => (
                                             <li key={player.id}>{player.name}</li>
                                         ))}
@@ -390,7 +387,7 @@ function ResponseColumn({
             {items.length === 0 ? (
                 <p>Aucune réponse.</p>
             ) : (
-                <ul style={{ margin: 0, paddingLeft: '1.2rem', display: 'grid', gap: '0.45rem' }}>
+                <ul className="app-grid" style={{ margin: 0, paddingLeft: '1.2rem', gap: '0.45rem' }}>
                     {items.map((item) => (
                         <li key={item.id}>
                             <strong>{item.player?.name ?? `Joueur #${item.player_id}`}</strong>
@@ -409,123 +406,3 @@ function labelForResponse(value: 'yes' | 'no' | 'maybe' | null) {
     if (value === 'maybe') return 'Peut-être';
     return 'Pas encore de réponse';
 }
-
-const mainStyle: React.CSSProperties = {
-    padding: '1.25rem 1rem 3rem',
-};
-
-const containerStyle: React.CSSProperties = {
-    maxWidth: 980,
-    margin: '0 auto',
-    display: 'grid',
-    gap: '1rem',
-};
-
-const headerStyle: React.CSSProperties = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    gap: '1rem',
-    flexWrap: 'wrap',
-};
-
-const headerActionsStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.75rem',
-    flexWrap: 'wrap',
-};
-
-const heroCardStyle: React.CSSProperties = {
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    borderRadius: 16,
-    padding: '1rem',
-    background: 'var(--ifm-background-surface-color)',
-};
-
-const heroTopStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.75rem',
-};
-
-const eyebrowStyle: React.CSSProperties = {
-    margin: '0 0 0.35rem',
-    fontSize: '0.9rem',
-    opacity: 0.7,
-    textTransform: 'uppercase',
-    letterSpacing: '0.04em',
-};
-
-const metaGridStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.4rem',
-};
-
-const noteStyle: React.CSSProperties = {
-    marginTop: '1rem',
-    paddingTop: '1rem',
-    borderTop: '1px solid var(--ifm-color-emphasis-200)',
-};
-
-const sectionStyle: React.CSSProperties = {
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    borderRadius: 12,
-    padding: '1rem',
-    background: 'var(--ifm-background-surface-color)',
-};
-
-const gridStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '1rem',
-};
-
-const buttonRowStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.75rem',
-    flexWrap: 'wrap',
-};
-
-const currentResponseStyle: React.CSSProperties = {
-    marginBottom: '1rem',
-    opacity: 0.85,
-};
-
-const textareaStyle: React.CSSProperties = {
-    width: '100%',
-    minHeight: 100,
-    padding: '0.75rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'var(--ifm-background-color)',
-    resize: 'vertical',
-};
-
-const helperTextStyle: React.CSSProperties = {
-    marginTop: '0.4rem',
-    fontSize: '0.9rem',
-    opacity: 0.75,
-};
-
-const simpleListStyle: React.CSSProperties = {
-    margin: 0,
-    paddingLeft: '1.2rem',
-    display: 'grid',
-    gap: '0.45rem',
-};
-
-const secondaryButtonStyle: React.CSSProperties = {
-    padding: '0.75rem 1rem',
-    borderRadius: 10,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'transparent',
-    cursor: 'pointer',
-};
-
-const errorStyle: React.CSSProperties = {
-    color: '#b42318',
-    marginTop: '1rem',
-};
-
-const successStyle: React.CSSProperties = {
-    color: '#027a48',
-    marginTop: '1rem',
-};

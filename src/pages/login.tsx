@@ -96,44 +96,46 @@ export default function LoginPage() {
     }
 
     return (
-        <Layout title="Login">
-            <main style={{ padding: '2rem 1rem' }}>
-                <Card style={{ maxWidth: 420, margin: '0 auto' }}>
-                    <h1 style={{ marginTop: 0 }}>Connexion</h1>
-                    <p>Choisis ton nom puis entre ton mot de passe.</p>
+        <Layout title="Connexion">
+            <main className="app-page-main">
+                <div className="app-container-sm">
+                    <Card>
+                        <h1 style={{ marginTop: 0 }}>Connexion</h1>
+                        <p className="app-muted">Choisis ton nom puis entre ton mot de passe.</p>
 
-                    <form onSubmit={handleSubmit} style={{ display: 'grid', gap: '1rem' }}>
-                        <SelectInput
-                            label="Nom"
-                            id="player-name"
-                            value={selectedName}
-                            onChange={(e) => setSelectedName(e.target.value)}
-                            disabled={loadingPlayers || submitting}
-                        >
-                            <option value="">Sélectionner…</option>
-                            {players.map((player) => (
-                                <option key={player.id} value={player.name}>
-                                    {player.name}
-                                </option>
-                            ))}
-                        </SelectInput>
+                        <form onSubmit={handleSubmit} className="app-stack">
+                            <SelectInput
+                                label="Nom"
+                                id="player-name"
+                                value={selectedName}
+                                onChange={(e) => setSelectedName(e.target.value)}
+                                disabled={loadingPlayers || submitting}
+                            >
+                                <option value="">Sélectionner…</option>
+                                {players.map((player) => (
+                                    <option key={player.id} value={player.name}>
+                                        {player.name}
+                                    </option>
+                                ))}
+                            </SelectInput>
 
-                        <TextInput
-                            label="Mot de passe"
-                            id="player-password"
-                            type="password"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                            disabled={submitting}
-                        />
+                            <TextInput
+                                label="Mot de passe"
+                                id="player-password"
+                                type="password"
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                disabled={submitting}
+                            />
 
-                        <Button type="submit" fullWidth disabled={loadingPlayers || submitting}>
-                            {submitting ? 'Connexion…' : 'Se connecter'}
-                        </Button>
-                    </form>
+                            <Button type="submit" variant="primary" fullWidth disabled={loadingPlayers || submitting}>
+                                {submitting ? 'Connexion…' : 'Se connecter'}
+                            </Button>
+                        </form>
 
-                    {error && <p style={{ color: 'var(--app-color-error)', marginTop: '1rem' }}>{error}</p>}
-                </Card>
+                        {error && <p className="alert error">{error}</p>}
+                    </Card>
+                </div>
             </main>
         </Layout>
     );

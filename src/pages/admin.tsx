@@ -63,20 +63,18 @@ export default function AdminPage() {
 
     return (
         <Layout title="Admin">
-            <main style={{ padding: '2rem 1rem 3rem' }}>
-                <div style={{ maxWidth: 1100, margin: '0 auto', display: 'grid', gap: '1.5rem' }}>
-                    <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+            <main className="app-page-main">
+                <div className="app-container app-grid">
+                    <header className="app-row-between">
                         <div>
                             <h1 style={{ marginBottom: '0.5rem' }}>Admin</h1>
-                            <p style={{ margin: 0, opacity: 0.85 }}>
-                                Gestion minimale des joueurs et des sessions.
+                            <p className="app-muted" style={{ margin: 0 }}>
+                                Gestion des joueurs, des sessions et du contenu.
                             </p>
                         </div>
-
-                        <AuthHeaderButton />
                     </header>
 
-                    <div style={{ display: 'grid', gap: '1.5rem' }}>
+                    <div className="app-grid">
                         <PlayersCrud supabase={supabase} />
                         <SessionsCrud supabase={supabase} />
                         <PlayerMessagesAdmin supabase={supabase} />

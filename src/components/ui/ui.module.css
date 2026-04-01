@@ -3,41 +3,60 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0.7rem 1rem;
+  padding: 0.65rem 1.25rem;
   border-radius: var(--app-radius-m);
   cursor: pointer;
   font-weight: 600;
-  transition: opacity 0.2s;
+  transition: all 0.2s ease-in-out;
   border: 1px solid transparent;
   line-height: 1.2;
+  font-size: 0.95rem;
+  user-select: none;
 }
 
 .button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+  filter: grayscale(0.5);
+}
+
+.button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--ifm-color-primary-lightest);
 }
 
 .primary {
   background-color: var(--ifm-color-primary);
   color: #fff;
+  border-color: var(--ifm-color-primary);
 }
 
 .primary:hover:not(:disabled) {
   background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+.primary:active:not(:disabled) {
+  background-color: var(--ifm-color-primary-darker);
 }
 
 .secondary {
-  background-color: transparent;
-  border-color: var(--app-input-border);
+  background-color: var(--app-surface-color);
+  border-color: var(--app-border-color-strong);
   color: var(--ifm-font-color-base);
 }
 
 .secondary:hover:not(:disabled) {
-  background-color: var(--ifm-color-emphasis-100);
+  background-color: var(--app-surface-accent);
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+.secondary:active:not(:disabled) {
+  background-color: var(--ifm-color-emphasis-200);
 }
 
 .danger {
-  background-color: transparent;
+  background-color: var(--app-color-error-bg);
   border-color: var(--app-color-error);
   color: var(--app-color-error);
 }
@@ -47,15 +66,19 @@
   color: #fff;
 }
 
+.danger:focus-visible {
+  box-shadow: 0 0 0 3px rgba(240, 68, 56, 0.2);
+}
+
 .ghost {
   background-color: transparent;
   border-color: transparent;
   color: var(--ifm-font-color-base);
-  padding: 0.45rem 0.7rem;
+  padding: 0.45rem 0.75rem;
 }
 
 .ghost:hover:not(:disabled) {
-  background-color: var(--ifm-color-emphasis-100);
+  background-color: var(--app-surface-accent);
 }
 
 .fullWidth {
@@ -71,33 +94,36 @@
 
 .label {
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  color: var(--ifm-font-color-base);
 }
 
 .input {
   width: 100%;
-  padding: 0.75rem;
+  padding: 0.7rem 0.85rem;
   border-radius: var(--app-radius-m);
   border: 1px solid var(--app-input-border);
   background-color: var(--app-input-bg);
   color: var(--ifm-font-color-base);
   font-family: inherit;
   font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .input:focus {
   outline: none;
   border-color: var(--ifm-color-primary);
-  box-shadow: 0 0 0 2px var(--ifm-color-primary-lightest);
+  box-shadow: 0 0 0 3px var(--ifm-color-primary-lightest);
 }
 
 .input:disabled {
-  opacity: 0.6;
+  background-color: var(--app-surface-accent);
+  opacity: 0.7;
   cursor: not-allowed;
 }
 
 .textarea {
-  min-height: 100px;
+  min-height: 120px;
   resize: vertical;
 }
 
@@ -105,21 +131,23 @@
 .card {
   border: 1px solid var(--app-card-border);
   border-radius: var(--app-radius-l);
-  padding: 1.25rem;
+  padding: 1.5rem;
   background-color: var(--app-card-bg);
+  box-shadow: var(--app-shadow-sm);
 }
 
 .section {
-  border: 1px solid var(--ifm-toc-border-color);
+  border: 1px solid var(--app-border-color);
   border-radius: var(--app-radius-l);
-  padding: 1rem;
-  background-color: var(--app-card-bg);
+  padding: 1.25rem;
+  background-color: var(--app-surface-color);
 }
 
 /* Alert Styles */
 .alert {
-  margin-top: 1rem;
-  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
 }
 
 .error {
