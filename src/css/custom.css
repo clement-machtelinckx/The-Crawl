@@ -6,25 +6,111 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    --ifm-color-primary: #2e8555;
+    --ifm-color-primary-dark: #29784c;
+    --ifm-color-primary-darker: #277148;
+    --ifm-color-primary-darkest: #205d3b;
+    --ifm-color-primary-light: #33925d;
+    --ifm-color-primary-lighter: #359962;
+    --ifm-color-primary-lightest: #3cad6e;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+    /* Custom App Variables */
+    --app-color-error: #b42318;
+    --app-color-error-bg: #fef3f2;
+    --app-color-success: #027a48;
+    --app-color-success-bg: #ecfdf3;
+    
+    --app-surface-color: var(--ifm-background-surface-color);
+    --app-surface-accent: var(--ifm-color-emphasis-100);
+    
+    --app-border-color: var(--ifm-color-emphasis-200);
+    --app-border-color-strong: var(--ifm-color-emphasis-300);
+    
+    --app-input-border: var(--app-border-color-strong);
+    --app-card-border: var(--app-border-color);
+    --app-card-bg: var(--app-surface-color);
+    --app-input-bg: var(--ifm-background-color);
+    
+    --app-radius-s: 4px;
+    --app-radius-m: 8px;
+    --app-radius-l: 12px;
+    --app-radius-xl: 16px;
+
+    --app-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --app-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+    --ifm-color-primary: #25c2a0;
+    --ifm-color-primary-dark: #21af90;
+    --ifm-color-primary-darker: #1fa588;
+    --ifm-color-primary-darkest: #1a8870;
+    --ifm-color-primary-light: #29d5b0;
+    --ifm-color-primary-lighter: #32d8b4;
+    --ifm-color-primary-lightest: #4fddbf;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+    /* Dark mode overrides */
+    --app-color-error: #f04438;
+    --app-color-error-bg: rgba(240, 68, 56, 0.1);
+    --app-color-success: #12b76a;
+    --app-color-success-bg: rgba(18, 183, 106, 0.1);
+    
+    --app-surface-accent: var(--ifm-color-emphasis-100);
+    --app-border-color: var(--ifm-color-emphasis-200);
+    --app-border-color-strong: var(--ifm-color-emphasis-300);
+}
+
+/* Base Utility Classes for the App */
+.app-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.app-container-sm {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.app-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.app-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.app-row {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.app-row-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.app-page-main {
+    padding: 2rem 1rem;
+}
+
+.app-muted {
+    opacity: 0.8;
+}
+
+.app-text-small {
+    font-size: 0.9rem;
 }

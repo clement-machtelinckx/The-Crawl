@@ -4,6 +4,7 @@ import { useHistory } from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { createSupabaseBrowserClient } from '../lib/supabase';
 import { getAuthUser, saveAuthUser } from '../lib/auth';
+import { Button, TextInput, SelectInput, Card } from '../components/ui';
 
 type CustomFields = {
     supabaseUrl?: string;
@@ -95,20 +96,19 @@ export default function LoginPage() {
     }
 
     return (
-        <Layout title="Login">
-            <main style={mainStyle}>
-                <div style={cardStyle}>
-                    <h1 style={{ marginTop: 0 }}>Connexion</h1>
-                    <p>Choisis ton nom puis entre ton mot de passe.</p>
+        <Layout title="Connexion">
+            <main className="app-page-main">
+                <div className="app-container-sm">
+                    <Card>
+                        <h1 style={{ marginTop: 0 }}>Connexion</h1>
+                        <p className="app-muted">Choisis ton nom puis entre ton mot de passe.</p>
 
-                    <form onSubmit={handleSubmit} style={formStyle}>
-                        <div style={fieldStyle}>
-                            <label htmlFor="player-name">Nom</label>
-                            <select
+                        <form onSubmit={handleSubmit} className="app-stack">
+                            <SelectInput
+                                label="Nom"
                                 id="player-name"
                                 value={selectedName}
                                 onChange={(e) => setSelectedName(e.target.value)}
-                                style={inputStyle}
                                 disabled={loadingPlayers || submitting}
                             >
                                 <option value="">Sélectionner…</option>
@@ -117,73 +117,26 @@ export default function LoginPage() {
                                         {player.name}
                                     </option>
                                 ))}
-                            </select>
-                        </div>
+                            </SelectInput>
 
-                        <div style={fieldStyle}>
-                            <label htmlFor="player-password">Mot de passe</label>
-                            <input
+                            <TextInput
+                                label="Mot de passe"
                                 id="player-password"
                                 type="password"
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
-                                style={inputStyle}
                                 disabled={submitting}
                             />
-                        </div>
 
-                        <button type="submit" style={buttonStyle} disabled={loadingPlayers || submitting}>
-                            {submitting ? 'Connexion…' : 'Se connecter'}
-                        </button>
-                    </form>
+                            <Button type="submit" variant="primary" fullWidth disabled={loadingPlayers || submitting}>
+                                {submitting ? 'Connexion…' : 'Se connecter'}
+                            </Button>
+                        </form>
 
-                    {error && <p style={errorStyle}>{error}</p>}
+                        {error && <p className="alert error">{error}</p>}
+                    </Card>
                 </div>
             </main>
         </Layout>
     );
 }
-
-const mainStyle: React.CSSProperties = {
-    padding: '2rem 1rem',
-};
-
-const cardStyle: React.CSSProperties = {
-    maxWidth: 420,
-    margin: '0 auto',
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    borderRadius: 12,
-    padding: '1.25rem',
-    background: 'var(--ifm-background-surface-color)',
-};
-
-const formStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '1rem',
-};
-
-const fieldStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.35rem',
-};
-
-const inputStyle: React.CSSProperties = {
-    width: '100%',
-    padding: '0.75rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'var(--ifm-background-color)',
-};
-
-const buttonStyle: React.CSSProperties = {
-    padding: '0.8rem 1rem',
-    borderRadius: 8,
-    border: 'none',
-    cursor: 'pointer',
-    fontWeight: 600,
-};
-
-const errorStyle: React.CSSProperties = {
-    color: '#b42318',
-    marginTop: '1rem',
-};

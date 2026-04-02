@@ -63,21 +63,18 @@ export default function AdminPage() {
 
     return (
         <Layout title="Admin">
-            <main style={mainStyle}>
-                <div style={containerStyle}>
-                    <header style={headerStyle}>
+            <main className="app-page-main">
+                <div className="app-container app-grid">
+                    <header className="app-row-between">
                         <div>
                             <h1 style={{ marginBottom: '0.5rem' }}>Admin</h1>
-                            <p style={{ margin: 0, opacity: 0.85 }}>
-                                Gestion minimale des joueurs et des sessions.
+                            <p className="app-muted" style={{ margin: 0 }}>
+                                Gestion des joueurs, des sessions et du contenu.
                             </p>
-
                         </div>
-
-                        <AuthHeaderButton />
                     </header>
 
-                    <div style={gridStyle}>
+                    <div className="app-grid">
                         <PlayersCrud supabase={supabase} />
                         <SessionsCrud supabase={supabase} />
                         <PlayerMessagesAdmin supabase={supabase} />
@@ -87,35 +84,3 @@ export default function AdminPage() {
         </Layout>
     );
 }
-
-const mainStyle: React.CSSProperties = {
-    padding: '2rem 1rem 3rem',
-};
-
-const containerStyle: React.CSSProperties = {
-    maxWidth: 1100,
-    margin: '0 auto',
-    display: 'grid',
-    gap: '1.5rem',
-};
-
-const headerStyle: React.CSSProperties = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    gap: '1rem',
-    flexWrap: 'wrap',
-};
-
-const gridStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '1.5rem',
-};
-
-const logoutButtonStyle: React.CSSProperties = {
-    padding: '0.75rem 1rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'transparent',
-    cursor: 'pointer',
-};

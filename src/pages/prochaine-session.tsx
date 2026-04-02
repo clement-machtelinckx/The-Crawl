@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { createSupabaseBrowserClient } from '../lib/supabase';
 import { clearAuthUser, getAuthUser, type AuthUser } from '../lib/auth';
 import AuthHeaderButton from '../components/AuthHeaderButton';
+import { Button, TextareaInput, Card } from '../components/ui';
 
 type CustomFields = {
     supabaseUrl?: string;
@@ -234,8 +235,8 @@ export default function ProchaineSessionPage() {
     if (!ready) {
         return (
             <Layout title="Prochaine session">
-                <main style={mainStyle}>
-                    <div style={containerStyle}>
+                <main className="app-page-main">
+                    <div className="app-container">
                         <p>Chargement…</p>
                     </div>
                 </main>
@@ -245,144 +246,125 @@ export default function ProchaineSessionPage() {
 
     return (
         <Layout title="Prochaine session">
-            <main style={mainStyle}>
-                <div style={containerStyle}>
-                    <header style={headerStyle}>
+            <main className="app-page-main">
+                <div className="app-container app-grid">
+                    <header className="app-row-between">
                         <div>
                             <h1 style={{ marginBottom: '0.4rem' }}>Prochaine session</h1>
-                            <p style={{ margin: 0, opacity: 0.8 }}>
+                            <p className="app-muted" style={{ margin: 0 }}>
                                 Connecté en tant que <strong>{authUser?.name}</strong>
                             </p>
-
                         </div>
 
-                        <div style={headerActionsStyle}>
-
+                        <div className="app-row">
                             <AuthHeaderButton />
                         </div>
                     </header>
 
                     {loading ? (
-                        <section style={sectionStyle}>
+                        <Card variant="section">
                             <p>Chargement de la session…</p>
-                        </section>
+                        </Card>
                     ) : !sessionItem ? (
-                        <section style={sectionStyle}>
+                        <Card variant="section">
                             <h2 style={{ marginTop: 0 }}>Aucune session ouverte</h2>
                             <p>Il n’y a pas encore de prochaine session planifiée.</p>
-                        </section>
+                        </Card>
                     ) : (
                         <>
-                            <section style={heroCardStyle}>
-                                <div style={heroTopStyle}>
+                            <Card style={{ borderRadius: 16 }}>
+                                <div className="app-grid">
                                     <div>
-                                        <p style={eyebrowStyle}>Session suivante</p>
+                                        <p style={{ margin: '0 0 0.35rem', fontSize: '0.9rem', opacity: 0.7, textTransform: 'uppercase', letterSpacing: '0.04em' }}>Session suivante</p>
                                         <h2 style={{ marginTop: 0, marginBottom: '0.5rem' }}>{sessionItem.title}</h2>
-                                        <div style={metaGridStyle}>
-                      <span>
-                        <strong>Jeu :</strong> {sessionItem.game ?? 'Non défini'}
-                      </span>
-                                            <span>
-                        <strong>Date :</strong>{' '}
-                                                {new Date(sessionItem.starts_at).toLocaleString('fr-FR', {
-                                                    dateStyle: 'full',
-                                                    timeStyle: 'short',
-                                                })}
-                      </span>
-                                            <span>
-                        <strong>Lieu :</strong> {sessionItem.location ?? 'Non défini'}
-                      </span>
-                                            <span>
-                        <strong>Statut :</strong> {sessionItem.status}
-                      </span>
+                                        <div className="app-stack" style={{ gap: '0.4rem' }}>
+                                            <span><strong>Jeu :</strong> {sessionItem.game ?? 'Non défini'}</span>
+                                            <span><strong>Date :</strong> {new Date(sessionItem.starts_at).toLocaleString('fr-FR', { dateStyle: 'full', timeStyle: 'short' })}</span>
+                                            <span><strong>Lieu :</strong> {sessionItem.location ?? 'Non défini'}</span>
+                                            <span><strong>Statut :</strong> {sessionItem.status}</span>
                                         </div>
                                     </div>
                                 </div>
 
                                 {sessionItem.note && (
-                                    <div style={noteStyle}>
+                                    <div style={{ marginTop: '1rem', paddingTop: '1rem', borderTop: '1px solid var(--app-border-color)' }}>
                                         <strong>Note :</strong>
                                         <p style={{ margin: '0.4rem 0 0' }}>{sessionItem.note}</p>
                                     </div>
                                 )}
-                            </section>
+                            </Card>
 
-                            <section style={sectionStyle}>
+                            <Card variant="section">
                                 <h2 style={{ marginTop: 0 }}>Ma réponse</h2>
 
-                                <div style={currentResponseStyle}>
-                  <span>
-                    <strong>Réponse actuelle :</strong>{' '}
-                      {labelForResponse(currentResponse)}
-                  </span>
+                                <div style={{ marginBottom: '1rem' }} className="app-muted">
+                                    <span>
+                                        <strong>Réponse actuelle :</strong> {labelForResponse(currentResponse)}
+                                    </span>
                                 </div>
 
-                                <div style={buttonRowStyle}>
-                                    <button
-                                        type="button"
+                                <div className="app-row">
+                                    <Button
+                                        variant={currentResponse === 'yes' ? 'primary' : 'secondary'}
                                         onClick={() => void handleSaveResponse('yes')}
                                         disabled={savingResponse}
-                                        style={responseButtonStyle(currentResponse === 'yes')}
                                     >
                                         Oui
-                                    </button>
-                                    <button
-                                        type="button"
+                                    </Button>
+
+                                    <Button
+                                        variant={currentResponse === 'maybe' ? 'primary' : 'secondary'}
                                         onClick={() => void handleSaveResponse('maybe')}
                                         disabled={savingResponse}
-                                        style={responseButtonStyle(currentResponse === 'maybe')}
                                     >
                                         Peut-être
-                                    </button>
-                                    <button
-                                        type="button"
+                                    </Button>
+
+                                    <Button
+                                        variant={currentResponse === 'no' ? 'primary' : 'secondary'}
                                         onClick={() => void handleSaveResponse('no')}
                                         disabled={savingResponse}
-                                        style={responseButtonStyle(currentResponse === 'no')}
                                     >
                                         Non
-                                    </button>
+                                    </Button>
                                 </div>
 
                                 <div style={{ marginTop: '1rem' }}>
-                                    <label htmlFor="response-comment" style={{ display: 'block', marginBottom: '0.4rem' }}>
-                                        Commentaire optionnel
-                                    </label>
-                                    <textarea
+                                    <TextareaInput
+                                        label="Commentaire optionnel"
                                         id="response-comment"
                                         value={comment}
                                         onChange={(e) => setComment(e.target.value)}
                                         placeholder="Ex: je serai là vers 20h30"
-                                        style={textareaStyle}
                                     />
-                                    <p style={helperTextStyle}>
+                                    <p className="app-text-small app-muted" style={{ marginTop: '0.4rem' }}>
                                         Le commentaire sera enregistré lors du prochain clic sur Oui / Non / Peut-être.
                                     </p>
                                 </div>
 
-                                {error && <p style={errorStyle}>{error}</p>}
-                                {success && <p style={successStyle}>{success}</p>}
-                            </section>
+                                {error && <p className="alert error">{error}</p>}
+                                {success && <p className="alert success">{success}</p>}
+                            </Card>
 
-                            <section style={gridStyle}>
+                            <div className="app-grid">
                                 <ResponseColumn title={`Oui (${yesList.length})`} items={yesList} />
                                 <ResponseColumn title={`Peut-être (${maybeList.length})`} items={maybeList} />
                                 <ResponseColumn title={`Non (${noList.length})`} items={noList} />
-                            </section>
+                            </div>
 
-                            <section style={sectionStyle}>
+                            <Card variant="section">
                                 <h2 style={{ marginTop: 0 }}>En attente ({pendingPlayers.length})</h2>
 
                                 {pendingPlayers.length === 0 ? (
                                     <p>Tout le monde a répondu.</p>
                                 ) : (
-                                    <ul style={simpleListStyle}>
+                                    <ul className="app-grid" style={{ margin: 0, paddingLeft: '1.2rem', gap: '0.45rem' }}>
                                         {pendingPlayers.map((player) => (
                                             <li key={player.id}>{player.name}</li>
                                         ))}
                                     </ul>
                                 )}
-                            </section>
+                            </Card>
                         </>
                     )}
                 </div>
@@ -399,13 +381,13 @@ function ResponseColumn({
     items: AvailabilityWithPlayer[];
 }) {
     return (
-        <section style={sectionStyle}>
+        <Card variant="section">
             <h2 style={{ marginTop: 0 }}>{title}</h2>
 
             {items.length === 0 ? (
                 <p>Aucune réponse.</p>
             ) : (
-                <ul style={simpleListStyle}>
+                <ul className="app-grid" style={{ margin: 0, paddingLeft: '1.2rem', gap: '0.45rem' }}>
                     {items.map((item) => (
                         <li key={item.id}>
                             <strong>{item.player?.name ?? `Joueur #${item.player_id}`}</strong>
@@ -414,7 +396,7 @@ function ResponseColumn({
                     ))}
                 </ul>
             )}
-        </section>
+        </Card>
     );
 }
 
@@ -423,136 +405,4 @@ function labelForResponse(value: 'yes' | 'no' | 'maybe' | null) {
     if (value === 'no') return 'Non';
     if (value === 'maybe') return 'Peut-être';
     return 'Pas encore de réponse';
-}
-
-const mainStyle: React.CSSProperties = {
-    padding: '1.25rem 1rem 3rem',
-};
-
-const containerStyle: React.CSSProperties = {
-    maxWidth: 980,
-    margin: '0 auto',
-    display: 'grid',
-    gap: '1rem',
-};
-
-const headerStyle: React.CSSProperties = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    gap: '1rem',
-    flexWrap: 'wrap',
-};
-
-const headerActionsStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.75rem',
-    flexWrap: 'wrap',
-};
-
-const heroCardStyle: React.CSSProperties = {
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    borderRadius: 16,
-    padding: '1rem',
-    background: 'var(--ifm-background-surface-color)',
-};
-
-const heroTopStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.75rem',
-};
-
-const eyebrowStyle: React.CSSProperties = {
-    margin: '0 0 0.35rem',
-    fontSize: '0.9rem',
-    opacity: 0.7,
-    textTransform: 'uppercase',
-    letterSpacing: '0.04em',
-};
-
-const metaGridStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '0.4rem',
-};
-
-const noteStyle: React.CSSProperties = {
-    marginTop: '1rem',
-    paddingTop: '1rem',
-    borderTop: '1px solid var(--ifm-color-emphasis-200)',
-};
-
-const sectionStyle: React.CSSProperties = {
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    borderRadius: 12,
-    padding: '1rem',
-    background: 'var(--ifm-background-surface-color)',
-};
-
-const gridStyle: React.CSSProperties = {
-    display: 'grid',
-    gap: '1rem',
-};
-
-const buttonRowStyle: React.CSSProperties = {
-    display: 'flex',
-    gap: '0.75rem',
-    flexWrap: 'wrap',
-};
-
-const currentResponseStyle: React.CSSProperties = {
-    marginBottom: '1rem',
-    opacity: 0.85,
-};
-
-const textareaStyle: React.CSSProperties = {
-    width: '100%',
-    minHeight: 100,
-    padding: '0.75rem',
-    borderRadius: 8,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'var(--ifm-background-color)',
-    resize: 'vertical',
-};
-
-const helperTextStyle: React.CSSProperties = {
-    marginTop: '0.4rem',
-    fontSize: '0.9rem',
-    opacity: 0.75,
-};
-
-const simpleListStyle: React.CSSProperties = {
-    margin: 0,
-    paddingLeft: '1.2rem',
-    display: 'grid',
-    gap: '0.45rem',
-};
-
-const secondaryButtonStyle: React.CSSProperties = {
-    padding: '0.75rem 1rem',
-    borderRadius: 10,
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    background: 'transparent',
-    cursor: 'pointer',
-};
-
-const errorStyle: React.CSSProperties = {
-    color: '#b42318',
-    marginTop: '1rem',
-};
-
-const successStyle: React.CSSProperties = {
-    color: '#027a48',
-    marginTop: '1rem',
-};
-
-function responseButtonStyle(active: boolean): React.CSSProperties {
-    return {
-        padding: '0.9rem 1.1rem',
-        borderRadius: 10,
-        border: active ? '2px solid var(--ifm-color-primary)' : '1px solid var(--ifm-color-emphasis-300)',
-        background: active ? 'var(--ifm-color-primary-lightest)' : 'transparent',
-        cursor: 'pointer',
-        fontWeight: 700,
-        minWidth: 110,
-    };
 }

@@ -1,5 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { rollDice } from '../../lib/dcc/dice';
+import { Button, SelectInput, Card } from '../ui';
+import clsx from 'clsx';
 
 type DiceResult = {
     count: number;
@@ -48,20 +50,11 @@ export default function DccDiceRoller({
     }
 
     return (
-        <section
-            className={className}
-            style={{
-                border: '1px solid var(--ifm-color-emphasis-300)',
-                borderRadius: '16px',
-                padding: '1rem',
-                backgroundColor: 'var(--ifm-background-surface-color)',
-                boxShadow: 'var(--ifm-global-shadow-lw)',
-            }}
-        >
-            <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', alignItems: 'center', flexWrap: 'wrap' }}>
+        <Card className={clsx("app-stack", className)}>
+            <div className="app-row-between">
                 <div>
                     <h2 style={{ margin: 0, fontSize: '1.25rem' }}>{title}</h2>
-                    <p style={{ margin: '0.35rem 0 0 0', color: 'var(--ifm-color-emphasis-700)' }}>
+                    <p className="app-muted" style={{ margin: '0.35rem 0 0 0' }}>
                         Sélectionne les dés puis lance ton jet.
                     </p>
                 </div>
@@ -70,111 +63,87 @@ export default function DccDiceRoller({
                     style={{
                         padding: '0.4rem 0.75rem',
                         borderRadius: '999px',
-                        backgroundColor: 'var(--ifm-color-emphasis-100)',
+                        backgroundColor: 'var(--app-surface-accent)',
+                        border: '1px solid var(--app-border-color)',
                         fontWeight: 700,
+                        fontSize: '0.9rem'
                     }}
                 >
                     {currentFormula}
                 </div>
             </div>
 
-            <div
-                style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))',
-                    gap: '0.75rem',
-                    marginTop: '1rem',
-                }}
-            >
-                <label style={{ display: 'grid', gap: '0.35rem' }}>
-                    <span>Nombre de dés</span>
-                    <select
-                        value={count}
-                        onChange={(event) => setCount(Number(event.target.value))}
-                        style={{
-                            borderRadius: '10px',
-                            border: '1px solid var(--ifm-color-emphasis-300)',
-                            padding: '0.65rem 0.8rem',
-                            backgroundColor: 'var(--ifm-background-color)',
-                            color: 'var(--ifm-font-color-base)',
-                        }}
-                    >
-                        {COUNT_OPTIONS.map((value) => (
-                            <option key={value} value={value}>
-                                {value}
-                            </option>
-                        ))}
-                    </select>
-                </label>
+            <div className="app-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '1rem' }}>
+                <SelectInput
+                    label="Nombre de dés"
+                    value={count}
+                    onChange={(event) => setCount(Number(event.target.value))}
+                >
+                    {COUNT_OPTIONS.map((value) => (
+                        <option key={value} value={value}>
+                            {value}
+                        </option>
+                    ))}
+                </SelectInput>
 
-                <label style={{ display: 'grid', gap: '0.35rem' }}>
-                    <span>Type de dé</span>
-                    <select
-                        value={sides}
-                        onChange={(event) => setSides(Number(event.target.value))}
-                        style={{
-                            borderRadius: '10px',
-                            border: '1px solid var(--ifm-color-emphasis-300)',
-                            padding: '0.65rem 0.8rem',
-                            backgroundColor: 'var(--ifm-background-color)',
-                            color: 'var(--ifm-font-color-base)',
-                        }}
-                    >
-                        {DICE_OPTIONS.map((value) => (
-                            <option key={value} value={value}>
-                                d{value}
-                            </option>
-                        ))}
-                    </select>
-                </label>
+                <SelectInput
+                    label="Type de dé"
+                    value={sides}
+                    onChange={(event) => setSides(Number(event.target.value))}
+                >
+                    {DICE_OPTIONS.map((value) => (
+                        <option key={value} value={value}>
+                            d{value}
+                        </option>
+                    ))}
+                </SelectInput>
             </div>
 
-            <div style={{ display: 'flex', gap: '0.75rem', marginTop: '1rem', flexWrap: 'wrap' }}>
-                <button
-                    type="button"
-                    className="button button--primary"
+            <div className="app-row">
+                <Button
+                    variant="primary"
                     onClick={handleRoll}
                 >
                     Lancer {currentFormula}
-                </button>
+                </Button>
 
-                {result ? (
-                    <button
-                        type="button"
-                        className="button button--secondary"
+                {result && (
+                    <Button
+                        variant="secondary"
                         onClick={() => setResult(null)}
                     >
-                        Effacer le résultat
-                    </button>
-                ) : null}
+                        Effacer
+                    </Button>
+                )}
             </div>
 
-            {result ? (
+            {result && (
                 <div
                     style={{
-                        marginTop: '1rem',
-                        borderTop: '1px solid var(--ifm-color-emphasis-200)',
+                        marginTop: '0.5rem',
+                        borderTop: '1px solid var(--app-border-color)',
                         paddingTop: '1rem',
-                        display: 'grid',
-                        gap: '0.75rem',
                     }}
+                    className="app-stack"
                 >
                     <div>
-                        <div style={{ fontSize: '0.9rem', color: 'var(--ifm-color-emphasis-700)' }}>
+                        <div className="app-text-small app-muted">
                             Dernier jet à {result.rolledAt}
                         </div>
-                        <div style={{ fontSize: '1.1rem', fontWeight: 700, marginTop: '0.25rem' }}>
+                        <div style={{ fontSize: '1.25rem', fontWeight: 800, marginTop: '0.25rem', color: 'var(--ifm-color-primary)' }}>
                             {result.count}d{result.sides} → {result.total}
                         </div>
                     </div>
 
-                    <div>
+                    <div className="app-text-small">
                         <strong>Détail :</strong>{' '}
-                        {result.results.join(' + ')}
-                        {result.results.length > 1 ? ` = ${result.total}` : ''}
+                        <span className="app-muted">
+                            {result.results.join(' + ')}
+                            {result.results.length > 1 ? ` = ${result.total}` : ''}
+                        </span>
                     </div>
                 </div>
-            ) : null}
-        </section>
+            )}
+        </Card>
     );
 }

@@ -4,6 +4,7 @@ import { useHistory } from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { createSupabaseBrowserClient } from '../lib/supabase';
 import { saveAuthUser } from '../lib/auth';
+import { Card } from '../components/ui';
 
 type CustomFields = {
     supabaseUrl?: string;
@@ -73,25 +74,12 @@ export default function ConnexionDirectePage() {
 
     return (
         <Layout title="Connexion directe">
-            <main style={mainStyle}>
-                <div style={cardStyle}>
+            <main style={{ padding: '2rem 1rem' }}>
+                <Card style={{ maxWidth: 500, margin: '0 auto' }}>
                     <h1 style={{ marginTop: 0 }}>Connexion directe</h1>
-                    {error ? <p style={{ color: '#b42318' }}>{error}</p> : <p>Connexion en cours…</p>}
-                </div>
+                    {error ? <p style={{ color: 'var(--app-color-error)' }}>{error}</p> : <p>Connexion en cours…</p>}
+                </Card>
             </main>
         </Layout>
     );
 }
-
-const mainStyle: React.CSSProperties = {
-    padding: '2rem 1rem',
-};
-
-const cardStyle: React.CSSProperties = {
-    maxWidth: 500,
-    margin: '0 auto',
-    border: '1px solid var(--ifm-color-emphasis-200)',
-    borderRadius: 12,
-    padding: '1.25rem',
-    background: 'var(--ifm-background-surface-color)',
-};
